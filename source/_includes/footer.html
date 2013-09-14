@@ -1,0 +1,21 @@
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>{{ site.description }}</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      {% include custom/footer_tags.html %}
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      {% include custom/footer_pages.html %}
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      {% include custom/contact.html %}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,36 @@
+header.topbar
+  border-top: 5px solid $c-header-top-color
+  font-family: $c-header-fontFamily
+  background-color: $c-header-backgroundColor
+  a
+    color: $c-header-link-color
+    &.navbar-brand
+      font-weight: normal
+      padding: 24px 24px 24px 0
+
+      @if $c-header-logo-image != ''
+        text-indent: -9999px
+        background: url($c-header-logo-image)
+        background-repeat: no-repeat
+        background-size: 64px
+        background-position: 10px 15px
+
+      b
+        font-weight: 700
+      &:hover
+        color: $c-header-link-color-hover
+  .nav > li > a
+    padding: 24px
+    &:hover
+      background-color: darken($c-header-backgroundColor, 15%)
+      color: $c-header-link-color-hover
+
+  nav
+    .navbar-nav
+      margin: 0px -15px
+      >li
+        float: right
+
++respond-to(640px, max-width)
+  header.topbar .nav>li>a
+    padding: 24px 12px

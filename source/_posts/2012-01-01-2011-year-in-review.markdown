@@ -1,0 +1,74 @@
+---
+layout: post
+title: "2011 Year in Review"
+id: 2011-year-in-review
+tags:
+  - year in review
+  - self improvement
+  - goals
+published: true
+comments: true
+---
+
+My yearly recap of what's happened in my life over the last year.
+
+## Travel
+
+* [Ruby Conf][] in New Orleans
+* South Florida for Danielle and Matts wedding
+* St. Petersburg for Crab Feast
+* New York City with Marilyn for Christmas and New Years
+
+## Body
+
+* Got [Lasik](/my-lasik-experience) on both eyes in June.
+* Changed up my diet to be more in line with [The Primal Blueprint](http://www.amazon.com/Primal-Blueprint-Reprogram-effortless-boundless/dp/0982207700/ref=pd_sim_b_7)
+* Dropped soda for the most part. Occasional diet at lunch
+* Started going to [CrossFit](http://crossfitkingspoint.com/) 2 times a week (and feeling sore the other 5)
+* Got more clothes that fit well
+
+## Hobbies
+
+* Continued gardening, but at a slower pace
+* Moved from Plex over to Boxee as a media center and spent our first year without cable.
+* Setup an awesome [backup/recovery plan](/backup-like-a-boss)
+* Began brewing beer, starting with an Octoberfest and a wheat beer
+* Developed an appreciation for whiskey
+* Ripped every DVD I own, and compressed them, then sold the physical DVDs.
+* Moved music over to iCloud for day to day access.
+* Massive consolidation of financial accounts, and using 1Password to keep things even simpler.
+
+## Events and Entertainment
+
+* [Behind the Seeds](http://disneyworld.disney.go.com/tours-and-experiences/behind-the-seeds/) tour at Epcot
+* [Wild Africa Trek](http://disneyworld.disney.go.com/tours-and-experiences/wild-africa-trek/) for my birthday
+* [Some movies](http://moviefly.org/users/adamfortuna/lists/first-seen-in-2011)
+* Went to [Evil Dead: The Musical](http://www.evildeadthemusical.com/) and [Avenue Q](http://www.avenueq.com/) with Marilyn and the [EnvyLabs](http://envylabs.com) crew.
+* [Backstage Disney Tour](http://disneyworld.disney.go.com/tours-and-experiences/backstage-magic/) for Marilyn's Birthday
+* Went to Food and Wine Festival at Epcot a ton of times, including with the "EnvyLabs](http://envylabs.com) crew complete with dessert party under the fireworks.
+* Played through Portal 2 and Skyrim.
+* [The Mountaintop](http://www.themountaintopplay.com/) a block from Times Square
+* [Pirates of Penzance](http://nygasp.org/) in New York
+* Loved [Fuerza Bruta](http://fuerzabrutanyc.com/), despite not knowing exactly how to describe it
+* Saw [The Moth](http://themoth.org/) live and loved it (but not the standing outside for 90 minutes in the cold part beforehand)
+* Went to [The Comedy Cellar](http://www.comedycellar.com/) for a great show
+
+## Work
+
+* Decided to part ways with [IZEA](http://izea.com) after 2 years, 10 months.
+* Took a month off of work, mostly to relax, clean out some of the house, and work on a side project.
+* Joined [EnvyLabs](http://envylabs.com) in April, and continue to be amazed by both the people and the culture.
+
+## Programming and Technology
+
+* Launched [Line of Thought](http://lineofthought.com), a site for tracking what technologies different websites are using. More a "for-fun" personal project than a get rich project.
+* Helped Marilyn on the technical side of her blog, [Forkful](http://forkful.net) whenever possible. Her blog is doing great so far!
+* Moved the code for my first ever website, DDRei to [github](https://github.com/adamfortuna/ddrei.com) so I can continue to laugh at it for years to come.
+* Created my first ruby gem, a super basic wrapper for [TicketUtils](https://github.com/adamfortuna/ticketutils). Have to start somewhere.
+* Got my feet wet with iOS development.
+* Started creating a budgeting application as a way of learning [Backbone.js](http://documentcloud.github.com/backbone/)
+
+As for goals for the new year? For most of this past year I was setting goals in smaller increments and working towards them, which I'd like to do more of. It's great for developing a routine without too much overthinking.  Most things I want to do in the new year are already in progress -- going to CrossFit more, working on (and using) the budgeting app, learning more iOS development, uncluttering the house and bringing in more color. Other than that, I'd like to be more social in the new year, and spend less time watching TV.
+
+
+[Ruby Conf]: http://rubyconf.org/

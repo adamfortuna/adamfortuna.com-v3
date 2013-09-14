@@ -1,0 +1,39 @@
+// *************************************
+//
+//   Base
+//   -> Base-level tags (body, p, etc.)
+//
+// *************************************
+
+html
+  font-size: $base-fontSize
+
+body
+  background: $base-background
+  color: $base-color
+  font-family: $base-fontFamily
+  font-size: 100%
+  line-height: $base-lineHeight
+
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+p
+  font-size: $base-fontSize
+
+// -------------------------------------
+//   Inline Content
+// -------------------------------------
+
+a
+  color: $base-link-color
+  text-decoration: none
+  &:hover,
+  &:focus
+    text-decoration: underline
+    color: $base-link-color-hover
+
+blockquote
+  p
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif

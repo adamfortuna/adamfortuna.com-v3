@@ -1,0 +1,15 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body class="{% if page.title %}post{% else %}home{% endif %}">
+
+<div id='wrap'>
+{% include header.html %}
+
+{{ content|expand_urls:root_url }}
+</div>
+{% include footer.html %}
+
+{% include javascript.html %}
+{% include google_analytics.html %}
+</body>
+</html>

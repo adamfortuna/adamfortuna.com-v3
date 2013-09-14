@@ -1,0 +1,41 @@
++respond-to(993px)
+  .pull-left, 
+  .pull-right
+    position: absolute
+    padding-right: 15px
+    padding-left: 15px
+
+    p 
+      &:last-child
+        margin-bottom: 0
+
+    &.code
+      margin-top: 2em
+
+    .icon
+      height: 64px
+
+  .pull-right
+    right: -42%
+    width: 40%
+    border-left: 1px solid #eee
+  .pull-left
+    left: -31%
+    width: 30%
+    border-right: 1px solid #eee
+    text-align: right
+
+
++respond-to(993px, max-width)
+  .pull-left, 
+  .pull-right
+    float: none !important
+
+.pull-left, 
+.pull-right
+  color: lighten(#333, 10%)
+  font-family: $c-header-fontFamily
+  p 
+    font-size: 14px
+  .icon
+    height: 64px

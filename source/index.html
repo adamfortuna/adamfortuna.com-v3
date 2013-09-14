@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<main id='content' role='main'>
+  {% assign index = true %}
+  {% assign postNumber = 0 %}
+  {% for post in paginator.posts %}
+    {% include article.html %}
+    {% assign postNumber = 1 %}
+  {% endfor %}
+
+  {% include paginator.html %}
+</main>

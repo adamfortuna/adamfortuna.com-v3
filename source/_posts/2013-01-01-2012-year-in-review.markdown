@@ -1,0 +1,84 @@
+---
+layout: post
+title: "2012 Year in Review"
+id: 2012-year-in-review
+tags:
+  - year in review
+  - self improvement
+  - goals
+published: true
+comments: true
+---
+
+My yearly recap of what's happened in my life over the last year. Looking back on this year, it was much less active than [last year](http://blog.adamfortuna.com/2011-year-in-review/). Most life changing events of the year would probably by Marilyn and my trip to Europe, having fun getting fit and trying to tackle more difficult problems at work (or at home).
+
+### Travel
+
+Light year for quantity of travel, but the last one was big.
+
+* [Rails Conf](http://railsconf2012.com/) in Austin
+* Tampa various times
+* San Francisco for my sister Kara and Morgans wedding
+* Homosassa Springs for scalloping
+* London, Paris and Amsterdam with Marilyn for an amazing trip
+
+### Events and Entertainment
+
+* Saw a [load of movies](http://letterboxd.com/adamfortuna/films/diary/by/rating/), my favorites for the year being: Cabin the Woods, The Hunger Games, The Dark Knight Rises
+* Lots of audiobooks including The Hunger Games saga, Game of Thrones Series, Enders Shadow saga and a few more
+* The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad
+* Pink Martini concert in Tampa
+* This American Life Live
+* Went on a hot air balloon ride with Marilyn
+* The Lion King at Bob Carr
+* Zelda: Symphony of the Goddess at Bob Carr
+* Beauty and the Beast at Bob Carr
+* Food and Wine Festival with the EnvyLabs gang
+* Reefer Madness at Theater Downtown
+* MythBusters Live at UCF
+* Weezer at House of Blues
+* Loius C.K. in Tampa
+* Front row of The Mikado at the English National Opera
+* Cabaret at the Savoy Opera House
+
+### Body
+
+Fitness was a fun priority this past year. It was less about pushing limits and more about finding ways to have fun that kept me coming back.
+
+* [Worked out](http://crossfitkingspoint.com/) at least 3x every week I was physically able to.
+* Got a Lasik adjustment in both my eyes, bringing them a little closer to 20/20
+* Strained my ankle rock climbing at Rails Conf in late April, took 3 months to heal to the point where I no longer felt pain
+* Ate mostly paleo (some surplus, some deficit) to help build a bit more muscle
+* Started doing yoga at work thanks to [Aimee](https://twitter.com/aimee_simone) organizing it
+* Dropped down to about 7% body fat during a month long paleo challenge at the gym before returning to a more stable weight
+* Started playing Ultimate Frisbee again, this time in the competitive league
+* Running more, including many runs around lake Eola with the EnvyLabs gang
+* Strained my back during a workout, causing me to barely be able to stand up or walk for 2 weeks
+
+### Work
+
+* Awesome year working at [EnvyLabs](http://envylabs.com) mostly on [CodeSchool](http://codeschool.com)
+* Had one very crazy week where I worked 85 hours (including 24 hours straight), went to 3 fancy dinners for [Marilyn's blog](http://forkful.net) and still hit the gym 3 times
+* Involved in some way of releasing a number of educational courses for [CodeSchool](http://codeschool.com) on a variety of topics including [mobile web](http://www.codeschool.com/courses/journey-into-mobile), [backbone.js](http://www.codeschool.com/courses/anatomy-of-backbonejs), [RSpec](http://www.codeschool.com/courses/testing-with-rspec), [Git](http://www.codeschool.com/courses/git-real), [Ruby](http://www.codeschool.com/courses/ruby-bits), [Sass](http://www.codeschool.com/courses/assembling-sass), [R](http://www.codeschool.com/courses/try-r), and [iOS](http://www.codeschool.com/courses/try-ios)
+* Rolled out a new framework for CodeSchool courses that allows more flexibility in how we implement them. Really looking forward to improving on this in the new year
+
+### Personal
+
+* This year I did a lot of throw away projects -- projects I worked on for a week or two then completely abandon
+* Bought a Retina Macbook Pro, upgrading my 5 year old 17" MacBook Pro
+* Took an iOS Programming course at Valencia Community College to keep myself on track education wise
+* Moved off Bank Of America, and loving Simple so far
+* Had a break in where they stole our TV and Marilyns jewelry box while I was in Austin. Luckily Marilyn was gone at the time and Lily was OK
+* Lost our cat of 6+ years, Loverboy. He was always an outdoor cat, and lived to be at least 11 years old before disappearing. We can still hope that he was adopted
+* Made some improvements to the backyard including a low fence and lighting that makes being out back more fun
+
+## Next Year
+
+This coming year is the first that I won't have any kind of fitness/diet related goals. I'm happy with where I am there, so just a matter of keeping the habits that have been built up. I'm not a fan of making resolutions in general, but more listing out what my current objectives are and where I'm trying to change my current behavior. At the moment this includes:
+
+* Spend even less time watching TV and reading junk (reddit, hacker news)
+* Be more conscious of my time in general
+* Spend more time with friends and family
+* More time working on non-computer related projects (garden, house improvements, etc)
+
+We really have no plans whatsoever for the upcoming year right now, but I'm looking forward to it!

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Choice Between Learning and Doing"
+id: choice-between-learning-and-doing
+published: true
+comments: true
+tags:
+  - education
+  - self improvement
+---
+
+Learning something new isn't always easy, in fact it's usually quite a challenge or you'd know it already. When it comes to programming, or anything with computers I can't imagine learning by any means other than a hands on approach. You never see people become experts without doing, so attempting to learn something without at least an idea in place to apply what you're learning doesn't make too much sense. But how do you decide when to apply and when to keep on learning?
+
+That's something I've always struggled with to be honest. I'll read the first chapter of a book and be so inspired by it that I have to start making something with the little bit of knowledge learned - only to find out that it's either not enough to do anything I'd want in complete detail, or there's just too much that was left unsaid to get a decent picture of the architecture. Recently when learning Ruby On Rails for example, I was reading through "Agile Web Development with Rails":http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;s=books and after each chapter I was amazed by amount of new possibilities that opened up at each step. I'd end up setting up rails, getting a hello world app going and spending more time researching online before even getting into the chapters that dealt with what I wanted to do.
+
+Thinking back, there was something wrong with how I was applying this newly learned knowledge, but what could be done differently? Working on a (so far un-nammed) project now with Model Glue: Unity, while at the same time learning it, Coldspring and Reactor has put me in a similar position. There is no book to read on these subjects though, and when it comes to MG: Unity there is very little sample code out there for fully developed websites (still looking actually). But instead of blindly pressing forward with the coding, I took a step back and listed out what the project I'm working on needed. 
+
+Instead of doing this on PC, I've started getting one of those black and white composition books for each site (i want to) work on. At the front is some basic information about the site - domain name if I have one for it, description, site goals, how it'll be beneficial to it's users, who the site will be targeted towards, revenue sources and simple task descriptions that I want users to be able to do. In the middle fold of the composition books I start designing the database, which is really one of the most fun parts for me. Each page has a date in the upper right corner, which is very helpful for keeping track.
+
+One of the last things I do is make a list of pages the user can see -- not taking into account into fancy ajax that might skew that number. This is a pretty boring page in some respects, as any user related site will start with registration, login, email confirmation, password reset, welcome page, etc. Finally, on the last page and working backwards I have layout drawings on one side of the page, and reviews about what was good/bad about that layout on the other side of it. All this is really to help get a handle on what needs to be done. At this point you could be building the application in any language and any framework, so long as it supports databases.
+
+As you're learning and applying this site to whatever it may be (or developing it in something you're familiar with) you'll basically go completely in reverse order. I start with the template, which is great motivation to work on the site when you see that much of it already alive. Working on the template is usually a great way to get a hande on a framework or a new language, because you're not too far out of your comfort zone. At this point the layout should be completely html though, nothing fancy yet. Before continuing it's really time to start with the heavy reading on the subject. You've wet your feet on how it works, the code is starting to look familiar, but there's still a long ways to go.
+
+After you've read up on the topic extensively, you can start dividing it up into pages, and gradually work on each of those after creating the database and your models. This article is aimed at learning a framework more than anything else. The process of learning a programming language from scratch is entirely different. This probably won't work as well with javascript frameworks, which need some data to work with, or ORM which would have to be switched around too, but for something like Model-Glue, Fusebox or CF On Wheels this can be is a helpful process.

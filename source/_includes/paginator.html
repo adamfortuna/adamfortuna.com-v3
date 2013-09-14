@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-md-7 col-md-offset-2">
+    <ul class="pager">
+      {% if paginator.previous_page %}
+        <li class="previous">
+          <a href="{{ paginator.previous_page }}" role="prev">&larr; Newer</a>
+        </li>
+      {% endif %}
+      {% if paginator.next_page %}
+        <li class="next">
+          <a href="{{ paginator.next_page }}" role="next">Older &rarr;</a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

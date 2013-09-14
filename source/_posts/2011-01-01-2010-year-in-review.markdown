@@ -1,0 +1,72 @@
+---
+layout: post
+title: "2010 Year in Review"
+id: 2010-year-in-review
+comments: true
+tags:
+  - year in review
+  - self improvement
+  - goals
+published: true
+---
+
+My yearly recap of what's happened in my life over the last year.
+
+## Travel
+
+* Twitters first Developer Conference in San Francisco, [Chirp](http://mobile.adamfortuna.com/getting-ready-for-the-chirp-keynote-to-start) and got to see family in the area
+* My first cruise- - a 7 day Royal Caribbean cruise to Haiti, Jamaica, The Grand Cayman Islands and Cozumel with Marilyn
+* Went horseback riding on a somewhat wild horse named Alarma in Cozumel
+* Climbed a waterfall in Jamaica.
+* [Scalloping](http://mobile.adamfortuna.com/caught-quite-a-few-scallops-and-some-sunburn) at [Homosassa Springs](http://www.homosassasprings.org/)
+* [Crab Feast](http://mobile.adamfortuna.com/mmmmmm-80-lbs-of-stone-crab-nate-knows-how-to) in St. Petersburg!
+* Stayed at the [Don Cesar](http://www.loewshotels.com/en/Don-CeSar-Beach-Resort) in St. Petersburg for Nate and Bekah's Wedding
+* Went to Miami Beach for Nate's bachelor party and stayed at the iconic [Eden Roc](http://www.marriott.com/hotels/travel/miasr-eden-roc-renaissance-miami-beach/)
+* Westin Channelside and Hard Rock Casino for IZEA's retreat
+
+## Life
+
+* Started a 4'x9' [vegetable garden](http://mobile.adamfortuna.com/first-veggies-coming-in-mostly-peppers-and-to)
+* Began composting
+* Bought a [wheelbarrow](http://twitter.com/adamfortuna/status/13521796360)
+* Had our first yard sale at this house
+* Cleaned out the garage to where we can actually use it
+* Dropped cable TV in favor of using Plex, Netflix and Hulu
+* Digitized most my DVDs and media. Still a few to go, but the bulk of the work is over
+* Slowly increasing savings and investments on Vanguard and following investment advice from [John Bogle](http://en.wikipedia.org/wiki/John_Bogle)
+* Had a major disagreement with GE over them charging me $400 for something they broke. Complained on Twitter and they resolved it before my check was even cashed.
+* Developed an appreciation for beer
+* Went on an indoor plant buying frenzy resulting in many casualties. Only the strong survive.
+* Played on my works kickball team with Marilyn
+
+## Events and Entertainment
+
+* [Flaming Lips](http://www.flaminglips.com/) and [Imogen Heap](http://www.imogenheap.com/) concerts at Hard Rock Orlando
+* Got Disney passes and went to Epcot's [Food and Wine Festival](http://mobile.adamfortuna.com/fun-day-at-food-and-wine-festival-at-epcot) way too many times
+* Saw [Jonathan Coulton](http://www.jonathancoulton.com/) and [Paul and Storm](http://www.paulandstorm.com/) at The Social
+* Saw Rick Springfield and Boyz 2 Men at Epcot (but we missed Hanson)
+* Largest holiday party so far over at our place
+* Tron Legacy Midnight release with Marilyn and friends
+* Lots of movies. My favorites that came out this year were Inception, Exit Through the Gift Shop and The Social Network
+* Favorite TV shows discovered were Breaking Bad, House, Jericho and The Colony
+* Played through Mass Effect twice and Mass Effect 2 almost twice and loved them both
+* Thanksgiving at Marilyn's Moms, with firetruck and family
+* Went to [Plazaween](http://www.wallstplaza.net/plazaween) in costume with Marilyn and friends
+
+## Programming and Technology
+
+* Launched [Cost Per Click](http://sponsoredtweets.com/twitter-cost-per-click/) for [SponsoredTweets](http://sponsoredtweets.com/)
+* Helped get [SocialSpark V2](http://socialspark.com/) launched and did a tiny bit of work on [WeReward](http://wereward.com/)
+* Started organizing hack days and lunch-and-learns at work, we even had a chance for a hack week!
+* Completely dropped organized hosting on Dreamhost in favor of S3, Posterous and Github.
+* Launched [MovieFly](http://moviefly.org) , then a few months later [Miso](http://gomiso.com) launched
+* Changed [AdamFortuna.com](http://adamfortuna.com) into a splash page instead of a blog
+* Started a [mobile blog](http://mobile.adamfortuna.com/) for pictures taken from my phone
+* Moved [ArcadeFly](http://arcadefly.com/) over to [Heroku](http://heroku.com/)
+* Bought an iPad, a new shuffle running and upgraded to a iPhone4
+* Started learning iOS development
+* Started working on a new site in Rails 3 that should launch next year
+* Messed around with some new technology over the year including node.js, redis, websockets, css3, html and mongo db
+* Upgraded to Road Runner Lightning, and slowly backing everything I have up to [BackBlaze](http://www.backblaze.com/)
+
+As for new years resolutions? Probably increase savings a bit more, eat a little healthier and spend less time on the couch. Like to eat out less and get better at creating the things I love to eat and drink from scratch including salad dressing, sauces and brewing beer- - and maybe later on wine. If there's one thing I want to do in 2011 though, it'd be launch the site I'm working on in my spare time, and do it right.

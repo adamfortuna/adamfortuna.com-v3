@@ -1,0 +1,61 @@
+$footer-height: 450px
+
+html,
+body
+  height: 100%
+  /* The html and body elements cannot have any padding or margin. */
+
+/* Wrapper for page content to push down footer */
+#wrap
+  min-height: 100%
+  height: auto !important
+  height: 100%
+  /* Negative indent footer by its height */
+  margin: 0 auto (-1 * $footer-height)
+  /* Pad bottom by footer height */
+  padding: 0 0 $footer-height
+
+
+
+body > footer 
+  height: $footer-height
+  padding: 2em 0
+  background-color: $c-footer-backgroundColor
+  color: darken(#fff, 10%)
+
+  h2
+    color: #F7F7F8
+    font-size: 16px
+    margin-bottom: 1em
+
+  p,
+  a
+    font-size: 14px
+
+  ul
+    padding: 0
+    li
+      list-style: none
+
+  a 
+    color: $c-footer-link-color
+    &:hover
+      color: lighten($c-footer-link-color, 20%)
+  p 
+    line-height: 1.5
+
++respond-to(768px)
+  $footer-height: 300px
+  #wrap
+    margin: 0 auto (-1 * $footer-height)
+    padding: 0 0 $footer-height
+  body > footer
+    height: $footer-height
+
++respond-to(993px)
+  $footer-height: 250px
+  #wrap
+    margin: 0 auto (-1 * $footer-height)
+    padding: 0 0 $footer-height
+  body > footer
+    height: $footer-height

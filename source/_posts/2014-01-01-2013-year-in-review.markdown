@@ -1,0 +1,57 @@
+---
+layout: post
+title: "2013 Year in Review"
+id: 2013-year-in-review
+comments: true
+tags:
+  - year in review
+  - self improvement
+  - goals
+published: false
+---
+
+My yearly recap of what's happened in my life over the last year. I've come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, CrossFit, audiobooks, learning Ember.js, and learning Piano.
+
+## Travel
+
+- [Rails Conf](http://railsconf2013.com/) in Portland, OR
+- [WWDC](/wwdc) in San Francisco, CS for my sister Kara and Morgans wedding
+- Sanibel with Marilyn for her birthday weekend
+
+## Events and Entertainment
+
+* Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: 
+* Lots of [audiobooks](/audiobooks-2013) including Hyperion, more OSC and a lot of Sci Fi
+* The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad
+* The Postal Service concert viewed from the balcony at Hard Rock
+* A hilarious Richard Cheese and Lounge Against the Machine concert at House of Blues
+* Saw Kevin Smith live at the Plaza Theater
+* Food and Wine Festival with the EnvyLabs gang
+* Went to BarCampOrlando and presented on "R Programming for Ruby and Rails Developers"
+* Lots of [Code School](http://codeschool.com) Beta events for new courses every month
+
+## Body
+
+Last year was about having fun and keeping my coming back (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve.
+
+* [Worked out](http://crossfitkingspoint.com/) at least 3x every week I was physically able to before increasing that to 4x or 5x a week.
+* Participated in the CrossFit Open with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%.
+* Continued doing yoga at work every Wednesday. Great way to relax and prevent injury
+
+## Work
+
+* Awesome year working at [EnvyLabs](http://envylabs.com) entirely on [CodeSchool](http://codeschool.com)
+* Involved in some way of releasing a number of educational courses for [CodeSchool](http://codeschool.com)
+* Helped write and worked on [Try jQuery](http://try.jquery.com), a free way to learn jQuery in the browser (and linked to from the jQuery site)
+* _Extremely proud of [Ember National Park](http://ember.codeschool.com), a course to learn ember.js from scratch in a fairly innovative way_
+
+### Personal
+
+* Bought an electric piano and started taking lessons
+* Tried to cook more new dishes including souffles
+
+## Next Year
+
+I'd like to continue expanding my ember.js knowledge and learn more piano. 
+
+* Participate in this years CrossFit Open and (maybe?) 

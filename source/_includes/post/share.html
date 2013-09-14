@@ -1,0 +1,32 @@
+<div class='share'>
+  <ul>
+    <li class='share--hn'>
+        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+
+      <script>
+          (function(d, t) {
+              var g = d.createElement(t),
+                  s = d.getElementsByTagName(t)[0];
+              g.src = '//hnbutton.appspot.com/static/hn.min.js';
+              s.parentNode.insertBefore(g, s);
+          }(document, 'script'));
+      </script>
+    </li>
+    <li class='share--twitter'>
+      <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </li>
+
+    <li class='share--facebook'>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=179617355555848";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <div class="fb-like" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+    </li>
+  </ul>
+</div>
