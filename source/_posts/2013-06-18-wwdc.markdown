@@ -91,7 +91,7 @@ Being able to hear about these coming features in person and be inspired by the 
 
 [Code School]: http://codeschool.com
 [Eric Allam]: https://twitter.com/eallam
-[Jon Friskas]: https://twitter.com/jonfriskics
+[Jon Friskics]: https://twitter.com/jonfriskics
 [an analysis of this record sellout]: http://initwithfunk.com/blog/2013/05/26/the-case-of-the-wwdc-sellout/
 [WWDC 2013: americanos contam perrengue para comprar ingressos do evento da Apple]:http://uoltecnologia.blogosfera.uol.com.br/2013/06/10/wwdc-2013-americanos-contam-perrengue-para-comprar-ingressos-do-evento-da-apple/
 [Developer Session Videos]:https://developer.apple.com/videos/wwdc/2012/
