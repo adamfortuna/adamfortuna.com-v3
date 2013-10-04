@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://adamfortuna.com/
+url: http://adamfortuna.com
 title: Blog for Adam Fortuna
 subtitle: Developer, CrossFitter & Ping Pong Player in Orlando, FL.
 author: Adam Fortuna
@@ -91,6 +91,7 @@ delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: adamfortuna
+disqus_identifier: adamfortuna-blog
 disqus_show_comment_count: true
 
 # Google Analytics

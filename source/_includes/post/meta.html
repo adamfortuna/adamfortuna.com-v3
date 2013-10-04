@@ -1,7 +1,7 @@
 <ul class='meta group'>
   <li>Written {{ post.date|date: "%B %d, %Y" }}</li>
   {% if post.comments %}
-    <li><a href="{% if index or this_year %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a></li>
+    <li><a href="{% if index or this_year %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread" data-disqus-identifier="{{ site.disqus_identifier }}-{{post.id}}">Comments</a></li>
   {% endif %}
 
   {% capture tag %}{% if post %}{{ post.tags | tag_links | size }}{% else %}{{ page.tags | tag_links | size }}{% endif %}{% endcapture %}
