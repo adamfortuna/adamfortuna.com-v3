@@ -1,3 +1,17 @@
+.pull-left, 
+.pull-right
+  color: lighten(#333, 10%)
+  font-family: $c-header-fontFamily
+  p 
+    font-size: 14px
+  .icon
+    height: 64px
+
+.pull-panorama
+  width: 135%
+  img
+    max-width: 100%
+
 +respond-to(993px)
   .pull-left, 
   .pull-right
@@ -24,18 +38,12 @@
     width: 30%
     border-right: 1px solid #eee
     text-align: right
-
+  .pull-panorama
+    width: 145%
 
 +respond-to(993px, max-width)
   .pull-left, 
   .pull-right
     float: none !important
-
-.pull-left, 
-.pull-right
-  color: lighten(#333, 10%)
-  font-family: $c-header-fontFamily
-  p 
-    font-size: 14px
-  .icon
-    height: 64px
+  .pull-panorama
+    width: 100%

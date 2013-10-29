@@ -20,7 +20,19 @@ That might have continued if not for my friend and coworker [Casey Jenks](http:/
 
 ## Getting Started
 
-After joining CrossFit, there's a period where you're learning an entire new vocabulary and trying new movements every week. I started slow, at only 2 days a week. 2 days a week is better than 0, and getting a sustainable routine is an important step.
+{%pullside right %}
+Box: Term for a local CrossFit affiliate
+{% endpullside %}
+
+So let's say you want to try out CrossFit. What should you expect? Well, after joining a local box, there's a period where you're learning an entire new vocabulary and trying new movements every week. I started slow, at only 2 days a week. 2 days a week is better than 0, and getting a sustainable routine is an important step.
+
+{%pullside left %}
+CrossFit Kings Point
+{% endpullside %}
+
+{%pullside panorama %}
+![Inside CrossFit Kings Point](/images/2-years-of-crossfit/gym.png)
+{%endpullside %}
 
 ### Your First Day
 
