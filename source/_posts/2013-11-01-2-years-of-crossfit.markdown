@@ -4,6 +4,7 @@ title: "2 Years of CrossFit"
 date: 2013-11-01 12:04
 id: crossfit
 comments: true
+sharing: true
 tags:
   - self improvement
   - fitness
