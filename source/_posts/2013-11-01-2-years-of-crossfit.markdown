@@ -7,7 +7,6 @@ comments: true
 tags:
   - self improvement
   - fitness
-published: false
 ---
 
 As of November 1st, I will have been doing [CrossFit](http://crossfit.com/) for 2 years. What started as a casual twice a week workout, slowly grew up to four and sometimes even 5 workouts a week. It's been an amazing, life changing experience that I bring up in conversation entirely too often. 2 years seems like as good a time as any to reflect and detail my experience so far.
