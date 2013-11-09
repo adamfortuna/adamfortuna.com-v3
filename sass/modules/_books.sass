@@ -4,11 +4,10 @@
     border-bottom: 1px solid lighten($c-header-backgroundColor, 30%)
 
     img
-      width: 90px
-      height: 135px
+      width: 100px
+      height: 150px
     .rating
-      text-align: center
-      padding-top: 10px
+      padding: 10px 0 0 28px
       color: #888
       font-size: 16px
       .rate
@@ -23,3 +22,23 @@
       font-style: italic
     .genres
       float: left
+
+
+    &.rating-5 .rating
+      color: #5cb85c
+    &.rating-4 .rating
+      color: #5cb85c
+
+    &.rating-3 .rating
+      color: #f0ad4e
+
+    &.rating-2 .rating
+      color: #d9534f
+    &.rating-1 .rating
+      color: #d9534f
+
+
+#filter-format,
+#filter-ratings,
+#filter-read-in-2013
+  display: none
