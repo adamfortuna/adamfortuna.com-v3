@@ -341,8 +341,32 @@ App.Book.FIXTURES = [
     finished_at: new Date('11/08/2013'),
     rating: 5,
     genres: [100],
-    review: "Reading this reminded me of [The Daily WTF](http://thedailywtf.com/) where a weird problem is presented, and eventually solved. That's much of the format of this series of short stories. The movie is a combination of various parts of these 9 stores, which are considered the beginning of Asimovs Robot/Empire/Foundation series.",
+    review: "Reading this reminded me of [The Daily WTF](http://thedailywtf.com/) where a weird problem is presented, and eventually solved. That's much of the format of this series of short stories. The book is a combination of various parts of these 9 stores, which are considered the beginning of Asimovs Robot/Empire/Foundation series.",
     amazon_id: '0553294385',
+    isAudiobook: true
+  },
+  {
+    id: 30,
+    title: 'Caves of Steel',
+    author: 'Isaac Asimov',
+    started_at: new Date('11/08/2013'),
+    finished_at: new Date('11/11/2013'),
+    rating: 3,
+    genres: [100],
+    review: "This first book in Asimovs robot is more a detective novel than a serious sci-fi story, but it does set the stage for the world.",
+    amazon_id: '0553293400',
+    isAudiobook: true
+  },
+  {
+    id: 31,
+    title: 'Teaching Minds: How Cognitive Science Can Save Our Schools',
+    author: 'Roger Schank',
+    started_at: new Date('11/11/2013'),
+    finished_at: null,
+    rating: 0,
+    genres: [103],
+    review: "In progress..",
+    amazon_id: '0807752665',
     isAudiobook: true
   }
 ];
