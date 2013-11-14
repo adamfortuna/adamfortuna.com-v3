@@ -43,7 +43,7 @@ App.Book.FIXTURES = [
     author: 'Philip Pullman',
     started_at: new Date('1/23/2013'),
     finished_at: new Date('1/27/2013'),
-    rating: 4,
+    rating: 3,
     genres: [101],
     amazon_id: '0440418569',
     isAudiobook: true,
@@ -92,7 +92,7 @@ App.Book.FIXTURES = [
     started_at: new Date('7/01/2013'),
     finished_at: new Date('7/11/2013'),
     rating: 2,
-    genres: [102],
+    genres: [10],
     amazon_id: '0876120796',
     isAudiobook: true,
     review: "When I learned that Steve Jobs re-read this book each year and the autiobook is read by Ben Kingsley, I knew I had to check it out. It proved to be more religious than I expected, relying on faith to explain much. Reading this helps to understand how Jobs could persue alternative medicine when diagnosed with cancer."
