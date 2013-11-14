@@ -368,6 +368,18 @@ App.Book.FIXTURES = [
     review: "In progress..",
     amazon_id: '0807752665',
     isAudiobook: true
+  },
+  {
+    id: 32,
+    title: 'Becoming a Supple Leopard',
+    author: 'Kelly Starrett',
+    started_at: new Date('09/22/2013'),
+    finished_at: new Date('10/10/2013'),
+    rating: 5,
+    genres: [103],
+    review: "The best fitness book I've ever read by far. Also extremely useful as someone who does CrossFit, as it goes into depth on most of the common movements.",
+    amazon_id: '1936608588',
+    isAudiobook: false
   }
 ];
 
