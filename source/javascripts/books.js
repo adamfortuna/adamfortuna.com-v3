@@ -362,10 +362,10 @@ App.Book.FIXTURES = [
     title: 'Teaching Minds: How Cognitive Science Can Save Our Schools',
     author: 'Roger Schank',
     started_at: new Date('11/11/2013'),
-    finished_at: null,
-    rating: 0,
+    finished_at: new Date('11/14/2013'),
+    rating: 2,
     genres: [103],
-    review: "In progress..",
+    review: "Most useful takeaways? Give people problems to solve. Show what they'll be building. When students are wrong, ask them questions rather than telling them the answer.",
     amazon_id: '0807752665',
     isAudiobook: true
   },
@@ -380,6 +380,43 @@ App.Book.FIXTURES = [
     review: "The best fitness book I've ever read by far. Also extremely useful as someone who does CrossFit, as it goes into depth on most of the common movements.",
     amazon_id: '1936608588',
     isAudiobook: false
+  },
+  {
+    id: 33,
+    title: 'Heretical Guide To Ember JS',
+    author: 'Giles Bowkett',
+    started_at: new Date('10/16/2013'),
+    finished_at: new Date('10/20/2013'),
+    rating: 4,
+    genres: [106],
+    review: "One of the two books currently out about Ember.js. Better of the two for sure, and analyzes the different parts of Ember comparing them to Ruby on Rails. If you're a Rails dev looking to get into Ember, this is a good start.",
+    isAudiobook: false,
+    buy_url: "http://gilesbowkett.blogspot.com/2013/06/heretical-guide-to-ember-js.html"
+  },
+  {
+    id: 34,
+    title: 'Ember.js In Action',
+    author: 'Joachim Haagen Skeie',
+    started_at: new Date('10/15/2013'),
+    finished_at: new Date('10/22/2013'),
+    rating: 0,
+    genres: [106],
+    review: "This book is unreleased, so I'll wait to give a rating on it yet.",
+    isAudiobook: false,
+    buy_url: "http://www.manning.com/skeie/",
+    absolute_image_url: "/images/books/ember_in_action.jpg"
+
+  },
+  {
+    id: 35,
+    title: 'Jony Ive',
+    author: 'Joachim Haagen Skeie',
+    started_at: new Date('11/14/2013'),
+    finished_at: null,
+    rating: 0,
+    genres: [102],
+    amazon_id: '159184617X',
+    isAudiobook: true
   }
 ];
 
@@ -413,5 +450,10 @@ App.Genre.FIXTURES = [
     id: 105,
     name: 'Spiritual',
     slug: 'spiritual'
+  },
+  {
+    id: 106,
+    name: 'Technical',
+    slug: 'technical'
   }
 ];

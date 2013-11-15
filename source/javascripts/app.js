@@ -101,16 +101,26 @@ App.Book = DS.Model.extend({
   started_at: DS.attr('date'),
   finished_at: DS.attr('date'),
   amazon_id: DS.attr(),
+  buy_url: DS.attr(),
   isAudiobook: DS.attr('boolean'),
+  absolute_image_url: DS.attr(), 
   genres: DS.hasMany('genre', {async: true}),
 
   url: function() {
-    return "http://www.amazon.com/gp/product/" + this.get('amazon_id') + "/adamfortuna-20"
-  }.property('amazon_id'),
+    if(this.get('buy_url')) {
+      return this.get('buy_url');
+    } else {
+      return "http://www.amazon.com/gp/product/" + this.get('amazon_id') + "/adamfortuna-20"
+    }
+  }.property('amazon_id', 'buy_url'),
 
   image_url: function() {
-    return "http://images.amazon.com/images/P/" + this.get('amazon_id') + ".01.ZTZZZZZZ.jpg";
-  }.property('amazon_id')
+    if(this.get('absolute_image_url')) {
+      return this.get('absolute_image_url');
+    } else if(this.get('amazon_id')) {
+      return "http://images.amazon.com/images/P/" + this.get('amazon_id') + ".01.ZTZZZZZZ.jpg";
+    }
+  }.property('amazon_id', 'absolute_image_url')
 });
 
 App.Genre = DS.Model.extend({
