@@ -15,45 +15,48 @@ My yearly recap of what's happened in my life over the last year. I've come to r
 ## Travel
 
 - [Rails Conf](http://railsconf2013.com/) in Portland, OR
-- [WWDC](/wwdc) in San Francisco, CS for my sister Kara and Morgans wedding
-- Sanibel with Marilyn for her birthday weekend
-- Miami for Distant Worlds, a Final Fantasy Concert
+- [WWDC](/wwdc) in San Francisco
+- [Sanibel](https://twitter.com/adamfortuna/status/365957862113021952) with Marilyn for her birthday weekend
+- Miami for [Distant Worlds](https://twitter.com/adamfortuna/status/404414324401520641), a Final Fantasy Concert
 
 ## Events and Entertainment
 
-* Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: 
-* Lots of [audiobooks](/audiobooks-2013) including Hyperion, more OSC and a lot of Sci Fi
+* Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: Somm, Gravity and Stoker
+* Lots of [audiobooks](/audiobooks-2013) including Hyperion, more Orson Scott Card and a lot of Sci Fi
 * The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad
 * The Postal Service concert viewed from the balcony at Hard Rock
 * A hilarious Richard Cheese and Lounge Against the Machine concert at House of Blues
 * Saw Kevin Smith live at the Plaza Theater
 * Food and Wine Festival with the Envy Labs gang
-* Went to BarCampOrlando and presented on "R Programming for Ruby and Rails Developers"
+* Went to [BarCampOrlando](https://twitter.com/adamfortuna/status/335839768439029761) and presented on "R Programming for Ruby and Rails Developers"
 * Lots of [Code School](http://codeschool.com) Beta events for new courses every month
 
 ## Body
 
 Last year was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve.
 
-* [Worked out](http://crossfitkingspoint.com/) at least 3x every week I was physically able to before increasing that to 4x or 5x a week.
-* Participated in the CrossFit Open with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%.
-* Continued doing yoga at work every Wednesday. Great way to relax and prevent injury
+* [Worked out](http://crossfitkingspoint.com/) every week I was physically able to
+* Participated in the [CrossFit Open](http://evaleverything.com/2013/11/12/xkcd-style-graphs-with-r/) with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%.
+* Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury
+* Ran in a [Warrior Dash](https://twitter.com/adamfortuna/status/297775932167553024) outside of Orlando with a few friends. Muddy and cold, but a load of fun
+* Running around Lake Eola in downtown Orlando after work occasionally when not too hot out
 
 ## Work
 
-* Awesome year working at [Envy Labs](http://envylabs.com) entirely on [Code School](http://codeschool.com)
-* Involved in some way of releasing a number of educational courses for [CodeSchool](http://codeschool.com)
-* Helped write and worked on [Try jQuery](http://try.jquery.com), a free way to learn jQuery in the browser (and linked to from the jQuery site). Followed up by writing [jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight).
-* Helped write the Ruby/JavaScript side of Code Schools [Core iOS 7](https://www.codeschool.com/courses/core-ios-7) course, which lead to some [blog posts](http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/) about it.
-* _Extremely proud of [Ember National Park](http://ember.codeschool.com), a course to learn ember.js from scratch in a fairly innovative way_
+Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://codeschool.com) all year long.
+
+* Changed job titles to "Technical Director at Code School", whatever that means.
+* Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013
+* Helped write and worked on [Try jQuery](http://try.jquery.com), a free way to learn jQuery in the browser (and linked to from the jQuery site). Followed up by writing [jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
+* Helped write the Ruby/JavaScript side of Code Schools [Core iOS 7](https://www.codeschool.com/courses/core-ios-7) course, which lead to some [blog posts](http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/) about it
+* Wrote and helped implement [Warming up with Emberjs](https://www.codeschool.com/courses/warming-up-with-emberjs), a course to learn Ember.js from scratch. Basing the implemention on everything we'd learned about teaching programming in the browser.
 
 ### Personal
 
-* Bought an electric piano and started taking lessons.
-* Tried to cook more new dishes including delicious souffles.
+* Bought an electric piano and started taking lessons every week. Still not very good, but making progress
+* Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige
+* 
 
 ## Next Year
 
-I'd like to continue expanding my ember.js knowledge and learn more piano. 
-
-* Participate in this years CrossFit Open and (maybe?) 
+I'd like to continue learning piano. The little girl who has the lesson after me is still way ahead. Other then that get into Angular.js development, which we're using for a new Code School project. Also get more into JavaScript testing frameworks out there. Marilyn and I are planning on going on a trip to Japan in 2014, which should be a load of fun. 
