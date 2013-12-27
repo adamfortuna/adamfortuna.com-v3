@@ -243,7 +243,7 @@ App.Book.FIXTURES = [
     author: 'Dan Simmons',
     started_at: new Date('7/23/2013'),
     finished_at: new Date('8/09/2013'),
-    rating: 4,
+    rating: 5,
     genres: [100],
     amazon_id: '0553288202',
     isAudiobook: true,
@@ -504,6 +504,28 @@ App.Book.FIXTURES = [
     rating: 5,
     genres: [103],
     amazon_id: '0316056898',
+    isAudiobook: true
+  },
+  {
+    id: 44,
+    title: 'Slaughterhouse-Five',
+    author: 'Kurt Vonnegut',
+    started_at: new Date('12/24/2013'),
+    finished_at: new Date('12/26/2013'),
+    rating: 0,
+    genres: [100],
+    amazon_id: '0440180295',
+    isAudiobook: true
+  },
+  {
+    id: 45,
+    title: 'The Happiness Project',
+    author: 'Gretchen Rubin',
+    started_at: new Date('12/26/2013'),
+    finished_at: null,
+    rating: 0,
+    genres: [103],
+    amazon_id: 'B002VJ9HRK',
     isAudiobook: true
   }
 ];
