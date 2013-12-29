@@ -7,39 +7,51 @@ tags:
   - year in review
   - self improvement
   - goals
-published: false
 ---
 
-My yearly recap of what's happened in my life over the last year. I've come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, CrossFit, audiobooks, learning Ember.js, and learning Piano.
+This is my annual recap of what's happened in my life over the last year. I've come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.
 
 ## Travel
 
-- [Rails Conf](http://railsconf2013.com/) in Portland, OR
-- [WWDC](/wwdc) in San Francisco
+I didn't travel all that much this year. The biggest trips were Rails Conf and WWDC - both week long conferences attended with coworkers.
+
+- [Rails Conf](http://railsconf.com/) in Portland, OR
+- Was extremely lucky to attend [WWDC](/wwdc) in San Francisco
 - [Sanibel](https://twitter.com/adamfortuna/status/365957862113021952) with Marilyn for her birthday weekend
-- Miami for [Distant Worlds](https://twitter.com/adamfortuna/status/404414324401520641), a Final Fantasy Concert
+- Went to Miami for [Distant Worlds](https://twitter.com/adamfortuna/status/404414324401520641), a Final Fantasy Concert
 
 ## Events and Entertainment
 
+The most random event this year was Distant Worlds. Marilyn and I discussing "What musical acts would you absolutely love to see that you haven't?" and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he's only performed in the US 10 times in 10+ years, we really lucked out!
+
+{% pullside right %}
+If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd.com/) account and friend me!
+{% endpullside %}
+
 * Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: Somm, Gravity and Stoker
-* Lots of [audiobooks](/audiobooks-2013) including Hyperion, more Orson Scott Card and a lot of Sci Fi
-* The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad
+* Went to the Florida Film Festival Premiere, followed by seeing a number of awesome movies
+* Attended Megacon for the 15th straight year
+* Lots of [audiobooks](/books) including Hyperion, more Orson Scott Card and a lot of Sci Fi
+* The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland and Breaking Bad
+* Went to [BarCampOrlando](https://twitter.com/adamfortuna/status/335839768439029761) and presented on "R Programming for Ruby and Rails Developers"
 * The Postal Service concert viewed from the balcony at Hard Rock
 * A hilarious Richard Cheese and Lounge Against the Machine concert at House of Blues
 * Saw Kevin Smith live at the Plaza Theater
-* Food and Wine Festival with the Envy Labs gang
-* Went to [BarCampOrlando](https://twitter.com/adamfortuna/status/335839768439029761) and presented on "R Programming for Ruby and Rails Developers"
-* Lots of [Code School](http://codeschool.com) Beta events for new courses every month
+* Distant Worlds Concert
+* Only played a few video games, including more Skyrim, Final Fantasy VI, Bioshock and Final Fantasy XII
 
 ## Body
 
-Last year was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve.
+2011 was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve.
 
-* [Worked out](http://crossfitkingspoint.com/) every week I was physically able to
-* Participated in the [CrossFit Open](http://evaleverything.com/2013/11/12/xkcd-style-graphs-with-r/) with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%.
+* [Worked out](/2-years-of-crossfit) usually around 3 or 4 times a week, nearly always at 8am
+* Stopped by [CrossFit Portland](http://www.crossfitportland.com/) with [Casey](https://twitter.com/yeabuddy) when in town for Rails Conf
+* Participated in the [CrossFit Open](http://evaleverything.com/2013/11/12/xkcd-style-graphs-with-r/) with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%
 * Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury
+* Did [Murph](http://www.crossfit.com/mt-archive2/000881.html) in 51:17 for Memorial Day. Confident I can do better next time!
 * Ran in a [Warrior Dash](https://twitter.com/adamfortuna/status/297775932167553024) outside of Orlando with a few friends. Muddy and cold, but a load of fun
 * Running around Lake Eola in downtown Orlando after work occasionally when not too hot out
+* Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.
 
 ## Work
 
@@ -48,15 +60,27 @@ Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://code
 * Changed job titles to "Technical Director at Code School", whatever that means.
 * Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013
 * Helped write and worked on [Try jQuery](http://try.jquery.com), a free way to learn jQuery in the browser (and linked to from the jQuery site). Followed up by writing [jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
-* Helped write the Ruby/JavaScript side of Code Schools [Core iOS 7](https://www.codeschool.com/courses/core-ios-7) course, which lead to some [blog posts](http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/) about it
+* Helped write the Ruby/JavaScript side of Code Schools [Core iOS 7](https://www.codeschool.com/courses/core-ios-7) course, which lead to a few [blog posts](http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/) about it
 * Wrote and helped implement [Warming up with Emberjs](https://www.codeschool.com/courses/warming-up-with-emberjs), a course to learn Ember.js from scratch. Basing the implemention on everything we'd learned about teaching programming in the browser.
+
+## Great Meals
+
+* Went to [Victoria & Alberts](http://victoria-alberts.com/) restaurant with Marilyn for our Anniversary
+* Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige
+* The Chefs Table of Edgewater for mothers day with Marilyns family
+* Went to Cask & Larder for an Envy Labs lunch
+* The Chefs Table of Edgewater dinner with Alli and Jeff
+* Had Marilyns Birthday dinner at Pharmacy with tons of friends
+* Stone Crab Festival in St. Pete with Nate and so many friends
+* Food and Wine Festival with the Envy Labs gang
 
 ### Personal
 
 * Bought an electric piano and started taking lessons every week. Still not very good, but making progress
-* Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige
-* 
+* Cleaned out and organized the garage and attic to where we actually know where things are
+* Launched a programming blog called [eval everything](http://evaleverything.com/), where I've been writing about anything technical topics that are interesting
+* Updated this blog from it's previous setup!
 
 ## Next Year
 
-I'd like to continue learning piano. The little girl who has the lesson after me is still way ahead. Other then that get into Angular.js development, which we're using for a new Code School project. Also get more into JavaScript testing frameworks out there. Marilyn and I are planning on going on a trip to Japan in 2014, which should be a load of fun. 
+I'd like to continue learning piano. The little girl who has the lesson after me is still way ahead. Other then that get into Angular.js development, which we're using for a new Code School project. Also get more into JavaScript testing frameworks out there. Marilyn and I are planning on going on a trip to Japan in 2014, which should be a load of fun. I'm going to try to be more social and invite friends over more often as well.
