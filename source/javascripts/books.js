@@ -151,7 +151,7 @@ App.Book.FIXTURES = [
     finished_at: new Date('2/21/2013'),
     rating: 5,
     genres: [100],
-    review: "On an episode ( Think Relevance Podcast ) of the Think Relevance Podcast, they mentioned a book where monk chants were used to convey and solve mathematical problems. That was the first I’d heard of Neal Stephenson, and knew I had to check it out. The Anathem world is different from our own. It’s a world where scientists and mathematicians live in the equivalent of buddhist monasteries with limited access to the outside world — some only interacting with it every 100 years. The abundance of made up terminology takes some getting used to in this book, but it’s worth the ride.",
+    review: "On an episode of the [Think Relevance Podcast](http://thinkrelevance.com/blog/2012/01/05/podcast-episode-002), a book was mentioned where monk chants were used to convey and solve mathematical problems. That was the first I’d heard of Neal Stephenson, and knew I had to check it out. The Anathem world is different from our own. It’s a world where scientists and mathematicians live in the equivalent of buddhist monasteries with limited access to the outside world — some only interacting with it every 100 years. The abundance of made up terminology takes some getting used to in this book, but it’s worth the ride.",
     amazon_id: '006147410X',
     isAudiobook: true
   },
@@ -512,7 +512,7 @@ App.Book.FIXTURES = [
     author: 'Kurt Vonnegut',
     started_at: new Date('12/24/2013'),
     finished_at: new Date('12/26/2013'),
-    rating: 0,
+    rating: 2,
     genres: [100],
     amazon_id: '0440180295',
     isAudiobook: true
@@ -522,10 +522,21 @@ App.Book.FIXTURES = [
     title: 'The Happiness Project',
     author: 'Gretchen Rubin',
     started_at: new Date('12/26/2013'),
-    finished_at: null,
-    rating: 0,
+    finished_at: new Date('12/30/2013'),
+    rating: 4,
     genres: [103],
     amazon_id: 'B002VJ9HRK',
+    isAudiobook: true
+  },
+  {
+    id: 46,
+    title: 'Flowers for Algernon',
+    author: 'Daniel Keyes',
+    started_at: new Date('12/30/2013'),
+    finished_at: null,
+    rating: 0,
+    genres: [100],
+    amazon_id: '015603008X',
     isAudiobook: true
   }
 ];

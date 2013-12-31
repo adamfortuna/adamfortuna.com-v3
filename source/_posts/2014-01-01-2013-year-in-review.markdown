@@ -22,7 +22,7 @@ I didn't travel all that much this year. The biggest trips were Rails Conf and W
 
 ## Events and Entertainment
 
-The most random event this year was Distant Worlds. Marilyn and I discussing "What musical acts would you absolutely love to see that you haven't?" and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he's only performed in the US 10 times in 10+ years, we really lucked out!
+The most random event this year was Distant Worlds. Marilyn and I were discussing "What musical acts would you absolutely love to see that you haven't?" and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he's only performed in the US 10 times in 10+ years, we really lucked out!
 
 {% pullside right %}
 If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd.com/) account and friend me!
@@ -31,7 +31,7 @@ If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd
 * Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: Somm, Gravity and Stoker
 * Went to the Florida Film Festival Premiere, followed by seeing a number of awesome movies
 * Attended Megacon for the 15th straight year
-* Lots of [audiobooks](/books) including Hyperion, more Orson Scott Card and a lot of Sci Fi
+* Lots of [audiobooks](/books) -- 45 total for the year. My favorites were Hyperion, Maphead, His Dark Materials and Bossypants. Many more were amazing.
 * The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland and Breaking Bad
 * Went to [BarCampOrlando](https://twitter.com/adamfortuna/status/335839768439029761) and presented on "R Programming for Ruby and Rails Developers"
 * The Postal Service concert viewed from the balcony at Hard Rock
@@ -42,7 +42,7 @@ If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd
 
 ## Body
 
-2011 was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve.
+2011 was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve. Towards the end of the year I did start to plateau when it comes to working out. I suspect it was due to an awful diet and lack of sleep.
 
 * [Worked out](/2-years-of-crossfit) usually around 3 or 4 times a week, nearly always at 8am
 * Stopped by [CrossFit Portland](http://www.crossfitportland.com/) with [Casey](https://twitter.com/yeabuddy) when in town for Rails Conf
@@ -51,11 +51,20 @@ If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd
 * Did [Murph](http://www.crossfit.com/mt-archive2/000881.html) in 51:17 for Memorial Day. Confident I can do better next time!
 * Ran in a [Warrior Dash](https://twitter.com/adamfortuna/status/297775932167553024) outside of Orlando with a few friends. Muddy and cold, but a load of fun
 * Running around Lake Eola in downtown Orlando after work occasionally when not too hot out
+
+{% pullside right %}
+The FitBit is awesome, but it doesn't understand how much I hate wall balls.
+{% endpullside %}
+
 * Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.
 
 ## Work
 
-Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://codeschool.com) all year long.
+Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://codeschool.com) all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.
+
+{% pullside right %}
+Work mantra: always ask "What Would Bret Victor Do?"
+{% endpullside %}
 
 * Changed job titles to "Technical Director at Code School", whatever that means.
 * Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013
@@ -64,6 +73,12 @@ Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://code
 * Wrote and helped implement [Warming up with Emberjs](https://www.codeschool.com/courses/warming-up-with-emberjs), a course to learn Ember.js from scratch. Basing the implemention on everything we'd learned about teaching programming in the browser.
 
 ## Great Meals
+
+I tend to remember amazing meals far longer than I probably should. Here's a few that stand out.
+
+{% pullside right %}
+Having coffee at Victoria & Alberts is a magical experience.
+{% endpullside %}
 
 * Went to [Victoria & Alberts](http://victoria-alberts.com/) restaurant with Marilyn for our Anniversary
 * Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige
@@ -74,7 +89,11 @@ Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://code
 * Stone Crab Festival in St. Pete with Nate and so many friends
 * Food and Wine Festival with the Envy Labs gang
 
-### Personal
+## Personal
+
+{% pullside right %}
+Seriously, the little girl in the Piano lesson after mine is soo much better than me.
+{% endpullside %}
 
 * Bought an electric piano and started taking lessons every week. Still not very good, but making progress
 * Cleaned out and organized the garage and attic to where we actually know where things are
@@ -83,4 +102,25 @@ Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://code
 
 ## Next Year
 
-I'd like to continue learning piano. The little girl who has the lesson after me is still way ahead. Other then that get into Angular.js development, which we're using for a new Code School project. Also get more into JavaScript testing frameworks out there. Marilyn and I are planning on going on a trip to Japan in 2014, which should be a load of fun. I'm going to try to be more social and invite friends over more often as well.
+Looks like I'm in the [45% of people who make New Years resolutions](http://www.statisticbrain.com/new-years-resolution-statistics/). 
+
+**Continue learning piano**. For me this means doing more practice at home as well as keeping up with lessons.
+
+**Get into Angular.js development**, which we're using for a new Code School project. Kind of have to do this one for work anyways, but I've been wanting to do it too.
+
+**Get more into JavaScript testing frameworks** out there. I've let my JavaScript go untested for far too long.
+
+**Invite friends over more**, typically to play games or anything really. Too many times this year we said "we need to have a game night". If you ever want to have a game night, just let me know!
+
+**Keep track of things more**. Kind of an obvious one, but "What gets measured gets improved" has always been true for me. I'm already doing these -- some all the time, some intermittently.
+
+* My Todo list in [Things](http://culturedcode.com/things/)
+* Workouts and fitness goals in Evernote
+* Piano practice in Evernote
+* Audiobooks in my [book log](/books)
+* Sleep in FitBit
+* Expenses in Google Docs
+* Weight via [Withings](http://www.withings.com/en/scales)
+* Monthly goals in Evernote
+
+Confident that 2014 will be an amazing year!
