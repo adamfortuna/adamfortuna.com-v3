@@ -83,7 +83,8 @@ App.Book.FIXTURES = [
     rating: 3,
     genres: [102],
     amazon_id: '140015328X',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Fun and upbeat all the way through, with some intersting insights to Woz\'s life. I knew he was into phone phreaking, but this book goes into that in much more detail. Learned about some interesting projects he worked on at Apple including a remote control that never saw daylight.'
   },
   {
     id: 8,
@@ -118,7 +119,8 @@ App.Book.FIXTURES = [
     rating: 5,
     genres: [100],
     amazon_id: '0812550757',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Just as good if not better than Enders Game. A very different story, but I can see why this won a Hugo award for best novel. I was impressed that OSC was able to draw us into a completely different world for Ender and still empathize with the characters.'
   },
   {
     id: 11,
@@ -129,7 +131,8 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [100],
     amazon_id: '0812509250',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Speaker for the dead asks more questions than it answers. Xenocide and Children of the Mind are all about answering those questions. Although _Children_ answers more questions, Xenocide has more heart.'
   },
   {
     id: 12,
@@ -197,10 +200,11 @@ App.Book.FIXTURES = [
     author: 'Isaac Asimov',
     started_at: new Date('5/22/2013'),
     finished_at: new Date('5/23/2013'),
-    rating: 4,
+    rating: 3,
     genres: [100],
     amazon_id: '0553293362',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Part 3 of the Foundation trilogy. I wasn\'t as emotionally attached to some of the characters in this one as the others, but at least the ending payed off.'
   },
   {
     id: 18,
@@ -208,10 +212,11 @@ App.Book.FIXTURES = [
     author: 'Isaac Asimov',
     started_at: new Date('5/23/2013'),
     finished_at: new Date('5/27/2013'),
-    rating: 3,
+    rating: 4,
     genres: [100],
     amazon_id: '0553293370',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Good story, although predicitable at times. Sets things up for part 3 of the series in a solid second book in a trilogy, in the same ways you\'d expect from a part 2.'
   },
   {
     id: 19,
@@ -353,7 +358,7 @@ App.Book.FIXTURES = [
     finished_at: new Date('11/11/2013'),
     rating: 4,
     genres: [100],
-    review: "This first book in Asimovs robot is more a detective novel than a serious sci-fi story, but it does set the stage for the world.",
+    review: "This 2nd book in Asimovs robot series after _I, Robot_. It is more a detective novel than a serious sci-fi story, but it does set the stage for the world.",
     amazon_id: '0553293400',
     isAudiobook: true
   },
@@ -416,7 +421,8 @@ App.Book.FIXTURES = [
     rating: 2,
     genres: [102],
     amazon_id: '159184617X',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Even though I respect Ive, I felt this biography only hit skin deep. It went over all the major events in his life, his passion for design, awards he achieved -- but that\'s really it. I dont\'t feel I know him anymore than before reading this.'
   },
   {
     id: 36,
@@ -427,7 +433,8 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [100],
     amazon_id: '0553293397',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Very similar to _Caves of Steel_, this is the 3rd book in Asimovs Robot series. Fun detective novel in a space setting. I was a bit disappointed by some of the answers, but overall it was satisfying.'
   },
   {
     id: 37,
@@ -435,10 +442,11 @@ App.Book.FIXTURES = [
     author: 'Margaret Atwood',
     started_at: new Date('11/21/2013'),
     finished_at: new Date('11/30/2013'),
-    rating: 3,
+    rating: 4,
     genres: [100],
     amazon_id: '038549081X',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'This was the first book I read in 2013 by a female author -- after reading 36 other books. After finishing it, my initial reaction wasn\'t altogether positive. The more I reflected on the book, I came to realize how amazing a world Atwood created in this dystopian tale. Not one of my all-time favorites, but still great storytelling.'
   },
   {
     id: 38,
@@ -449,7 +457,8 @@ App.Book.FIXTURES = [
     rating: 2,
     genres: [103],
     amazon_id: '0375725342',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Short take on enjoying the pleasures of travel.'
   },
   {
     id: 39,
@@ -460,7 +469,8 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [100],
     amazon_id: '0553299492',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'The 4th book in Asimovs Robot series. Somewhat awkward in it\'s sexuality, but a decent detective tale on its own. Less technical than the other books in the robot series.'
   },
   {
     id: 40,
@@ -468,10 +478,11 @@ App.Book.FIXTURES = [
     author: 'Isaac Asimov',
     started_at: new Date('12/09/2013'),
     finished_at: new Date('12/11/2013'),
-    rating: 3,
+    rating: 2,
     genres: [100],
     amazon_id: '0765319179',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'First book in Asimov\'s Empire series. Interesting to learn how everything was setup for Foundation, the characters and the story were slow and painful to finish.'
   },
   {
     id: 41,
@@ -482,7 +493,8 @@ App.Book.FIXTURES = [
     rating: 1,
     genres: [100],
     amazon_id: '0765319152',
-    isAudiobook: true
+    isAudiobook: true,
+    review: '2nd Book in Asimov\'s Empire series, and probably the last I\'ll read. I see why Asimov called this his "least favorite novel". I only wish I knew that beforehand.'
   },
   {
     id: 42,
@@ -493,7 +505,8 @@ App.Book.FIXTURES = [
     rating: 3,
     genres: [103],
     amazon_id: '0061353248',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'A look into what motivates us and how our hidden desires contribute to our behavior.'
   },
   {
     id: 43,
@@ -504,7 +517,8 @@ App.Book.FIXTURES = [
     rating: 5,
     genres: [103],
     amazon_id: '0316056898',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Completely hilarious all the way through.'
   },
   {
     id: 44,
@@ -512,10 +526,11 @@ App.Book.FIXTURES = [
     author: 'Kurt Vonnegut',
     started_at: new Date('12/24/2013'),
     finished_at: new Date('12/26/2013'),
-    rating: 2,
+    rating: 3,
     genres: [100],
     amazon_id: '0440180295',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'A time confused story tieing together world war 2 with alien abduction. As a story, it was amazing. The story about watching a war film in reverse was touching.'
   },
   {
     id: 45,
@@ -526,7 +541,8 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [103],
     amazon_id: 'B002VJ9HRK',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'A combination of 12 mini books, each in the form as a months goals. Somewhat a condensed version of Getting Things Done, relationship advice, family, friendship, religion and time. One interesting insight by Gretchen was the comment that Agnostics/Athiests read biographies to identify with people for a similar reason that Catholics read the bible. Some good insights and many good reminders on how to be happy.'
   },
   {
     id: 46,
