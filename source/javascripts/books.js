@@ -549,10 +549,44 @@ App.Book.FIXTURES = [
     title: 'Flowers for Algernon',
     author: 'Daniel Keyes',
     started_at: new Date('12/30/2013'),
+    finished_at: new Date('1/03/2014'),
+    rating: 5,
+    genres: [100],
+    amazon_id: '015603008X',
+    isAudiobook: true,
+    review: 'This book is only just about every top list of science fiction I\'ve come across, and with good reason. Charlie journey thoughout the book is presented in a memorable way that sticks with you for how personal it is by making this story Charlies journal.'
+  },
+  {
+    id: 47,
+    title: 'Mistborn: The Final Empire (Book 1)',
+    author: 'Brandon Sanderson',
+    started_at: new Date('1/14/2014'),
+    finished_at: new Date('1/28/2014'),
+    rating: 5,
+    genres: [100],
+    amazon_id: '0765350386',
+    isAudiobook: true
+  },
+  {
+    id: 48,
+    title: 'Mistborn: The Well of Ascension (Book 2)',
+    author: 'Brandon Sanderson',
+    started_at: new Date('1/28/2014'),
     finished_at: null,
     rating: 0,
     genres: [100],
-    amazon_id: '015603008X',
+    amazon_id: '0765356139',
+    isAudiobook: true
+  },
+  {
+    id: 49,
+    title: 'Mistborn: The Hero of Ages (Book 3)',
+    author: 'Brandon Sanderson',
+    started_at: null,
+    finished_at: null,
+    rating: 0,
+    genres: [100],
+    amazon_id: '0765356147',
     isAudiobook: true
   }
 ];
