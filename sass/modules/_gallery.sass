@@ -1,0 +1,24 @@
+.clearfix
+  display: inline-block
+  * html &
+    height: 1%
+  &:after 
+    visibility: hidden
+    display: block
+    font-size: 0
+    content: " "
+    clear: both
+    height: 0
+
+.gallery
+  @extend .clearfix
+  margin: 0
+  padding: 12px 0
+  position: relative
+
+  li
+    list-style: none
+    padding-left: 0
+
+    a
+      display: block

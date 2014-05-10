@@ -1,0 +1,54 @@
+/* First level of nav */
+.toc 
+  height: 1px
+  overflow: hidden
+  ul 
+    > p 
+      display: none
+    
+  &.affix 
+    height: auto
+    display: block
+
+
+.affix 
+  position: fixed 
+  top: 0px
+  left: 0px
+  width: 100%
+  z-index: 2
+  background-color: #fff
+  font-size: 1.2em
+  opacity: 0.85
+
+
+.toc.affix li 
+  @extend .container
+  display: none
+
+  p 
+    display: none
+  
+
+  &.active 
+    display: block
+    border: none
+
+    a,
+    a:hover
+      float: left
+      padding-right: 10px
+
+    ul 
+      margin: 0
+
+      li.active 
+        a
+          padding-left: 0
+          &:before
+            content: ">     "
+  a 
+    color: #555
+    font-family: "Droid Sans",sans-serif
+    font-weight: bold
+    border: none

@@ -99,3 +99,84 @@ google_analytics_tracking_id: UA-90326-12
 
 # Facebook Like
 facebook_like: false
+
+mini_magick_enabled: true
+mini_magick_regererate: false
+mini_magick:
+  versions:
+    thumbs:
+      commands:
+        - thumbnail: "100x100^"
+        - crop: "100x100-0x0"
+    resized:
+      commands:
+        - resize: "1170x100^"
+    col-6-tall: 
+      commands:
+        - resize: "585x"
+        - gravity: center
+        - crop: "x975^-0x0"
+    col-9:
+      commands:
+        - resize: "878x100^"
+        - gravity: center
+        - crop: "878x244-0x0"
+    col-6:
+      commands:
+        - thumbnail: "585x100^"
+        - crop: "585x350-0x0"
+    col-5:
+      commands:
+        - resize: "487^x300"
+        - gravity: center
+        - crop: "487x244-0x0"
+    col-4:
+      commands:
+        - resize: "x300"
+        - gravity: center
+        - crop: "390x244-0x0"
+    col-3:
+      commands:
+        - resize: "487^x300"
+        - gravity: center
+        - crop: "293x244-0x0"
+  galleries:
+    - japan_travel
+    - japan_fushimi_inari
+    - japan_food_tour
+    - japan_sake_tour
+    - japan_nijo_castle
+    - japan_kiyomizudera_temple
+    - japan_gion
+    - japan_imperial_castle
+    - japan_day4
+    - japan_nishiki_market
+    - japan_osaka
+    - japan_nara_deer
+    - japan_kasuga
+    - japan_nara_lunch
+    - japan_nara_todaiji
+    - japan_hakone_travel
+    - japan_ryokan
+    - japan_hakone_friday_dinner
+    - japan_hakone_saturday_breakfast
+    - japan_hakone_saturday_dinner
+    - japan_hakone_sunday_breakfast
+    - japan_hakone_owakudani
+    - japan_hakone_ashinoko
+    - japan_hakone_jinja
+    - japan_to_tokyo
+    - japan_tokyo_exploring_shibuya
+    - japan_harajuku
+    - japan_meiji_shrine
+    - japan_park_hyatt
+    - japan_izakaya
+    - japan_ueno
+    - japan_akihabara
+    - japan_cocktails
+    - japan_ghibli
+    - japan_traditional_dinner
+    - japan_day12
+    - japan_tsukiji
+    - japan_robot_restaurant
+    - japan_day14

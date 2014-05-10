@@ -1,0 +1,1410 @@
+---
+layout: images
+title: Adam & Marilyn go to Japan
+date: 2014-05-11 10:07
+comments: true
+id: japan
+header: image
+loadOptions: 'data-spy="scroll" data-target=".toc"'
+bodyClass: image-post
+runAfter: >
+  (function($) {
+    //$('nav.toc').affix({
+    //  offset: { top: $('nav.toc').offset().top }
+    //});
+
+    $('.fancybox').fancybox({
+      closeBtn  : true,
+      arrows    : true,
+      nextClick : true,
+      helpers : {
+        title : {
+          type : 'inside'
+        },
+        thumbs : {
+          width  : 50,
+          height : 50
+        },
+        overlay: {
+          locked: false
+        }
+      }
+    });
+    //$('.lazy img').unveil(3000, function() {
+    //  $(this).load(function() {
+    //    $(this).closest('.lazy').removeClass('.lazy');
+    //  });
+    //});
+  })($);
+---
+
+Back in high school, I got kind of into anime. My friends and I were the ones hanging out in anime IRC channels, and trekking across the state to conferences to meet with others of our kind. Although my love for anime isn't what it once was, and I get winded playing 9 foot songs on [Dance Dance Revolution](http://en.wikipedia.org/wiki/Dance_Dance_Revolution), that started a fascination with Japan that has stuck with me. It lead to me taking Japanese language classes in college, getting really into [Kurosawa](http://letterboxd.com/adamfortuna/list/favorite-kurosawa-movies/) and [Miyazaki](http://letterboxd.com/adamfortuna/list/favorite-miyazaki-films/) movies and wanting to someday travel there.
+
+<a id='last-gift'></a>
+
+## A Last Gift
+
+I'd talked about traveling to japan with my mom during this time. Some of the places we'd go and the sites we'd see. When she passed away 2 months after I graduated college, I put a lot on hold. Rather than traveling or developing websites in my spare time, I was cleaning out and fixing up the house I grew up in. This meant driving from Orlando to St. Petersburg (90 minutes) on weekends for almost a year. It was without a doubt the most stressful time of my life so far.
+
+On the weekend before my birthday, when the house was almost ready to sell, I was spending my weekend clearing out my moms room. In her closet, within a suitcase, I spotted a bank envelope. Written on it were the words "Adam to Japan fund". I scratched my head and opened the envelope. Inside was $1,000 in cash, with a ledger on the side denoting deposits to it over the last year of her life. The thought behind this hit me hard, and I still tear up remembering it.
+
+That was my moms last birthday gift to me.
+
+<a id='the-trip'></a>
+
+## The Trip
+
+Fast forward almost 8 years later. Marilyn and I have been together since before finding that special envelope, and had also put off this trip in favor of various other amazing trips. Towards the end of last year we decided this was the year and finally made it a reality.
+
+The *tl;dr* of the trip is that it was amazing. We spent 4 nights in a hotel across from Nijo Castle in Kyoto, experienced mineral baths and amazing meals for 2 nights at a ryokan in Hakone and finished our trip by exploring Tokyo for 7 full days.
+
+During our time in Kyoto, we took a food and sake tour with a local, who grew up in the midwest. We explored ancient shrines like Fushimi Inari and Kiyomizu-dera temple. Fed the sacred deer in Nara and explored the amazing temples of Japans first capital. We saw a Maiko (Geisha) performance in Gion, the historic home of the culture. We explored the ancient castles used by the Shogun. At only an hour away, making the side trip to Osaka resulted in some amazing [okonomiyaki](http://en.wikipedia.org/wiki/Okonomiyaki) and culture shock.
+
+In Hakone, we shed our shoes and enjoyed pampering and 12 course kiseki meals at a hundred year old ryokan. We took a ropeway tour of the mountainside and ate eggs boiled in Owakudani, a natural hot spring, before taking a ship across Lake Ashinoko.
+
+With so much to do in Tokyo, there was no shortage of nightlife, food, shopping or culture to fill a week. We loved the feel of Hakajuku, littered with crepe stands, cafes, boutiques and second hand stores. Were were wowed by the sheer amount of people and lights in Shibuya. Walked through the blooming sakuras in Ueno park. Watched gamers and otaku wander the 6 floor arcades and model stores in Akihabara. Fullfilled a lifelong dream and visited the Ghibli museum. Woke up early and had sushi at the Tsukiji Fish Market. Had drinks at the Park Hyatt -- famous for its role in Lost in Translation. Finished the trip with a very odd show -- The Robot Dinner Show.
+
+<a id='what-to-expect'></a>
+
+## What to Expect
+
+We did a lot of research before our trip, and it paid off. Going to Japan without some preparation will mean missing out on a lot of opportunities to make your trip better. Here are a few of the things we encountered that either came as a shock to us, or that seriously help out if you know about them ahead of time.
+
+* Bathrooms don't usually have soap or towels. Most locals carry a small cloth to dry their hands.
+
+* Public trash cans don't exist in Japan. If you have trash, you'll probably need to carry it around until you get back to your hotel room.
+
+* There are many, many vending machines in Japan providing cold and hot drinks, instant ramen, beer, cigarettes and more. Next to each you'll see a recycling bin. This is because it's common for someone to buy and consume a drink right there. We didn't see people drinking on the go. Either you bring it home or you drink it there. (If you're a tourist it's OK to do this though, no one's going to be mad.)
+
+* People follow the law. Beer and cigarette vending machines don't require an ID to purchase, but yet there isn't an epidemic of kids buying them. The same machines in the US would either be policed or constantly empty. Same goes for simple things like waiting for the crosswalk to signal before crossing at 2am in a rural area.
+
+* Get a [Japan Rail Pass](http://www.jrpass.com/) to travel between cities using the Shinkansen (bullet train). You can also use it on the Yamonote line in Tokyo. You'll need to reserve and have this delivered outside of Japan though. They give you a voucher, which you show at a JR office to get a full pass. There are JR passes in major airports, allowing you to grab it when you arrive. Make sure the station will be open when your flight gets in.
+
+* When it comes to trains, getting around between cities is easy using the JR Pass. You can show up at a station and make a seat reservation for the next available train. Since they leave every 30 minutes, you won't be waiting long. You can also walk onto an "unreserved seat" car without a reservation.
+
+* For travel within cities, you'll probably be using multiple companies subway lines. In Kyoto, Osaka and Tokyo this applies. If you use the Google Maps, it'll route you through this, but you'll need to learn how to use the ticketing systems at each. All have an English option for the subway, but don't have one for buying bus passes. We stuck entirely to subway and taxis for our visit.
+
+* Assume no one will speak English. It was always a nice surprise when people could help us, but don't assume. It's worth learning a few phrases like 'sumimasen' (excuse me) and 'Eigo ga wakarimasu ka?' (Do you understand English?) will help immensely.
+
+* The level of service everywhere was amazing. Restaurants, taxis, trains, hotels and anyone we talked to in the streets were very nice and no one was rude. Even with the communications barrier, people gave you their time with a smile.
+
+* Lots of articles on Japan mention you'll be taking off your shoes often. Don't listen to them. We took our shoes off a total of 3 times in 2 weeks (not including at the ryokan). Wear comfy shoes though. You'll probably be walking a lot more than usual.
+
+* Get a mobile cellular device with wifi. We rented a pocket wifi from [Pocket Wifi](http://www.globaladvancedcomm.com/) for about $80 which served as wifi for both of us and provided unlimited bandwidth. They delivered it to the post office at Narita Airport (outside Tokyo) and we picked it up right after we arrived. There were also some vendors in the airport selling these. Make sure the post office is open when you arrive though.
+
+* You won't find any fancy breakfast places outside of ryokans. If you want breakfast, try a 7-11, a Dennys or a 24-hour noodle shop.
+
+* Some things you'll want to reserve before you leave. These include a Japan Rail Pass, a pocket wifi, Ghibli museum tickets and imperial palace tours.
+
+* You'll be going up more than you expect. Although most consumer shops and restaurants are at street level, on multiple occasions we had to take an elevator just to get to the entrance of a business. This was true for stores, restaurants and bars. These shops can be easily missed without exploring.
+
+* It rains a lot in Japan. Tokyo gets more rain than Orlando, Portland or Seattle (almost as much as Portland _plus_ Seattle). You can buy umbrellas for $5 every few blocks in the city, and you'll see piles of cheap, broken umbrellas in the touristy areas after a storm. These aren't torrential downpours, but they are enough to drench you.
+
+* Almost every meal we had was between $30 and $70 total. Ramen meals came out on the $30 side for 2 people, while more fancy Japanese style meals with sake or beer were more like $70. Our entire food spend for 2 weeks was less than the cost of a night at Jiro.
+
+* Malls aren't like malls here. They're more like our department stores, with small, distinct stores very close to each other that all open/close at once.
+
+## The Days
+
+What follows is a breakdown of the trip, day by day, with more pictures than I've ever included in a post. If you're curious about Japan, or want to see some amazing sites, read on!
+
+<!--more-->
+
+<nav class="toc"><ul class="nav">
+<li><a href='#day1'>Day 1: Travel</a>
+<ul class='nav'>
+<li><a href='#day1-travel'>Orlando to Kyoto</a></li>
+</ul>
+</li>
+<li>
+<a href='#day2'>Day 2: Kyoto Tours</a>
+<ul class='nav'>
+<li><a href='#food-tour'>Fushimi Food Tour</a></li>
+<li><a href='#sake-tour'>Sake Tour</a></li>
+<li><a href='#fushimi-inari'>Fushimi Inari</a></li>
+</ul>
+</li>
+<li>
+<a href='#day3'>Day 3: Exploring Kyoto</a>
+<ul class='nav'>
+<li><a href='#nashiki'>Nishiki Market</a></li>
+<li><a href='#kiyomizu'>Kiyomizu-dera Temple</a></li>
+<li><a href='#gion'>Gion District</a></li>
+</ul>
+</li>
+<li>
+<a href='#day4'>Day 4: Kyoto Castles</a>
+<ul class='nav'>
+<li><a href='#nijo'>Nijo Castle</a></li>
+<li><a href='#imperial-castle'>Imperial Castle Gardens</a></li>
+<li><a href='#osaka'>The Busy Streets of Osaka</a></li>
+</ul>
+</li>
+<li>
+<a href='#day5'>Day 5: Nara</a>
+<ul class='nav'>
+<li><a href='#deer'>The Sacred Deer</a></li>
+<li><a href='#kasuga'>Kasuga Taisha</a></li>
+<li><a href='#nara-lunch'>Lunch at the Garden</a></li>
+<li><a href='#todaiji'>Todai-ji Temple</a></li>
+</ul>
+</li>
+<li>
+<a href='#day6'>Day 6: Travel to Hakone</a>
+<ul class='nav'>
+<li><a href='#ryokan'>Our First Ryokan Experience</a></li>
+<li><a href='#ryokan-food'>Eating at a Ryokan</a></li>
+</ul>
+</li>
+<li>
+<a href='#day7'>Day 7: Mountains of Hakone</a>
+<ul class='nav'>
+<li><a href='#day7-breakfast'>Saturday Breakfast</a></li>
+<li><a href='#owakudani'>Owakudani</a></li>
+<li><a href='#ashinoko'>Lake Ashinoko</a></li>
+<li><a href='#hakone-shrine'>Hakone Jinja</a></li>
+<li><a href='#day7-dinner'>Saturday Dinner</a></li>
+</ul>
+</li>
+<li>
+<a href='#day8'>Day 8: Hakone &amp; Tokyo</a>
+<ul class='nav'>
+<li><a href='#day8-breakfast'>Sunday Breakfast</a></li>
+<li><a href='#to-tokyo'>To Tokyo!</a></li>
+<li><a href='#exploring-shibuya'>Exploring Shibuya to Harajuku</a></li>
+</ul>
+</li>
+<li>
+<a href='#day9'>Day 9: Harajuku &amp; Shinjuku</a>
+<ul class='nav'>
+<li><a href='#harajuku'>The Feel Harajuku</a></li>
+<li><a href='#yoyogi'>Yoyogi park and the Meiji Shrine</a></li>
+<li><a href='#izakaya'>An Izakaya Visit</a></li>
+</ul>
+</li>
+<li>
+<a href='#day10'>Day 10: Ueno Park &amp; Akihabara</a>
+<ul class='nav'>
+<li><a href='#ueno'>Ueno Park</a></li>
+<li><a href='#akihabara'>Akihabara</a></li>
+<li><a href='#cocktails'>Cocktails at Bar Ishinohana</a></li>
+</ul>
+</li>
+<li>
+<a href='#day11'>Day 11: Ghibli Museum</a>
+<ul class='nav'>
+<li><a href='#ghibli'>Ghibli Museum</a></li>
+<li><a href='#traditional-dinner'>A Traditional Japanese Dinner</a></li>
+</ul>
+</li>
+<li>
+<a href='#day12'>Day 12: Ginza, Kabuki, Iron Chef</a>
+<ul class='nav'>
+<li><a href='#ginza'>The Luxurious Ginza District</a></li>
+<li><a href='#kabuki'>A Traditional Kabuki Show</a></li>
+</ul>
+</li>
+<li>
+<a href='#day13'>Day 13: Tsukiji Fish Market, Robot Restaurant</a>
+<ul class='nav'>
+<li><a href='#tsukiji'>Tsukiji Fish Market</a></li>
+<li><a href='#robot'>Robot Restaurant</a></li>
+</ul>
+</li>
+<li>
+<a href='#day14'>Day 14: Back to Orlando!</a>
+<ul class='nav'>
+<li><a href='#ippudo'>Ippudo Ramen</a></li>
+</ul>
+</li>
+<!--
+* [Day 14: Back to Orlando](#day14)
+  * [Ippudo Ramen](#ippudo)
+-->
+
+
+</ul>
+</li></nav>
+
+<a id='day1'></a>
+
+# Day 1: Travel from Orlando to Kyoto
+
+Kyoto was our first destination, but we arrived in Narita airport a few hours away. We grabbed a bullet train across the country and slept for a few hours as we made our way to our first stop of the trip. We would end up spending 5 days in Kyoto. Some of that time was spent exploring the city, but we also took day trips to Nara and Osaka to see the area. If you're only going to visit one location in Japan, I'd suggest you go to Kyoto.
+
+Our Delta flight left Orlando at 8:00am Saturday and after 19 hours of flight time we were in Kyoto, although the time of arrival was 4:00 pm Sunday. We picked up our pocket wifi, redeemed our Japan Rail Pass vouchers and caught the first available train to Kyoto. By the time we left the airport it was 7:00pm, and we wouldn't arrive in Kyoto until almost 11:00pm. After we made it there we grabbed a midnight snack by buying a meal ticket from a machine. Many cheap restaurants use ticketing systems for food. All the ones we tried had pictures of the food, but be sure you put in your money first otherwise you might wonder why its not working.
+
+{% gallery japan_travel %}
+rail_pass.jpg[col-md-9](col-9): Our Japan Rail pass vouchers were easy to exchange at the Narita airport.
+jr_humor.jpg[col-md-3](col-3): They have a sense of humor at the JR station.
+{% endgallery %}
+{% gallery japan_travel %}
+711_atm.jpg[col-md-3](col-3): 7-11 ATMs are the of a few that can be used with overseas accounts. You can also use Chase ATMs.
+narita_airport_adam.jpg[col-md-5](col-5): Adam waiting in line to get rail passes.
+gyodun_bowl.jpg[col-md-4](col-4): Our $5 dinner at midnight the day we arrived. A rice bowl with chicken and rice with a small bowl of soup with thick noodles.
+{% endgallery %}
+
+<a id='day2'></a>
+
+## Day 2: A Food and Sake Tour of Fushimi
+
+Scheduling a tour on our first day made us get up early and go out exploring sooner than we would have otherwise. We took a food and sake tour of Kyoto with Jason, a local of Fushimi, a town just south of Kyoto. Jason moved to the area after growing up in the Midwest and coming over for college in Tokyo. If you're looking for an amazing, personal, fun experience in Kyoto, I'd recommend contacting [JD Kai Tour](http://jdkai.com/) and seeing about scheduling one. At $50 a person per tour, this was one of the best values of our trip.
+
+<a id='food-tour'></a>
+
+### Fushimi Food Tour
+
+This tour took us outside of downtown Kyoto to areas tourists wouldn't normally go. We tried foods I'd never seen available before in the US, but will seek out in the future. The softer tempura with a cod batter was delicious, as were the fresh sweet potato stuffed pancakes, squash croquettes, fresh sushi and eel stuffed omelets.
+
+{% gallery japan_food_tour %}
+  tempura.jpg[col-md-12]: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  sweet_potato_pancake.jpg[col-md-3](col-3): I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
+  tempura_stand.jpg[col-md-5](col-5): A view of the tempura stand. Alone on a street with a small crowd.
+  croquette.jpg[col-md-4](col-4): Freshly fried croquette. I chose squash as my flavor.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  pancackes_and_takoyaki.jpg[col-md-12]: Freshly made stuffed pancakes and takoyaki.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  bonito.jpg[col-md-4](col-4): Bonito (dried, fermented fish) at a bonito store.
+  30_watermelon.jpg[col-md-4](col-4): $30 for a watermelon seems a bit expensive.
+  sampler_plate.jpg[col-md-4](col-4): A sampler plate of various Japanese staples.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  egg_stuffed_with_eel.jpg[col-md-6](col-6): Egg omlet stuffed with eel.
+  sushi_plate.jpg[col-md-6](col-6): Small sampler from the fish vendor. The squid coated my mouth in a way different from any squid I've tried.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  fish_vendor.jpg[col-md-12]: All fish was trucked in this morning.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  pickels.jpg[col-md-4](col-4): Kyoto is famous for its pickles.
+  tea_sweet_rice.jpg[col-md-5](col-5): Roasted green tea and green tea sweets.
+  characters.jpg[col-md-3](col-3): Japan loves their characters. These were the characters for the market we were in.
+{% endgallery %}
+{% gallery japan_food_tour %}
+  teahouse_hallway.jpg[col-md-6](col-6-tall): Hallway outside of the teahouse.
+  tea_boxes.jpg[col-md-6](col-6-tall): 100 year old boxes for storing tea.
+{% endgallery %}
+
+<a id='sake-tour'></a>
+
+### Kyoto Sake Tour
+
+Following the food tour, we jumped immediately into the sake tour. The Fushimi area has long been a renown center for sake in Japan. It was close to the capital, and served by the springs in the area containing an optimal mineral balance for sake. On our walk over to this tour, we spotted our first cherry blossoms of the season.
+
+Our first stop on the tour was a liquor store where we learned the basics behind the different types of sake. My knowledge of sake was limited to dry vs sweet and filtered vs unfiltered, but Jason went more into depth about the rice milling rate, pasteurized vs unpasteurized and more.
+
+We went to the Gekkeikan Okura Sake Museum, home to a sake distillery founded in 1667. I wouldn't recommend going to this museum without a guide, as the more interesting bits were in Japanese and would have been lost on us without a guide. Although, you'd still get sake, so it's not all bad.
+
+{% gallery japan_sake_tour %}
+  sakura.jpg[col-md-12]: The first cherry blossoms spotted in the wild.  
+{% endgallery %}
+{% gallery japan_sake_tour %}
+  blossoms.jpg[col-md-3](col-3): Cherry blossoms.
+  under_blossoms.jpg[col-md-5](col-5): Marilyn and I under the cherry blossoms.
+  old_tree.jpg[col-md-4](col-4): A very old cherry blossom tree at the a shrine.
+{% endgallery %}
+{% gallery japan_sake_tour %}
+sake_ball.jpg[col-md-6](col-6-tall): A ball made from a Japanese Cyprus tree. This indicates that the store sells sake.
+favorite_sake.jpg[col-md-6](col-6-tall): Our favorite sake was an unfiltered, unpasteurized sake. Its also one of only a few brewed by a woman.
+{% endgallery %}
+{% gallery japan_sake_tour %}
+sake_barrels.jpg[col-md-12]: Instead of getting a keg for a party, try getting a sake barrel!
+{% endgallery %}
+{% gallery japan_sake_tour %}
+sake_sampler.jpg[col-md-5](col-5): The last stop on the tour had us sampling 6 more sakes.
+tatami.jpg[col-md-3](col-3): Tatami mats outside of a small tatami mat crafter.
+liquor_store.jpg[col-md-4](col-4): A look at the liquor store that was our first stop. We tried a few different types of sake and got our first lesson here.
+{% endgallery %}
+{% gallery japan_sake_tour %}
+poster-2.jpg[col-md-6](col-6-tall): Sake poster from the 1910s.
+poster-1.jpg[col-md-6](col-6-tall): Sake poster from the 1910s.
+{% endgallery %}
+{% gallery japan_sake_tour %}
+sampler_with_tofu.jpg[col-md-4](col-4): A final sake samplier with a small bite of tofu.
+brewing_barrels.jpg[col-md-4](col-4): Old wooden barrels for brewing sake. Imagine trying to get the rice out of those cracks in the boards.
+brewery_courtyard.jpg[col-md-4](col-4): The courtyard of the Gekkeikan Okura Sake Museum.
+{% endgallery %}
+{% gallery japan_sake_tour %}
+museum_pourer.jpg[col-md-6](col-6-tall): At the Gekkeikan Okura Sake Museum, we sampled three different types of sake with a very courteous host.
+sakura_sign.jpg[col-md-6](col-6-tall): I wonder what this says.
+{% endgallery %}
+
+<a id='fushimi-inari'></a>
+
+### Fushimi Inari-taisha - 伏見稲荷大社
+
+On our way back to the hotel, we decided to stop by [Fushimi Inari](http://en.wikipedia.org/wiki/Fushimi_Inari-taisha) - a large shrine that sits at the bottom of a mountain and trails up 4 kilometers into hillside. It was dusk when we made it there, so we only managed to make it about a kilometer up. Unlike parks in the US, this was open at all hours, with lanterns along the pathway. Fushimi Inari was founded as far back as 711, and is famous for having thousands of torii, the orange gates you see. It is one of the most iconic sites in all of Japan, and worth the visit.
+
+{% gallery japan_fushimi_inari %}
+  us_at_split_paths.jpg[col-md-12]:Marilyn and I where the torii split. It's funny to think how many people were lining up to take photos at this location.
+{% endgallery %}
+{% gallery japan_fushimi_inari %}
+  entrance.jpg[col-md-4](col-4):The huge torii at the entrance to the shrine.
+  shrine_building.jpg[col-md-4](col-4):Beautiful shrine building.
+  split_paths_side.jpg[col-md-4](col-4): A look through the middle of the split torii.
+{% endgallery %}
+{% gallery japan_fushimi_inari %}
+  split_paths.jpg[col-md-12]:A look down the right path when the torii split.
+{% endgallery %}
+{% gallery japan_fushimi_inari %}
+  close_gates.jpg[col-md-6](col-6): Many torii, all close together. Brilliantly orange inside.
+  gates_back.jpg[col-md-6](col-6): Looking back at the torii you see peoples words on each
+{% endgallery %}
+{% gallery japan_fushimi_inari %}
+  shrine_prayers.jpg[col-md-12]: Complete the fox face!
+{% endgallery %}
+{% gallery japan_fushimi_inari %}
+  getting_dark.jpg[col-md-5](col-5): All the way up the mountain as things start to get dark.
+  half_way.jpg[col-md-4](col-4): We only went a short way up the mountain, but gates go on like this for ages.
+  path_not_taken.jpg[col-md-3](col-3): We decided to take a path back at this point, but this is the path onward.
+{% endgallery %}
+
+
+<a id='day3'></a>
+
+## Day 3: Exploring Kyotos History
+
+Planning out a few days in Kyoto means deciding which famous sites you want to visit and which you can leave out. There is no shortage of shrines and castles within a short train ride. Today was our day to explore the town and see some of the sites. 
+
+<a id='nashiki'></a>
+
+### Nishiki Market - 錦市場
+
+Within walking distance of our hotel was Nishiki Market, taking over a street and running about 8 blocks before coming in contact with another market running perpendicular to it providing more traditional shopping. The market thrives around 10am with vendors putting out their fresh tempura, fish, pickles and other wares. This market doesn't start as early as some others, so don't aim to get there right at opening, or you'll probably see a lot of closed stalls. We woke up early and grabbed breakfast before exploring the market.
+
+{% gallery japan_nishiki_market %}
+sake.jpg[col-md-12]: A Sake shop in Nishiki market.
+{% endgallery %}
+{% gallery japan_nishiki_market %}
+bonito.jpg[col-md-4](col-4): Bonito vendor.
+meats.jpg[col-md-5](col-5): Fresh meats grilled up.
+squid.jpg[col-md-3](col-3): Dried squid.
+{% endgallery %}
+{% gallery japan_nishiki_market %}
+nishiki_pickles.jpg[col-md-12]: Pickles ready to be sold.
+{% endgallery %}
+{% gallery japan_nishiki_market %}
+shiny_floor.jpg[col-md-6](col-6-tall): The floor early in the morning was hosed off and ready for a day of action.
+nishiki_shrine.jpg[col-md-6](col-6-tall): This shrine was hidden amongst the stalls in the market.
+{% endgallery%}
+
+<a id='kiyomizu'></a>
+
+### Kiyomizu-dera Temple - 清水寺
+
+[Kiyomizu-dera Temple](http://en.wikipedia.org/wiki/Kiyomizu-dera) is another ancient temple and UNESCO world heritage site on the east side of Kyoto. It's name translates to "Pure Water Template", which people line up to drink. Founded in 778, this temple sits high on the mountainside with a great view of the city. The tall main structure of the Buddhist temple was constructed using no nails.
+
+We were there about a week before the cherry blossoms bloomed, but that didn't stop the view from being amazing. The trail up to the template was littered with stores selling trinkets, food and souvenirs, but we did manage to spot a shop selling nothing but Ghibli merchandise which we somehow left with money leftover.
+
+{% gallery japan_kiyomizudera_temple %}
+temple.jpg[col-md-12]: A look at the main temple.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+look_from_top.jpg[col-md-4](col-4): Store view from the top.
+marilyn_entrance.jpg[col-md-5](col-5): Marilyn by the entrance to the shrine.
+blossom_entrance.jpg[col-md-3](col-3): A blooming plum blossom greets visitors.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+laputa.jpg[col-md-3](col-3): A robot soldier planter.
+ghibli_store.jpg[col-md-5](col-5): A look at the Ghibli store.
+storefronts.jpg[col-md-4](col-4): Stores on the route up.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+pagoda.jpg[col-md-12]: A beautiful pagoda.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+adam_temple.jpg[col-md-6](col-6): Me with a view of the temple.
+marilyn_temple.jpg[col-md-6](col-6): Marilyn with a view of the temple.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+stones.jpg[col-md-4](col-4): Stones along the side of the path.
+temple_view.jpg[col-md-4](col-4): Hundreds of feet up, the temple looks like it sits on the trees.
+winding_path.jpg[col-md-4](col-4): Winding path down the mountain.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+water.jpg[col-md-12]: People of all shapes and sizes sampling the water.
+{% endgallery %}
+{% gallery japan_kiyomizudera_temple %}
+cream_puff.jpg[col-md-4](col-4): A sakura filled cream puff.
+teahouse.jpg[col-md-5](col-5): Stopping for tea on the way down.
+tempura_sweetpotato.jpg[col-md-3](col-3): Sweet potato and pumpkin tempura.
+{% endgallery %}
+
+<a id='gion'></a>
+
+### Gion - 祇園
+
+The small district of Gion is famous for it's Geishas and restaurants and sits on Kyotos east side. If you show up around sunset, you'll see a number of maiko fully dressed, heading to tea houses. We admired and appreciated the ones we saw, but didn't want to interrupt them with photo requests. 
+
+We wandered the streets, appreciating the small gardens and architecture that stood out in comparison to the rest of the city. One of the highlights of our adventures in Gion was a Maiko performance at [Gion Corner](http://www.kyoto-gioncorner.com/global/en.html). The short 1 hour performance showcases a number of arts including Kyo-mai Dance, Tea Ceremony, Koto Zither, Puppet Theater and Gagaku Court music. 
+
+{% gallery japan_gion %}
+gion.jpg[col-md-12]: The main street in the Gion district.
+{% endgallery %}
+{% gallery japan_gion %}
+side_garden.jpg[col-md-3](col-3): A small garden alongside a restaurant.
+flower.jpg[col-md-4](col-4): A small flower.
+gion_corner.jpg[col-md-5](col-5): Gion Corner, a theater for Maiko performances.
+{% endgallery %}
+{% gallery japan_gion %}
+pathup.jpg[col-md-12]: The path up to a temple in Gion.
+{% endgallery %}
+{% gallery japan_gion %}
+dessert.jpg[col-md-6](col-6): A parfait with ice cream, mochi and red bean paste.
+ice_cream_sampler.jpg[col-md-6](col-6): Red bean paste and other ice cream flavors.
+{% endgallery %}
+{% gallery japan_gion %}
+entrance.jpg[col-md-4](col-4): Entrance to the dessert shop.
+shrine.jpg[col-md-4](col-4): Entrance to a shrine.
+adam_dessert.jpg[col-md-4](col-4): Dessert time!
+{% endgallery %}
+{% gallery japan_gion %}
+ramen.jpg[col-md-6](col-6): Delicious Hokaido style ramen from Ramen Santouka.
+ramen_santouka.jpg[col-md-6](col-6): Open kitchen surrounds the seating area at Ramen Santouka.
+{% endgallery %}
+
+<a id='day4'></a>
+
+## Day 4: Ancient Castles and Osaka
+
+Since it was raining, we wanted to keep it close to the hotel to start the day. Marilyn was still sick, so today we tried to take it easy to start the day. We stopped by a grocery store to grab a snack and was amazed by their fresh foods. You could pickup a full sashimi plate for under $6, or grab freshly made tempura by the pound.
+
+{% gallery japan_day4 %}
+711-breakfast.jpg[col-md-3](col-3): A cheap breakfast from 7-11. With most places closed for breakfast, this was one of a few options that would let us eat and start visiting sites early.
+grocery_sushi.jpg[col-md-4](col-4): For less than $6 you can get a delicious sashimi platter at most grocery stores.
+grocery_tempura.jpg[col-md-5](col-5): This delicious set of tempura was available at a supermarket.
+{% endgallery %}
+
+<a id='nijo'></a>
+
+### Nijo Castle - 二条城
+
+[Nijo Castle](http://en.wikipedia.org/wiki/Nij%C5%8D_Castle), a UNESCO world heritage site and 400 year old castle was across from our hotel. We took a rainy morning and explored the castle and its grounds. Although pictures are prohibited within the buildings, the gardens and moat surrounding the castle were picturesque enough. At $5, the audio guide was well worth it.
+
+Nijo castle was constructed with the help of feudal lords in the area who were all ordered to contribute to its construction. Some parts of it were also moved from elsewhere in the 1600s. It was initially built as the residence of the Tokugawa Shoguns during the Edo period.
+
+{% gallery japan_nijo_castle %}
+guardhouse.jpg[col-md-12]: The guardhouse and blooming plum blossom.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+entrance.jpg[col-md-4](col-4): A close up of the blossoms.
+shoes.jpg[col-md-5](col-5): Taking off our shoes for the palace tour.
+blossoms.jpg[col-md-3](col-3): A close up of the blossoms.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+shrine.jpg[col-md-6](col-6-tall): A stone shrine.
+path_up.jpg[col-md-6](col-6-tall): These stairs were extremely steep, but regardless of age people were climbing up in the rain.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+castle_corner.jpg[col-md-12]:Plum blossoms around the castle moat.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+plum_blossom.jpg[col-md-6](col-6): Close up of a plum blossom.
+yellow_flowers.jpg[col-md-6](col-6): Close up of a yellow flower.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+moat.jpg[col-md-3](col-3): The moat was larger than it looked.
+view.jpg[col-md-5](col-5): View from up top.
+building_courtyard.jpg[col-md-4](col-4): Courtyard of the building.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+marilyn_blossoms.jpg[col-md-12]: Marilyn in the rain under the blossoms.
+{% endgallery %}
+{% gallery japan_nijo_castle %}
+raining_garden.jpg[col-md-4](col-4): Rain coming down on the garden.
+blossom_path.jpg[col-md-5](col-5): Down the plum blossom path.
+single_branch.jpg[col-md-3](col-3): A single plum blossom branch.
+{% endgallery %}
+
+<a id='imperial-castle'></a>
+
+### Kyoto Imperial Castle Gardens - 京都御所
+
+A few blocks from Nijo Castle sits the Imperial Palace. Stretching almost a kilometer, it offers a tranquil spot to get away from the streets of Kyoto. In order to get inside the palace, you'll need to make a reservation, but anyone can walk into the gardens. We arrived just as the plum blossoms were in full bloom. These bloom just before the cherry blossoms, but to me were the more beautiful in their colors and diversity.
+
+{% gallery japan_imperial_castle %}
+plum_blossom_tree.jpg[col-md-12]:A huge and beautiful plum blossom tree.
+{% endgallery %}
+{% gallery japan_imperial_castle %}
+marilyn_plum_blossom.jpg[col-md-6](col-6): Marilyn under the plum blossoms.
+adam_plum_blossom.jpg[col-md-6](col-6): Adam under the plum blossoms.
+{% endgallery %}
+{% gallery japan_imperial_castle %}
+moss.jpg[col-md-4](col-4):Moss working its way into a tree.
+blossom_ready.jpg[col-md-4](col-4):Blossoms preparing to bloom.
+hanging_blossoms.jpg[col-md-4](col-4):Bright blossoms.
+{% endgallery %}
+{% gallery japan_imperial_castle %}
+stone_walkway.jpg[col-md-6](col-6-tall): I wonder how old this walkway is...
+white_flower.jpg[col-md-6](col-6-tall): A single flower glistening in the rain.
+{% endgallery %}
+
+<a id='osaka'></a>
+
+## The Busy Streets of Osaka - 大阪
+
+After our castle tours, we made it back to the hotel to dry off before jumping on a train down to Osaka. It's only a 15 minute train ride by bullet train, which is free with a Japan Rail Pass. We headed to the [Namba](http://en.wikipedia.org/wiki/Namba) district, famous for its nightlife, restaurants and kilometer long shopping arcades.
+
+We made our way down [Shinsaibashi](http://en.wikipedia.org/wiki/Shinsaibashi), a hugely crowded shopping arcade with every brand you could imagine. We stopped by a 4 floor Sega arcade which had an odd selection of games. The entire top 2 floors contained room-sized photo booths, with costumes handy for the girls to change into (and only girls were allowed).
+
+At the end of the street, we crossed the Dōtonboribashi Bridge and sat down for dinner at a okonomiyaki style restaurant. Imagine an egg heavy pancake cooked at a small grill at your table. It's also a local favorite that started in Osaka.
+
+In our wandering, we also walked through the area featured in the documentary [The Great Happiness Space: Tale of an Osaka Love Thief](http://www.imdb.com/title/tt0493420/). It's an interesting documentary about the culture of host cafes -- cafes where you pay exorbitant drink fees for the privilege of company and "friendship" from attractive men and women.
+
+{% gallery japan_osaka %}
+dotonbori.jpg[col-md-12]:Dōtonbori street.
+{% endgallery %}
+{% gallery japan_osaka %}
+crabs_host_club.jpg[col-md-4](col-4):A crab restaurant next to a host cafe.
+takoyaki.jpg[col-md-5](col-5): This takoyaki vendor had a huge line.
+bars.jpg[col-md-3](col-3): An apartment building filled with bars.
+{% endgallery %}
+{% gallery japan_osaka %}
+okonomiyaki_osaka.jpg[col-md-6](col-6): Okonomiyaki (pancake) served Osaka style.
+okonomiyaki_tokyo.jpg[col-md-6](col-6): Okonomiyaki (pancake) served Tokyo style.
+{% endgallery %}
+{% gallery japan_osaka %}
+takoyaki_octopus.jpg[col-md-12]: This octopus moved and played a song.
+{% endgallery %}
+{% gallery japan_osaka %}
+shinsaibashi_street.jpg[col-md-3](col-3): Shinsaibashi Streets entrance.
+anime_costumes.jpg[col-md-5](col-5): A selection of anime wigs at a costume store.
+apartment_bars.jpg[col-md-4](col-4): A look down the hallway of an apartment building bar.
+{% endgallery %}
+
+
+<a id='day5'></a>
+
+## Day 5: Nara, Japans First capital - 奈良市
+
+Just outside of Kyoto is [Nara](http://en.wikipedia.org/wiki/Nara,_Nara), the capital of Japan about 700-1300 years ago. The area is famous for its deer and ancient temples in close proximity of each other which are collectively a UNESCO World Heritage site.
+
+We took the train down from Kyoto, which is actually about a 1 hour ride due to the number of stops.
+
+<a id='deer'></a>
+
+### Sacred Deer
+
+We you get off the train and make your way east, before too long you'll run into the famous deer of Nara. I like Wikipedias explantation of why there are so many.
+
+{% blockquote Wikipedia http://en.wikipedia.org/wiki/Nara,_Nara %}
+According to the legendary history of Kasuga Shrine, a mythological god Takemikazuchi arrived in Nara on a white deer to guard the newly built capital of Heijō-kyō. Since then the deer have been regarded as heavenly animals, protecting the city and the country.
+{% endblockquote %}
+
+So it's basically like cows in India, except tourists come from far and wide to feed them. At night they are penned up and fed for their own safety and population control reasons. From what I've read, they keep their antlers short to protect visitors.
+
+You can pet them, but if you have food they'll head butt you for it. For only $1.50 you can pick up a pack of rice crackers to feed to them from any of the many vendors lined up on the main street. If you get some crackers here and keep them for the deer in Kasuga Tasiha, you'll be able to feed them one at a time rather than all at once.
+
+{% gallery japan_nara_deer %}
+shrine_deer.jpg[col-md-12]: Hiding between the shrines.
+{% endgallery %}
+{% gallery japan_nara_deer %}
+deer_chewing.jpg[col-md-3](col-3): Deer chewing on chains.
+deer_in_forest.jpg[col-md-5](col-5): Deer chew down everything green, so they fence off some to grow before unleashing the deer on them.
+marilyn_small_deer.jpg[col-md-4](col-4): Marilyn feeding one of the smallest deer. It was tough to not be overwhelmed by the other deer during the taking of this photo.
+{% endgallery %}
+{% gallery japan_nara_deer %}
+adam_feeding.jpg[col-md-6](col-6): Adam feeding the deer.
+marilyn_deer.jpg[col-md-6](col-6): Marilyn feeding the deer.
+{% endgallery %}
+{% gallery japan_nara_deer %}
+deer_food_vendor.jpg[col-md-4](col-4): For $1.50, you can buy a handful of crackers to feed to the deer.
+deer_horns.jpg[col-md-5](col-5): Every year, they cut the antlers off all deer, making them safe for tourists.
+engagement_shoot.jpg[col-md-3](col-3): This couple was doing an engagement shoot, but more and more deer kept approaching them.
+{% endgallery %}
+
+<a id='kasuga'></a>
+
+### Kasuga Taisha - 春日大社
+
+After pushing our way through the deer, we started the walk up to [Kasuga Taisha](http://en.wikipedia.org/wiki/Kasuga-taisha). I'd heard from Marilyn it was a nice walk, but this was probably my favorite walk throughout the entire trip. If you know the scene at the beginning of Spirited Away where Chihiro is passing by many stone lanterns in a very close forest -- this reminded me of that.
+
+Leading up to the main shrine, you'll travel through the Kasugayama Primeval Forest. This ancient forest has a close, damp feel to it. The path is surrounded by thousands of stone lanterns all along the walkway, which you'll see deer peeking through.
+
+Compared to the walk up, the shrine itself is anticlimactic, but worth the $5 admission while you're there.
+
+{% gallery japan_kasuga %}
+shrine_maidens.jpg[col-md-12]: Shine maidens going about their day at Kasuga Taisha.
+{% endgallery %}
+{% gallery japan_kasuga %}
+adam_lanterns.jpg[col-md-4](col-4): Adam in front of lanterns on the way up.
+lantern_moss.jpg[col-md-5](col-5): These line the 800m pathway up.
+rooftop.jpg[col-md-3](col-3): On the way to the shrine, we spotted this rooftop.
+{% endgallery %}
+{% gallery japan_kasuga %}
+marilyn_lantern.jpg[col-md-6](col-6-tall): Marilyn in front of a huge stone lantern.
+shrines_and_roots.jpg[col-md-6](col-6-tall): Roots stop at the lanterns.
+{% endgallery %}
+{% gallery japan_kasuga %}
+prayers.jpg[col-md-12]: Prayers tied to trees.
+{% endgallery %}
+{% gallery japan_kasuga %}
+roots.jpg[col-md-3](col-3): Gnarled tree roots.
+cleansing.jpg[col-md-5](col-5): Cleansing before visiting the temple.
+guardian.jpg[col-md-4](col-4): Shrine guardian.
+{% endgallery %}
+{% gallery japan_kasuga %}
+plum_bloom.jpg[col-md-5](col-5): Within the shrine sat this beautiful plum blossom.
+brone_lantern.jpg[col-md-3](col-3): One of many bronze lanterns at the shrine.
+adam_kasuga.jpg[col-md-4](col-4): Adam in front of the main shrine.
+{% endgallery %}
+{% gallery japan_kasuga %}
+lanterns_old_and_new.jpg[col-md-6](col-6): New and old lanterns.
+lanterns_and_water.jpg[col-md-6](col-6): Stone lanterns on the way up.
+{% endgallery %}
+
+<a if='nara-lunch'></a>
+
+### Lunch at the Garden
+
+Closer to Todai-ji Temple there are a number of restaurants and roadside food stands, but farther up towards Kasuga Taisha the options are limited. There is a small botanical garden you can pay a few hundred yen to tour, or if you only want a view you can stop in for lunch. We got off our feet for a while for a light lunch before heading to Todai-ji.
+
+{% gallery japan_nara_lunch %}
+lunch.jpg[col-md-12]: A light lunch we split to save room for sampling more options later.
+{% endgallery %}
+{% gallery japan_nara_lunch %}
+mackerel.jpg[col-md-4]: Mackerel wrapped in persimmon leaves.
+jellies.jpg[col-md-4]: Sweet lychee jellies for dessert.
+omlet.jpg[col-md-4]: A small omlet with a few other textures.
+{% endgallery %}
+{% gallery japan_nara_lunch %}
+green_tea.jpg[col-md-6](col-6): Green tea with a small dessert.
+rice_porridge.jpg[col-md-6](col-6): Rice porridge.
+{% endgallery %}
+
+<a id='todaiji'></a>
+
+### Todai-ji Temple - 東大寺
+
+The most visited site in Nara is [Todai-ji temple](http://en.wikipedia.org/wiki/T%C5%8Ddai-ji), a monstrously large Buddhist temple housing the worlds largest bronze Buddha statue. This was our last stop in Nara. When we rounded the corner and saw Todai-ji for the first time, we both gasped at the sheer size of it. Due to the surrounding gate houses, you don't get a close view of Todai-ji until you're close, and at that point it is the most impressive.
+
+The walk up to Todai-ji is littered with stores and street food. I made it my quest to try each and every one. 
+
+{% gallery japan_nara_todaiji %}
+todaiji.jpg[col-md-12]: Todai-ji temple.
+{% endgallery %}
+{% gallery japan_nara_todaiji %}
+marilyn_door.jpg[col-md-3](col-3): Marilyn seeing how huge the door is.
+opening_gate.jpg[col-md-5](col-5): The opening gate to the temple.
+squeeze.jpg[col-md-4](col-4): Its good luck to squeeze though this support beam.
+{% endgallery %}
+{% gallery japan_nara_todaiji %}
+large_buddha.jpg[col-md-4](col-4): The huge buddha inside Todaiji temple.
+guardian.jpg[col-md-5](col-5): Temple Guardian.
+gold_buddha.jpg[col-md-3](col-3): A huge gold buddha.
+{% endgallery %}
+
+
+<a id='day6'></a>
+
+## Day 6: Travel to Hakone - 箱根町
+
+Friday meant leaving Kyoto for [Hakone](http://en.wikipedia.org/wiki/Hakone,_Kanagawa), a mountain town east of Mt. Fuji. Hakone is bit touristy, but it's a beautiful area and accessible by train.
+
+From Kyoto, we took the Shinkansen from Kyoto to Odawara and picked up a "Hakone Free Pass" there. This pass was an amazing value, and made travel for the weekend extremely easy. At around $42 each, this provides train travel from Odawara to Hakone, mountain train travel farther up the mountain, bus access around Hakone, boat access on Lake Ashinoko and scenic ropeway access over Hakone mountain.
+
+The trip from Odawara up to Hakone itself takes a while. The train to Hakone is quick, but soon after you're on a train especially designed for the mountain pass which slows things way down. There were some amazing views out the side, especially as it pulled off to the side to let other trains pass. After 5 hours of traveling, we made it to our ryokan.
+
+{% gallery japan_hakone_travel %}
+train_station.jpg[col-md-12]: The Hakone train station.
+{% endgallery %}
+{% gallery japan_hakone_travel %}
+train_snack.jpg[col-md-3](col-3): A train station snack for the ride.
+train_stop.jpg[col-md-5](col-5): A tiny mountain train stop.
+train_view.jpg[col-md-4](col-4): View out the shinkansen window.
+{% endgallery %}
+
+<a id='ryokan'></a>
+
+### Our First Ryokan Experience - 旅館
+
+A [Ryokan](http://en.wikipedia.org/wiki/Ryokan_(Japanese_inn)) is a traditional Japanese inn, which originated on the foot highways that connected Kyoto and Tokyo. These paths have existed for hundreds of years, with ryokans dotting the road every few dozen miles (equal to a days travel). In more recent times the same concept has been adapted to more remote locations where people can get away from the city and be pampered.
+
+How is a ryokan different from a hotel? For our case that starts when you pull up to the curb, where they checked our name against reservations and took our bags. After reaching the entrance we slipped off our shoes and changed in slippers, with them keeping our shoes safe during our stay.
+
+Our room was similar to a western room with an additional extra room without any furniture. This room would serve as a dining room and optionally a sleeping area. One of the bathrooms also featured a hot mineral bath which we took advantage of multiple times. Rather than washing in this bath, however, you soap up and wash on the stool outside of it with a showerhead and bowl. After you are clean and have rinsed off all soap, you're ready to jump in the mineral bath.
+
+Our room was so unexpectedly awesome, we ended up taking a few extra photos of it. If you're looking for a place to stay in Hakone, I'd recommend checking out the [Mikawaya Ryokan](http://www.booking.com/hotel/jp/mikawaya-ryokan.en-us.html).
+
+{% gallery japan_ryokan %}
+mikawaya.jpg[col-md-12]: The entrance to Mikawaya Ryokan.
+{% endgallery %}
+
+{% gallery japan_ryokan %}
+entrance.jpg[col-md-6](col-6-tall): The main room, where we ate and slept one night.
+view.jpg[col-md-6](col-6-tall): The main view from the room.
+{% endgallery %}
+
+{% gallery japan_ryokan %}
+overlook.jpg[col-md-5](col-5): Two pairs of chairs, each with a view.
+beds.jpg[col-md-4](col-4): Traditional beds if you prefer them over the futons.
+seating.jpg[col-md-3](col-3): Another shot of the seating area.
+{% endgallery %}
+
+{% gallery japan_ryokan %}
+beer.jpg[col-md-4](col-4): A local Hakone red ale we picked up.
+bathroom.jpg[col-md-3](col-3): You're supposed to walk around your room in socks, but if you use the bathroom then use slippers.
+bath.jpg[col-md-5](col-5): Our mineral bath with its always flowing water.
+{% endgallery %}
+
+<a id='ryokan-food'></a>
+
+### Eating at a Ryokan
+
+Many ryokan, including ours, offer breakfast and dinner served in your room. This is coordinated with an attendant who greets you and acts as a point of contact with the hotel. Ryokan meals are experiences of their own. It's customary to take a bath before dinner and change into a [yukata](http://en.wikipedia.org/wiki/Yukata), provided by the ryokan.
+
+We completely forgot about the bathing tradition for our first meal, which our attendant seemed to notice, but that didn't stop us from enjoying the amazing meal presented to us. The size and scope of the meal was more than we expected, but we ate every last bite.
+
+{% gallery japan_hakone_friday_dinner %}
+friday_sushi.jpg[col-md-4](col-4): Sushi plate.
+friday_marilyn.jpg[col-md-5](col-5): Marilyn excited about dinner.
+friday_food.jpg[col-md-3](col-3): Sampler of a few small plates.
+{% endgallery %}
+{% gallery japan_hakone_friday_dinner %}
+friday_tempura.jpg[col-md-3](col-3): Tempura with sakura salt.
+friday_fish.jpg[col-md-4](col-4): Fish with pickled things.
+friday_broth.jpg[col-md-5](col-5): This broth was absolutely amazing. It cooked at the table.
+{% endgallery %}
+{% gallery japan_hakone_friday_dinner %}
+friday_meat.jpg[col-md-4](col-4): This cooked under a candle at the table.
+friday_salad.jpg[col-md-4](col-4): A fresh salad.
+friday_dessert.jpg[col-md-4](col-4): Fresh fruit for dessert.
+{% endgallery %}
+
+
+<a id='day7'></a>
+
+## Day 7: Mountains of Hakone
+
+Time to venture out into the Hakone area!
+
+<a id='day7-breakfast'></a>
+
+### Saturday Breakfast
+
+At 7:45am on Saturday morning, our attendant arrived and started setting up breakfast. Even though it might look similar to dinner, it was much more sweet and tofu heavy. For this meal we had 4 different types of tofu. Although I'm generally a meat guy, the tofu dishes were memorable and delicious.
+
+{% gallery japan_hakone_saturday_breakfast %}
+sat_breakfast_tofu.jpg[col-md-6](col-6): Tofu with small shrimp.
+sat_breakfast_fish.jpg[col-md-6](col-6): All that was left of this fish was bones.
+{% endgallery %}
+{% gallery japan_hakone_saturday_breakfast %}
+sat_breakfast_overview.jpg[col-md-5](col-5): All of the small plates.
+sat_breakfast_pickles.jpg[col-md-4](col-4): Collection of pickled items.
+sat_breakfast_beans.jpg[col-md-3](col-3): Soy beans in a sweet sauce.
+{% endgallery %}
+{% gallery japan_hakone_saturday_breakfast %}
+sat_breakfast_tofu_soup.jpg[col-md-3](col-3): A light tofu, almost soup-like.
+sat_breakfast_tempura.jpg[col-md-4](col-4): Tempura side dish.
+sat_breakfast_fish_tofu.jpg[col-md-5](col-5): Tofu with small shrimp.
+{% endgallery %}
+
+<a id='owakudani'></a>
+
+### Owakudani - 大涌谷
+
+Reachable by ropeway, [Owakudani](http://en.wikipedia.org/wiki/%C5%8Cwakudani), "Great Boiling Valley", is a small volcanic valley bursting with steam vents and boiling water. It's also a stop on the ropeway, on the way to Lake Ashinoko, and worth exploring.
+
+After you exit the ropeway, you'll be hit by some tremendous, cold winds. These nearly blew us over and we weren't prepared for the temperature. We continued on to the vents themselves, following the crowd. The eggs cooked in the sulfurous water turn black, but taste the same as any hard boiled eggs. They claim that each egg you eat adds 7 years to your life. At $5 for 35 years, that's quite a deal.
+
+We explored the area and the small shops dotting the path. If you're in the mood for an "American Dog" (corn dog), this is the place. Otherwise you can grab a Hakone beer, or some local cider for later.
+
+{% gallery japan_hakone_owakudani %}
+us.jpg[col-md-12]: Us at Owakudani
+{% endgallery %}
+{% gallery japan_hakone_owakudani %}
+cable_car.jpg[col-md-4](col-4): This cable car connects Hakone with the next small stop where the Hakone ropeway leaves from.
+ropeway_loading.jpg[col-md-5](col-5): The ropeway had a huge line early in the morning, but went fast.
+ropeway_down.jpg[col-md-3](col-3): One ropeway takes you up to Owakudani, another takes you down to Lake Ashinoko.
+{% endgallery %}
+{% gallery japan_hakone_owakudani %}
+hot_water.jpg[col-md-3](col-3): A view of the hot water.
+adam_ropeway.jpg[col-md-5](col-5): Adam on the ropeway.
+ropeway_view.jpg[col-md-4](col-4): A view of the ropeway.
+{% endgallery %}
+{% gallery japan_hakone_owakudani %}
+marilyn_sky.jpg[col-md-12]: Marilyn taking a break from pictures.
+{% endgallery %}
+{% gallery japan_hakone_owakudani %}
+steamy.jpg[col-md-3](col-3): Steam rising from the hot water.
+cooking_eggs.jpg[col-md-4](col-4): Eggs preparing to be boiled.
+eating_eggs.jpg[col-md-5](col-5): The eggs were black after boiling, but tasted the same.
+{% endgallery %}
+
+<a id='ashinoko'></a>
+
+### Lake Ashinoko - 芦ノ湖
+
+The ropeway lets out right at Lake Ashinoko, where we jumped right on one of the two ships that traverses the lake. This picturesque but extremely crowded boat took us from the mostly uninhabited north side of the lake to the much more lively south side.
+
+Unfortunately for us, it was a cloudy day when we were there. On a good day, you can see Mt. Fuji during this trip, but we were treated with fog and chilly mountain air instead. Despite that, the lake air was refreshing, and we were at the other side before we knew it.
+
+The guide we read mentioning stopping for a quick lunch of lake smelt close by, which a number of restaurants along the lakeside serve. We found a small casual restaurant overlooking the lake and stopped in for a bite. The smelt had a similar taste to fresh fish sticks, but were tasty.
+
+{% gallery japan_hakone_ashinoko %}
+adam_ships.jpg[col-md-12]: Adam between ships.
+{% endgallery %}
+{% gallery japan_hakone_ashinoko %}
+marilyn_camera.jpg[col-md-3](col-3): Marilyn taking pictures.
+lake.jpg[col-md-5](col-5): Lake view from the ship.
+shore.jpg[col-md-4](col-4): The south shoreline of Lake Ashinoko.
+{% endgallery %}
+{% gallery japan_hakone_ashinoko %}
+adam_boat.jpg[col-md-12]: Adam out on the deck on Lake Ashinoko.
+{% endgallery %}
+{% gallery japan_hakone_ashinoko %}
+lake_boats.jpg[col-md-4](col-4):Fishermans boats.
+smelt.jpg[col-md-5](col-5):Smelt for lunch
+fisherman.jpg[col-md-3](col-3): Fisherman at Lake Ashinoko
+{% endgallery %}
+
+<a id='hakone-shrine'></a>
+
+### Hakone Jinja
+
+On the south end of Lake Ashinoko lies [Hakone Jinja](http://en.wikipedia.org/wiki/Hakone_Shrine), a small Shinto shrine with a welcoming gate you can see from the water. We made the short walk over the ship through the tall Cyprus trees to the main entrance. The Shrine is small, but was worth the visit for the path alone.
+
+We learned that the Hakone shrine is also a place for women to go to ask for a boyfriend. This might explain the groups of women we spotted in the Hakone area.
+
+{% gallery japan_hakone_jinja %}
+entrance.jpg[col-md-12]: Tall, welcoming tori.
+{% endgallery %}
+{% gallery japan_hakone_jinja %}
+path.jpg[col-md-4](col-4): The path up to the shrine.
+courtyard.jpg[col-md-5](col-5): The courtyard around the shrine
+cyprus.jpg[col-md-3](col-3): A cyprus tree.
+{% endgallery %}
+{% gallery japan_hakone_jinja %}
+fountain.jpg[col-md-6](col-6):Fountain for cleansing decorated with dragons.
+guardian.jpg[col-md-6](col-6):Moss covered guardian.
+{% endgallery %}
+
+
+<a id='day7-dinner'></a>
+
+### Saturday Dinner
+
+After a day of traveling around Hakone, we returned to our room with enough time to get in a relaxing mineral bath in our room before dinner. This meal included blowfish, something I wasn't expecting to try, but was on my bucket list while in Japan. As exotic as it was, I wouldn't order it again. It tasted like fish, but beyond that the intricacies were lost on me.
+
+{% gallery japan_hakone_saturday_dinner %}
+sat_dinner_fish.jpg[col-md-6](col-6): Succulent fish.
+sat_dinner_sushi.jpg[col-md-6](col-6): Sushi plate.
+{% endgallery %}
+{% gallery japan_hakone_saturday_dinner %}
+sat_dinner_salad.jpg[col-md-4](col-4): Seafood salad.
+sat_dinner_sushi_rolls.jpg[col-md-5](col-5): Sushi wrapped in persimmon leaves.
+sat_dinner_soup.jpg[col-md-3](col-3): Miso Soup
+{% endgallery %}
+{% gallery japan_hakone_saturday_dinner %}
+sat_dinner_tempura.jpg[col-md-3](col-3): Tempura.
+sat_dinner_crabs.jpg[col-md-5](col-5): Delicious crab with butter.
+sat_dinner_meat.jpg[col-md-4](col-4): Fresh cooked meat.
+{% endgallery %}
+{% gallery japan_hakone_saturday_dinner %}
+sat_dinner_blowfish.jpg[col-md-6](col-6): Blowfish and tofu.
+sat_dinner_dessert.jpg[col-md-6](col-6): A sakura jelly and fresh fruit.
+{% endgallery %}
+
+<a id='day8'></a>
+
+## Day 8: Hakone &amp; Tokyo
+
+We left the ryokan and traveled to Tokyo.
+
+<a id='day8-breakfast'></a>
+
+### Sunday Breakfast
+
+Our last meal at the ryokan was breakfast on Sunday morning. It was raining out, so we took our time eating before checking out.
+
+{% gallery japan_hakone_sunday_breakfast %}
+sun_adam_eating.jpg[col-md-6](col-6): Adam eating breakfast.
+sun_marilyn_eating.jpg[col-md-6](col-6): Marilyn eating breakfast.
+{% endgallery %}
+{% gallery japan_hakone_sunday_breakfast %}
+sun_salad.jpg[col-md-3](col-3): Morning salad.
+sun_soup.jpg[col-md-5](col-5): Crab miso soup.
+sun_omlet.jpg[col-md-4](col-4): This omlet was a foot long.
+{% endgallery %}
+{% gallery japan_hakone_sunday_breakfast %}
+sun_fish.jpg[col-md-6](col-6): Another delicious, crunchy, whole fish.
+sun_sampler.jpg[col-md-6](col-6): A sampler of a few things.
+{% endgallery %}
+
+<a id='to-tokyo'></a>
+
+### To Tokyo! - 東京
+
+We checked out and our trek to Tokyo began! From Hakone, we grabbed a bus from in front of our hotel all the way down to Odawara station. The bus route is less scenic than the rail route, but its also a straight shot that takes you from the hotel straight to the Shinkansen station. The trip takes just as long, but you don't have to transfer from bus to train to other train.
+
+We made it to Tokyo and opted to take a cab from the station to the hotel. As much as I love the subway/rail system in Japan, when we can spend an extra $2 and get a cab (and have bags!) why not? We checked into our hotel early -- around 1pm and liked what we saw. Our hotel was in the Meguro district, a mostly residential area south of Shibuya with a number of universities in the area. It turned out to be a good jumping off point for our Tokyo explorations.
+
+{% gallery japan_to_tokyo %}
+hotel_front.jpg[col-md-12]: A beautiful cherry blossom in front of our hotel.
+{% endgallery %}
+{% gallery japan_to_tokyo %}
+bed.jpg[col-md-4](col-4): Our room was big, but not designed for 2 people.
+hotel_outside.jpg[col-md-5](col-5): A view of the hotel from the side.
+hallway.jpg[col-md-3](col-3): The hallway to our room. What kind of hotel room has a hallway?
+{% endgallery %}
+
+<a id='#exploring-shibuya'></a>
+
+### Exploring Shibuya to Harajuku - 渋谷区
+
+After getting off our feet for a while, we jumped on the hotel shuttle to the Meguro JR Rail station and headed north to Shibuya. If you have a JR pass, you can use that on the [Yamanote Line](http://en.wikipedia.org/wiki/Yamanote_Line), a popular rail route that runs in a loop around Tokyo. It hits many of the major sites including Shibuya, Harajuku, Shinjuku, Ueno Park and Akihabara.
+
+We exited the station and, for some reason, decided to head south. Turns out everything is north of the station. Despite that we did see a beautiful street before turning around.
+
+We wandered north and walked through the busy Shibya crossing intersection. Past that we walked through one of the 7 story malls in the area before realizing the target was a much younger audience. We stumbled into a hole in the wall ramen shop for some more Hokkaido style ramen and beer. After eating, we went back to the Starbucks at the crossing in order to get a good viewing spot. To our surprise, we spotted Julius from [Droolius](http://droolius.com/) two spots in front of us in line! Running into someone we knew from Orlando in the busiest intersection in the world was pretty amazing.
+
+After touching base and making some plans, we grabbed a green tea and a cherry blossom donut from Krispy Kreme and headed north to Harajuku. The shopping side of that district was closing as we were getting there, limiting our options for the night.
+
+{% gallery japan_tokyo_exploring_shibuya %}
+south_shibuya.jpg[col-md-12]: A cherry blossom lined street in South Shibuya.
+{% endgallery %}
+{% gallery japan_tokyo_exploring_shibuya %}
+ramen-marilyn.jpg[col-md-4](col-4): A huge bowl of ramen.
+ramen.jpg[col-md-5](col-5): Marilyn getting ready for some Hokkaido style ramen.
+harajuku.jpg[col-md-3](col-3): The streets of Harajuku.
+{% endgallery %}
+{% gallery japan_tokyo_exploring_shibuya %}
+green_tea_donut.jpg[col-md-6](col-6): Green tea donut from Krispy Kreme.
+cherry_blossom_donut.jpg[col-md-6](col-6): Cherry Blossom donut from Krispy Kreme.
+{% endgallery %}
+
+<a id='day9'></a>
+
+## Day 9: Harajuku &amp; Shinjuku
+
+We started the day right where we left off -- 3 Yamanote line stops up from our hotel in Harajuku. The area is a lot more lively during the day since it is mostly for shopping and closes down by 8pm.
+
+<a id='harajuku'></a>
+
+### The Feel Harajuku - 原宿
+
+On the walk over we passed by all the typical high end clothing stores you would imagine. Each with their own intricately designed buildings to draw attention. Walking the main streets you might think this is all there is the Harajuku.
+
+We were on a mission to meet up Koichi, one of Marilyn's coworkers from [Booking.com](http://booking.com). We found their location above an Armani Cafe (Armani has cafes?) and got a quick tour of their office. Not a bad location, and on a clear day you could see Mt. Fuji.
+
+We grabbed lunch -- a [Tonkatsu](http://en.wikipedia.org/wiki/Tonkatsu) place close by. Throughout the trip we confused Tonkatsu (breaded, fried pork cutlet) and Tonkotsu (a cloudy, ramen broth). The Tonkatsu was served with a bed of cabbage, which seemed like an odd pairing. The spicy mustard that came with it, along with barbecue sause and curry made for a warm and hearty lunch.
+
+When we pressed the group for things to do in Harajuku a few suggestions came out: try a crêpe, see Yogogi Park and visit the Meiji Shrine. All were within walking distance, so we set out for them next.
+
+{% gallery japan_harajuku %}
+harajuku.jpg[col-md-12]: A busy pedestrian street.
+{% endgallery %}
+{% gallery japan_harajuku %}
+mall_garden.jpg[col-md-3](col-3): A shiny mall entrance and rooftop garden.
+coffee.jpg[col-md-4](col-4): Koichi showing off the coffee maker
+tontatsu.jpg[col-md-5](col-5): Delicious Tonkatsu curry.
+{% endgallery %}
+{% gallery japan_harajuku %}
+crepe.jpg[col-md-12]: Delicious crepes, worth the wait.
+{% endgallery %}
+{% gallery japan_harajuku %}
+group.jpg[col-md-5](col-5): The lunch group!
+booking.jpg[col-md-3](col-3): Booking.com office.
+adam_crepe.jpg[col-md-4](col-4): Adam eating his crepe.
+{% endgallery %}
+
+<a id='yoyogi'></a>
+
+### Yoyogi Park &amp; Meiji Shrine - 代々木公園
+
+Yoyogi Park is a huge park that skirts the Harajuku district all the way up to Shinjuku. When you enter it off the main area, there are very large set paths to walk, and no cars allowed. The park is known for it's interesting fashion scene which hangs out on the bridge from Harajuku on sundays. 
+
+We walked up some side streets to the park and shrine itself, entering through the north entrance. The [Meiji Shrine](http://en.wikipedia.org/wiki/Meiji_Shrine) resides on that side of the park, and was built in the 1920s -- a full millennium after some of the other shrines we visited.
+
+The shrine itself was less visually amazing than others like [Fushimi Inari](#fushimi-inari) or [Kasuga Taisha](#kasuga), but stands in stark contrast to the surrounding city. The shrine itself was much more open than others we'd visited, and could no doubt support the large population of Tokyo that visits.
+
+{% gallery japan_meiji_shrine %}
+torii.jpg[col-md-12]: Entrance to the Meiji Shrine
+{%endgallery%}
+{% gallery japan_meiji_shrine %}
+shiny.jpg[col-md-4](col-4): These dotted the path to the shrine.
+flowers.jpg[col-md-3](col-3): Wild flowers on the side of the road.
+entrance.jpg[col-md-5](col-5): Entrance to shrine itself.
+{%endgallery%}
+{% gallery japan_meiji_shrine %}
+blossom.jpg[col-md-6](col-6): Cherry blossoms in bloom.
+courtyard.jpg[col-md-6](col-6): The courtyard of the shrine.
+{%endgallery%}
+{% gallery japan_meiji_shrine %}
+old_and_new.jpg[col-md-4](col-4): Old shrine and new buildings.
+hallway.jpg[col-md-5](col-5): Hallways at the shrine.
+prayers.jpg[col-md-3](col-3): Some prayers.
+{%endgallery%}
+
+
+#### Park Hyatt Hotel
+
+We realized we were within walking distance of the [Park Hyatt Tokyo](http://tokyo.park.hyatt.com/en/hotel/home.html), the hotel made famous in [Lost In Translation](http://www.imdb.com/title/tt0335266/). Having seen that movie more times than I can count, this was a good chance to see the amazing view in person.
+
+Finding it was a little odd. The lobby for it is actually on the 37th floor of the Shinjuku Park Tower building, and takes up the top 14 floors. The top floor is the New York Bar &amp; Grill -- the hotel bar used in the movie. After 8pm this bar charges a $20 cover. We stopped by before sunset and were able to enjoy a cocktail before then. I ordered a cocktail with a sake base, optimistic they might do something interesting with it. Unfortunately what came out was a tiny, weak pink drink which I could have finished in a single sip. Marilyn's was much better, but the $18 drinks prices are justified by the view more than the taste.
+
+{% gallery japan_park_hyatt %}
+menus.jpg[col-md-12]: Sitting down for cocktails.
+{% endgallery %}
+{% gallery japan_park_hyatt %}
+adam.jpg[col-md-5](col-5): Adam with a cocktail.
+view3.jpg[col-md-3](col-3): View from up top.
+cocktail.jpg[col-md-4](col-4): Marilyns cocktail.
+{% endgallery %}
+{% gallery japan_park_hyatt %}
+view4.jpg[col-md-4](col-4): Park view.
+view2.jpg[col-md-3](col-3): Twin points.
+us.jpg[col-md-5](col-5): Us with the view.
+{% endgallery %}
+
+<a id='izakaya'></a>
+
+### An Izakaya Visit - 居酒屋
+
+After stopping by the hotel to change, we headed out for dinner in Shinjuku with Koichi. We were initially thinking about trying a shabu-shabu place, but ended up a izakaya. Izakaya are the equivalent of pubs in the US, but if they had sushi that was on par with a sushi restaurant on the beach.
+
+Drinks here, and at every place we visited were extremely limited. Most places only carry one type of beer - usually Sapporo, Kirin or Asashi. The place we visited was a Sapporo place, but also had some sake and sake cocktails with fresh grapefruit.
+
+Expecting pub fare, we were amazed at the quality and freshness of what we tried. This included a fresh sashimi plate, gyoza, lightly cooked mini octopus, pork skewers, tofu and a tuna bowl. This plus all the beer we could drink was under $30 each. The cost of just the sashimi in the US would've been more than that.
+
+{% gallery japan_izakaya %}
+streets.jpg[col-md-12]: The busy streets of Shinjuku.
+{% endgallery %}
+
+<a id='day10'></a>
+
+## Day 10: Ueno Park &amp; Akihabara
+
+We missed the cherry blossom bloom in Kyoto, but were lucky enough to catch them in Tokyo where is happens slightly earlier. We seized the chance to visit [Ueno Park](http://en.wikipedia.org/wiki/Ueno_Park), a large public park in Tokyo.
+
+<a id='ueno'></a>
+
+### Ueno Park - 上野公園
+
+On the opposite side of Tokyo as we were staying (as far as the Yamanote line goes) is Ueno Park. It's not as dense with trees and shade as Yoyogi park, but is famous for its hundres of cherry blossoms that line the paths.
+
+We took the train down, expecting a crowd, but the actual crowd was incredible! It was shoulder to shoulder throughout the park. With rain expected for the rest of the week, and the cherry blossom season already short, everyone was taking advantage of the clear day. The amount of blossoms was amazing at this park -- turning the entire field of view white with blooms.
+
+{% gallery japan_ueno %}
+blossom_boats.jpg[col-md-12]:Cherry Blossoms and swan boats.
+{% endgallery %}
+{% gallery japan_ueno %}
+us.jpg[col-md-6](col-6): Us with the blossoms.
+lake.jpg[col-md-6](col-6): View of the lake.
+{% endgallery %}
+{% gallery japan_ueno %}
+blossom.jpg[col-md-4](col-4): Blossoms
+tori.jpg[col-md-5](col-5):Gate with blossoms.
+blossoms2.jpg[col-md-3](col-3): Blossoms
+{% endgallery %}
+{% gallery japan_ueno %}
+birds.jpg[col-md-12]: Feeding the birds.
+{% endgallery %}
+{% gallery japan_ueno %}
+lunch.jpg[col-md-6](col-6):Business men and women out for lunch.
+shrine.jpg[col-md-6](col-6):View of the shrine and stands
+{% endgallery %}
+{% gallery japan_ueno %}
+rose.jpg[col-md-4](col-4): Rose bush.
+blossoms.jpg[col-md-4](col-4): Blossoms
+boat.jpg[col-md-4](col-4): Boats
+{% endgallery %}
+{% gallery japan_ueno %}
+blossoms3.jpg[col-md-6](col-6):Blossoms
+boats.jpg[col-md-6](col-6):Boats
+{% endgallery %}
+
+There were street vendors with all variety of food next to business men and women taking their lunch breaks. We tried a number of treats including a pork skewer, a chocolate covered banana, some fried chicken and some beer to wash it down. This was more comfort food than exploration, but hit the spot.
+
+{% gallery japan_ueno %}
+octopus.jpg[col-md-12]: Octopus.
+{% endgallery %}
+{% gallery japan_ueno %}
+marilyn_skewer.jpg[col-md-6](col-6): Marilyn with a skewer.
+fish2.jpg[col-md-6](col-6): Fish cooking.
+{% endgallery %}
+{% gallery japan_ueno %}
+tempura.jpg[col-md-4](col-4): Tempura.
+banana.jpg[col-md-3](col-3): Bananas.
+scallops.jpg[col-md-5](col-5): Scallops.
+{% endgallery %}
+{% gallery japan_ueno %}
+rice.jpg[col-md-5](col-5): Rice
+skewer.jpg[col-md-4](col-4): Pork skewers.
+fried_chicken.jpg[col-md-3](col-3): Friend chicken
+{% endgallery %}
+
+
+<a id='akihabara'></a>
+
+### Akihabara - 秋葉原
+
+One train stop down from Ueno Park is [Akihabara](http://en.wikipedia.org/wiki/Akihabara), the center of otaku culture in Japan. The area is famous for its multiple large arcades (some 6 floors), video and anime stores as well as electronics galore.
+
+Without a goal in mind, we started browsing stores that looked interesting. On a given street we'd see stores at street level, as well as a stairs up to others hidden away. We wandered through an arcade watching people play games I'd never seen before. Looked through a few game and figurine stores at characters both muscular and skimpy and eventually headed out.
+
+Akihabara was one of the few let downs of the trip. I imagine 15-years-ago-me would've enjoyed it more, but today-me was more concerned about the maid cafe hostesses being harassed in the streets. Oh yeah, there are a lot of maid cafes there.
+
+{% gallery japan_akihabara %}
+akihabara.jpg[col-md-12]: Streets of Akihabara
+{% endgallery %}
+{% gallery japan_akihabara %}
+akihabara_station.jpg[col-md-4](col-4): Akibarahara Station.
+sega.jpg[col-md-5](col-5): Sega Arcade.
+akihabara_station_marilyn.jpg[col-md-3](col-3): Akibarahara Station.
+{% endgallery %}
+{% gallery japan_akihabara %}
+noodles.jpg[col-md-3](col-3):Cup of noodles vending machine in an arcade.
+akihabara_streets.jpg[col-md-5](col-5):Streets of Akihabara
+gundam_cafe.jpg[col-md-4](col-4): Gundam Cafe
+{% endgallery %}
+
+
+<a href='cocktails'></a>
+
+### Cocktails at Bar Ishinohana
+
+Not wanting to leave Tokyo without trying some classic cocktails, we stopped by [Ishino Hana Bar](http://ishinohana.com/en/), a small classic cocktail bar in south Shibuya. We'd end up stopping by again the next night with some friends, eventually trying out 7 cocktails between the two of us. Our of those about 3 were amazing -- including the Kurosawa, a whiskey cocktail I reordered the next night. 
+
+We also stopped by [Goodbeer Faucets](http://goodbeerfaucets.jp/) in the same part of town. This small pub catered more to the English crowd, but had the largest selection of Japanese beers of any place we came across on our trip.
+
+{% gallery japan_cocktails %}
+kurosawa.jpg[col-md-6](resized): Kurosawa
+green_tea.jpg[col-md-6](resized): Green Tea cocktail with gold leaf.
+{% endgallery %}
+{% gallery japan_cocktails %}
+cheese.jpg[col-md-3](col-3): Cheese plate from Ishino Hana Bar.
+goodbeer_faucets.jpg[col-md-5](col-5): Goodbeer faucets.
+indoor.jpg[col-md-4](col-4): The bar at Goodbeer faucets.
+{% endgallery %}
+
+
+<a id='day11'></a>
+
+## Day 11: Ghibli Museum - 三鷹の森ジブリ美術館
+
+When we decided to go to Japan, the first thought wasn't "when?", "how much?" or "where?" but "We have to go to the Ghibli Museum!". Even if the Akihabara district was a let down, the Ghibli museum ended up going beyond our expectations.
+
+As much I'd love to write about the experience, one of the highlights of the experience is the feeling of childlike exploration you get going through the disorganized museum. If you do want to go, I recommend doing as little research as possible. We made our way through the entire place twice, gawking at the smallest details.
+
+If you do want to go to the museum, you'll need to make reservations ahead of time -- up to 3 months. When you show up, you'll exchange your voucher for a real ticket, granting you access. The ticket itself is a cell from a Ghibli movie -- mine was Ponyo eating ramen!
+
+To keep the experience personal, no pictures are allowed inside. The only pictures spots are the roof, where a giant Robot Soldier stands, and the outside cafe. The cafe had one of the best beers we'd tried, as well as some delicious ice cream.
+
+In terms of souvenirs, there aren't many places that I'll fork over cash at. The gift shop to the museum features many unique items only available there. I ended up with two shirts, some cookies, a CD, a canvas bag, some movie cells, a museum guidebook, map and even more.
+
+{% gallery japan_ghibli %}
+false_entrance.jpg[col-md-12]: The false entrance to the museum.
+{% endgallery %}
+{% gallery japan_ghibli %}
+tickets.jpg[col-md-4](col-4): Ticket instructions are strict.
+outdoors.jpg[col-md-5](col-5): View of the main museum building.
+marilyn_robot.jpg[col-md-3](col-3): Marilyn and a Robot Soldier
+{% endgallery %}
+{% gallery japan_ghibli %}
+stairs.jpg[col-md-6](resized): Stairs to the roof.
+adam_robot.jpg[col-md-6](resized): Adam and a Robot Soldier
+{% endgallery %}
+{% gallery japan_ghibli %}
+cell.jpg[col-md-12]: My ticket to the museum.
+{% endgallery %}
+{% gallery japan_ghibli %}
+levels.jpg[col-md-6](resized): Pick a level.
+reflection.jpg[col-md-6](resized): Reflection of a tree.
+{% endgallery %}
+{% gallery japan_ghibli %}
+adam_view.jpg[col-md-4](col-4): Adam enjoying the view.
+faucets.jpg[col-md-5](col-5):Even the faucets are themed.
+marilyn_ice_cream.jpg[col-md-3](col-3): Marilyn and a Ghibli beer.
+{% endgallery %}
+
+### Tonkotsu Ramen
+Afterwards we stopped by a Tonkotsu Ramen shop in Harajuku for the fattiest ramen we tried during our stay there. This place was right at the Harajuku Yamanote intersection and amazing. I felt drunk on pork fat after I left.
+
+{% gallery japan_traditional_dinner %}
+ramen1.jpg[col-md-6](col-6): Ramen + beer.
+ramen2.jpg[col-md-6](col-6): Ramen.
+{% endgallery %}
+
+<a id='traditional-dinner'></a>
+
+### A Traditional Japanese Dinner
+
+Following our amazing Ghibli museum visit, we stopped Bar Ishinohana for another drink before heading to Shibuya for a traditional Japanese dinner with friends. This was the first restaurant we visited where we needed to take off our shoes as well. 
+
+You know those restaurants where you need to sit Japanese style on the floor rather than in chairs? This was one of those. To our surprise, most places that offer this style of seating have a pit under the table for your legs should you want to sit with them down. Secrets were reveled that night!
+
+The food and drinks were also amazing, albeit in small portions. They did have a wide sake menu there and offered a tasting of 3 different sakes at a reasonable price. We decided to just order 4 tasting all with different sakes and try them all. If you can try 12 different sakes in one night, do it.
+
+{% gallery japan_traditional_dinner %}
+sake.jpg[col-md-12]:Pick a sake!
+{% endgallery %}
+{% gallery japan_traditional_dinner %}
+view.jpg[col-md-3](col-3): View from my seat on the roof of the building.
+uni.jpg[col-md-4](col-4): Creamy uni.
+fish.jpg[col-md-5](col-5): Delicious snapper.
+{% endgallery %}
+{% gallery japan_traditional_dinner %}
+dessert1.jpg[col-md-4](col-4): Ice cream, puffed rice and more.
+dessert2.jpg[col-md-4](col-4): Delicious dessert.
+bathroom.jpg[col-md-4](col-4): Use their slippers to go to the bathroom.
+{% endgallery %}
+
+<a id='day12'></a>
+
+## Day 12: Ginza, Kabuki, Iron Chef - 銀座
+
+We'd heard good things about the Ginza district, and knew we wanted to at least walk around the area some. We decided to take it a little easy on this day to recover from our late-night sake fest, and attempted to stay out of the rain.
+
+We headed to [Nihonbashi Yukari](http://nihonbashi-yukari.com/) for an early lunch, a restaurant on the north side of the Ginza district, by a chef what won multiple times as a challenger on Iron Chef including the 2002 tournament. The restaurant has opted out of the Michelin program, although many think it would well be deserving of a star or two. We scheduled our reservation through the very helpful concierge at our hotel and when we walked through the door, wondering if I was in the correct place, all I heard was "Adam-san!?".
+
+The meal was delicious - and one of the more memorable meals outside of our ryokan. An egg custard appetizer, followed by a sashimi and tempura (or pork belly) main plate, accompanied by soup and followed by a house made ice cream. Not a bad lunch at $30.00. 
+
+{% gallery japan_day12 %}
+sashimi.jpg[col-md-4](col-4): Sashimi
+lunch.jpg[col-md-5](col-5): Lunch
+tempura.jpg[col-md-3](col-3): Tempura
+{% endgallery %}
+
+<a id='ginza'></a>
+
+### The Luxurious Ginza District
+
+If you could make the Mall at Millenia (Orlando Mall famous for its high end brands) into a district, you'd get Ginza. Walking down the street you see all the big name stores you'd image Apple plus every purse/bag/watch manufacturer. Aside from walking through the Apple store and browsing a floor of a mall in the area, we weren't too interested in the area. The rain might've dampened our spirits, but at least it drove us to the south end of Ginza for our next stop -- a kabuki show.
+
+<a id='kabuki'></a>
+
+### A Traditional Kabuki Show - 歌舞伎
+
+I've seen a number of live performances, but the format of [Kabuki](http://en.wikipedia.org/wiki/Kabuki) was new to me. First off, what is Kabuki? It's classical Japanese drama, performed entirely by men. An entire Kabuki show typically includes 3 acts and takes upwards of 3 hours (including breaks). If you're only interested in a single act, you can acquire a single act ticket, which allows you an unspecified seat at a specific show. Full tickets to a show might start at $40, while single act tickets are closer to $12 a person.
+
+When you get a single act ticket, you'll receive a ticket number. Just before the showing, you'll line up by your ticket number (think Southwest Air) then be let into a small balcony in the theater for people to grab the best seats they can.
+
+The show we ended up seeing focused around political intrigue and would be too difficult to explain without a few paragraphs. What hit me most about it was the very slow pace of the storytelling. At 90 minutes it was a long show for containing only 3 separate scenes. The story and acting kept us interested, but by the end I was straining to stay focused.
+
+For $5 you can buy an audio commentary which was well worth it. It isn't a translation of what is being said, but more a way to follow along the high level points and explain the motivations of the individual characters.
+
+{% gallery japan_day12 %}
+kabuki.jpg[col-md-12]: Seats at the show.
+{% endgallery %}
+
+<a id='day13'></a>
+
+## Day 13: Tsukiji Fish Market, Robot Restaurant
+
+The Tsukiji Fish Market is most famous for its tuna auction, held every morning around 6am. Beyond that though is a thriving fish and goods market that stretches about 5 blocks by 3 blocks.
+
+<a id='tsukiji'></a>
+
+### Tsukiji Fish Market - 築地
+
+We weren't planning on heading to the tuna auction, so we woke up late (7:30) and headed over to the market for some breakfast sushi. The most popular sushi places have a 2-3+ hour wait, so we headed to one on the same block that was more in the 15 minute range. We had a delicious omakase breakfast including sea urchin, fatty tuna and enough others to (mostly) fill us up.
+
+Afterwards we wandered around the market checking out the various goods there. We had hoped to see the wholesale market too -- the one famous for its fresh fish, but we only skirted the edges of it rather than be run over by the dozens of carts. Outside in the public market, one place was cooking scallops and serving them there, which were delicious. Another was shucking some of the hugest oysters I've ever tried and serving them raw. We're talking 3 bite oysters here.
+
+Other than that there were restaurants for most Japanese cuisine. Unlike Ueno Park, there wasn't street food but instead small counter restaurants. After seeing a number of markets in Kyoto, this wasn't as amazing at it probably would've been had it been the first. There was more focus on seafood, of course, but one can only eat so much.
+
+{% gallery japan_tsukiji %}
+fresh_sushi.jpg[col-md-12]:Omakasu sushi.
+{% endgallery %}
+{% gallery japan_tsukiji %}
+phone_booth.jpg[col-md-3](col-3):A phone booth.
+lines.jpg[col-md-5](col-5):Lines to all of the sushi shops.
+shrine.jpg[col-md-4](col-4):Shine nestled in the fish market.
+{% endgallery %}
+{% gallery japan_tsukiji %}
+oyster.jpg[col-md-5](col-5):Largest oyster I've ever seen.
+fresh_oysters.jpg[col-md-4](col-4):Some fresh oysters from the market.
+pigeon.jpg[col-md-3](col-3):Pigeon sign.
+{% endgallery %}
+{% gallery japan_tsukiji %}
+fish_head.jpg[col-md-4](col-4):2 foot large fish head.
+goods.jpg[col-md-4](col-4):Pickeles and other things for sale.
+desserts.jpg[col-md-4](col-4):Various desserts for sale.
+{% endgallery %}
+
+<a id='robot'></a>
+
+### Robot Restaurant
+
+When it comes to the crazy side of Japan, we knew we wanted to do something. We'd seen shrines and a lot of natural beauty, but nothing on the cheesy side -- and that's what Robot Restaurant is.
+
+Nestled in a district filled with love hotels, Robot Restaurant is what Americans think Japanese entertainment should be. [Teppanyaki](http://en.wikipedia.org/wiki/Teppanyaki), the Japanese style of food where a chef grills your food right in front of you, was started in the 1940s to introduce foreigners to Japanese style food in a non-intimidating manner. We felt this show had a similar goal of catering to foreigners.
+
+The show itself was... interesting. The amount of lights, loud sounds and scantily clad women was more than I could have imagined. What kind of show was it? It started with 12 women taiko drumming, followed by my favorite song from Nausicaa being sung, followed by robot battles and dancing thown in.
+
+If you go, I recommend drinking heavily -- you'll enjoy it more that way.
+
+{% gallery japan_robot_restaurant %}
+finale.jpg[col-12]: Part of the finale.
+{% endgallery %}
+{% gallery japan_robot_restaurant %}
+adam.jpg[col-md-6](col-6):Adan looking confused.
+entrance.jpg[col-md-6](col-6):The entrance to the restaurant.
+{% endgallery %}
+{% gallery japan_robot_restaurant %}
+robot_horse.jpg[col-md-5](col-5):Robots and a horse.
+drums.jpg[col-md-3](col-3):two groups like this were playing drums on separate platforms.
+adam_marilyn.jpg[col-md-4](col-4):We got glowsticks.
+{% endgallery %}
+{% gallery japan_robot_restaurant %}
+path.jpg[col-md-12]:The walk down to the show.
+{% endgallery %}
+{% gallery japan_robot_restaurant %}
+robot_lights.jpg[col-md-4](col-4):Robots and lights.
+not_sure.jpg[col-md-4](col-4):I have no idea what was going on here.
+piano.jpg[col-md-4](col-4):This guy was playing the piano.
+{% endgallery %}
+
+<a id='day14'></a>
+
+## Day 14: Back to Orlando!
+
+
+Even though we were set to leave on this day (Saturday), our flight wouldn't leave until midnight, leaving the entire day open for exploration. We decided to take it easy, staying somewhat close to the hotel where our bags were stashed.
+
+<a id='ippudo'></a>
+
+### Ippudo Ramen - 博多一風堂
+
+One place I absolutely wanted to go to while in Japan was to an [Ippudo Ramen](http://en.wikipedia.org/wiki/Ippudo), a Japanese ramen chain that has spread to New York, China and elsewhere.
+
+Famous for its Hokkaido style ramen, our meal was delicious and fresh. Coming in on a Saturday morning in the Ebisu district, we were surrounded by families out for a well priced lunch sitting alongside businessmen stopping in for lunch at the counter.
+
+I'd like to say I have a good idea of which ramen we had was the best on our trip, but in all honestly they were all delicious. The Tonkotsu was surely the most fatty and difficult to digest, but all were satisfying. 
+
+{% gallery japan_day14 %}
+ramen.jpg[col-md-12]:Delicious ramen.
+{% endgallery %}
+{% gallery japan_day14 %}
+sides.jpg[col-md-4](col-4):Fresh garlic at your table.
+takoyaki.jpg[col-md-4](col-4):Finally tried some takoyaki.
+streets.jpg[col-md-4](col-4):A school that Marilyn confused with a prison.
+{% endgallery %}
+
+### The Flight
+
+At midnight we took off back for Orlando, saying goodbye to Tokyo and Japan.
+
+{% gallery japan_day14 %}
+adam.jpg[col-md-12]:Adam ready to go home.
+{% endgallery %}
+
+## Recommendations
+
+On our way home we were discussing what things were absolute musts if someone visits Japan. Here's the list Marilyn and I came up with:
+
+* If you're a Ghibli fan, go to the Ghibli museum. This isn't even a question.
+* Stay at a ryokan, specially one with a hot mineral bath in your room and half board (breakfast + dinner).
+* See Nara. There's plenty to do to spend a day there.
+* Explore Harajuku. Between the eclectic stores, Yoyogi park, the Meiji shrine and delicious food, this was our favorite area in Tokyo.
+
+## Credits
+
+Most of the photos here were taken by [Marilyn](https://twitter.com/mismamari), and came out better than my iPhone photos. Some are iPhone photos, but at fullsize, the differnce is obvious between a DSLR and an iPhone.
+
+Some of the format of this post was inspired by [Paul Stamatiou's](http://paulstamatiou.com/photos/japan/two-weeks-in-japan/) photo post about Japan.

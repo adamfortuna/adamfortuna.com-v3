@@ -1,7 +1,7 @@
 <article>
   <header>
     <div class='container'>
-      <div class='col-md-10 col-md-offset-2'>
+      <div class='col-md-12'>
         <h1 class="title">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
@@ -9,25 +9,19 @@
       </div>
     </div>
   </header>
+
   <div class='container content'>
-    <section class='col-md-7 col-md-offset-2'>    
-      {% if single_page or postNumber == 0 %}
-        {% include post/author.html %}
-      {% endif %}
+    <section class='col-md-12'>
       <div class='post-content'>
         {% if single_page %}
+          {{ content }}
+
           {% if single_page and post.sharing %}
             {% include post/share.html %}
           {% endif %}
 
         {% else %}
-          {{ post.content | excerpt }}
-          {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-          {% if excerpted %}
-            <footer>
-              <a rel="full-article" href="{{ post.url }}">{{ site.excerpt_link }}</a>
-            </footer>
-          {% endif %}
+          {{ post.content }}
         {% endif %}
       </div>
     </section>
@@ -36,7 +30,7 @@
   {% if single_page and post.comments %}
     <div class='comments' id='comments'>
       <div class='container'>
-        <section class='col-md-7 col-md-offset-2'>
+        <section class='col-md-12'>
           <h2>Comments</h2>
           <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
         </section>

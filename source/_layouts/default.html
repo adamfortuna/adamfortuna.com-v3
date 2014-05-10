@@ -1,6 +1,6 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
-<body class="{% if page.title %}post{% else %}home{% endif %}">
+<body class="{% if page.title %}post {{page.bodyClass}}{% else %}home{% endif %}" {% if page.loadOptions %}{{page.loadOptions}}{% endif %}>
 
 <div id='wrap'>
 {% include header.html %}
