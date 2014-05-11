@@ -16,6 +16,8 @@
       {% endif %}
       <div class='post-content'>
         {% if single_page %}
+          {{ content }}
+
           {% if single_page and post.sharing %}
             {% include post/share.html %}
           {% endif %}

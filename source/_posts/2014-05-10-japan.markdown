@@ -1,12 +1,14 @@
 ---
 layout: images
 title: Adam & Marilyn go to Japan
-date: 2014-05-11 10:07
+date: 2014-05-10 10:07
 comments: true
 id: japan
 header: image
 loadOptions: 'data-spy="scroll" data-target=".toc"'
 bodyClass: image-post
+tags:
+  - travel
 runAfter: >
   (function($) {
     //$('nav.toc').affix({
@@ -30,11 +32,11 @@ runAfter: >
         }
       }
     });
-    //$('.lazy img').unveil(3000, function() {
-    //  $(this).load(function() {
-    //    $(this).closest('.lazy').removeClass('.lazy');
-    //  });
-    //});
+    $('.lazy img').unveil(2000, function() {
+      $(this).load(function() {
+        $(this).closest('.lazy').removeClass('.lazy');
+      });
+    });
   })($);
 ---
 
@@ -260,17 +262,17 @@ This tour took us outside of downtown Kyoto to areas tourists wouldn't normally 
   tempura.jpg[col-md-12]: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
 {% endgallery %}
 {% gallery japan_food_tour %}
-  sweet_potato_pancake.jpg[col-md-3](col-3): I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
+  croquette.jpg[col-md-3](col-3): Freshly fried croquette. I chose squash as my flavor.
   tempura_stand.jpg[col-md-5](col-5): A view of the tempura stand. Alone on a street with a small crowd.
-  croquette.jpg[col-md-4](col-4): Freshly fried croquette. I chose squash as my flavor.
+  bonito.jpg[col-md-4](col-4): Bonito (dried, fermented fish) at a bonito store.
 {% endgallery %}
 {% gallery japan_food_tour %}
   pancackes_and_takoyaki.jpg[col-md-12]: Freshly made stuffed pancakes and takoyaki.
 {% endgallery %}
 {% gallery japan_food_tour %}
-  bonito.jpg[col-md-4](col-4): Bonito (dried, fermented fish) at a bonito store.
   30_watermelon.jpg[col-md-4](col-4): $30 for a watermelon seems a bit expensive.
-  sampler_plate.jpg[col-md-4](col-4): A sampler plate of various Japanese staples.
+  sampler_plate.jpg[col-md-5](col-5): A sampler plate of various Japanese staples.
+  sweet_potato_pancake.jpg[col-md-3](col-3): I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
 {% endgallery %}
 {% gallery japan_food_tour %}
   egg_stuffed_with_eel.jpg[col-md-6](col-6): Egg omlet stuffed with eel.

@@ -10,7 +10,7 @@ module Jekyll
     def render(context)
       content = super
       lines = content.strip.split("\n").compact.map(&:strip)
-      root_url = "http://localhost:4001"
+      root_url = "http://s.adamfortuna.com"
 
       dimensions = {
         'col-3' => { width: 244, height: 293, small: 'col-sm-3 col-xs-12' },
@@ -27,7 +27,7 @@ module Jekyll
         if /(?<filename>[^\[\]:]+)(?:\[(?<className>\S*)\])?(?:\((?<version>\S*)\))?(?::(?<title>.*))?/ =~ line
           version ||= 'resized'
 
-          "<li class='#{className} #{dimensions[version][:small]}'><a href='#{root_url}/images/galleries/#{@gallery}/#{filename}' class='fancybox' data-fancybox-group='#{@gallery}' title='#{title.strip}'><img data-placeholder='/images/placeholder.gif' src='#{root_url}/images/galleries/#{@gallery}/#{version}/#{filename}' /></a></li>"
+          "<li class='#{className} #{dimensions[version][:small]} lazy'><a href='#{root_url}/images/galleries/#{@gallery}/#{filename}' class='fancybox' data-fancybox-group='#{@gallery}' title='#{title.strip}'><img src='/images/placeholder.gif' data-src='#{root_url}/images/galleries/#{@gallery}/#{version}/#{filename}' /></a></li>"
         end
       end
 
