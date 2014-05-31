@@ -572,8 +572,8 @@ App.Book.FIXTURES = [
     title: 'Mistborn: The Well of Ascension (Book 2)',
     author: 'Brandon Sanderson',
     started_at: new Date('1/28/2014'),
-    finished_at: null,
-    rating: 0,
+    finished_at: new Date('2/18/2014'),
+    rating: 4,
     genres: [100],
     amazon_id: '0765356139',
     isAudiobook: true
@@ -582,11 +582,44 @@ App.Book.FIXTURES = [
     id: 49,
     title: 'Mistborn: The Hero of Ages (Book 3)',
     author: 'Brandon Sanderson',
-    started_at: null,
-    finished_at: null,
-    rating: 0,
+    started_at: new Date('2/18/2014'),
+    finished_at: new Date('4/11/2014'),
+    rating: 3,
     genres: [100],
     amazon_id: '0765356147',
+    isAudiobook: true
+  },
+  {
+    id: 50,
+    title: 'The Way of Kings (The Stormlight Archive, Book 1)',
+    author: 'Brandon Sanderson',
+    started_at: new Date('4/12/2014'),
+    finished_at: new Date('5/12/2014'),
+    rating: 4,
+    genres: [100],
+    amazon_id: '0765365278',
+    isAudiobook: true
+  },
+  {
+    id: 51,
+    title: 'Words of Radiance (The Stormlight Archive, Book 2)',
+    author: 'Brandon Sanderson',
+    started_at: new Date('5/12/2014'),
+    finished_at: null,
+    rating: 3,
+    genres: [100],
+    amazon_id: '0765326361',
+    isAudiobook: true
+  },
+  {
+    id: 52,
+    title: 'A New Culture of Learning: Cultivating the Imagination for a World of Constant Change',
+    author: 'Douglas Thomas, John Seely Brown',
+    started_at: new Date('5/27/2014'),
+    finished_at: new Date('5/27/2014'),
+    rating: 2,
+    genres: [103],
+    amazon_id: '1456458884',
     isAudiobook: true
   }
 ];

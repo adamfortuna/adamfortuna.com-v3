@@ -5,6 +5,8 @@ date: 2013-09-14 21:55
 comments: false
 sharing: true
 footer: true
+runAfter: >
+  <script src="/javascripts/books-min.js"></script>
 ---
 
 {% raw %}
@@ -118,13 +120,4 @@ footer: true
 <script type='text/x-handlebars' data-template-name='components/book-genre'>
 {{#link-to 'genre' genre class='label label-primary'}}{{genre.name}}{{/link-to}}
 </script>
-
-<script src="/javascripts/lib/handlebars-1.0.0.js"></script>
-<script src="/javascripts/lib/ember-1.1.2.js"></script>
-<script src="/javascripts/lib/ember-data.js"></script>
-<script src="/javascripts/lib/moment.js"></script>
-<script src="/javascripts/lib/markdown.min.js"></script>
-<script src="/javascripts/app.js"></script>
-<script src="/javascripts/books.js"></script>
-
 {% endraw %}

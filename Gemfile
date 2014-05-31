@@ -20,7 +20,7 @@ group :development do
   gem 'kramdown'
   gem 'pry'
   gem 'nokogiri'
-  gem 'active_support'
+  gem 'activesupport'
 end
 
 gem 'sinatra', '~> 1.4.2'

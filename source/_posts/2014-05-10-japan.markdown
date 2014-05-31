@@ -10,6 +10,7 @@ bodyClass: image-post
 tags:
   - travel
 runAfter: >
+  <script>
   (function($) {
     //$('nav.toc').affix({
     //  offset: { top: $('nav.toc').offset().top }
@@ -38,6 +39,7 @@ runAfter: >
       });
     });
   })($);
+  </script>
 ---
 
 Back in high school, I got kind of into anime. My friends and I were the ones hanging out in anime IRC channels, and trekking across the state to conferences to meet with others of our kind. Although my love for anime isn't what it once was, and I get winded playing 9 foot songs on [Dance Dance Revolution](http://en.wikipedia.org/wiki/Dance_Dance_Revolution), that started a fascination with Japan that has stuck with me. It lead to me taking Japanese language classes in college, getting really into [Kurosawa](http://letterboxd.com/adamfortuna/list/favorite-kurosawa-movies/) and [Miyazaki](http://letterboxd.com/adamfortuna/list/favorite-miyazaki-films/) movies and wanting to someday travel there.
