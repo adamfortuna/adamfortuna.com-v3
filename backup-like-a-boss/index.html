@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Home Backup Like a Boss - Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Home Backup Like a Boss Written June 27, 2011 backup Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/backup-like-a-boss">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="post " >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  
+  
+  <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/backup-like-a-boss/">Home Backup Like a Boss</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written June 27, 2011</li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/backup/'>backup</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>After hearing about the <a href="http://5by5.tv/buildanalyze/30"><span class="caps">FBI</span> Raid on Marco Arment&#8217;s servers</a>, it got me interested in how he was doing backups. I&#8217;ve been slowly tweaking my own backup procedures over the last few years &#8212; to the point of being borderline obsessed with having local backups. A few years ago in 2002, a failing <span class="caps">SATA</span> drive containing my windows partition and all my files left me high and dry and without just about any backups of anything. This was a time before <a href="http://db.tt/ueGBRCn">Dropbox</a> and other synchronizing services had come along to make things easier, and I hadn&#8217;t taken the step on my own to make backup a priority.</p>
+<p>Two years ago when I was setting up my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">home media center</a>, I took a first stab at serious backup. Since then I&#8217;ve been gradually tweaking my system and trying new things. What follows is what worked for me.</p>
+<h3>What&#8217;s being backed up?</h3>
+<p>In this case I&#8217;m talking about a lot of data, but split over a few discreet sections:</p>
+<ul>
+	<li>Under 60 GB of photos, documents, code and general files.</li>
+	<li>About 150 GB of music, mostly ripped from my Mom&#8217;s extensive CD collection when she was a DJ, plus my iTunes downloads.</li>
+	<li>About <em>(gulp)</em> 7 TB of movies. This includes a <span class="caps">DVD</span> rip of just every movie I&#8217;ve ever bought.</li>
+	<li>3 Macs are being backed up with TimeMachine (Mac Mini and 2 MacBook Pros)</li>
+</ul>
+<p><img src="http://adamfortuna.com/media/media_center/mini-small.png" class="right" alt="" /> I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&#8217;ll be down to a &#8220;manageable&#8221; 5TB soon enough.</p>
+<h3>What Hardware is this Using?</h3>
+<ul>
+	<li>Dedicated Seagate 1TB TimeMachine Hard Drive</li>
+	<li><a href="http://www.amazon.com/Data-Robotics-FireWire-Storage-DR04DD10/dp/B001CZ9ZEE/ref=sr_1_1?ie=UTF8&amp;qid=1309218669&amp;sr=8-1&amp;tag=adamfortuna-20">4-bay <span class="caps">USB</span>/Firewire Drobo</a> with 4&#215;2TB drives (~5.6TB) connected to the MacMini</li>
+	<li><a href="http://www.amazon.com/Mediasonic-eSATA-3-5-Inch-Enclosure-HFR2-SU3S2/dp/B003YFHEAC/ref=pd_sim_e_6?tag=adamfortuna-20">4-bay MediaSonic Raid Enclosure</a> with 4&#215;1TB (~3TB) connected to the MacMini</li>
+	<li>2 x Western Digital 3TB Drive connected to the Mac Mini (used exclusively for backups).</li>
+</ul>
+<p class="center"><img src="http://adamfortuna.com/media/media_center/drobo.png" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://adamfortuna.com/media/media_center/mediasonic.png" alt="" /></p>
+<p>The Drobo and MediaSonic both can withstand a single drive failure with no data loss, which is an ideal first line of defense. I&#8217;ve heard from many reviews that the performance of the Drobo is awful, but I haven&#8217;t had too many issues. The initial load of data onto it is a long, slow, painful experience &#8212; and adding a new drive can require upwards of a day before you can use it, but for general use I haven&#8217;t had any issues.</p>
+<p>I&#8217;d consider the MediaSonic enclosure as a lower priced alternative. The downside is needing 4 drives up front, but that&#8217;s an issue you&#8217;ll encounter with any <span class="caps">RAID</span> solution. You have the option of choosing the level of Raid you want, and formatting takes only a few minutes.</p>
+<p>It&#8217;s been a a year or two since I looked into hardware, but these have both lasted well without any data loss, and without any failed drives (so far).</p>
+<h3>Software Makes it Happen</h3>
+<p>There&#8217;s a few important pieces of software that keep things in sync. In my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">previous post</a> I was using mostly cron jobs &#8211; which works, but were a little rough around the edges. Since then I&#8217;ve added a few more to the mix: <img src="http://adamfortuna.com/media/media_center/cronosync.png" class="right" alt="" /></p>
+<ul>
+	<li>TimeMachine is installed on all 3 Macs</li>
+	<li><a href="http://www.econtechnologies.com/pages/cs/chrono_overview.html">Chronosync</a> installed everywhere</li>
+	<li><a href="http://www.backblaze.com/partner/af1782">Backblaze</a> ($50/year) on Mac Mini</li>
+	<li><a href="http://db.tt/ueGBRCn">Dropbox</a> ($99/year) on laptop</li>
+</ul>
+<p>Now, if I had less than 100 GB of total data, I&#8217;d just use Dropbox and call it a day. I&#8217;d probably even enable the &#8220;Packrat&#8221; option for unlimited undo history. Even with the recent <a href="http://blog.dropbox.com/?p=821">Dropbox authentication bug</a> it&#8217;s still the best tool on the market. There are other ways to <a href="http://www.readwriteweb.com/cloud/2011/05/4-ways-to-build-your-own-dropbox.php">roll your own Dropbox</a> that may be worth checking out as well. Dropbox has the added bonus of having an <span class="caps">API</span> that other tools can interact with, that you wouldn&#8217;t get from a home rolled solution.</p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/dropbox_referral.png" alt="" /></p>
+<p>It&#8217;s also possible to increase the size of your Dropbox with referrals and other promotions they offer. My 50 GB box is up to 67.75 GB at the moment, just by taking advantage of their offer to increase the size with referrals. The additional amount of space for each referral is dependent on your pricing level, so you get more extra space for a referral when you&#8217;re on the 50 GB plan than on the free plan.</p>
+<p>Backblaze is a tool I haven&#8217;t heard much fuss about, but for me it&#8217;s been a reliable, cost efficient and effective tool in my backup strategy. The Mac app for Backblaze installs itself into your system preferences and is completely controlled from there. You can specify which folders/drives you want to keep backed up, and tweak the speed to upload.</p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/backblaze_persephone.png" alt="" /></p>
+<p>It took upwards of 3 months to upload 6 TB to Backblaze (which Brighthouse luckily didn&#8217;t have any issues with). Since then it&#8217;s stayed in sync a few days at any given time. The contents on the drive aren&#8217;t in constant flux, so often it&#8217;s updated within a few minutes. If you&#8217;re on a slow connection, this might not be possible, but <a href="http://brighthouse.com/central-florida/shop/internet/road-runner-lightning">Road Runner Lightning</a> or <span class="caps">FIOS</span> will make the process a lot smoother.</p>
+<h3>Bringing it All Together</h3>
+<p>The Drobo and Mediasonic devices serve as file storage for archived DVDs, and also store all music I&#8217;ve ever ripped/downloaded. Both devices allow for a single drive failure without the loss of data &#8211; and advantage over the standalone Western Digital 3TB drives which if they fail, all data is lost.</p>
+<h4>Time Machine</h4>
+<p><img src="http://adamfortuna.com/media/media_center/timemachine.png" class="right" alt="" /> The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a <span class="caps">USB</span> hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&#8217;t do a first backup via <span class="caps">USB</span> then plug it in there either &#8212; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
+<h4>Music</h4>
+<p>Music on my main computer isn&#8217;t backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it&#8217;ll be backed up that same day.</p>
+<p><img src="http://adamfortuna.com/media/media_center/itunes.png" class="left" alt="" /> The MediaSonic has 2 Music folders actually. It has an &#8220;In Use&#8221; folder and an &#8220;Archive&#8221; folder. The MacBook Pro music folder is mirrored to &#8220;In Use&#8221; &#8211; which is always a snapshot of what&#8217;s currently on my laptop. Later, the Mac Mini does a sync to a second &#8220;Archive&#8221; folder. This may sound redundant, but that&#8217;s because for much of the data it is.</p>
+<p>The nice part is that if I delete something from my laptop, it&#8217;ll also be deleted from the &#8220;In Use&#8221; copy, but the &#8220;Archive&#8221; folder will retain a copy. The goal of all this is that I can restore my music directly at anytime, not eat up space on the TimeMachine drive, and have an canonical archive for all music.</p>
+<h4>In-House Backups</h4>
+<p>The MediaSonic drive is synced nightly to one of the WD 3TB drives. The sizes match, so it&#8217;s a clean mirror. Chronosync handles the scheduling and syncing, keeping it easy to edit as well. 3 TB of data from the Drobo is backed up to the other MediaSonic Drive nightly as well. That leaves about 2.6 TB of data that&#8217;s not duplicated in house, but is still available on Backblaze.</p>
+<h3>The End Result</h3>
+<p>Any single hard drive or device can fail with a backup readily at hand. It&#8217;s important to not only protect against a single hard drive failure but a single device failure. Having a device like a Drobo or a Raid helps with redundancy, but it&#8217;s not a backup &#8212; if the device itself malfunctions or corrupts your data, you&#8217;re out of luck. By having a in house backup of these, I still have access to anything important at a moments notice.</p>
+<p>Setting up an offsite backup plan is annoying at first, but once it&#8217;s in place it&#8217;s a huge relief. At the moment I&#8217;m very happy with both Backblaze and Dropbox, and plan to renew both. I haven&#8217;t priced out how much it would cost to store 6 TB on S3, but I imagine it&#8217;d be below $50 a year. The nice part of Backblaze is that they can mail you hard drives loaded with your data in the event of a failure &#8212; or you can just download specific files.</p>
+<p>One obvious gap in my setup is offsite backups for my TimeMachine drive. These could be synced up with BackBlaze as well, but at the moment Backblaze requires all backed up drives to be physically connected to the machine with it installed.</p>
+<h3>What&#8217;s your Plan?</h3>
+<p>I&#8217;m always interested to see what people are doing to backup large amounts of data like this. If you&#8217;re backing up a large amount of files, or even a small amount, I&#8217;d be interested in hearing what your strategy is!</p>
+
+          
+
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

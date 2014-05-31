@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Reading List - Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Reading List {{outlet}} {{outlet 'books'}} {{render 'genres'}} {{#each filteredContent}} {{book-item book=this tagName='li' class='row book'}}
+{{/ &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/books">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="post " >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  <article>
+    <header>
+      <div class='container'>
+        <div class='col-md-7 col-md-offset-2'>
+          <h1 class="title">
+            <a href="">Reading List</a>
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <div class='container content'>
+      <section class='col-md-9 col-md-offset-2'>
+        
+
+<div id='app'></div>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='application'>
+<div class='row'>
+  <div class='col-md-10'>
+    {{outlet}}
+    {{outlet 'books'}}
+  </div>
+
+  <div class='col-md-2'>
+    <div class="list-group">
+      {{render 'genres'}}
+    </div>
+  </div>
+</div>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='books'>
+<ul class="list-unstyled books">
+{{#each filteredContent}}
+  {{book-item book=this tagName='li' class='row book'}}
+{{/each}}
+</ul>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='index'>
+  <ol class="breadcrumb">
+    <li>Books</li>
+  </ol>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='genre'>
+  <ol class="breadcrumb">
+    <li>{{#link-to 'index'}}Books{{/link-to}}</li>
+    <li>{{name}}</li>
+  </ol>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='genres'>
+<h2>Filters</h2>
+<ul class='list-unstyled'>
+  <li id='filter-all'>{{#link-to 'index' classNames="label label-default"}}All Books{{/link-to}}</li>
+  <li id='filter-read-in-2013'>{{#link-to 'index' classNames="label label-default"}}Read in 2013{{/link-to}}</li>
+</ul>
+
+<div id='filter-genres'>
+  <h2>Genres</h2>
+  <ul class='list-unstyled'>
+    {{#each}}
+      <li>
+        {{#link-to 'genre' this classNames="label label-primary"}}
+          {{name}}
+        {{/link-to}}
+      </li>
+    {{/each}}
+  </div>
+</div>
+
+<div id='filter-ratings'>
+  <h2>Rating</h2>
+  <ul class='list-unstyled'>
+    <li>{{#link-to 'index' classNames="label label-success"}}5{{/link-to}}</li>
+    <li>{{#link-to 'index' classNames="label label-success"}}4+{{/link-to}}</li>
+    <li>{{#link-to 'index' classNames="label label-success"}}3+{{/link-to}}</li>
+    <li>{{#link-to 'index' classNames="label label-success"}}2+{{/link-to}}</li>
+    <li>{{#link-to 'index' classNames="label label-success"}}1+{{/link-to}}</li>
+  </ul>
+</div>
+
+<div id='filter-format'>
+  <h2>Format</h2>
+  <ul class='list-unstyled'>
+    <li>{{#link-to 'index' classNames="label label-info"}}Audiobook{{/link-to}}</li>
+    <li>{{#link-to 'index' classNames="label label-info"}}Book{{/link-to}}</li>
+  </ul>
+</div>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='components/book-item'>
+<div class='col-xs-2'>
+  <a {{bind-attr href='book.url'}} target='_blank'>
+    <img {{bind-attr src='book.image_url'}} />
+  </a>
+  <p class='rating'><span class='rate'>{{book.rating}}</span> / <span class='rate-outof'>5</span></p>
+</div>
+
+<div class='col-xs-10'>
+  <h3>{{book.title}}</h3>
+  {{#if book.review }}{{markdown book.review}}{{/if}}
+
+  <p class='meta'>
+    <ul class='list-inline genres'>
+      {{#each genre in book.genres}}
+        {{book-genre genre=genre tagName='li'}}
+      {{/each}}
+    </ul>
+    <span class='date-read'>
+      {{#if book.finished_at }}
+        Read from {{formatDate book.started_at}} - {{formatDate book.finished_at}}.
+      {{else}}
+        Started on {{formatDate book.started_at}}, reading now.
+      {{/if}}
+    </span>
+  </p>
+</div>
+</script>
+
+
+
+
+<script type='text/x-handlebars' data-template-name='components/book-genre'>
+{{#link-to 'genre' genre class='label label-primary'}}{{genre.name}}{{/link-to}}
+</script>
+
+
+
+
+      </section>
+    </div>
+  </article>
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+<script src="/javascripts/books-min.js"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

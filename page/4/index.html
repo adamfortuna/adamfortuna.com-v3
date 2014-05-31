@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Building the Ultimate Media Center, Part 1: Hardware Written March 09, 2009 Comments apple Adam Fortuna is a developer, crossfitter, foodie who &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/page/4">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="home" >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  
+  
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-1-har/">Building the Ultimate Media Center, Part 1: Hardware</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 09, 2009</li>
+  
+    <li><a href="/building-the-ultimate-media-center-part-1-har/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-1-har">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>If you&#8217;re a geek, chances are you&#8217;ve dreamed of having an amazing media setup that gives you a movie theater at home feel while providing all the options to extend it with your media. Well, thanks to the recent release of the <a href="http://www.apple.com/macmini/">Apple Mac mini</a> , hardware and software (specifically <a href="http://www.plexapp.com">Plex</a> ) are at a great point right now to do just about everything you could want on a single system. Since this past Tuesday when the Mac Mini came out I&#8217;ve been setting a system for this purpose. Hopefully my research can save someone else a little bit of time.</p>
+<h3>So what do I want to be able to do?</h3>
+<ul>
+	<li>Watch TV</li>
+	<li>Watch DVDs/BluRay</li>
+	<li>Watch downloaded/ripped videos of any format (avi, mkv, DVDs, hd video)</li>
+	<li>Stream videos off the network (so we don&#8217;t have to have a <span class="caps">NAS</span> in the living room)</li>
+	<li>Have some sort of way to track ratings, seen/not seen, imdb information, genres, cast, and movie/tv show information automatically</li>
+	<li>Ability to watch 1080p video with minimal artifacts (if any)</li>
+	<li>Play video games through an emulator</li>
+	<li>Use a wireless Xbox 360 controller for games</li>
+	<li>Use a single remote control for media center, dvd, blueray, cable</li>
+	<li>Full surround sound (7.1, or 5.1 at least)</li>
+	<li>Watch videos from a variety of web-only sources ( <a href="http://www.hulu.com">Hulu</a> , <a href="http://www.joost.com">Joost</a> , <a href="http://www.ted.com"><span class="caps">TED</span></a> , others)</li>
+</ul>
+<p>All these things and more will be possible through this system, though it will take some setting up and experimentation.</p>
+<h3>Uhh, what don&#8217;t you want to do?</h3>
+<p>This is just as important to know when it can impact the core hardware. There is one thing left out of here- the ability to record from cable on a computer (a <span class="caps">DVR</span>). This is one feature that has always sounded cool in theory. <a href="http://www.mythtv.org/">MythTV</a> looks impressive, but the idea of having something I setup control whether I see my favorite shows or not is one big variable. The hardware encoding and conversion don&#8217;t interest me too much at this point, and since I don&#8217;t plan on archiving media indefinitely, there&#8217;s no need for digital copy. Likewise for the ability to watch TV through a media center. I have a <span class="caps">DVR</span> setup anyway, so I don&#8217;t mind switching from the media center over to it for TV. Someday maybe these could be one &#8212; someday soon actually.</p>
+<h3>Hardware Matters</h3>
+<p>This system will be running <a href="http://www.plexapp.com/">Plex</a> at it&#8217;s core, so it will have to be a Mac. Since it&#8217;ll be in the living room, and because we&#8217;re aiming for lowest power consumption the Mini is the perfect choice. Like all Macs it also has Bluetooth and IR capabilities so we can go completely wireless. Some of the other hardware will be completely dependent on what you want as the core of your system.</p>
+<h3>Generic Hardware</h3>
+<p>The TV, Cable Box/<span class="caps">DVR</span> Box and Receiver could really be anything for this. There are a couple of requirements, but nothing that even middle of the line items don&#8217;t have anymore. The TV should have at least one <span class="caps">HDMI</span> input, and doesn&#8217;t hurt to have a Component IN. The receiver should also have inputs for at least your cable box and a <span class="caps">HDMI</span> connector. It should also have at least two optical audio (toslink) connections. The receiver should also have 5.1 surround (2 front, 1 center, 2 side speakers), or 7.1 surround (5.1 + 2 behind). 6.1 Surround will also work (5.1 + 1 behind). Hopefully your cable box will have component or <span class="caps">HDMI</span> output as well as toslink for audio for full surround and HD video. The speakers and speaker cable can be whatever; there are better places than here for information on that.</p>
+<h3>Media Computer</h3>
+<p>Ah yes, this is the core of this new system isn&#8217;t it. This should be one of the new Mac Mini&#8217;s for a few major reasons. The <span class="caps">CPU</span> is slightly faster 2.0/2.26Ghz rather than 1.83Ghz. It also has a faster frontside bus. The graphics card is wildly improved from 64mb to 128/256mb. Old models only had 1GB of memory and it was not officially expandable. Now though, models start at 1GB/2GB and go up to 4GB (through 2&#215;2GB chips). That difference in the graphics card looks like it would make a world of difference when playing videos, but it&#8217;s just not the case. There is no hardware assisted decoding when playing media files so video ram doesn&#8217;t help out one bit. <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820148191&amp;amp;nm_mc=OTC-pr1c3grabb3r&amp;amp;cm_mmc=OTC-pr1c3grabb3r-_-Memory+(Notebook+Memory)-_-Crucial+Technology-_-20148191">Adding more <span class="caps">RAM</span></a> is what makes all the difference actually. Maxing it out at 4GB is only an extra $50, so it&#8217;s well worth it. Plex does an amazing job of rendering videos that no other video software can play, but it requires some serious <span class="caps">RAM</span> to make it happen.</p>
+<h3>Audio</h3>
+<p>Only a few cables are needed to get things going. To output sound you&#8217;ll need a <a href="http://www.amazon.com/s?ie=UTF8&amp;amp;tag=mozilla-20&amp;amp;index=blended&amp;amp;link_code=qs&amp;amp;field-keywords=toslink">toslink cable</a> as well as a <a href="http://www.amazon.com/Toslink-Female-Mini-Plug-Male-Adapter/dp/B000FMM8TO/ref=sr_1_17?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236569536&amp;amp;sr=8-17">mini to toslink adapter</a> . The mini uses special combination analog/optical-digital audio jacks, so with toslink cables you can get full surround sound.</p>
+<h3>Video</h3>
+<p>The Mini has a mini-<span class="caps">DVI</span> port and comes with a mini-<span class="caps">DVI</span> to <span class="caps">DVI</span>-D connector, which is what we&#8217;ll use for video. Your TV might have a <span class="caps">DVI</span> input, but the quality won&#8217;t be the same as using <span class="caps">HDMI</span>. I found that my TV wouldn&#8217;t go to full 1080p with the <span class="caps">DVI</span> connector attached, but with <span class="caps">HDMI</span> it would. Luckily there&#8217;s plenty of <a href="http://www.amazon.com/s/ref=nb_ss_e?url=search-alias%3Delectronics&amp;amp;field-keywords=hdmi+to+dvi&amp;amp;x=0&amp;amp;y=0"><span class="caps">DVI</span>-D to <span class="caps">HDMI</span></a> cables on Amazon. You shouldn&#8217;t buy <span class="caps">HDMI</span> cables locally at all actually. Best Buy sells them for 10x the price on Amazon (or more).</p>
+<h3>Computer Devices</h3>
+<p>I already had a <a href="http://www.amazon.com/Apple-MB167LL-A-Wireless-Keyboard/dp/B000V01RLK/ref=sr_1_8?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-8">Apple wireless keyboard</a> and a <a href="http://www.amazon.com/Apple-Mighty-Mouse-Wireless-Kit/dp/B000V1LOC6/ref=sr_1_9?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-9">wireless Might Mouse</a> , which do the trick. There&#8217;s no way I want cables running from my media center all the way to the couch each time I need to use it, so wireless is essential- &#8211; as are rechargeable batteries. The mini found both of these devices when it was first started, which was an added bonus.</p>
+<h3>Gaming Devices</h3>
+<p>The <a href="http://www.amazon.com/Xbox-360-Wireless-Controller/dp/B000B6MLUA/ref=pd_bbs_sr_1?ie=UTF8&amp;amp;s=videogames&amp;amp;qid=1236570794&amp;amp;sr=8-1">Xbox 360 Controller</a> is absolutely amazing. It feels more natural in your hands than any other controller, has a great combination of controls that allow it work with just about any previous system. Keeping with the previous trend, we also want this to be wireless. Using a wireless controller should be a breeze these days, but Microsoft decided to use a proprietary RF format so no one else could use it. Well, not without some hoops anyways. If you have a <span class="caps">USB</span> Xbox 360 controller it should work once you&#8217;ve setup some drivers for it. To use the wireless controller though, you also have to buy a <a href="http://www.amazon.com/Xbox-Wireless-Gaming-Receiver-Windows-Pc/dp/B000HZFCT2/ref=sr_1_1?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236571475&amp;amp;sr=1-1">Xbox 360 Wireless Gaming Receiver for Windows</a> . This is a little <span class="caps">USB</span> device that allows you to pair your controllers with a computer. By default it doesn&#8217;t work on the Mac, although thanks to <a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">the great work</a> by some smart people, the controller works great. The driver adds a preference pane where you can test out if the controllers are working too, which is great for testing too.</p>
+<h3>Remote Control</h3>
+<p>Plex has amazing support for the Apple Remote. Although the Mac Mini doesn&#8217;t come with it, it&#8217;s a perfectly good remote for controlling just about anything within Plex. It doesn&#8217;t control the TV or receiver though, you&#8217;d still need multiple remote controls. That&#8217;s where a great remote like the <a href="http://www.amazon.com/Logitech-Harmony-Advanced-Universal-Remote/dp/B00119T6NQ">Logitech Harmony One</a> comes into play. In addition to working on all my devices (and just about anything out there), it comes with a special setting in for Plex! The One also has a series of macro buttons you can use to do multiple things at once. For instance, using Plex requires changing my TV to the <span class="caps">HDMI</span> input and changing the receiver to the PC input. Doing this and going back to Cable is a one click process. There&#8217;s a few more bells and whistles you can customize for Harmony within Plex as well, once you&#8217;re up and running. For instance, you can add one touch buttons for things like &#8220;Watch Hulu&#8221;, or &#8220;My Favorites&#8221; or even &#8220;Watch The Daily Show on Hulu&#8221;. Not bad for a single click. You can also customize the buttons per context as well. So the number 0 might do something different when you&#8217;re watching a movie than when you&#8217;re in a listing of movies. Lots of possibilities there.</p>
+<h3>That&#8217;s all there is to it</h3>
+<p>Getting everything up and running was surprisingly smooth. It&#8217;s all dependent on a very small set of core programs and some smart settings to keep memory usage low. If you&#8217;re wanting to see if your setup can handle HD video, try downloading the <a href="http://forums.plexapp.com/index.php?showtopic=3029">birds scene from Planet Earth</a> and see how it performs. If it doesn&#8217;t even run (and chances are it might not), try downloading Plex and trying it form there. You can also benchmark within Plex by pressing &#8216;i&#8217;, which can serve as a good gauge of how many frames are being dropped. I&#8217;ll save that for the next entry on media software.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/building-the-ultimate-media-center-part-1-har/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/your-office-fun-or-functional/">Your Office: Fun or Functional?</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written July 09, 2008</li>
+  
+    <li><a href="/your-office-fun-or-functional/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/your-office-fun-or-functional">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/home/'>home</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>If you&#8217;ve ever seen pictures of the crazy work environments at <a href="http://www.officesnapshots.com/category/pixar/">Pixar</a> or <a href="http://labnol.blogspot.com/2006/01/inside-google-office-videos-and.html">Google</a> you&#8217;ll notice that most offices/cubes are cluttered, but people obviously get a lot done there. Well, <span class="caps">IZEA</span> decided it was time to bring a little of that creative clutter into the office and is having it&#8217;s own cube design content- &#8211; <a href="http://community.izea.com/blog/2008/07/izeas-cubico--1.html">Cubico Loco!</a> . The contest brought in many more themes than I would&#8217;ve guessed including a video games cube, a stripper pole and a champagne room (complete with condom dispenser).</p>
+<p>There&#8217;s no shortage of <a href="http://www.flickr.com/photos/payperpost/sets/72157605942033426/">pictures</a> thanks to the camera-fiends at <span class="caps">IZEA</span>. When it comes to creating a workspace though, would you want something fun (themed, cube toys, colorful) or would you favor a workspace that&#8217;s purely functional? I decided to go with a fun but functional setup for my workspace, putting up something that could stay up year round. The theme? <a href="http://flyingspaghettimonster.com/">Flying Spaghetti Monster!</a> Marilyn and I were able to create a little <span class="caps">FSM</span> plushie, along with a blowup of the famous <a href="http://www.venganza.org/images/wallpapers/noodlycreation.jpg">noodly creation</a> drawing. There are a few bits of pirate memorabilia, some random pasta, <span class="caps">FSM</span> stickers and such, and of course the gospel sitting high.</p>
+<p class="center"><img src="/media/office/fsm.jpg" alt="" /></p>
+<p>Of course this goes against my <a href="http://www.adamfortuna.com/2008/02/03/new-office-setup/">home office setup</a> . It&#8217;s the very definition of a functional office. It makes a more sense to have that kind of setup at home to me, while keeping the office space more fun. If your work is lacking some decorations, I&#8217;d definitely suggest holding a similar contest. I also like the idea of a <a href="http://community.izea.com/blog/2008/07/izeas-cubico--1.html">public vote for the winner</a> , which will be factored in with interoffice votes for the winner. Please vote! It doesn&#8217;t have to be mine of course, but more votes can&#8217;t hurt. There&#8217;s plenty of great cubes better and more deserving than one worshiping and parody deity of a religion. :)</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/your-office-fun-or-functional/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/one-more-new-member-of-9rules/">One more new member of 9Rules</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written December 30, 2006</li>
+  
+    <li><a href="/one-more-new-member-of-9rules/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/one-more-new-member-of-9rules">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/blog/'>blog</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>About a year ago I was infatuated with Ruby on Rails, the Prototype Javascript library and just about any other cool css/js hot topics. I was reading everything I could get my hands on that was in the beginner to intermediate range. There was only one Rails book out at that time, Agile Development with Rails, and almost no Prototype support (well, there&#8217;s still not too much for Prototype unfortunately). The biggest help at that time were blogs like <a href="http://encytemedia.com/">Encytemedia</a> , <a href="http://particletree.com/">ParticleTree</a> , <a href="http://blog.nanorails.com/">nano <span class="caps">RAILS</span></a> and <a href="http://orderedlist.com/">Ordered List</a> . Up until around this time, I hadn&#8217;t started reading blogs outside of my friends list at Livejournal, but <a href="http://www.google.com/reader">Google Reader</a> changed that! So throughout all these great sites I noticed the trend of 9Rules affiliation, and although I didn&#8217;t dig into what it was at the time, it stuck with me. That was until one of these guys mentioned that 9Rules was allowing new submissions back in October. Now, throughout all the time when I was digging into the Rails community, I never saw much notice of Coldfusion. The 9 rules community, as well as a lot of the programming community just doesn&#8217;t see the many many Coldfusion bloggers that are out there. Doing a search on 9 Rules for Coldfusion, the only post that came up was one title <a href="http://www.brainfuel.tv/coldfusion">Is Coldfusion Dead?</a> (Note: I swear that&#8217;s what the title was; even it&#8217;s changed now, but I could be wrong). I chimed in of course, but one other comment stuck with me.</p>
+<blockquote>
+<p>You guys are in your own little world of open-source/9rules love.</p>
+</blockquote>
+<p>And it&#8217;s true! Not to put down anyone in the 9rules/open source/rails community, but as a note of just how far from the popular culture the Coldfusion blogosphere is. There are a <span class="caps">LOT</span> of coldfusion bloggers, just check out the <a href="http://weblogs.macromedia.com">Macromedia Weblogs List</a> . If i had to give a turning point of when I went from being a regular Coldfusion programmer, to a more advanced one I&#8217;d say the interest started right there. I started reading all the Coldfusion feeds I could find, started removing Rails feeds from Google Reader and yes, starting this blog. So with that said, I was happy to see my name on the <a href="http://9rules.com/blog/2006/12/new-additions-12-29-06-the-end/">last list of 9Rules entries</a> for the year! Hopefully I can bring a little more exposure to Coldfusion and Flex to the rest of the programming world without getting too deep into the Coldfusion world where things stop making since to outsiders. It&#8217;s also very humbling to be a very small group of programming blogs on 9Rules which I held in such high regard.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/one-more-new-member-of-9rules/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/reading-list-74/">Reading List</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written December 10, 2006</li>
+  
+    <li><a href="/reading-list-74/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/reading-list-74">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/books/'>books</a>, <a class='tag' href='/tags/review/'>review</a>, <a class='tag' href='/tags/self-improvement/'>self improvement</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>Lately I&#8217;ve been negligent to my web projects in exchange for spending time reading. Unfortunately the distractions of blogs, digg, email and daily life have made this a slower process than I initially planned, but understanding how much time is spent on these things is the first step towards changing it. A while ago I moved my television out of the computer room, and I noticed an increase in my productivity. Similarly there&#8217;s a room in the house now that has no television or computer which can be an excellent reading room. It&#8217;s almost sad to think the time we spend as little kids watching TV repeating in this day with time spent repeatedly checking <span class="caps">RSS</span> feeds, Digg, Slashdot and email. One of my new years resolutions (which I&#8217;m slowly phasing in) is to try to limit this unproductive online time. First step is to thin out my Google Reader down from it&#8217;s unmanageable 89 feeds (!). Not too many have daily postings, but <a href="http://lifehacker.com">LifeHacker</a> , <a href="http://techcrunch.com">TechCruch</a> , <a href="http://slashdot.org">SlashDot</a> and <a href="http://joel.reddit.com">Joel.Reddit.com</a> are definitely staying on. What&#8217;s on my reading list right now?</p>
+<h3>Head First Design Patterns</h3>
+<p><img src="http://adamfortuna.com/media/books/design_patterns.jpg" class="left" alt="" /> This is one of the best written programming books I have ever read, and has made me a true believer in O&#8217;Reily&#8217;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &#8211; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&#8217;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
+<h3><span class="caps">UML</span> Distilled: A Brief Guide to the Standard Object Modeling Language</h3>
+<p><a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/uml.jpg" class="right" alt="" /></a> Getting into <span class="caps">OOP</span>, <span class="caps">UML</span> seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or <span class="caps">UML</span>.</p>
+<h3>Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</h3>
+<p><a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/oo_design.jpg" class="left" alt="" /></a> Along the same lines as above, but another take on it. I probably would have read this first, but I&#8217;d already started <span class="caps">UML</span> Distilled before I knew of this one.</p>
+<h3>Code Complete</h3>
+<p><a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/code_complete.jpg" class="right" alt="" /></a></p>
+<p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
+<h3>Patterns of Enterprise Application Architecture</h3>
+<p><a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/patterns_architecture.jpg" class="left" alt="" /></a> Sadly I started this book before getting distracted with Head First Patterns. I&#8217;ve enjoyed Martin Fowlers style of writing though, so this and <span class="caps">UML</span> design are both fun reads. If I&#8217;m still impressed when I finish them I might dive into MF&#8217;s Refactoring as well.</p>
+<p>Some of these books directly apply to things I&#8217;m working on, but for the most part they are just general knowledge that&#8217;s beneficial. There are some more direct things to read though, like <a href="http://www.fusionauthority.com/">Fusion Authority</a> and the <a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">Coldfusion MX 7 Study Guide</a> ( I want to get CF certified after all :). I&#8217;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&#8217;s what we do with the knowledge from them that&#8217;s important, so I&#8217;m sure I&#8217;ll work in some programming time along the way as well.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/reading-list-74/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/choice-between-learning-and-doing/">Choice Between Learning and Doing</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written October 10, 2006</li>
+  
+    <li><a href="/choice-between-learning-and-doing/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/choice-between-learning-and-doing">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/education/'>education</a>, <a class='tag' href='/tags/self-improvement/'>self improvement</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>Learning something new isn&#8217;t always easy, in fact it&#8217;s usually quite a challenge or you&#8217;d know it already. When it comes to programming, or anything with computers I can&#8217;t imagine learning by any means other than a hands on approach. You never see people become experts without doing, so attempting to learn something without at least an idea in place to apply what you&#8217;re learning doesn&#8217;t make too much sense. But how do you decide when to apply and when to keep on learning?</p>
+<p>That&#8217;s something I&#8217;ve always struggled with to be honest. I&#8217;ll read the first chapter of a book and be so inspired by it that I have to start making something with the little bit of knowledge learned &#8211; only to find out that it&#8217;s either not enough to do anything I&#8217;d want in complete detail, or there&#8217;s just too much that was left unsaid to get a decent picture of the architecture. Recently when learning Ruby On Rails for example, I was reading through <a href="http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;amp;s=books">Agile Web Development with Rails</a> and after each chapter I was amazed by amount of new possibilities that opened up at each step. I&#8217;d end up setting up rails, getting a hello world app going and spending more time researching online before even getting into the chapters that dealt with what I wanted to do.</p>
+<p>Thinking back, there was something wrong with how I was applying this newly learned knowledge, but what could be done differently? Working on a (so far un-nammed) project now with Model Glue: Unity, while at the same time learning it, Coldspring and Reactor has put me in a similar position. There is no book to read on these subjects though, and when it comes to MG: Unity there is very little sample code out there for fully developed websites (still looking actually). But instead of blindly pressing forward with the coding, I took a step back and listed out what the project I&#8217;m working on needed.</p>
+<p>Instead of doing this on PC, I&#8217;ve started getting one of those black and white composition books for each site (i want to) work on. At the front is some basic information about the site &#8211; domain name if I have one for it, description, site goals, how it&#8217;ll be beneficial to it&#8217;s users, who the site will be targeted towards, revenue sources and simple task descriptions that I want users to be able to do. In the middle fold of the composition books I start designing the database, which is really one of the most fun parts for me. Each page has a date in the upper right corner, which is very helpful for keeping track.</p>
+<p>One of the last things I do is make a list of pages the user can see &#8212; not taking into account into fancy ajax that might skew that number. This is a pretty boring page in some respects, as any user related site will start with registration, login, email confirmation, password reset, welcome page, etc. Finally, on the last page and working backwards I have layout drawings on one side of the page, and reviews about what was good/bad about that layout on the other side of it. All this is really to help get a handle on what needs to be done. At this point you could be building the application in any language and any framework, so long as it supports databases.</p>
+<p>As you&#8217;re learning and applying this site to whatever it may be (or developing it in something you&#8217;re familiar with) you&#8217;ll basically go completely in reverse order. I start with the template, which is great motivation to work on the site when you see that much of it already alive. Working on the template is usually a great way to get a hande on a framework or a new language, because you&#8217;re not too far out of your comfort zone. At this point the layout should be completely html though, nothing fancy yet. Before continuing it&#8217;s really time to start with the heavy reading on the subject. You&#8217;ve wet your feet on how it works, the code is starting to look familiar, but there&#8217;s still a long ways to go.</p>
+<p>After you&#8217;ve read up on the topic extensively, you can start dividing it up into pages, and gradually work on each of those after creating the database and your models. This article is aimed at learning a framework more than anything else. The process of learning a programming language from scratch is entirely different. This probably won&#8217;t work as well with javascript frameworks, which need some data to work with, or <span class="caps">ORM</span> which would have to be switched around too, but for something like Model-Glue, Fusebox or CF On Wheels this can be is a helpful process.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/choice-between-learning-and-doing/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+
+  <div class="container">
+  <div class="col-md-7 col-md-offset-2">
+    <ul class="pager">
+      
+        <li class="previous">
+          <a href="/page/3/" role="prev">&larr; Newer</a>
+        </li>
+      
+      
+        <li class="next">
+          <a href="/page/5/" role="next">Older &rarr;</a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

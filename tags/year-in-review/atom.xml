@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: year in review | Blog for Adam Fortuna]]></title>
+  <link href="http://adamfortuna.com/tags/year-in-review/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-05-31T14:28:11-04:00</updated>
+  <id>http://adamfortuna.com/</id>
+  <author>
+    <name><![CDATA[Adam Fortuna]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2013 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2013-year-in-review/"/>
+    <updated>2014-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2013-year-in-review</id>
+    <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. I&rsquo;ve come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.</p>
+
+<h2>Travel</h2>
+
+<p>I didn&rsquo;t travel all that much this year. The biggest trips were Rails Conf and WWDC &ndash; both week long conferences attended with coworkers.</p>
+
+<ul>
+<li><a href="http://railsconf.com/">Rails Conf</a> in Portland, OR</li>
+<li>Was extremely lucky to attend <a href="/wwdc">WWDC</a> in San Francisco</li>
+<li><a href="https://twitter.com/adamfortuna/status/365957862113021952">Sanibel</a> with Marilyn for her birthday weekend</li>
+<li>Went to Miami for <a href="https://twitter.com/adamfortuna/status/404414324401520641">Distant Worlds</a>, a Final Fantasy Concert</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<p>The most random event this year was Distant Worlds. Marilyn and I were discussing &ldquo;What musical acts would you absolutely love to see that you haven&rsquo;t?&rdquo; and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he&rsquo;s only performed in the US 10 times in 10+ years, we really lucked out!</p>
+
+<p><div class='pull-right '><p>If you like movies, I’d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!</p>
+</div></p>
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/year/2013/">load of movies</a>, my favorites for the year being: Somm, Gravity and Stoker</li>
+<li>Went to the Florida Film Festival Premiere, followed by seeing a number of awesome movies</li>
+<li>Attended Megacon for the 15th straight year</li>
+<li>Lots of <a href="/books">audiobooks</a> &mdash; 45 total for the year. My favorites were Hyperion, Maphead, His Dark Materials and Bossypants. Many more were amazing.</li>
+<li>The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland and Breaking Bad</li>
+<li>Went to <a href="https://twitter.com/adamfortuna/status/335839768439029761">BarCampOrlando</a> and presented on &ldquo;R Programming for Ruby and Rails Developers&rdquo;</li>
+<li>The Postal Service concert viewed from the balcony at Hard Rock</li>
+<li>A hilarious Richard Cheese and Lounge Against the Machine concert at House of Blues</li>
+<li>Saw Kevin Smith live at the Plaza Theater</li>
+<li>Distant Worlds Concert</li>
+<li>Only played a few video games, including more Skyrim, Final Fantasy VI, Bioshock and Final Fantasy XII</li>
+</ul>
+
+
+<h2>Body</h2>
+
+<p>2011 was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve. Towards the end of the year I did start to plateau when it comes to working out. I suspect it was due to an awful diet and lack of sleep.</p>
+
+<ul>
+<li><a href="/2-years-of-crossfit">Worked out</a> usually around 3 or 4 times a week, nearly always at 8am</li>
+<li>Stopped by <a href="http://www.crossfitportland.com/">CrossFit Portland</a> with <a href="https://twitter.com/yeabuddy">Casey</a> when in town for Rails Conf</li>
+<li>Participated in the <a href="http://evaleverything.com/2013/11/12/xkcd-style-graphs-with-r/">CrossFit Open</a> with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%</li>
+<li>Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury</li>
+<li>Did <a href="http://www.crossfit.com/mt-archive2/000881.html">Murph</a> in 51:17 for Memorial Day. Confident I can do better next time!</li>
+<li>Ran in a <a href="https://twitter.com/adamfortuna/status/297775932167553024">Warrior Dash</a> outside of Orlando with a few friends. Muddy and cold, but a load of fun</li>
+<li>Running around Lake Eola in downtown Orlando after work occasionally when not too hot out</li>
+</ul>
+
+
+<p><div class='pull-right '><p>The FitBit is awesome, but it doesn’t understand how much I hate wall balls.</p>
+</div></p>
+
+<ul>
+<li>Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<p>Worked at <a href="http://envylabs.com">Envy Labs</a> entirely on <a href="http://codeschool.com">Code School</a> all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.</p>
+
+<p><div class='pull-right '><p>Work mantra: always ask “What Would Bret Victor Do?”</p>
+</div></p>
+
+<ul>
+<li>Changed job titles to &ldquo;Technical Director at Code School&rdquo;, whatever that means.</li>
+<li>Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013</li>
+<li>Helped write and worked on <a href="http://try.jquery.com">Try jQuery</a>, a free way to learn jQuery in the browser (and linked to from the jQuery site). Followed up by writing <a href="https://www.codeschool.com/courses/jquery-the-return-flight">jQuery: The Return Flight</a></li>
+<li>Helped write the Ruby/JavaScript side of Code Schools <a href="https://www.codeschool.com/courses/core-ios-7">Core iOS 7</a> course, which lead to a few <a href="http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/">blog posts</a> about it</li>
+<li>Wrote and helped implement <a href="https://www.codeschool.com/courses/warming-up-with-emberjs">Warming up with Emberjs</a>, a course to learn Ember.js from scratch. Basing the implemention on everything we&rsquo;d learned about teaching programming in the browser.</li>
+</ul>
+
+
+<h2>Great Meals</h2>
+
+<p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out.</p>
+
+<p><div class='pull-right '><p>Having coffee at Victoria &amp; Alberts is a magical experience.</p>
+</div></p>
+
+<ul>
+<li>Went to <a href="http://victoria-alberts.com/">Victoria &amp; Alberts</a> restaurant with Marilyn for our Anniversary</li>
+<li>Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige</li>
+<li>The Chefs Table of Edgewater for mothers day with Marilyns family</li>
+<li>Went to Cask &amp; Larder for an Envy Labs lunch</li>
+<li>The Chefs Table of Edgewater dinner with Alli and Jeff</li>
+<li>Had Marilyns Birthday dinner at Pharmacy with tons of friends</li>
+<li>Stone Crab Festival in St. Pete with Nate and so many friends</li>
+<li>Food and Wine Festival with the Envy Labs gang</li>
+</ul>
+
+
+<h2>Personal</h2>
+
+<p><div class='pull-right '><p>Seriously, the little girl in the Piano lesson after mine is soo much better than me.</p>
+</div></p>
+
+<ul>
+<li>Bought an electric piano and started taking lessons every week. Still not very good, but making progress</li>
+<li>Cleaned out and organized the garage and attic to where we actually know where things are</li>
+<li>Launched a programming blog called <a href="http://evaleverything.com/">eval everything</a>, where I&rsquo;ve been writing about anything technical topics that are interesting</li>
+<li>Updated this blog from it&rsquo;s previous setup!</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>Looks like I&rsquo;m in the <a href="http://www.statisticbrain.com/new-years-resolution-statistics/">45% of people who make New Years resolutions</a>.</p>
+
+<p><strong>Continue learning piano</strong>. For me this means doing more practice at home as well as keeping up with lessons.</p>
+
+<p><strong>Get into Angular.js development</strong>, which we&rsquo;re using for a new Code School project. Kind of have to do this one for work anyways, but I&rsquo;ve been wanting to do it too.</p>
+
+<p><strong>Get more into JavaScript testing frameworks</strong> out there. I&rsquo;ve let my JavaScript go untested for far too long.</p>
+
+<p><strong>Invite friends over more</strong>, typically to play games or anything really. Too many times this year we said &ldquo;we need to have a game night&rdquo;. If you ever want to have a game night, just let me know!</p>
+
+<p><strong>Keep track of things more</strong>. Kind of an obvious one, but &ldquo;What gets measured gets improved&rdquo; has always been true for me. I&rsquo;m already doing these &mdash; some all the time, some intermittently.</p>
+
+<ul>
+<li>My Todo list in <a href="http://culturedcode.com/things/">Things</a></li>
+<li>Workouts and fitness goals in Evernote</li>
+<li>Piano practice in Evernote</li>
+<li>Audiobooks in my <a href="/books">book log</a></li>
+<li>Sleep in FitBit</li>
+<li>Expenses in Google Docs</li>
+<li>Weight via <a href="http://www.withings.com/en/scales">Withings</a></li>
+<li>Monthly goals in Evernote</li>
+</ul>
+
+
+<p>Confident that 2014 will be an amazing year!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2012 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2012-year-in-review/"/>
+    <updated>2013-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2012-year-in-review</id>
+    <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year. Looking back on this year, it was much less active than <a href="http://blog.adamfortuna.com/2011-year-in-review/">last year</a>. Most life changing events of the year would probably by Marilyn and my trip to Europe, having fun getting fit and trying to tackle more difficult problems at work (or at home).</p>
+
+<h3>Travel</h3>
+
+<p>Light year for quantity of travel, but the last one was big.</p>
+
+<ul>
+<li><a href="http://railsconf2012.com/">Rails Conf</a> in Austin</li>
+<li>Tampa various times</li>
+<li>San Francisco for my sister Kara and Morgans wedding</li>
+<li>Homosassa Springs for scalloping</li>
+<li>London, Paris and Amsterdam with Marilyn for an amazing trip</li>
+</ul>
+
+
+<h3>Events and Entertainment</h3>
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/films/diary/by/rating/">load of movies</a>, my favorites for the year being: Cabin the Woods, The Hunger Games, The Dark Knight Rises</li>
+<li>Lots of audiobooks including The Hunger Games saga, Game of Thrones Series, Enders Shadow saga and a few more</li>
+<li>The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad</li>
+<li>Pink Martini concert in Tampa</li>
+<li>This American Life Live</li>
+<li>Went on a hot air balloon ride with Marilyn</li>
+<li>The Lion King at Bob Carr</li>
+<li>Zelda: Symphony of the Goddess at Bob Carr</li>
+<li>Beauty and the Beast at Bob Carr</li>
+<li>Food and Wine Festival with the EnvyLabs gang</li>
+<li>Reefer Madness at Theater Downtown</li>
+<li>MythBusters Live at UCF</li>
+<li>Weezer at House of Blues</li>
+<li>Loius C.K. in Tampa</li>
+<li>Front row of The Mikado at the English National Opera</li>
+<li>Cabaret at the Savoy Opera House</li>
+</ul>
+
+
+<h3>Body</h3>
+
+<p>Fitness was a fun priority this past year. It was less about pushing limits and more about finding ways to have fun that kept me coming back.</p>
+
+<ul>
+<li><a href="http://crossfitkingspoint.com/">Worked out</a> at least 3x every week I was physically able to.</li>
+<li>Got a Lasik adjustment in both my eyes, bringing them a little closer to 20/20</li>
+<li>Strained my ankle rock climbing at Rails Conf in late April, took 3 months to heal to the point where I no longer felt pain</li>
+<li>Ate mostly paleo (some surplus, some deficit) to help build a bit more muscle</li>
+<li>Started doing yoga at work thanks to <a href="https://twitter.com/aimee_simone">Aimee</a> organizing it</li>
+<li>Dropped down to about 7% body fat during a month long paleo challenge at the gym before returning to a more stable weight</li>
+<li>Started playing Ultimate Frisbee again, this time in the competitive league</li>
+<li>Running more, including many runs around lake Eola with the EnvyLabs gang</li>
+<li>Strained my back during a workout, causing me to barely be able to stand up or walk for 2 weeks</li>
+</ul>
+
+
+<h3>Work</h3>
+
+<ul>
+<li>Awesome year working at <a href="http://envylabs.com">EnvyLabs</a> mostly on <a href="http://codeschool.com">CodeSchool</a></li>
+<li>Had one very crazy week where I worked 85 hours (including 24 hours straight), went to 3 fancy dinners for <a href="http://forkful.net">Marilyn&rsquo;s blog</a> and still hit the gym 3 times</li>
+<li>Involved in some way of releasing a number of educational courses for <a href="http://codeschool.com">CodeSchool</a> on a variety of topics including <a href="http://www.codeschool.com/courses/journey-into-mobile">mobile web</a>, <a href="http://www.codeschool.com/courses/anatomy-of-backbonejs">backbone.js</a>, <a href="http://www.codeschool.com/courses/testing-with-rspec">RSpec</a>, <a href="http://www.codeschool.com/courses/git-real">Git</a>, <a href="http://www.codeschool.com/courses/ruby-bits">Ruby</a>, <a href="http://www.codeschool.com/courses/assembling-sass">Sass</a>, <a href="http://www.codeschool.com/courses/try-r">R</a>, and <a href="http://www.codeschool.com/courses/try-ios">iOS</a></li>
+<li>Rolled out a new framework for CodeSchool courses that allows more flexibility in how we implement them. Really looking forward to improving on this in the new year</li>
+</ul>
+
+
+<h3>Personal</h3>
+
+<ul>
+<li>This year I did a lot of throw away projects &mdash; projects I worked on for a week or two then completely abandon</li>
+<li>Bought a Retina Macbook Pro, upgrading my 5 year old 17" MacBook Pro</li>
+<li>Took an iOS Programming course at Valencia Community College to keep myself on track education wise</li>
+<li>Moved off Bank Of America, and loving Simple so far</li>
+<li>Had a break in where they stole our TV and Marilyns jewelry box while I was in Austin. Luckily Marilyn was gone at the time and Lily was OK</li>
+<li>Lost our cat of 6+ years, Loverboy. He was always an outdoor cat, and lived to be at least 11 years old before disappearing. We can still hope that he was adopted</li>
+<li>Made some improvements to the backyard including a low fence and lighting that makes being out back more fun</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>This coming year is the first that I won&rsquo;t have any kind of fitness/diet related goals. I&rsquo;m happy with where I am there, so just a matter of keeping the habits that have been built up. I&rsquo;m not a fan of making resolutions in general, but more listing out what my current objectives are and where I&rsquo;m trying to change my current behavior. At the moment this includes:</p>
+
+<ul>
+<li>Spend even less time watching TV and reading junk (reddit, hacker news)</li>
+<li>Be more conscious of my time in general</li>
+<li>Spend more time with friends and family</li>
+<li>More time working on non-computer related projects (garden, house improvements, etc)</li>
+</ul>
+
+
+<p>We really have no plans whatsoever for the upcoming year right now, but I&rsquo;m looking forward to it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2011 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2011-year-in-review/"/>
+    <updated>2012-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2011-year-in-review</id>
+    <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year.</p>
+
+<h2>Travel</h2>
+
+<ul>
+<li><a href="http://rubyconf.org/">Ruby Conf</a> in New Orleans</li>
+<li>South Florida for Danielle and Matts wedding</li>
+<li>St. Petersburg for Crab Feast</li>
+<li>New York City with Marilyn for Christmas and New Years</li>
+</ul>
+
+
+<h2>Body</h2>
+
+<ul>
+<li>Got <a href="/my-lasik-experience">Lasik</a> on both eyes in June.</li>
+<li>Changed up my diet to be more in line with <a href="http://www.amazon.com/Primal-Blueprint-Reprogram-effortless-boundless/dp/0982207700/ref=pd_sim_b_7">The Primal Blueprint</a></li>
+<li>Dropped soda for the most part. Occasional diet at lunch</li>
+<li>Started going to <a href="http://crossfitkingspoint.com/">CrossFit</a> 2 times a week (and feeling sore the other 5)</li>
+<li>Got more clothes that fit well</li>
+</ul>
+
+
+<h2>Hobbies</h2>
+
+<ul>
+<li>Continued gardening, but at a slower pace</li>
+<li>Moved from Plex over to Boxee as a media center and spent our first year without cable.</li>
+<li>Setup an awesome <a href="/backup-like-a-boss">backup/recovery plan</a></li>
+<li>Began brewing beer, starting with an Octoberfest and a wheat beer</li>
+<li>Developed an appreciation for whiskey</li>
+<li>Ripped every DVD I own, and compressed them, then sold the physical DVDs.</li>
+<li>Moved music over to iCloud for day to day access.</li>
+<li>Massive consolidation of financial accounts, and using 1Password to keep things even simpler.</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<ul>
+<li><a href="http://disneyworld.disney.go.com/tours-and-experiences/behind-the-seeds/">Behind the Seeds</a> tour at Epcot</li>
+<li><a href="http://disneyworld.disney.go.com/tours-and-experiences/wild-africa-trek/">Wild Africa Trek</a> for my birthday</li>
+<li><a href="http://moviefly.org/users/adamfortuna/lists/first-seen-in-2011">Some movies</a></li>
+<li>Went to <a href="http://www.evildeadthemusical.com/">Evil Dead: The Musical</a> and <a href="http://www.avenueq.com/">Avenue Q</a> with Marilyn and the <a href="http://envylabs.com">EnvyLabs</a> crew.</li>
+<li><a href="http://disneyworld.disney.go.com/tours-and-experiences/backstage-magic/">Backstage Disney Tour</a> for Marilyn&rsquo;s Birthday</li>
+<li>Went to Food and Wine Festival at Epcot a ton of times, including with the &ldquo;EnvyLabs](<a href="http://envylabs.com">http://envylabs.com</a>) crew complete with dessert party under the fireworks.</li>
+<li>Played through Portal 2 and Skyrim.</li>
+<li><a href="http://www.themountaintopplay.com/">The Mountaintop</a> a block from Times Square</li>
+<li><a href="http://nygasp.org/">Pirates of Penzance</a> in New York</li>
+<li>Loved <a href="http://fuerzabrutanyc.com/">Fuerza Bruta</a>, despite not knowing exactly how to describe it</li>
+<li>Saw <a href="http://themoth.org/">The Moth</a> live and loved it (but not the standing outside for 90 minutes in the cold part beforehand)</li>
+<li>Went to <a href="http://www.comedycellar.com/">The Comedy Cellar</a> for a great show</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<ul>
+<li>Decided to part ways with <a href="http://izea.com">IZEA</a> after 2 years, 10 months.</li>
+<li>Took a month off of work, mostly to relax, clean out some of the house, and work on a side project.</li>
+<li>Joined <a href="http://envylabs.com">EnvyLabs</a> in April, and continue to be amazed by both the people and the culture.</li>
+</ul>
+
+
+<h2>Programming and Technology</h2>
+
+<ul>
+<li>Launched <a href="http://lineofthought.com">Line of Thought</a>, a site for tracking what technologies different websites are using. More a &ldquo;for-fun&rdquo; personal project than a get rich project.</li>
+<li>Helped Marilyn on the technical side of her blog, <a href="http://forkful.net">Forkful</a> whenever possible. Her blog is doing great so far!</li>
+<li>Moved the code for my first ever website, DDRei to <a href="https://github.com/adamfortuna/ddrei.com">github</a> so I can continue to laugh at it for years to come.</li>
+<li>Created my first ruby gem, a super basic wrapper for <a href="https://github.com/adamfortuna/ticketutils">TicketUtils</a>. Have to start somewhere.</li>
+<li>Got my feet wet with iOS development.</li>
+<li>Started creating a budgeting application as a way of learning <a href="http://documentcloud.github.com/backbone/">Backbone.js</a></li>
+</ul>
+
+
+<p>As for goals for the new year? For most of this past year I was setting goals in smaller increments and working towards them, which I&rsquo;d like to do more of. It&rsquo;s great for developing a routine without too much overthinking.  Most things I want to do in the new year are already in progress &mdash; going to CrossFit more, working on (and using) the budgeting app, learning more iOS development, uncluttering the house and bringing in more color. Other than that, I&rsquo;d like to be more social in the new year, and spend less time watching TV.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2010 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2010-year-in-review/"/>
+    <updated>2011-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2010-year-in-review</id>
+    <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year.</p>
+
+<h2>Travel</h2>
+
+<ul>
+<li>Twitters first Developer Conference in San Francisco, <a href="http://mobile.adamfortuna.com/getting-ready-for-the-chirp-keynote-to-start">Chirp</a> and got to see family in the area</li>
+<li>My first cruise- &ndash; a 7 day Royal Caribbean cruise to Haiti, Jamaica, The Grand Cayman Islands and Cozumel with Marilyn</li>
+<li>Went horseback riding on a somewhat wild horse named Alarma in Cozumel</li>
+<li>Climbed a waterfall in Jamaica.</li>
+<li><a href="http://mobile.adamfortuna.com/caught-quite-a-few-scallops-and-some-sunburn">Scalloping</a> at <a href="http://www.homosassasprings.org/">Homosassa Springs</a></li>
+<li><a href="http://mobile.adamfortuna.com/mmmmmm-80-lbs-of-stone-crab-nate-knows-how-to">Crab Feast</a> in St. Petersburg!</li>
+<li>Stayed at the <a href="http://www.loewshotels.com/en/Don-CeSar-Beach-Resort">Don Cesar</a> in St. Petersburg for Nate and Bekah&rsquo;s Wedding</li>
+<li>Went to Miami Beach for Nate&rsquo;s bachelor party and stayed at the iconic <a href="http://www.marriott.com/hotels/travel/miasr-eden-roc-renaissance-miami-beach/">Eden Roc</a></li>
+<li>Westin Channelside and Hard Rock Casino for IZEA&rsquo;s retreat</li>
+</ul>
+
+
+<h2>Life</h2>
+
+<ul>
+<li>Started a 4'x9' <a href="http://mobile.adamfortuna.com/first-veggies-coming-in-mostly-peppers-and-to">vegetable garden</a></li>
+<li>Began composting</li>
+<li>Bought a <a href="http://twitter.com/adamfortuna/status/13521796360">wheelbarrow</a></li>
+<li>Had our first yard sale at this house</li>
+<li>Cleaned out the garage to where we can actually use it</li>
+<li>Dropped cable TV in favor of using Plex, Netflix and Hulu</li>
+<li>Digitized most my DVDs and media. Still a few to go, but the bulk of the work is over</li>
+<li>Slowly increasing savings and investments on Vanguard and following investment advice from <a href="http://en.wikipedia.org/wiki/John_Bogle">John Bogle</a></li>
+<li>Had a major disagreement with GE over them charging me $400 for something they broke. Complained on Twitter and they resolved it before my check was even cashed.</li>
+<li>Developed an appreciation for beer</li>
+<li>Went on an indoor plant buying frenzy resulting in many casualties. Only the strong survive.</li>
+<li>Played on my works kickball team with Marilyn</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<ul>
+<li><a href="http://www.flaminglips.com/">Flaming Lips</a> and <a href="http://www.imogenheap.com/">Imogen Heap</a> concerts at Hard Rock Orlando</li>
+<li>Got Disney passes and went to Epcot&rsquo;s <a href="http://mobile.adamfortuna.com/fun-day-at-food-and-wine-festival-at-epcot">Food and Wine Festival</a> way too many times</li>
+<li>Saw <a href="http://www.jonathancoulton.com/">Jonathan Coulton</a> and <a href="http://www.paulandstorm.com/">Paul and Storm</a> at The Social</li>
+<li>Saw Rick Springfield and Boyz 2 Men at Epcot (but we missed Hanson)</li>
+<li>Largest holiday party so far over at our place</li>
+<li>Tron Legacy Midnight release with Marilyn and friends</li>
+<li>Lots of movies. My favorites that came out this year were Inception, Exit Through the Gift Shop and The Social Network</li>
+<li>Favorite TV shows discovered were Breaking Bad, House, Jericho and The Colony</li>
+<li>Played through Mass Effect twice and Mass Effect 2 almost twice and loved them both</li>
+<li>Thanksgiving at Marilyn&rsquo;s Moms, with firetruck and family</li>
+<li>Went to <a href="http://www.wallstplaza.net/plazaween">Plazaween</a> in costume with Marilyn and friends</li>
+</ul>
+
+
+<h2>Programming and Technology</h2>
+
+<ul>
+<li>Launched <a href="http://sponsoredtweets.com/twitter-cost-per-click/">Cost Per Click</a> for <a href="http://sponsoredtweets.com/">SponsoredTweets</a></li>
+<li>Helped get <a href="http://socialspark.com/">SocialSpark V2</a> launched and did a tiny bit of work on <a href="http://wereward.com/">WeReward</a></li>
+<li>Started organizing hack days and lunch-and-learns at work, we even had a chance for a hack week!</li>
+<li>Completely dropped organized hosting on Dreamhost in favor of S3, Posterous and Github.</li>
+<li>Launched <a href="http://moviefly.org">MovieFly</a> , then a few months later <a href="http://gomiso.com">Miso</a> launched</li>
+<li>Changed <a href="http://adamfortuna.com">AdamFortuna.com</a> into a splash page instead of a blog</li>
+<li>Started a <a href="http://mobile.adamfortuna.com/">mobile blog</a> for pictures taken from my phone</li>
+<li>Moved <a href="http://arcadefly.com/">ArcadeFly</a> over to <a href="http://heroku.com/">Heroku</a></li>
+<li>Bought an iPad, a new shuffle running and upgraded to a iPhone4</li>
+<li>Started learning iOS development</li>
+<li>Started working on a new site in Rails 3 that should launch next year</li>
+<li>Messed around with some new technology over the year including node.js, redis, websockets, css3, html and mongo db</li>
+<li>Upgraded to Road Runner Lightning, and slowly backing everything I have up to <a href="http://www.backblaze.com/">BackBlaze</a></li>
+</ul>
+
+
+<p>As for new years resolutions? Probably increase savings a bit more, eat a little healthier and spend less time on the couch. Like to eat out less and get better at creating the things I love to eat and drink from scratch including salad dressing, sauces and brewing beer- &ndash; and maybe later on wine. If there&rsquo;s one thing I want to do in 2011 though, it&rsquo;d be launch the site I&rsquo;m working on in my spare time, and do it right.</p>
+]]></content>
+  </entry>
+  
+</feed>

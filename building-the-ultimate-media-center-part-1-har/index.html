@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Building the Ultimate Media Center, Part 1: Hardware - Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Building the Ultimate Media Center, Part 1: Hardware Written March 09, 2009 Comments apple Adam Fortuna is a developer, crossfitter, foodie who &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/building-the-ultimate-media-center-part-1-har">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="post " >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  
+  
+  <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-1-har/">Building the Ultimate Media Center, Part 1: Hardware</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 09, 2009</li>
+  
+    <li><a href="#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-1-har">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>If you&#8217;re a geek, chances are you&#8217;ve dreamed of having an amazing media setup that gives you a movie theater at home feel while providing all the options to extend it with your media. Well, thanks to the recent release of the <a href="http://www.apple.com/macmini/">Apple Mac mini</a> , hardware and software (specifically <a href="http://www.plexapp.com">Plex</a> ) are at a great point right now to do just about everything you could want on a single system. Since this past Tuesday when the Mac Mini came out I&#8217;ve been setting a system for this purpose. Hopefully my research can save someone else a little bit of time.</p>
+<h3>So what do I want to be able to do?</h3>
+<ul>
+	<li>Watch TV</li>
+	<li>Watch DVDs/BluRay</li>
+	<li>Watch downloaded/ripped videos of any format (avi, mkv, DVDs, hd video)</li>
+	<li>Stream videos off the network (so we don&#8217;t have to have a <span class="caps">NAS</span> in the living room)</li>
+	<li>Have some sort of way to track ratings, seen/not seen, imdb information, genres, cast, and movie/tv show information automatically</li>
+	<li>Ability to watch 1080p video with minimal artifacts (if any)</li>
+	<li>Play video games through an emulator</li>
+	<li>Use a wireless Xbox 360 controller for games</li>
+	<li>Use a single remote control for media center, dvd, blueray, cable</li>
+	<li>Full surround sound (7.1, or 5.1 at least)</li>
+	<li>Watch videos from a variety of web-only sources ( <a href="http://www.hulu.com">Hulu</a> , <a href="http://www.joost.com">Joost</a> , <a href="http://www.ted.com"><span class="caps">TED</span></a> , others)</li>
+</ul>
+<p>All these things and more will be possible through this system, though it will take some setting up and experimentation.</p>
+<h3>Uhh, what don&#8217;t you want to do?</h3>
+<p>This is just as important to know when it can impact the core hardware. There is one thing left out of here- the ability to record from cable on a computer (a <span class="caps">DVR</span>). This is one feature that has always sounded cool in theory. <a href="http://www.mythtv.org/">MythTV</a> looks impressive, but the idea of having something I setup control whether I see my favorite shows or not is one big variable. The hardware encoding and conversion don&#8217;t interest me too much at this point, and since I don&#8217;t plan on archiving media indefinitely, there&#8217;s no need for digital copy. Likewise for the ability to watch TV through a media center. I have a <span class="caps">DVR</span> setup anyway, so I don&#8217;t mind switching from the media center over to it for TV. Someday maybe these could be one &#8212; someday soon actually.</p>
+<h3>Hardware Matters</h3>
+<p>This system will be running <a href="http://www.plexapp.com/">Plex</a> at it&#8217;s core, so it will have to be a Mac. Since it&#8217;ll be in the living room, and because we&#8217;re aiming for lowest power consumption the Mini is the perfect choice. Like all Macs it also has Bluetooth and IR capabilities so we can go completely wireless. Some of the other hardware will be completely dependent on what you want as the core of your system.</p>
+<h3>Generic Hardware</h3>
+<p>The TV, Cable Box/<span class="caps">DVR</span> Box and Receiver could really be anything for this. There are a couple of requirements, but nothing that even middle of the line items don&#8217;t have anymore. The TV should have at least one <span class="caps">HDMI</span> input, and doesn&#8217;t hurt to have a Component IN. The receiver should also have inputs for at least your cable box and a <span class="caps">HDMI</span> connector. It should also have at least two optical audio (toslink) connections. The receiver should also have 5.1 surround (2 front, 1 center, 2 side speakers), or 7.1 surround (5.1 + 2 behind). 6.1 Surround will also work (5.1 + 1 behind). Hopefully your cable box will have component or <span class="caps">HDMI</span> output as well as toslink for audio for full surround and HD video. The speakers and speaker cable can be whatever; there are better places than here for information on that.</p>
+<h3>Media Computer</h3>
+<p>Ah yes, this is the core of this new system isn&#8217;t it. This should be one of the new Mac Mini&#8217;s for a few major reasons. The <span class="caps">CPU</span> is slightly faster 2.0/2.26Ghz rather than 1.83Ghz. It also has a faster frontside bus. The graphics card is wildly improved from 64mb to 128/256mb. Old models only had 1GB of memory and it was not officially expandable. Now though, models start at 1GB/2GB and go up to 4GB (through 2&#215;2GB chips). That difference in the graphics card looks like it would make a world of difference when playing videos, but it&#8217;s just not the case. There is no hardware assisted decoding when playing media files so video ram doesn&#8217;t help out one bit. <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820148191&amp;amp;nm_mc=OTC-pr1c3grabb3r&amp;amp;cm_mmc=OTC-pr1c3grabb3r-_-Memory+(Notebook+Memory)-_-Crucial+Technology-_-20148191">Adding more <span class="caps">RAM</span></a> is what makes all the difference actually. Maxing it out at 4GB is only an extra $50, so it&#8217;s well worth it. Plex does an amazing job of rendering videos that no other video software can play, but it requires some serious <span class="caps">RAM</span> to make it happen.</p>
+<h3>Audio</h3>
+<p>Only a few cables are needed to get things going. To output sound you&#8217;ll need a <a href="http://www.amazon.com/s?ie=UTF8&amp;amp;tag=mozilla-20&amp;amp;index=blended&amp;amp;link_code=qs&amp;amp;field-keywords=toslink">toslink cable</a> as well as a <a href="http://www.amazon.com/Toslink-Female-Mini-Plug-Male-Adapter/dp/B000FMM8TO/ref=sr_1_17?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236569536&amp;amp;sr=8-17">mini to toslink adapter</a> . The mini uses special combination analog/optical-digital audio jacks, so with toslink cables you can get full surround sound.</p>
+<h3>Video</h3>
+<p>The Mini has a mini-<span class="caps">DVI</span> port and comes with a mini-<span class="caps">DVI</span> to <span class="caps">DVI</span>-D connector, which is what we&#8217;ll use for video. Your TV might have a <span class="caps">DVI</span> input, but the quality won&#8217;t be the same as using <span class="caps">HDMI</span>. I found that my TV wouldn&#8217;t go to full 1080p with the <span class="caps">DVI</span> connector attached, but with <span class="caps">HDMI</span> it would. Luckily there&#8217;s plenty of <a href="http://www.amazon.com/s/ref=nb_ss_e?url=search-alias%3Delectronics&amp;amp;field-keywords=hdmi+to+dvi&amp;amp;x=0&amp;amp;y=0"><span class="caps">DVI</span>-D to <span class="caps">HDMI</span></a> cables on Amazon. You shouldn&#8217;t buy <span class="caps">HDMI</span> cables locally at all actually. Best Buy sells them for 10x the price on Amazon (or more).</p>
+<h3>Computer Devices</h3>
+<p>I already had a <a href="http://www.amazon.com/Apple-MB167LL-A-Wireless-Keyboard/dp/B000V01RLK/ref=sr_1_8?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-8">Apple wireless keyboard</a> and a <a href="http://www.amazon.com/Apple-Mighty-Mouse-Wireless-Kit/dp/B000V1LOC6/ref=sr_1_9?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-9">wireless Might Mouse</a> , which do the trick. There&#8217;s no way I want cables running from my media center all the way to the couch each time I need to use it, so wireless is essential- &#8211; as are rechargeable batteries. The mini found both of these devices when it was first started, which was an added bonus.</p>
+<h3>Gaming Devices</h3>
+<p>The <a href="http://www.amazon.com/Xbox-360-Wireless-Controller/dp/B000B6MLUA/ref=pd_bbs_sr_1?ie=UTF8&amp;amp;s=videogames&amp;amp;qid=1236570794&amp;amp;sr=8-1">Xbox 360 Controller</a> is absolutely amazing. It feels more natural in your hands than any other controller, has a great combination of controls that allow it work with just about any previous system. Keeping with the previous trend, we also want this to be wireless. Using a wireless controller should be a breeze these days, but Microsoft decided to use a proprietary RF format so no one else could use it. Well, not without some hoops anyways. If you have a <span class="caps">USB</span> Xbox 360 controller it should work once you&#8217;ve setup some drivers for it. To use the wireless controller though, you also have to buy a <a href="http://www.amazon.com/Xbox-Wireless-Gaming-Receiver-Windows-Pc/dp/B000HZFCT2/ref=sr_1_1?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236571475&amp;amp;sr=1-1">Xbox 360 Wireless Gaming Receiver for Windows</a> . This is a little <span class="caps">USB</span> device that allows you to pair your controllers with a computer. By default it doesn&#8217;t work on the Mac, although thanks to <a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">the great work</a> by some smart people, the controller works great. The driver adds a preference pane where you can test out if the controllers are working too, which is great for testing too.</p>
+<h3>Remote Control</h3>
+<p>Plex has amazing support for the Apple Remote. Although the Mac Mini doesn&#8217;t come with it, it&#8217;s a perfectly good remote for controlling just about anything within Plex. It doesn&#8217;t control the TV or receiver though, you&#8217;d still need multiple remote controls. That&#8217;s where a great remote like the <a href="http://www.amazon.com/Logitech-Harmony-Advanced-Universal-Remote/dp/B00119T6NQ">Logitech Harmony One</a> comes into play. In addition to working on all my devices (and just about anything out there), it comes with a special setting in for Plex! The One also has a series of macro buttons you can use to do multiple things at once. For instance, using Plex requires changing my TV to the <span class="caps">HDMI</span> input and changing the receiver to the PC input. Doing this and going back to Cable is a one click process. There&#8217;s a few more bells and whistles you can customize for Harmony within Plex as well, once you&#8217;re up and running. For instance, you can add one touch buttons for things like &#8220;Watch Hulu&#8221;, or &#8220;My Favorites&#8221; or even &#8220;Watch The Daily Show on Hulu&#8221;. Not bad for a single click. You can also customize the buttons per context as well. So the number 0 might do something different when you&#8217;re watching a movie than when you&#8217;re in a listing of movies. Lots of possibilities there.</p>
+<h3>That&#8217;s all there is to it</h3>
+<p>Getting everything up and running was surprisingly smooth. It&#8217;s all dependent on a very small set of core programs and some smart settings to keep memory usage low. If you&#8217;re wanting to see if your setup can handle HD video, try downloading the <a href="http://forums.plexapp.com/index.php?showtopic=3029">birds scene from Planet Earth</a> and see how it performs. If it doesn&#8217;t even run (and chances are it might not), try downloading Plex and trying it form there. You can also benchmark within Plex by pressing &#8216;i&#8217;, which can serve as a good gauge of how many frames are being dropped. I&#8217;ll save that for the next entry on media software.</p>
+
+          
+
+        
+      </div>
+    </section>
+  </div>
+
+  
+    <div class='comments' id='comments'>
+      <div class='container'>
+        <section class='col-md-7 col-md-offset-2'>
+          <h2>Comments</h2>
+          <div id="disqus_thread" aria-live="polite"><script>
+  var disqus_shortname = "adamfortuna",
+      disqus_identifier = 'adamfortuna-blog-/building-the-ultimate-media-center-part-1-har',
+      disqus_url = 'http://adamfortuna.com/building-the-ultimate-media-center-part-1-har/';
+      disqus_script = 'embed.js';
+
+  (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script></div>
+        </section>
+      </div>
+    </div>
+  
+</article>
+
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

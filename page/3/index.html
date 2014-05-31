@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Home Backup Like a Boss Written June 27, 2011 backup Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/page/3">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="home" >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  
+  
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/backup-like-a-boss/">Home Backup Like a Boss</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written June 27, 2011</li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/backup/'>backup</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>After hearing about the <a href="http://5by5.tv/buildanalyze/30"><span class="caps">FBI</span> Raid on Marco Arment&#8217;s servers</a>, it got me interested in how he was doing backups. I&#8217;ve been slowly tweaking my own backup procedures over the last few years &#8212; to the point of being borderline obsessed with having local backups. A few years ago in 2002, a failing <span class="caps">SATA</span> drive containing my windows partition and all my files left me high and dry and without just about any backups of anything. This was a time before <a href="http://db.tt/ueGBRCn">Dropbox</a> and other synchronizing services had come along to make things easier, and I hadn&#8217;t taken the step on my own to make backup a priority.</p>
+<p>Two years ago when I was setting up my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">home media center</a>, I took a first stab at serious backup. Since then I&#8217;ve been gradually tweaking my system and trying new things. What follows is what worked for me.</p>
+<h3>What&#8217;s being backed up?</h3>
+<p>In this case I&#8217;m talking about a lot of data, but split over a few discreet sections:</p>
+<ul>
+	<li>Under 60 GB of photos, documents, code and general files.</li>
+	<li>About 150 GB of music, mostly ripped from my Mom&#8217;s extensive CD collection when she was a DJ, plus my iTunes downloads.</li>
+	<li>About <em>(gulp)</em> 7 TB of movies. This includes a <span class="caps">DVD</span> rip of just every movie I&#8217;ve ever bought.</li>
+	<li>3 Macs are being backed up with TimeMachine (Mac Mini and 2 MacBook Pros)</li>
+</ul>
+<p><img src="http://adamfortuna.com/media/media_center/mini-small.png" class="right" alt="" /> I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&#8217;ll be down to a &#8220;manageable&#8221; 5TB soon enough.</p>
+<h3>What Hardware is this Using?</h3>
+<ul>
+	<li>Dedicated Seagate 1TB TimeMachine Hard Drive</li>
+	<li><a href="http://www.amazon.com/Data-Robotics-FireWire-Storage-DR04DD10/dp/B001CZ9ZEE/ref=sr_1_1?ie=UTF8&amp;qid=1309218669&amp;sr=8-1&amp;tag=adamfortuna-20">4-bay <span class="caps">USB</span>/Firewire Drobo</a> with 4&#215;2TB drives (~5.6TB) connected to the MacMini</li>
+	<li><a href="http://www.amazon.com/Mediasonic-eSATA-3-5-Inch-Enclosure-HFR2-SU3S2/dp/B003YFHEAC/ref=pd_sim_e_6?tag=adamfortuna-20">4-bay MediaSonic Raid Enclosure</a> with 4&#215;1TB (~3TB) connected to the MacMini</li>
+	<li>2 x Western Digital 3TB Drive connected to the Mac Mini (used exclusively for backups).</li>
+</ul>
+<p class="center"><img src="http://adamfortuna.com/media/media_center/drobo.png" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://adamfortuna.com/media/media_center/mediasonic.png" alt="" /></p>
+<p>The Drobo and MediaSonic both can withstand a single drive failure with no data loss, which is an ideal first line of defense. I&#8217;ve heard from many reviews that the performance of the Drobo is awful, but I haven&#8217;t had too many issues. The initial load of data onto it is a long, slow, painful experience &#8212; and adding a new drive can require upwards of a day before you can use it, but for general use I haven&#8217;t had any issues.</p>
+<p>I&#8217;d consider the MediaSonic enclosure as a lower priced alternative. The downside is needing 4 drives up front, but that&#8217;s an issue you&#8217;ll encounter with any <span class="caps">RAID</span> solution. You have the option of choosing the level of Raid you want, and formatting takes only a few minutes.</p>
+<p>It&#8217;s been a a year or two since I looked into hardware, but these have both lasted well without any data loss, and without any failed drives (so far).</p>
+<h3>Software Makes it Happen</h3>
+<p>There&#8217;s a few important pieces of software that keep things in sync. In my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">previous post</a> I was using mostly cron jobs &#8211; which works, but were a little rough around the edges. Since then I&#8217;ve added a few more to the mix: <img src="http://adamfortuna.com/media/media_center/cronosync.png" class="right" alt="" /></p>
+<ul>
+	<li>TimeMachine is installed on all 3 Macs</li>
+	<li><a href="http://www.econtechnologies.com/pages/cs/chrono_overview.html">Chronosync</a> installed everywhere</li>
+	<li><a href="http://www.backblaze.com/partner/af1782">Backblaze</a> ($50/year) on Mac Mini</li>
+	<li><a href="http://db.tt/ueGBRCn">Dropbox</a> ($99/year) on laptop</li>
+</ul>
+<p>Now, if I had less than 100 GB of total data, I&#8217;d just use Dropbox and call it a day. I&#8217;d probably even enable the &#8220;Packrat&#8221; option for unlimited undo history. Even with the recent <a href="http://blog.dropbox.com/?p=821">Dropbox authentication bug</a> it&#8217;s still the best tool on the market. There are other ways to <a href="http://www.readwriteweb.com/cloud/2011/05/4-ways-to-build-your-own-dropbox.php">roll your own Dropbox</a> that may be worth checking out as well. Dropbox has the added bonus of having an <span class="caps">API</span> that other tools can interact with, that you wouldn&#8217;t get from a home rolled solution.</p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/dropbox_referral.png" alt="" /></p>
+<p>It&#8217;s also possible to increase the size of your Dropbox with referrals and other promotions they offer. My 50 GB box is up to 67.75 GB at the moment, just by taking advantage of their offer to increase the size with referrals. The additional amount of space for each referral is dependent on your pricing level, so you get more extra space for a referral when you&#8217;re on the 50 GB plan than on the free plan.</p>
+<p>Backblaze is a tool I haven&#8217;t heard much fuss about, but for me it&#8217;s been a reliable, cost efficient and effective tool in my backup strategy. The Mac app for Backblaze installs itself into your system preferences and is completely controlled from there. You can specify which folders/drives you want to keep backed up, and tweak the speed to upload.</p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/backblaze_persephone.png" alt="" /></p>
+<p>It took upwards of 3 months to upload 6 TB to Backblaze (which Brighthouse luckily didn&#8217;t have any issues with). Since then it&#8217;s stayed in sync a few days at any given time. The contents on the drive aren&#8217;t in constant flux, so often it&#8217;s updated within a few minutes. If you&#8217;re on a slow connection, this might not be possible, but <a href="http://brighthouse.com/central-florida/shop/internet/road-runner-lightning">Road Runner Lightning</a> or <span class="caps">FIOS</span> will make the process a lot smoother.</p>
+<h3>Bringing it All Together</h3>
+<p>The Drobo and Mediasonic devices serve as file storage for archived DVDs, and also store all music I&#8217;ve ever ripped/downloaded. Both devices allow for a single drive failure without the loss of data &#8211; and advantage over the standalone Western Digital 3TB drives which if they fail, all data is lost.</p>
+<h4>Time Machine</h4>
+<p><img src="http://adamfortuna.com/media/media_center/timemachine.png" class="right" alt="" /> The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a <span class="caps">USB</span> hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&#8217;t do a first backup via <span class="caps">USB</span> then plug it in there either &#8212; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
+<h4>Music</h4>
+<p>Music on my main computer isn&#8217;t backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it&#8217;ll be backed up that same day.</p>
+<p><img src="http://adamfortuna.com/media/media_center/itunes.png" class="left" alt="" /> The MediaSonic has 2 Music folders actually. It has an &#8220;In Use&#8221; folder and an &#8220;Archive&#8221; folder. The MacBook Pro music folder is mirrored to &#8220;In Use&#8221; &#8211; which is always a snapshot of what&#8217;s currently on my laptop. Later, the Mac Mini does a sync to a second &#8220;Archive&#8221; folder. This may sound redundant, but that&#8217;s because for much of the data it is.</p>
+<p>The nice part is that if I delete something from my laptop, it&#8217;ll also be deleted from the &#8220;In Use&#8221; copy, but the &#8220;Archive&#8221; folder will retain a copy. The goal of all this is that I can restore my music directly at anytime, not eat up space on the TimeMachine drive, and have an canonical archive for all music.</p>
+<h4>In-House Backups</h4>
+<p>The MediaSonic drive is synced nightly to one of the WD 3TB drives. The sizes match, so it&#8217;s a clean mirror. Chronosync handles the scheduling and syncing, keeping it easy to edit as well. 3 TB of data from the Drobo is backed up to the other MediaSonic Drive nightly as well. That leaves about 2.6 TB of data that&#8217;s not duplicated in house, but is still available on Backblaze.</p>
+<h3>The End Result</h3>
+<p>Any single hard drive or device can fail with a backup readily at hand. It&#8217;s important to not only protect against a single hard drive failure but a single device failure. Having a device like a Drobo or a Raid helps with redundancy, but it&#8217;s not a backup &#8212; if the device itself malfunctions or corrupts your data, you&#8217;re out of luck. By having a in house backup of these, I still have access to anything important at a moments notice.</p>
+<p>Setting up an offsite backup plan is annoying at first, but once it&#8217;s in place it&#8217;s a huge relief. At the moment I&#8217;m very happy with both Backblaze and Dropbox, and plan to renew both. I haven&#8217;t priced out how much it would cost to store 6 TB on S3, but I imagine it&#8217;d be below $50 a year. The nice part of Backblaze is that they can mail you hard drives loaded with your data in the event of a failure &#8212; or you can just download specific files.</p>
+<p>One obvious gap in my setup is offsite backups for my TimeMachine drive. These could be synced up with BackBlaze as well, but at the moment Backblaze requires all backed up drives to be physically connected to the machine with it installed.</p>
+<h3>What&#8217;s your Plan?</h3>
+<p>I&#8217;m always interested to see what people are doing to backup large amounts of data like this. If you&#8217;re backing up a large amount of files, or even a small amount, I&#8217;d be interested in hearing what your strategy is!</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/backup-like-a-boss/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/2010-year-in-review/">2010 Year in Review</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written January 01, 2011</li>
+  
+    <li><a href="/2010-year-in-review/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/2010-year-in-review">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/goals/'>goals</a>, <a class='tag' href='/tags/self-improvement/'>self improvement</a>, <a class='tag' href='/tags/year-in-review/'>year in review</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>My yearly recap of what&rsquo;s happened in my life over the last year.</p>
+
+<h2>Travel</h2>
+
+<ul>
+<li>Twitters first Developer Conference in San Francisco, <a href="http://mobile.adamfortuna.com/getting-ready-for-the-chirp-keynote-to-start">Chirp</a> and got to see family in the area</li>
+<li>My first cruise- &ndash; a 7 day Royal Caribbean cruise to Haiti, Jamaica, The Grand Cayman Islands and Cozumel with Marilyn</li>
+<li>Went horseback riding on a somewhat wild horse named Alarma in Cozumel</li>
+<li>Climbed a waterfall in Jamaica.</li>
+<li><a href="http://mobile.adamfortuna.com/caught-quite-a-few-scallops-and-some-sunburn">Scalloping</a> at <a href="http://www.homosassasprings.org/">Homosassa Springs</a></li>
+<li><a href="http://mobile.adamfortuna.com/mmmmmm-80-lbs-of-stone-crab-nate-knows-how-to">Crab Feast</a> in St. Petersburg!</li>
+<li>Stayed at the <a href="http://www.loewshotels.com/en/Don-CeSar-Beach-Resort">Don Cesar</a> in St. Petersburg for Nate and Bekah&rsquo;s Wedding</li>
+<li>Went to Miami Beach for Nate&rsquo;s bachelor party and stayed at the iconic <a href="http://www.marriott.com/hotels/travel/miasr-eden-roc-renaissance-miami-beach/">Eden Roc</a></li>
+<li>Westin Channelside and Hard Rock Casino for IZEA&rsquo;s retreat</li>
+</ul>
+
+
+<h2>Life</h2>
+
+<ul>
+<li>Started a 4&#8217;x9&#8217; <a href="http://mobile.adamfortuna.com/first-veggies-coming-in-mostly-peppers-and-to">vegetable garden</a></li>
+<li>Began composting</li>
+<li>Bought a <a href="http://twitter.com/adamfortuna/status/13521796360">wheelbarrow</a></li>
+<li>Had our first yard sale at this house</li>
+<li>Cleaned out the garage to where we can actually use it</li>
+<li>Dropped cable TV in favor of using Plex, Netflix and Hulu</li>
+<li>Digitized most my DVDs and media. Still a few to go, but the bulk of the work is over</li>
+<li>Slowly increasing savings and investments on Vanguard and following investment advice from <a href="http://en.wikipedia.org/wiki/John_Bogle">John Bogle</a></li>
+<li>Had a major disagreement with GE over them charging me $400 for something they broke. Complained on Twitter and they resolved it before my check was even cashed.</li>
+<li>Developed an appreciation for beer</li>
+<li>Went on an indoor plant buying frenzy resulting in many casualties. Only the strong survive.</li>
+<li>Played on my works kickball team with Marilyn</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<ul>
+<li><a href="http://www.flaminglips.com/">Flaming Lips</a> and <a href="http://www.imogenheap.com/">Imogen Heap</a> concerts at Hard Rock Orlando</li>
+<li>Got Disney passes and went to Epcot&rsquo;s <a href="http://mobile.adamfortuna.com/fun-day-at-food-and-wine-festival-at-epcot">Food and Wine Festival</a> way too many times</li>
+<li>Saw <a href="http://www.jonathancoulton.com/">Jonathan Coulton</a> and <a href="http://www.paulandstorm.com/">Paul and Storm</a> at The Social</li>
+<li>Saw Rick Springfield and Boyz 2 Men at Epcot (but we missed Hanson)</li>
+<li>Largest holiday party so far over at our place</li>
+<li>Tron Legacy Midnight release with Marilyn and friends</li>
+<li>Lots of movies. My favorites that came out this year were Inception, Exit Through the Gift Shop and The Social Network</li>
+<li>Favorite TV shows discovered were Breaking Bad, House, Jericho and The Colony</li>
+<li>Played through Mass Effect twice and Mass Effect 2 almost twice and loved them both</li>
+<li>Thanksgiving at Marilyn&rsquo;s Moms, with firetruck and family</li>
+<li>Went to <a href="http://www.wallstplaza.net/plazaween">Plazaween</a> in costume with Marilyn and friends</li>
+</ul>
+
+
+<h2>Programming and Technology</h2>
+
+<ul>
+<li>Launched <a href="http://sponsoredtweets.com/twitter-cost-per-click/">Cost Per Click</a> for <a href="http://sponsoredtweets.com/">SponsoredTweets</a></li>
+<li>Helped get <a href="http://socialspark.com/">SocialSpark V2</a> launched and did a tiny bit of work on <a href="http://wereward.com/">WeReward</a></li>
+<li>Started organizing hack days and lunch-and-learns at work, we even had a chance for a hack week!</li>
+<li>Completely dropped organized hosting on Dreamhost in favor of S3, Posterous and Github.</li>
+<li>Launched <a href="http://moviefly.org">MovieFly</a> , then a few months later <a href="http://gomiso.com">Miso</a> launched</li>
+<li>Changed <a href="http://adamfortuna.com">AdamFortuna.com</a> into a splash page instead of a blog</li>
+<li>Started a <a href="http://mobile.adamfortuna.com/">mobile blog</a> for pictures taken from my phone</li>
+<li>Moved <a href="http://arcadefly.com/">ArcadeFly</a> over to <a href="http://heroku.com/">Heroku</a></li>
+<li>Bought an iPad, a new shuffle running and upgraded to a iPhone4</li>
+<li>Started learning iOS development</li>
+<li>Started working on a new site in Rails 3 that should launch next year</li>
+<li>Messed around with some new technology over the year including node.js, redis, websockets, css3, html and mongo db</li>
+<li>Upgraded to Road Runner Lightning, and slowly backing everything I have up to <a href="http://www.backblaze.com/">BackBlaze</a></li>
+</ul>
+
+
+<p>As for new years resolutions? Probably increase savings a bit more, eat a little healthier and spend less time on the couch. Like to eat out less and get better at creating the things I love to eat and drink from scratch including salad dressing, sauces and brewing beer- &ndash; and maybe later on wine. If there&rsquo;s one thing I want to do in 2011 though, it&rsquo;d be launch the site I&rsquo;m working on in my spare time, and do it right.</p>
+
+          
+          
+            <footer>
+              <a rel="full-article" href="/2010-year-in-review/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/8-awesome-uses-for-dropbox/">8 Awesome Uses for DropBox</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written April 03, 2009</li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/backup/'>backup</a>, <a class='tag' href='/tags/review/'>review</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>Although only a very small part of my <a href="http://www.adamfortuna.com/2009/03/22/building-the-ultimate-media-center-part-3-backup/">backup strategies</a> post dealt with <a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">Dropbox</a> , after using it for a second week I&#8217;ve fallen for it. Sure, it&#8217;s useful for syncing commonly used files between computers, and there&#8217;s many more files that it would be useful to have revision history on, but there&#8217;s more to it than just sharing files. With that in mind I&#8217;ve been on a rampage to use it for simplifying my life as much as possible. Here&#8217;s a few tricks I&#8217;ve found that help make things easier.</p>
+<h3>Backup Folders Not in Dropbox</h3>
+<p>Right now Dropbox installs itself into a pre-selected location, then everything in that folder is archived in Dropbox. Syncing outside of the Dropbox folder is on the todo list, but for now there&#8217;s a workaround to do this. Create a symbolic link within the Dropbox folder pointing to the folder you want to archive. For instance, lets say within Dropbox you want your Documents folder. To do this you&#8217;d create a sym link for this.</p>
+<div>
+<pre><code class='bash'>ln- s ~/Documents/ ~/Dropbox/Documents</code></pre>
+</div>
+<p>Dropbox should start syncing right away, and will sync from here on out whenever. Anything that goes into your <code>~/Documents</code> folder will be backed up. One very important thing to note is that if you delete something from the <code>~/Dropbox/Documents</code> folder on another computer, it will be removed from your <code>~/Documents</code> folder on the computer with the symlink, so keep that in mind.</p>
+<h3>Syncing Adium Log Files Between Macs</h3>
+<p>So you&#8217;re looking through chat logs for a conversation you know you had, but you can&#8217;t seem to find it. Turns out it was on a a different computer. Has this ever happened to you? There&#8217;s a convenient way of syncing Adium log files (or any other log files) with Dropbox. Adium doesn&#8217;t allow you to change your Log directory, but there&#8217;s no reason why you can&#8217;t make the default location a smylink to somewhere else. I have a <code>~/Dropbox/Sync</code> directory where I store any settings/items that I want to keep in Sync between computers, so this is the perfect place for it. I created a <code>~/Dropbox/Sync/chat</code> folder, quit Adium and dragged my existing Adium logs folder into Dropbox (from /Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs). All you have to do is point a folder at your Dropbox and you&#8217;re good to go! In my case, the command was:</p>
+<div>
+<pre><code class='bash'>ln -s ~/Dropbox/Sync/chat/logs/ &amp;quot;/Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs&amp;quot;</code></pre>
+</div>
+<p>Just setup multiple computers with this same path and you should have a single repository for all your chat logs. I&#8217;m not too sure how this works with conflict resolution, but unless you&#8217;re chatting to the same person on multiple computers at the same time you should be good. If you&#8217;ve tried that though, I&#8217;d be interested to see how it works.</p>
+<h3>Backup configuration</h3>
+<p>This was mentioned earlier, but having a shared space for your backup scripts makes life easier. Dropbox is amazing, but the Dropbox application does have the ability to delete files from your computer. Lets say the worst happens and they delete your account, causing your Dropbox to be deleted on all your computers- &#8211; would you mind? If you have your ~/Documents and other folders linked, this might be a huge blow to lose unless you&#8217;re backing it up somewhere. This same doomsday scenerio could happen if someone hacks into your Dropbox account and removes your files from the web interface. You&#8217;ll probably be able to restore them in that case, but then you&#8217;re relying on Dropbox to fix the Dropbox problem. A more secure way of handling this might be to have a full copy of your Dropbox somewhere locally. With Dropbox maxing out around 55GB, making a full copy of this on some HD you have laying around isn&#8217;t a bad idea. Automating the process and backing up your Dropbox nightly is even better though! So what would something like this look like.</p>
+<div>
+<pre><code class='bash'>rsync -rpLtgoDE- -delete ~/Dropbox /Volumes/Drobo/Users/adam/current</code></pre>
+</div>
+<p>This rsync command will copy everything from my Dropbox to a local directory, in this case on a <a href="http://www.drobo.com/">Drobo</a> . This follow all symlinks and copy the contents of them, rather than copying the symlinks themselves. Try saving this one line in a file, <code>backup.command</code> . You should be able to run it by double clicking or from terminal. I store this file in <code>~/Dropbox/Sync/scripts/backup.command</code> so it can be edited from anywhere.</p>
+<h3>Version your crontab</h3>
+<p>You don&#8217;t want to run that backup script manually everyday do you? To save time (and guarantee a good backup strategy), you&#8217;ll want to have this automatically run. I&#8217;ll recap real quick how to set this up. Just open up terminal on the computer you&#8217;ll be automating the backup. You can call things on a scheduling using <a href="http://en.wikipedia.org/wiki/Cron">cron</a> , which can be opened by entering <code>crontab- e</code> . I&#8217;ve decided to run the above script every day, and backup my list of cron jobs every day.</p>
+<div>
+<pre><code class='bash'>@daily crontab -l &amp;gt; ~/Dropbox/Sync/scripts/crontab.txt 30 3 * sh ~/Dropbox/Sync/scripts/backup.command</code></pre>
+</div>
+<p>The first line will save the crontab contents in the @ ~/Dropbox/Sync/scripts/crontab.txt@ file. The @daily parts means this&#8217;ll happen every night at midnight. The second line is scheduled to run every night at 3:30am as well, but usually takes a little longer. Rsync isn&#8217;t the fastest in the world, but it&#8217;ll get the job done- &#8211; usually in under a minute for me.</p>
+<h3>Sync Your <a href="http://culturedcode.com/things/">Things</a> Tasks</h3>
+<p>For a while during the beta, Things was my <span class="caps">GTD</span>/todo list of choice. The interface has a level of polish that few apps obtain &#8212; and even fewer in the <span class="caps">GTD</span> relm where complexity is the norm. One downside of Things is that it doesn&#8217;t use MobileMe syncing like OmniFocus, it&#8217;s competitor. You can get around this and use your Dropbox for syncing in the same way as Adium though. Just close Things and move your Things database files folder to your Dropbox on one computer &#8212; I threw it in ~/Dropbox/Sync/Things. Create a symlink from where it used to be to the new Dropbox location and you should be good! You&#8217;ll need to do this same step on your other computer(s), but without the copying the file to Dropbox step. This does have a caviat though &#8212; you must close Things each time you switch computers. Unlike Adium, when there&#8217;s a conflict, well it&#8217;s very bad. Your Things database is a single <span class="caps">XML</span> file that cannot be merged. So be sure to always close Things when you switch computers to be safe. If anything goes wrong though, you can always sign into the Dropbox web interface and roll the file back. Or you could just use <a href="http://www.rememberthemilk.com">Remember the Milk</a> and not have to worry about syncing.</p>
+<h3>Host a Local Wiki</h3>
+<p><a href="http://www.tiddlywiki.com/">TiddlyWiki</a> is a Wiki unlike any other I&#8217;ve heard of. It has all the storage characteristics of a normal wiki, but exists as a single html file that edits. Just copy it to your Dropbox, open it up in Firefox (you are using FireFox right?) and start making changes. Upon saving it&#8217;ll update the file in Dropbox. As with a few other tips, you probably shouldn&#8217;t have TiddlyWiki open on another when saving. If you&#8217;ve jumped on the TiddlyWiki bandwagon but you&#8217;re using a <span class="caps">USB</span> drive to transfer your Wiki around, Dropbox is a simple upgrade to save some time.</p>
+<h3>Sync your Passwords</h3>
+<p>I don&#8217;t personally use any sort of password manager, but LifeHacker has a good article on <a href="http://lifehacker.com/5063176/how-to-use-dropbox-as-the-ultimate-password-syncer">How to Use Dropbox as the Ultimate Password Syncer</a> . According to the Lifehacker article, changes are pulled in right away, even when using multiple computers. This is because 1Password, the password manager used in the article, stores your data in lots of little files, making it ideal for minimal conflicts.</p>
+<h3>Sync your Firefox Bookmarks</h3>
+<p>Firefox bookmarks are another one that seem like a no-brainer to use Dropbox for. There are so many different bookmark sync services out there that can do this, but why use another service when you&#8217;re already using Dropbox? The basics for this are just copying your firefox profile to Dropbox, then starting Firefox with the- p option which allows you to specify a profile path. Just follow the directions on how to <a href="http://wiki.getdropbox.com/TipsAndTricks/SyncFirefoxBookmarks">Sync Firefox Bookmarks</a> from the Dropbox Wiki and you should be good. This tip doesn&#8217;t use symlinks like a number of others, making it a little easier to setup.</p>
+<h3>Join Dropbox</h3>
+<p>Dropbox provides 2gb of storage out of the gate, but if you signup with a <a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">referral link</a> , you&#8217;ll get an extra 250mb of space (and I&#8217;ll get an extra 250mb too)! The desktop app works on Mac, PC and Linux with a very simple install on all of them. If you join up and have any other tips or tricks, feel free to share them here!</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/8-awesome-uses-for-dropbox/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-3-bac/">Building the Ultimate Media Center, Part 3: Backup</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 22, 2009</li>
+  
+    <li><a href="/building-the-ultimate-media-center-part-3-bac/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-3-bac">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a>, <a class='tag' href='/tags/backup/'>backup</a>, <a class='tag' href='/tags/review/'>review</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>Describing what I&#8217;ve been working on so far as a media center may not be quite sufficient. Now a days term &#8220;home server&#8221; seems to do it a bit more justice, and if a home computer is on full time you&#8217;ll certainly want to get the most out of it. If you&#8217;ve ever wanted to do backups within your home, you might&#8217;ve looked into <a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">Windows Home Server</a> or Apples <a href="http://www.apple.com/timecapsule/">Time Capsule</a> / <a href="http://www.apple.com/macosx/features/timemachine.html">Time Machine</a> setups, but neither is quite what I was looking for. First off, I don&#8217;t really want a Windows box in (mostly) mac home, so that&#8217;s out. Time Machine alone doesn&#8217;t do everything I have in mind, although it does play an important part. I&#8217;ve had a lot of backup plans in the past, but none were quite &#8220;perfect&#8221;, which got me wondering what a perfect backup plan would look like.</p>
+<h3>What do you want in backup plan?</h3>
+<p>Just like in creating software, when setting up a backup plan it&#8217;s important to know your requirements ahead of time. Otherwise what are you working towards? So what do I want this backup plan to be able to do&#8230;</p>
+<ul>
+	<li>Make it so that there is no single point of failure for any important data</li>
+	<li>Have on site and off site backups of everything</li>
+	<li>Backup and sync core data between macs (settings, address book, calendar, keychain, etc)</li>
+	<li>Some kind revision system for all text files. Something like git or svn where you can rollback changes</li>
+	<li>A local redundant hard drive array to guarantee no data loss if a single drive fails</li>
+	<li>Backup all core documents on various time intervals (daily, weekly, monthly). That way if I mess up a file and don&#8217;t realize it for a week I&#8217;ll be able to grab the version a month ago.</li>
+</ul>
+<h3>Settings, Calendars, Address Book and more</h3>
+<p>If you have multiple Macs <a href="http://www.apple.com/mobileme/">Mobile Me</a> is a good choice for easy syncing between macs. The system has had a lot of problems, and continues to struggle with performance. iDisk, the webdav interface to your MobileMe account is <em>painfully</em> slow, and continues to be. Just cleaning out a few hundred empty folders was enough to stall it earlier. The online image gallery MobileMe has is one of the better one&#8217;s seen, and if you use iPhoto it&#8217;s a convenient photo storage location. Just so that all my calendars and contacts aren&#8217;t confined to a single system (the Mac ecosystem), I use <a href="http://spanningsync.com/">Spanning Sync</a> to keep my Google Calendars and Google Contacts in check with iCal and Address Book. My girlfriend and I share calendars with each other on Google, and this way any changes she makes show up on my iCal, and any I make on iCal show up on hers. Also, whenever I get Google Calendar invites to my email address, they show up on Google Calendar then get syncd back to iCal. 2 way syncing is the way to go!</p>
+<h3>Complete Backups With Time Machine</h3>
+<p>Time Capsule is powerful and dead simple for full system backups. The way it works is simple: all macs on a network will have Time Machine (a program that ships with Leopard) enabled and set to use the Time Capsule hardware. Every hour or so, changes made to the core and specific folders will be pushed from the client computer (in this case my laptop) to the Time Capsule. You can specify which folders to watch for this as well. You might not want it watching your Downloads folder or others that are similarly volatile, but that&#8217;s easy to change. The first time you back up everything to Time Capsule you&#8217;ll want a hardline to it rather than doing it over a home network (even if it&#8217;s wireless N). Transferring your entire computer initially could take a full day if not, so be sure to plug it in. The hourly backups after that work wirelessly though, as they are much much smaller. Apple&#8217;s Airport Extreme has the ability to add a remote hard drive which can serve as a Time Machine drive as well. The nice part about this is that you can use an old external hard drive you have, or choose any drive out there. Leopard didn&#8217;t originally allow you to sync with drives like this, but in one of the recent updates it was enabled. For me, after the initial backup the incremental backups are very quick if not much has changed. Running TimeMachine for the first time is a trippy experience. You &#8220;go back in time&#8221; to the point where you want to see a file, then you can restore it. This covers a few of the requirements such as versioned files locally and full system backups with the ability to restore on any Mac.</p>
+<h3>Backups to a local <span class="caps">RAID</span> (or Drobo)</h3>
+<p>Finally, the first step that the Media Center can help with. Whether you go with <span class="caps">RAID</span>, a <a href="http://www.drobo.com/">Drobo</a> or something else, the backup procedure to it will be about the same. The easiest way I&#8217;ve found to do backups to this is with rsync and crontab. Here&#8217;s how it works: Your media server will have a series of scripts setup to run daily, weekly and monthly. These scripts will do all the heavy lifting of the backup &#8211; grabbing files from every computer on your network you want to backup and moving them to the redundant array. So firstoff the media server should be setup to backup everything from the computers on the network. That&#8217;s easy actually. On each computer you want to back files up from, go into System Preferences &gt; Sharing and enable &#8220;Remote Login&#8221;. This will allow the media center to ssh into each laptop. Backing up using rsync can be done by mapping drives in Finder and using those paths (/Volumes/adam), or by using <span class="caps">SSH</span>. With <span class="caps">SSH</span> you don&#8217;t have to map the drive beforehand, so it is the preferred method. On the media center, open up a text file. This will contain everything you want to copy from your client computers, and the path (on your media center) that you want to store them in.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
+<p>rsync -aE &#8212;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current</code></pre></p>
+</div>
+<p>Note that the destination (the 2nd path) is the same. That&#8217;s just because it&#8217;ll actually store the documents folder in &#8220;/Volumes/Drobo/Users/adam/current/Documents&#8221;. The- a option specifies &#8220;Archive&#8221;, which is actually shorthand for a few other options. It will recusively copy all directories, copy symlinks, preserve file permissions, preserve owner and groups, preserve file times preserve special files. The &#45;E flag preserves executability, while &#45;&#45;delete deletes extraneous files &#45; like those that were deleted. Save this file somewhere on the media center as a .command file. I kept it simple &#8211; backup.command. You should be able to run this script by just double clicking on it now. But there is a one major problem &#8212; authentication.</p>
+<h3>Setting up <span class="caps">SSH</span> keys</h3>
+<p>By setting up <span class="caps">SSH</span> Keys you can automate the authentication from the Media Server to any clients you want to backup. The way you do this is very easy. On the Media server, run the command @ ssh-keygen- t dsa@ . Go with the defaults, but choose a passphrase you can remember. Copy this file from the Media server to the computer you want to backup <span class="caps">FROM</span>. Since you should already have <span class="caps">SSH</span> setup, something like this should do the job.</p>
+<div>
+<pre><code class='bash'>link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@</code></pre>
+</div>
+<p>If you already have an <code>authorized_keys2</code> file, you&#8217;ll want to add the contents of <code>id_dsa.pub</code> to it instead of replacing it. After that&#8217;s updated, try SSHing to that client from the Media Server. You should get prompted for the passphrase (a mac prompt, not a terminal prompt). After you enter it and save it for later you should be able to <span class="caps">SSH</span> without any password going forward.</p>
+<h3>Setting it up to run automatically</h3>
+<p>Not worrying about backups is the whole point of this entire system, so running it automatically is essential. Luckily Unix systems have an easy way of doing this using cron jobs. To open up the list of cron jobs, just enter <code>crontab -e</code> in a terminal window. This will open up the cron file using VI. Editing in VI can be a bit annoying without knowing the comamnds. To edit it you don&#8217;t need to know much VI though. Just hit &#8220;i&#8221; to go into insert mode, where you can start typing. Each line you enter is a single scheduled cron job with a very specific format. For example, here&#8217;s a line to run a script every day at 3:30am:</p>
+<div>
+<pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command</code></pre>
+</div>
+<p>The &#8220;30 3 *&#8221; part deals with when it should be run, while the part after that is what to run. Here&#8217;s what those first 5 options translate to:</p>
+<ul>
+	<li>30- minute to run job on</li>
+	<li>3 &#8211; hour to run job on</li>
+	<li>* &#8211; Day of the month to run job on</li>
+	<li>* &#8211; Which month to run job on</li>
+	<li>* &#8211; Which day of the week to run the job on</li>
+</ul>
+<p>It&#8217;s a bit tricky to remember at first, but it&#8217;s a very simple scheduling system. For example, if you want to run something on sunday (the 0th day of the week) at 5:30 am, the parameters would be &#8220;30 5 0 &#8230;&#8221;. Here&#8217;s my full crontab that I&#8217;m using (some of these scripts I haven&#8217;t discussed yet, but we&#8217;ll get to later).</p>
+<div>
+<pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command
+<p>00 5 1 sh ~/Dropbox/scripts/weekly.command <br />
+00 6 1 sh ~/Dropbox/scripts/monthly.command <br />
+30 6 1 sh ~/Dropbox/scripts/external.backup.command</code></pre></p>
+</div>
+<p>The weekly and monthly scripts will just take a snapshot every month rather than every day. Nothing much to those scripts &#8212; just removing the last update and copying a snapshot. The monthly script is exactly the same but with &#8220;weekly&#8221; changed to &#8220;monthly&#8221;. The point of this is that if anything big goes wrong, you&#8217;ll have a backup locally of the original.</p>
+<div>
+<pre><code class='bash'>rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/</code></pre>
+</div>
+<h3>Versioned changes with Dropbox</h3>
+<p><a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It&#8217;ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What&#8217;s extra-useful about this is that all files will be versioned. I&#8217;m storing my Documents and Sites folders in here and backing up daily. Even if I haven&#8217;t committed site changes for something I&#8217;m working on, it&#8217;ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
+<p>rsync- aE &#8212;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</code></pre></p>
+</div>
+<p>One really nice part about Dropbox&#8217;s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it&#8217;s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.</p>
+<h3>Backing up your backup scripts</h3>
+<p>You&#8217;ll notice that my backup scripts where in my Dropbox: <code>~/Dropbox/scripts/backup.command</code> . Not only does this mean that you&#8217;ve backed up your scripts (always a good practice), but you can change your backup procedure from anywhere you can access Dropbox! This is so simple it&#8217;s one of the most effortless things to setup. You can also copy the contents of your crontab file Add this line to your crontab: <code>@daily crontab- l &gt; ~/Dropbox/crontab.txt</code> &#8220;@daily&#8221; is shorthand for &#8220;everyday at midnight&#8221;. This is a nice way of archiving any changes you make to your crontab. With the other backup scripts you can make changes on any computer and the Media Center will pull them in thanks to DropBox. But for the crontab you&#8217;ll actually want to make changes directly to the Media Center using the &#8220;crontab -e&#8221; command.</p>
+<h3>External backups of everything else</h3>
+<p><a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe&#8217;s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I&#8217;ll keep it going for that. For now I&#8217;ll stick with MobileMe for my larger media backup as well, although I can tell you now I&#8217;m not exactly happy about it. One of the downsides of MobileMe is that it doesn&#8217;t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it&#8217;ll show in &#8220;/Volumes&#8221;. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application &#8220;Finder&#8221; mount volume &#8220;http://idisk.mac.com/myusername/&#8221; as user name &#8220;myusername&#8221; with password &#8220;mypassword&#8221; end tell @ Save it as file format &#8220;Application&#8221; with &#8220;Run Only&#8221; checked, but don&#8217;t check &#8220;Stay Open&#8221; or &#8220;Startup Screen&#8221;. Save this application somewhere then add it to your startup items. The last part is setting up the &#8220;remote.command&#8221; script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
+<p>rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code></pre></p>
+</div>
+<p>This just runs weekly everything here doesn&#8217;t change that much. The Pictures directly is the main one that&#8217;ll be updated, as it&#8217;s a single iPhoto file that changes often.</p>
+<h3>Woh, that&#8217;s a lot. Did we miss anything?</h3>
+<p>Well, two things were skipped- &#8211; Music and Videos. I have a decent sized music collection, and I tend to archive my DVDs for use with Plex. Backing up 2TB of data remotely when you&#8217;re limited to 70k/s upload speeds isn&#8217;t exactly possible. What I am doing is storing all my media on a Drobo which protects it against a single hard drive failure (maybe more, depending on when the failures occur). My TimeMachine drive is actually a 500gb drive split &#8211; 200 for Time Machine and the rest for media backup. Every night the Media Center pushes all music from the Drobo onto this external drive. At least that way all my music is protected in case the Drobo itself fails. There&#8217;s no external backup for music, but I&#8217;m OK with that. If I was a little more paranoid I might archive weekly and leave the drive at work or something, but that&#8217;s where I draw the line. That leaves one gaping hole &#8211; the movie collection this system was for in the first place! For now I&#8217;m content with being protected against a single HD failure with the Drobo, but if anyone has any suggestions on how to back this up I&#8217;m all ears. Also if you think of anything else I missed, or just something I could do better then please leave a comment!</p>
+<h3>Did this help?</h3>
+<p>If this article helped you, please sign up for <a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> ! DropBox was in beta for a while, but now it&#8217;s open and anyone can sign up. You get 2GB of space just for signing up. They have the added bonus of increasing your space by 250mb for everyone you refer (up to 5GB total), so by signing up you&#8217;ll give me more space to experiment with. It&#8217;s easily the best backup service I&#8217;ve used, so I&#8217;m looking forward to seeing how it grows.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/building-the-ultimate-media-center-part-3-bac/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-2-ple/">Building the Ultimate Media Center, Part 2: Plex</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 16, 2009</li>
+  
+    <li><a href="/building-the-ultimate-media-center-part-2-ple/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-2-ple">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+      <div class='post-content'>
+        
+          <p>If there&#8217;s a killer app out there in the media center world, it&#8217;s <a href="http://www.plexapp.com/">Plex</a> . Built on the long running <a href="http://xbmc.org/"><span class="caps">XBMC</span></a> , Plex is a fork of the project optimized to run on the Mac. <span class="caps">XBMC</span> has been around since the first Xbox, making one of the most established media center platforms out there. It&#8217;s long outgrown the console however, and now serves as the core for projects like Plex and <a href="http://boxee.tv/">Boxee</a> . It was also featured on a recent <a href="http://twit.tv/FLOSS"><span class="caps">FLOSS</span> Weekly</a> episode which is worth a listen. With lots of <a href="http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4">recent talk about Boxee</a> , I thought I&#8217;d add Plex to the conversation with a little talk on why I think it&#8217;s the best media center software available.</p>
+<p><img src="/media/media_center/home.png" alt="" /></p>
+<h3>Media Management</h3>
+<p>Like other projects based on <span class="caps">XBMC</span>, Plex has built in capacity for managing your media collection. This enables Plex to have an internal listing of what movies you have available in a much nicer format than the typical folder structure. Within Plex you do this by adding sources (in the form of folders containing files) and specifying what type of content resides there (movies, tv shows, music videos). Plex even allows for different sources to pull down the information on the video- &#8211; from <span class="caps">IMDB</span>, <span class="caps">OFDB</span>, MovieMaze, TheTVDB, TV.com and many more. If you want to pull data from another site, it can be added using Python, so if a better movie database comes out, it&#8217;s just a matter of writing an adapter for it. Plex uses the file name or folder name to look it up, so it&#8217;s important to name your files correctly and add the year the movie/tv show was released. You can do this manually from within Plex as well, but it&#8217;ll find your media on <span class="caps">IMDB</span> if your files are named correctly.</p>
+<p><img src="/media/media_center/movies_list.png" alt="" /></p>
+<p>One issue that always come up when crawling a media collection is varying file format and folder structure. Chances are not all of your videos will be in the same format. Some might be single file avis, mkvs, or they might be in multiple small files (disc1, disc2), or even in <span class="caps">DVD</span> rips (in a VIDEO_TS folder) or Blu-ray rips. If you follow Plex&#8217;s conventions, all of these can be used and you won&#8217;t even have to concern yourself with it later on. Here&#8217;s a sample folder structure for this setup: @/<span class="caps">WALL</span>.E (2008).mkv /Wanted (2008)/any_file_name_disca.avi /Wanted (2008)/any_file_name_discb.avi /Waltz with Bashir (2008)/VIDEO_TS/* (<span class="caps">DVD</span> contents here) @ To Plex all these will be listed the same, with <span class="caps">IMDB</span> show descriptions, artwork, genre listing and even actor/actresses if you want. When you play &#8220;Wanted (2008)&#8221;, it&#8217;ll queue up all files in the folder and play them in alphabetical order. I sometimes notice a short skip when it transitions to the second video, but it may not be noticeable all the time. Playing the <span class="caps">DVD</span> file is very similar as well. Upon selecting it to play, it&#8217;ll open you up to the <span class="caps">DVD</span> title menu, the same menu you&#8217;d go to if you were using the <span class="caps">DVD</span> itself! I&#8217;ve found there is a bit more overhead to using DVDs, as it has to put the entire menu into memory, rather than streaming the video from the start. This is really only an issue if you&#8217;re playing your media off a <span class="caps">NAS</span>. DVDs will still work, but they won&#8217;t be as snappy at starting.</p>
+<p><img src="/media/media_center/single_episode.png" alt="" /></p>
+<p>TV shows are categorized by season number, but aside from that they work the same. Each season has it&#8217;s own folder, and within that each episode is named accordingly. You can choose to add in descriptions, or leave them blank. You can also combine episodes if multiple ones are in the same file. @/Arrested Development (2003)/Season 1/Arrested Development (2003)- S01E01 &#8211; pilot.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &#8211; S01E02.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &#8211; S01E03-04.avi @ Like with movies, TV DVDs also work here, but you&#8217;d want to check the <a href="http://wiki.plexapp.com/">Plex Wiki</a> for instructions on setting that up. In addition to downloading cast, banners and artwork from movies and TV shows, Plex will also download TV theme songs. As you&#8217;re browsing through your TV shows you&#8217;ll hear a little snippet that Plex was able to grab for each series. One very relivieving thing to note is that Plex won&#8217;t touch your media folders or add new files to them at all. You know how you can set iTunes to manage your media library? There&#8217;s no similar setting on Plex. You have full control of your files, and Plex won&#8217;t alter them in any way. The additional files that Plex downloads will be stored your Application Support folder on the computer running Plex.</p>
+<h3>Library Searching</h3>
+<p>After all you files have been discovered by Plex that&#8217;s when the fun begins. Just browsing your movies and tv shows is a visual treat, and the Plex team has done an excellent job of making the experience similar regardless of what type of artwork is available. You can filter Movies or TV shows by year, imdb rating, director, genre, actor/actress, and even whether or not you&#8217;ve seen them or not. The ability to list what you haven&#8217;t seen, and even hide descriptions for new items, is extremely useful, serving as a bookmark for where you left off in a series. The Favorites system that was recently introduced gives one click access to some commonly used movies, shows or even apps. I&#8217;m currently re-watching a TV Series, so having in Favorites saves time. If you&#8217;re using a Harmony Remote, you can even setup a button to open favorite directly. For instance, if you wanted to watch something with Christian Bale in it, you could filter your entire movie library to just movies he was in. Plex keeps an internal actor/actress list if you specify it when adding a folder (a source).</p>
+<p><img src="/media/media_center/show_movie.png" alt="" /></p>
+<h3>3rd Party Plugins</h3>
+<p>With a little background in Python, anyone can create plugins to pull video from other sites. Since this feature was added to the .7 release of Plex a few months ago, there&#8217;s been a huge flood of these apps making Plex better and better. Some of the more popular include Hulu, Joost, <span class="caps">MTV</span>, Comedy Central, South Park, Ted, Escapist Magazine (Zero Punctuation!), Youtube, Apple Trailers, Pandora, <span class="caps">CNN</span>, The Onion, Daily Show, Colbert Report- &#8211; the list goes on and on. The framework for building these apps allows full screen playback and scaling of flash videos, which just about all of these are. Need to click on a close button within the video so an ad doesn&#8217;t show? The plugin developer can even do that. These plugins have quickly become one of the most useful features in Plex for expanding it into new territory.</p>
+<h3>External Applications</h3>
+<p>You can setup any application to launch from within Plex. When this application is closed, Plex is reopened. This seems like a throwaway feature at first glance &#8212; why would you need to open up something else when Plex can do so much? But from a media center standpoint it helps having one more way of extending the livingroom feel without having to go back to the mouse/keyboard setup if you get it right. One application that is a prime candidate for launching in this manner is <a href="http://www.emulaunch.com/">Emulaunch</a> , and emulator launching program. Emulaunch fits in perfectly &#8212; running full screen and launching ROMs full screen. Emulaunch isn&#8217;t an actual emulator program, for that you&#8217;ll need something like <a href="http://www.snes9x.com/">SNES9x</a> . Emulaunch will run the rom using whatever program it&#8217;s associated to run in (whatever program would run it when you double click). Without much trouble at all I was playing some Zelda a Link to the Past launched from Plex. If you were playing a specific game repeatedly, you could also set it up to run directly from Plex by launching the emulator you&#8217;d want to use and passing the game in as an argument. Since it&#8217;s possible to use Xbox 360 controllers (both wired, or wireless if you buy the controller adapter), this could easily become a new center for gaming.</p>
+<h3>Remote Control</h3>
+<p>I mentioned this last week, but it bears repeating &#8212; Plex has excellent support for apple remotes and Harmony remotes. I&#8217;d been using an Apple remote for the past year without any trouble actually. It&#8217;s so simple to use that you could give it to someone who&#8217;s never used Plex before and they&#8217;d be able to navigate around, play videos and even browse Hulu. To be fair, you can do all this with an Apple remote from Boxee as well. One of the advantages of Plex though, is that by holding down the menu button, you can get a list of advanced features which become important in managing a media collection. You could be perfectly happy running Plex with an Apple remote for a long time. I still plan to use it when people are over because of how easily new people take to it. For general use though, I love having a universal remote &#8212; a single remote for all my devices. That&#8217;s where the Harmony One comes in. With the One, and other higher end Harmony remotes, you set all devices through the bundled software. I was shocked when I went to add my Mac Mini here only to find Plex as a listed device. This sets up the remote with all of Plex&#8217;s default keys, getting your running with Plex right away. There is also a screen from within Plex to set this up which can be set for the Harmony line of remotes.</p>
+<p><img src="/media/media_center/harmony_control.png" alt="" /></p>
+<p><img src="/media/media_center/plex_system.png" alt="" /></p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/building-the-ultimate-media-center-part-2-ple/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+
+  <div class="container">
+  <div class="col-md-7 col-md-offset-2">
+    <ul class="pager">
+      
+        <li class="previous">
+          <a href="/page/2/" role="prev">&larr; Newer</a>
+        </li>
+      
+      
+        <li class="next">
+          <a href="/page/4/" role="next">Older &rarr;</a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

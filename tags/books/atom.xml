@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: books | Blog for Adam Fortuna]]></title>
+  <link href="http://adamfortuna.com/tags/books/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-05-31T14:28:11-04:00</updated>
+  <id>http://adamfortuna.com/</id>
+  <author>
+    <name><![CDATA[Adam Fortuna]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reading List]]></title>
+    <link href="http://adamfortuna.com/reading-list-74/"/>
+    <updated>2006-12-10T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/reading-list-74</id>
+    <content type="html"><![CDATA[<p>Lately I&rsquo;ve been negligent to my web projects in exchange for spending time reading. Unfortunately the distractions of blogs, digg, email and daily life have made this a slower process than I initially planned, but understanding how much time is spent on these things is the first step towards changing it. A while ago I moved my television out of the computer room, and I noticed an increase in my productivity. Similarly there&rsquo;s a room in the house now that has no television or computer which can be an excellent reading room. It&rsquo;s almost sad to think the time we spend as little kids watching TV repeating in this day with time spent repeatedly checking RSS feeds, Digg, Slashdot and email. One of my new years resolutions (which I&rsquo;m slowly phasing in) is to try to limit this unproductive online time. First step is to thin out my Google Reader down from it&rsquo;s unmanageable 89 feeds (!). Not too many have daily postings, but &ldquo;LifeHacker&rdquo;:<a href="http://lifehacker.com">http://lifehacker.com</a> , &ldquo;TechCruch&rdquo;:<a href="http://techcrunch.com">http://techcrunch.com</a> , &ldquo;SlashDot&rdquo;:<a href="http://slashdot.org">http://slashdot.org</a> and &ldquo;Joel.Reddit.com&rdquo;:<a href="http://joel.reddit.com">http://joel.reddit.com</a> are definitely staying on. What&rsquo;s on my reading list right now?</p>
+
+<p>h3. Head First Design Patterns</p>
+
+<p>!(left)http://adamfortuna.com/media/books/design_patterns.jpg! This is one of the best written programming books I have ever read, and has made me a true believer in O'Reily&rsquo;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &ndash; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&rsquo;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
+
+<p>h3. UML Distilled: A Brief Guide to the Standard Object Modeling Language</p>
+
+<p>!(right)http://adamfortuna.com/media/books/uml.jpg!:<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Getting into OOP, UML seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or UML.</p>
+
+<p>h3. Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</p>
+
+<p>!(left)http://adamfortuna.com/media/books/oo_design.jpg!:<a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Along the same lines as above, but another take on it. I probably would have read this first, but I&rsquo;d already started UML Distilled before I knew of this one.</p>
+
+<p>h3. Code Complete</p>
+
+<p>!(right)http://adamfortuna.com/media/books/code_complete.jpg!:<a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a></p>
+
+<p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
+
+<p>h3. Patterns of Enterprise Application Architecture</p>
+
+<p>!(left)http://adamfortuna.com/media/books/patterns_architecture.jpg!:<a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Sadly I started this book before getting distracted with Head First Patterns. I&rsquo;ve enjoyed Martin Fowlers style of writing though, so this and UML design are both fun reads. If I&rsquo;m still impressed when I finish them I might dive into MF&rsquo;s Refactoring as well.</p>
+
+<p>Some of these books directly apply to things I&rsquo;m working on, but for the most part they are just general knowledge that&rsquo;s beneficial. There are some more direct things to read though, like &ldquo;Fusion Authority&rdquo;:<a href="http://www.fusionauthority.com/">http://www.fusionauthority.com/</a> and the &ldquo;Coldfusion MX 7 Study Guide&rdquo;:<a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> ( I want to get CF certified after all :). I&rsquo;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&rsquo;s what we do with the knowledge from them that&rsquo;s important, so I&rsquo;m sure I&rsquo;ll work in some programming time along the way as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programming Update]]></title>
+    <link href="http://adamfortuna.com/programming-update/"/>
+    <updated>2006-02-20T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/programming-update</id>
+    <content type="html"><![CDATA[<p>bq. There is a delight in working in such a tractable medium. The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. &ndash; The Mythical Man-Month</p>
+
+<p>I&rsquo;ve been reading quite a lot more lately, the above quote being one I just started tonight. Good break when you&rsquo;ve hit a snag in a project and need to clear your head a little. Development on personal projects is going pretty well too. The most annoying part though is that I&rsquo;m trying to do things the <em>right</em> way in a language I&rsquo;ve never used before; which makes development agonizingly slow at times. Lots of time reading the documentation and googling for examples, let me tell you. But when it works it&rsquo;s a great feeling. Database design is complete for phase 1, which will not include anywhere near all the features I have planned, but enough to build off. Not really putting a timeframe on the project as whole, just as long as I keep working on it I&rsquo;m content. Eventually I&rsquo;ll snap a picture of my sticky-note/whiteboard of the sitemap/structure; once I get a new camera. This thursday there&rsquo;s a Ruby On Rails meeting at the &ldquo;Orlando Java Users Group&rdquo;:<a href="http://www.orlandojug.org/">http://www.orlandojug.org/</a> all of us at work are going to check out too, so looking forward to that boosting my motivation a notch or two.</p>
+]]></content>
+  </entry>
+  
+</feed>

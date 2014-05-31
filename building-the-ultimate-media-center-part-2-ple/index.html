@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Building the Ultimate Media Center, Part 2: Plex - Blog for Adam Fortuna</title>
+  <meta name="author" content="Adam Fortuna">
+  
+  <meta name="description" content="Building the Ultimate Media Center, Part 2: Plex Written March 16, 2009 Comments apple Adam Fortuna is a developer, crossfitter, foodie who lives in &hellip;">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="post " >
+
+<div id='wrap'>
+<header class='topbar' role="banner">
+  <div class="container">
+    <div class='col-md-offset-2 col-sm-3 col-xs-12'>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blog for Adam Fortuna</a>
+      </div>
+    </div>
+
+    <nav role="navigation" class='col-lg-6 col-md-7 col-sm-7 col-xs-12'>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="/about">About</a></li>
+    <li><a href="/books">Books</a></li>
+    <li><a href="/tools">Tools</a></li>
+    <li><a href="/archives">Archives</a></li>
+    <li><a href="/">Latest</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+
+
+
+<main id='content' role='main'>
+  
+  
+  <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-2-ple/">Building the Ultimate Media Center, Part 2: Plex</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 16, 2009</li>
+  
+    <li><a href="#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-2-ple">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>If there&#8217;s a killer app out there in the media center world, it&#8217;s <a href="http://www.plexapp.com/">Plex</a> . Built on the long running <a href="http://xbmc.org/"><span class="caps">XBMC</span></a> , Plex is a fork of the project optimized to run on the Mac. <span class="caps">XBMC</span> has been around since the first Xbox, making one of the most established media center platforms out there. It&#8217;s long outgrown the console however, and now serves as the core for projects like Plex and <a href="http://boxee.tv/">Boxee</a> . It was also featured on a recent <a href="http://twit.tv/FLOSS"><span class="caps">FLOSS</span> Weekly</a> episode which is worth a listen. With lots of <a href="http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4">recent talk about Boxee</a> , I thought I&#8217;d add Plex to the conversation with a little talk on why I think it&#8217;s the best media center software available.</p>
+<p><img src="/media/media_center/home.png" alt="" /></p>
+<h3>Media Management</h3>
+<p>Like other projects based on <span class="caps">XBMC</span>, Plex has built in capacity for managing your media collection. This enables Plex to have an internal listing of what movies you have available in a much nicer format than the typical folder structure. Within Plex you do this by adding sources (in the form of folders containing files) and specifying what type of content resides there (movies, tv shows, music videos). Plex even allows for different sources to pull down the information on the video- &#8211; from <span class="caps">IMDB</span>, <span class="caps">OFDB</span>, MovieMaze, TheTVDB, TV.com and many more. If you want to pull data from another site, it can be added using Python, so if a better movie database comes out, it&#8217;s just a matter of writing an adapter for it. Plex uses the file name or folder name to look it up, so it&#8217;s important to name your files correctly and add the year the movie/tv show was released. You can do this manually from within Plex as well, but it&#8217;ll find your media on <span class="caps">IMDB</span> if your files are named correctly.</p>
+<p><img src="/media/media_center/movies_list.png" alt="" /></p>
+<p>One issue that always come up when crawling a media collection is varying file format and folder structure. Chances are not all of your videos will be in the same format. Some might be single file avis, mkvs, or they might be in multiple small files (disc1, disc2), or even in <span class="caps">DVD</span> rips (in a VIDEO_TS folder) or Blu-ray rips. If you follow Plex&#8217;s conventions, all of these can be used and you won&#8217;t even have to concern yourself with it later on. Here&#8217;s a sample folder structure for this setup: @/<span class="caps">WALL</span>.E (2008).mkv /Wanted (2008)/any_file_name_disca.avi /Wanted (2008)/any_file_name_discb.avi /Waltz with Bashir (2008)/VIDEO_TS/* (<span class="caps">DVD</span> contents here) @ To Plex all these will be listed the same, with <span class="caps">IMDB</span> show descriptions, artwork, genre listing and even actor/actresses if you want. When you play &#8220;Wanted (2008)&#8221;, it&#8217;ll queue up all files in the folder and play them in alphabetical order. I sometimes notice a short skip when it transitions to the second video, but it may not be noticeable all the time. Playing the <span class="caps">DVD</span> file is very similar as well. Upon selecting it to play, it&#8217;ll open you up to the <span class="caps">DVD</span> title menu, the same menu you&#8217;d go to if you were using the <span class="caps">DVD</span> itself! I&#8217;ve found there is a bit more overhead to using DVDs, as it has to put the entire menu into memory, rather than streaming the video from the start. This is really only an issue if you&#8217;re playing your media off a <span class="caps">NAS</span>. DVDs will still work, but they won&#8217;t be as snappy at starting.</p>
+<p><img src="/media/media_center/single_episode.png" alt="" /></p>
+<p>TV shows are categorized by season number, but aside from that they work the same. Each season has it&#8217;s own folder, and within that each episode is named accordingly. You can choose to add in descriptions, or leave them blank. You can also combine episodes if multiple ones are in the same file. @/Arrested Development (2003)/Season 1/Arrested Development (2003)- S01E01 &#8211; pilot.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &#8211; S01E02.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &#8211; S01E03-04.avi @ Like with movies, TV DVDs also work here, but you&#8217;d want to check the <a href="http://wiki.plexapp.com/">Plex Wiki</a> for instructions on setting that up. In addition to downloading cast, banners and artwork from movies and TV shows, Plex will also download TV theme songs. As you&#8217;re browsing through your TV shows you&#8217;ll hear a little snippet that Plex was able to grab for each series. One very relivieving thing to note is that Plex won&#8217;t touch your media folders or add new files to them at all. You know how you can set iTunes to manage your media library? There&#8217;s no similar setting on Plex. You have full control of your files, and Plex won&#8217;t alter them in any way. The additional files that Plex downloads will be stored your Application Support folder on the computer running Plex.</p>
+<h3>Library Searching</h3>
+<p>After all you files have been discovered by Plex that&#8217;s when the fun begins. Just browsing your movies and tv shows is a visual treat, and the Plex team has done an excellent job of making the experience similar regardless of what type of artwork is available. You can filter Movies or TV shows by year, imdb rating, director, genre, actor/actress, and even whether or not you&#8217;ve seen them or not. The ability to list what you haven&#8217;t seen, and even hide descriptions for new items, is extremely useful, serving as a bookmark for where you left off in a series. The Favorites system that was recently introduced gives one click access to some commonly used movies, shows or even apps. I&#8217;m currently re-watching a TV Series, so having in Favorites saves time. If you&#8217;re using a Harmony Remote, you can even setup a button to open favorite directly. For instance, if you wanted to watch something with Christian Bale in it, you could filter your entire movie library to just movies he was in. Plex keeps an internal actor/actress list if you specify it when adding a folder (a source).</p>
+<p><img src="/media/media_center/show_movie.png" alt="" /></p>
+<h3>3rd Party Plugins</h3>
+<p>With a little background in Python, anyone can create plugins to pull video from other sites. Since this feature was added to the .7 release of Plex a few months ago, there&#8217;s been a huge flood of these apps making Plex better and better. Some of the more popular include Hulu, Joost, <span class="caps">MTV</span>, Comedy Central, South Park, Ted, Escapist Magazine (Zero Punctuation!), Youtube, Apple Trailers, Pandora, <span class="caps">CNN</span>, The Onion, Daily Show, Colbert Report- &#8211; the list goes on and on. The framework for building these apps allows full screen playback and scaling of flash videos, which just about all of these are. Need to click on a close button within the video so an ad doesn&#8217;t show? The plugin developer can even do that. These plugins have quickly become one of the most useful features in Plex for expanding it into new territory.</p>
+<h3>External Applications</h3>
+<p>You can setup any application to launch from within Plex. When this application is closed, Plex is reopened. This seems like a throwaway feature at first glance &#8212; why would you need to open up something else when Plex can do so much? But from a media center standpoint it helps having one more way of extending the livingroom feel without having to go back to the mouse/keyboard setup if you get it right. One application that is a prime candidate for launching in this manner is <a href="http://www.emulaunch.com/">Emulaunch</a> , and emulator launching program. Emulaunch fits in perfectly &#8212; running full screen and launching ROMs full screen. Emulaunch isn&#8217;t an actual emulator program, for that you&#8217;ll need something like <a href="http://www.snes9x.com/">SNES9x</a> . Emulaunch will run the rom using whatever program it&#8217;s associated to run in (whatever program would run it when you double click). Without much trouble at all I was playing some Zelda a Link to the Past launched from Plex. If you were playing a specific game repeatedly, you could also set it up to run directly from Plex by launching the emulator you&#8217;d want to use and passing the game in as an argument. Since it&#8217;s possible to use Xbox 360 controllers (both wired, or wireless if you buy the controller adapter), this could easily become a new center for gaming.</p>
+<h3>Remote Control</h3>
+<p>I mentioned this last week, but it bears repeating &#8212; Plex has excellent support for apple remotes and Harmony remotes. I&#8217;d been using an Apple remote for the past year without any trouble actually. It&#8217;s so simple to use that you could give it to someone who&#8217;s never used Plex before and they&#8217;d be able to navigate around, play videos and even browse Hulu. To be fair, you can do all this with an Apple remote from Boxee as well. One of the advantages of Plex though, is that by holding down the menu button, you can get a list of advanced features which become important in managing a media collection. You could be perfectly happy running Plex with an Apple remote for a long time. I still plan to use it when people are over because of how easily new people take to it. For general use though, I love having a universal remote &#8212; a single remote for all my devices. That&#8217;s where the Harmony One comes in. With the One, and other higher end Harmony remotes, you set all devices through the bundled software. I was shocked when I went to add my Mac Mini here only to find Plex as a listed device. This sets up the remote with all of Plex&#8217;s default keys, getting your running with Plex right away. There is also a screen from within Plex to set this up which can be set for the Harmony line of remotes.</p>
+<p><img src="/media/media_center/harmony_control.png" alt="" /></p>
+<p><img src="/media/media_center/plex_system.png" alt="" /></p>
+
+          
+
+        
+      </div>
+    </section>
+  </div>
+
+  
+    <div class='comments' id='comments'>
+      <div class='container'>
+        <section class='col-md-7 col-md-offset-2'>
+          <h2>Comments</h2>
+          <div id="disqus_thread" aria-live="polite"><script>
+  var disqus_shortname = "adamfortuna",
+      disqus_identifier = 'adamfortuna-blog-/building-the-ultimate-media-center-part-2-ple',
+      disqus_url = 'http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple/';
+      disqus_script = 'embed.js';
+
+  (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script></div>
+        </section>
+      </div>
+    </div>
+  
+</article>
+
+</main>
+</div>
+<footer>
+  <div class='container'>
+    <div class='col-md-3 col-md-offset-2 col-xs-12'>
+      <h2>About</h2>
+      <p>Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.</p>
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Posts By Tag</h2>
+      <!-- Put your popular tags here -->
+<ul>
+  <li><a href='/tags/goals'>Goals</a></li>
+  <li><a href='/tags/travel'>Travel</a></li>
+  <li><a href='/tags/self-improvement'>Self Improvement</a></li>
+</ul>
+
+    </div>
+
+    <div class='col-md-2 col-xs-6 col-sm-4'>
+      <h2>Pages</h2>
+<ul>
+  <li><a href="/">Latest</a></li>
+  <li><a href="/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/tools">Tools I Use</a></li>
+</ul>
+    </div>
+
+    <div class='col-md-3 col-xs-12 col-sm-4'>
+      <h2>Contact</h2>
+<p>©2013 Adam Fortuna.</p>
+<p>Powered by <a href='http://octopress.org'>Octopress</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var disqus_shortname = "adamfortuna";
+</script>
+<script src="//go.disqus.com/count.js" async></script>
+<script src="/javascripts/vendor.js" type="text/javascript"></script>
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90326-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body>
+</html>

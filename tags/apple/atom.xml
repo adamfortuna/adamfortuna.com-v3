@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: apple | Blog for Adam Fortuna]]></title>
+  <link href="http://adamfortuna.com/tags/apple/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-05-31T14:28:11-04:00</updated>
+  <id>http://adamfortuna.com/</id>
+  <author>
+    <name><![CDATA[Adam Fortuna]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC 2013]]></title>
+    <link href="http://adamfortuna.com/wwdc/"/>
+    <updated>2013-06-18T00:00:00-04:00</updated>
+    <id>http://adamfortuna.com/wwdc</id>
+    <content type="html"><![CDATA[<p>In the Apple development world, there aren&rsquo;t many public conferences. This is unlike the Ruby community which has local events throughout the country, with lots of international ones thrown in the mix. Apple, on the other hand, limits their exposure to a single week in June known as WWDC, Apple Worldwide Developers Conference, held in San Francisco.</p>
+
+<p>In past years, we&rsquo;ve seen the launch of devices by Steve Jobs like the iPhone and the iPad. Iconic moments like the reveal of the MacBook Air by pulling it out of a manilla envelope while popularizing the phrase &ldquo;One more thing&hellip;&rdquo;. The &ldquo;Keynote&rdquo; as this event is dubbed, is the only public event at WWDC, and kicks off an entire week of developer targetted talks. I was lucky enough to have <a href="http://codeschool.com">Code School</a> send me, <a href="https://twitter.com/eallam">Eric Allam</a> and <a href="https://twitter.com/jonfriskics">Jon Friskics</a> out west this year to experience this amazing event.</p>
+
+<h2>Tickets</h2>
+
+<p>Even getting tickets to WWDC is a bit of a miracle. With only 5,000 tickets and something in the neighborhood of 3,000,000 Apple Developers, there&rsquo;s a competition for tickets. In past years, Apple opened ticket sales at a random hour on a random day, and only at that time was the date for WWDC set. This year they did something different &ndash; they announced the date for the event a few days ahead of time, and gave the date and time tickets would go on sale.</p>
+
+<p>Once tickets went on sale, the downside of this approach became obvious. Apple doesn&rsquo;t make it public how many people tried to get tickets, but they did publicize the fact that tickets sold out in 71 seconds. The 3 of us at Code School were refreshing the ticket sales page when 1:00pm came around.</p>
+
+<p>We were able to add the ticket to our cart, enter our credit card information, and submit it. All of us got a 500 error, indicating that something went wrong on the server side. When we refreshed the page, we saw a message indicating that tickets were sold out.</p>
+
+<p>If you&rsquo;re interested in the details, Eric wrote up <a href="http://initwithfunk.com/blog/2013/05/26/the-case-of-the-wwdc-sellout/">an analysis of this record sellout</a> .
+Lucky for us, Apple gave us all a call individually 6 hours later, letting us know that a ticket was still reserved for us, and we still had a chance to buy it! 2 days later we had actual tickets!</p>
+
+<p>If you know Portuegese, you can read more about this in an interview we gave: <a href="http://uoltecnologia.blogosfera.uol.com.br/2013/06/10/wwdc-2013-americanos-contam-perrengue-para-comprar-ingressos-do-evento-da-apple/">WWDC 2013: americanos contam perrengue para comprar ingressos do evento da Apple</a></p>
+
+<h2>San Francisco</h2>
+
+<p>I love San Francisco. In addition to having family and awesome friends in town, there is amazing food, interesting neighborhoods, and a wealth of variety.</p>
+
+<ul>
+<li>Mint Coffee at <a href="http://www.philzcoffee.com/">Philz Coffee</a></li>
+<li>Interesting coffee from <a href="http://www.bluebottlecoffee.com/">Blue Bottle Coffee</a></li>
+<li>Vietnamese Coffee and Clove Orange Ice cream at <a href="http://www.humphryslocombe.com/www.humphryslocombe.com/Home.html">Humphry Slocombe</a></li>
+<li>Squash blossoms, pork belly, meatballs and homemade soft serve at <a href="http://www.zerozerosf.com/,">Zero Zero</a></li>
+<li>Amazing margaritas and Mexican at <a href="http://www.tropisueno.com/">Tropisueño</a></li>
+<li>Indian Pizza from <a href="http://www.zantepizza.com/">Zantes</a></li>
+<li>Sushi Burritos from <a href="http://www.sushirrito.com/">Sushiritto</a></li>
+</ul>
+
+
+<p>Having enough appetites are always a problem when in SF.</p>
+
+<h2>Keynote</h2>
+
+<p>Having never been to a WWDC, we heard a variety of things about the Keynote. &ldquo;It&rsquo;ll be packed! If you want to get in, you shoule be in line by 6:00am.&rdquo;. &ldquo;There&rsquo;s an overflow room, and if you get there late, you&rsquo;ll have to watch it on screens there instead&rdquo;.</p>
+
+<p>With this fresh in our minds, we joined the keynote line that wrapped around Moscone Center at 5:45am Monday morning. Not surprisingly for an Apple event, the line had already formed at 4:00pm previous day when we stopped by to get our conference badges. By 7am people were heading inside the building, and able to at least get some coffee and food. At 9am they started letting people into the (very large) room.</p>
+
+<p>Unlike what the rumors said, there was plenty of space for everyone. We were sitting next to someone who got up at 9am and walked in at 9:30.</p>
+
+<h3>Announcements</h3>
+
+<p>I&rsquo;m not too enthusiastic about anything that was announced this year <em>in the keynote</em>. There&rsquo;s interesting stuff announced elsewhere, and not to say things are bad, just nothing was in the &ldquo;wow, that&rsquo;s amazing, I can&rsquo;t wait!&rdquo; category. If I was pining for a Mac Pro I might have a different opinion, but I value mobility more than power.</p>
+
+<p>The announcement that was most useful to me was the ability to have full screen applications on multiple monitors in OSX Mavericks, which I can say is actually pretty awesome. Other than that, here&rsquo;s my rapid fire opinion on the rest of it:</p>
+
+<h4>OSX Mavericks</h4>
+
+<p>Lots of small and useful changes for the most part. Been using it a week now myself, and like it. It&rsquo;s not going to change your entire world, but it&rsquo;ll make things a little easier and better. In addition to better battery life, the fact that apps that are using a lot of power show up in the battery pulldown is one of the biggest changes. If an application I wrote showed up in that menu, I&rsquo;d have a lot of incentive to fix it &mdash; or be shamed everytime someone saw it.</p>
+
+<h4>iOS 7</h4>
+
+<p>eh. It&rsquo;s a beta. We&rsquo;ll see what happens. Design wise though, I&rsquo;m hoping things change. I put the beta on my phone the Monday it was released, and despite a few surprises, it&rsquo;s been a stable release. The occasional app isn&rsquo;t compatible with it now, but that&rsquo;s to be expected. Control Center is very useful. The multitasking interface used to switch and close apps is a good improvement. The new tab view in safari is painful to use. iTunes Radio will guarentee I don&rsquo;t renew my Pandora subscription. Game controllers sound awesome, I&rsquo;m looking forward to see what people come up with for that. Some of the location awareness features are also intriguing.</p>
+
+<h4>Hardware</h4>
+
+<p>The new MacBook Air isn&rsquo;t much different. I understand why it&rsquo;s not retina &ndash; so it can continue to be their baseline notebook. It also guarentees I won&rsquo;t get one. The Mac Pro is not for me, but still an impressive machine. Curious to see what affect it has on the high end design world.</p>
+
+<h4>Favorite Sessions</h4>
+
+<p>One of the nice parts of the Apple Developer program (which costs $99/year), is that they record all of the talks given each year and make them available on the <a href="https://developer.apple.com/videos/wwdc/2012/">Developer Session Videos</a> page.</p>
+
+<p>Apple makes it very clear that things discussed in these talks, and in every session outside of the keynote, is off limits for public discussion. Before every talk they announce this, and also mention that no pictures or recording is allowed &mdash; not to mention posters throughout the convention center mentioning this fact. In other words &ndash; if you want to see what&rsquo;s launching beyond what is mentioned in the keynote, you need to join the Apple Developer Program.</p>
+
+<p>The session videos were available the very next day after they were presented. Considering they had about 25 videos posted each day, that&rsquo;s impressive. What happens at WWDC apparently has to stay at WWDC, but if you&rsquo;re a developer, you should watch the following videos:</p>
+
+<ul>
+<li>Platforms State of the Union</li>
+<li>Exploring Scroll Views on iOS 7</li>
+<li>Getting Started with UIKit Dynamics</li>
+<li>Hidden Gems in Cocoa and Cocoa Touch</li>
+<li>Designing Games with Sprite Kit</li>
+<li>Advances in Objective-C</li>
+</ul>
+
+
+<p>In addition to being able to download and watch these on your computer, Apple released an iPhone/iPad application that allows you to stream these talks straight to your device.</p>
+
+<h2>Takeaways</h2>
+
+<p>After going to primarily Ruby conferences for the past few years, this one had a very different feel. The biggest difference to me is the open vs closed source aspect. At Ruby conferences, most talks are about things people have built, or problems they have solved &mdash; perhaps mentioning some open source tools they used to accomplish their task. WWDC is more about letting the (registered developer) public see what Apple is providing.</p>
+
+<p>Being able to hear about these coming features in person and be inspired by the energy of the event left me much more enthusiastic about developing than just watching the videos at home like last year.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building the Ultimate Media Center, Part 3: Backup]]></title>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac/"/>
+    <updated>2009-03-22T00:00:00-04:00</updated>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac</id>
+    <content type="html"><![CDATA[<p>Describing what I&rsquo;ve been working on so far as a media center may not be quite sufficient. Now a days term &ldquo;home server&rdquo; seems to do it a bit more justice, and if a home computer is on full time you&rsquo;ll certainly want to get the most out of it. If you&rsquo;ve ever wanted to do backups within your home, you might&rsquo;ve looked into &ldquo;Windows Home Server&rdquo;:<a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx</a> or Apples &ldquo;Time Capsule&rdquo;:<a href="http://www.apple.com/timecapsule/">http://www.apple.com/timecapsule/</a> / &ldquo;Time Machine&rdquo;:<a href="http://www.apple.com/macosx/features/timemachine.html">http://www.apple.com/macosx/features/timemachine.html</a> setups, but neither is quite what I was looking for. First off, I don&rsquo;t really want a Windows box in (mostly) mac home, so that&rsquo;s out. Time Machine alone doesn&rsquo;t do everything I have in mind, although it does play an important part. I&rsquo;ve had a lot of backup plans in the past, but none were quite &ldquo;perfect&rdquo;, which got me wondering what a perfect backup plan would look like.</p>
+
+<p>h3. What do you want in backup plan?</p>
+
+<p>Just like in creating software, when setting up a backup plan it&rsquo;s important to know your requirements ahead of time. Otherwise what are you working towards? So what do I want this backup plan to be able to do&hellip;</p>
+
+<ul>
+<li>Make it so that there is no single point of failure for any important data</li>
+<li>Have on site and off site backups of everything</li>
+<li>Backup and sync core data between macs (settings, address book, calendar, keychain, etc)</li>
+<li>Some kind revision system for all text files. Something like git or svn where you can rollback changes</li>
+<li>A local redundant hard drive array to guarantee no data loss if a single drive fails</li>
+<li>Backup all core documents on various time intervals (daily, weekly, monthly). That way if I mess up a file and don&rsquo;t realize it for a week I&rsquo;ll be able to grab the version a month ago.</li>
+</ul>
+
+
+<p>h3. Settings, Calendars, Address Book and more</p>
+
+<p>If you have multiple Macs &ldquo;Mobile Me&rdquo;:<a href="http://www.apple.com/mobileme/">http://www.apple.com/mobileme/</a> is a good choice for easy syncing between macs. The system has had a lot of problems, and continues to struggle with performance. iDisk, the webdav interface to your MobileMe account is <em>painfully</em> slow, and continues to be. Just cleaning out a few hundred empty folders was enough to stall it earlier. The online image gallery MobileMe has is one of the better one&rsquo;s seen, and if you use iPhoto it&rsquo;s a convenient photo storage location. Just so that all my calendars and contacts aren&rsquo;t confined to a single system (the Mac ecosystem), I use &ldquo;Spanning Sync&rdquo;:<a href="http://spanningsync.com/">http://spanningsync.com/</a> to keep my Google Calendars and Google Contacts in check with iCal and Address Book. My girlfriend and I share calendars with each other on Google, and this way any changes she makes show up on my iCal, and any I make on iCal show up on hers. Also, whenever I get Google Calendar invites to my email address, they show up on Google Calendar then get syncd back to iCal. 2 way syncing is the way to go!</p>
+
+<p>h3. Complete Backups With Time Machine</p>
+
+<p>Time Capsule is powerful and dead simple for full system backups. The way it works is simple: all macs on a network will have Time Machine (a program that ships with Leopard) enabled and set to use the Time Capsule hardware. Every hour or so, changes made to the core and specific folders will be pushed from the client computer (in this case my laptop) to the Time Capsule. You can specify which folders to watch for this as well. You might not want it watching your Downloads folder or others that are similarly volatile, but that&rsquo;s easy to change. The first time you back up everything to Time Capsule you&rsquo;ll want a hardline to it rather than doing it over a home network (even if it&rsquo;s wireless N). Transferring your entire computer initially could take a full day if not, so be sure to plug it in. The hourly backups after that work wirelessly though, as they are much much smaller. Apple&rsquo;s Airport Extreme has the ability to add a remote hard drive which can serve as a Time Machine drive as well. The nice part about this is that you can use an old external hard drive you have, or choose any drive out there. Leopard didn&rsquo;t originally allow you to sync with drives like this, but in one of the recent updates it was enabled. For me, after the initial backup the incremental backups are very quick if not much has changed. Running TimeMachine for the first time is a trippy experience. You &ldquo;go back in time&rdquo; to the point where you want to see a file, then you can restore it. This covers a few of the requirements such as versioned files locally and full system backups with the ability to restore on any Mac.</p>
+
+<p>h3. Backups to a local RAID (or Drobo)</p>
+
+<p>Finally, the first step that the Media Center can help with. Whether you go with RAID, a &ldquo;Drobo&rdquo;:<a href="http://www.drobo.com/">http://www.drobo.com/</a> or something else, the backup procedure to it will be about the same. The easiest way I&rsquo;ve found to do backups to this is with rsync and crontab. Here&rsquo;s how it works: Your media server will have a series of scripts setup to run daily, weekly and monthly. These scripts will do all the heavy lifting of the backup &ndash; grabbing files from every computer on your network you want to backup and moving them to the redundant array. So firstoff the media server should be setup to backup everything from the computers on the network. That&rsquo;s easy actually. On each computer you want to back files up from, go into System Preferences > Sharing and enable &ldquo;Remote Login&rdquo;. This will allow the media center to ssh into each laptop. Backing up using rsync can be done by mapping drives in Finder and using those paths (/Volumes/adam), or by using SSH. With SSH you don&rsquo;t have to map the drive beforehand, so it is the preferred method. On the media center, open up a text file. This will contain everything you want to copy from your client computers, and the path (on your media center) that you want to store them in.</p>
+
+<p><div>
+  <pre><code class='bash'>rsync -aE &amp;mdash;delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
+rsync -aE &amp;mdash;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current
+rsync -aE &amp;mdash;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current
+rsync -aE &amp;mdash;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current
+rsync -aE &amp;mdash;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current
+rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current</code></pre>
+</div>
+</p>
+
+<p>Note that the destination (the 2nd path) is the same. That&rsquo;s just because it&rsquo;ll actually store the documents folder in &ldquo;/Volumes/Drobo/Users/adam/current/Documents&rdquo;. The- a option specifies &ldquo;Archive&rdquo;, which is actually shorthand for a few other options. It will recusively copy all directories, copy symlinks, preserve file permissions, preserve owner and groups, preserve file times preserve special files. The -E flag preserves executability, while --delete deletes extraneous files - like those that were deleted. Save this file somewhere on the media center as a .command file. I kept it simple &ndash; backup.command. You should be able to run this script by just double clicking on it now. But there is a one major problem &mdash; authentication.</p>
+
+<p>h3. Setting up SSH keys</p>
+
+<p>By setting up SSH Keys you can automate the authentication from the Media Server to any clients you want to backup. The way you do this is very easy. On the Media server, run the command @ ssh-keygen- t dsa@ . Go with the defaults, but choose a passphrase you can remember. Copy this file from the Media server to the computer you want to backup FROM. Since you should already have SSH setup, something like this should do the job.</p>
+
+<p><div>
+  <pre><code class='bash'>link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@</code></pre>
+</div>
+</p>
+
+<p>If you already have an @authorized_keys2@ file, you&rsquo;ll want to add the contents of @id_dsa.pub@ to it instead of replacing it. After that&rsquo;s updated, try SSHing to that client from the Media Server. You should get prompted for the passphrase (a mac prompt, not a terminal prompt). After you enter it and save it for later you should be able to SSH without any password going forward.</p>
+
+<p>h3. Setting it up to run automatically</p>
+
+<p>Not worrying about backups is the whole point of this entire system, so running it automatically is essential. Luckily Unix systems have an easy way of doing this using cron jobs. To open up the list of cron jobs, just enter @crontab -e@ in a terminal window. This will open up the cron file using VI. Editing in VI can be a bit annoying without knowing the comamnds. To edit it you don&rsquo;t need to know much VI though. Just hit &ldquo;i&rdquo; to go into insert mode, where you can start typing. Each line you enter is a single scheduled cron job with a very specific format. For example, here&rsquo;s a line to run a script every day at 3:30am:</p>
+
+<p><div>
+  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command</code></pre>
+</div>
+</p>
+
+<p>The &ldquo;30 3 *&rdquo; part deals with when it should be run, while the part after that is what to run. Here&rsquo;s what those first 5 options translate to:</p>
+
+<ul>
+<li>30- minute to run job on</li>
+<li>3 &ndash; hour to run job on</li>
+<li><ul>
+<li><ul>
+<li>Day of the month to run job on</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>Which month to run job on</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>Which day of the week to run the job on</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<p>It&rsquo;s a bit tricky to remember at first, but it&rsquo;s a very simple scheduling system. For example, if you want to run something on sunday (the 0th day of the week) at 5:30 am, the parameters would be &ldquo;30 5 0 &hellip;&rdquo;. Here&rsquo;s my full crontab that I&rsquo;m using (some of these scripts I haven&rsquo;t discussed yet, but we&rsquo;ll get to later).</p>
+
+<p><div>
+  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command
+00 5 1 sh ~/Dropbox/scripts/weekly.command
+00 6 1 sh ~/Dropbox/scripts/monthly.command
+30 6 1 sh ~/Dropbox/scripts/external.backup.command</code></pre>
+</div>
+</p>
+
+<p>The weekly and monthly scripts will just take a snapshot every month rather than every day. Nothing much to those scripts &mdash; just removing the last update and copying a snapshot. The monthly script is exactly the same but with &ldquo;weekly&rdquo; changed to &ldquo;monthly&rdquo;. The point of this is that if anything big goes wrong, you&rsquo;ll have a backup locally of the original.</p>
+
+<p><div>
+  <pre><code class='bash'>rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/</code></pre>
+</div>
+</p>
+
+<p>h3. Versioned changes with Dropbox</p>
+
+<p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It&rsquo;ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What&rsquo;s extra-useful about this is that all files will be versioned. I&rsquo;m storing my Documents and Sites folders in here and backing up daily. Even if I haven&rsquo;t committed site changes for something I&rsquo;m working on, it&rsquo;ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.</p>
+
+<p><div>
+  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
+rsync- aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</code></pre>
+</div>
+</p>
+
+<p>One really nice part about Dropbox&rsquo;s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it&rsquo;s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.</p>
+
+<p>h3. Backing up your backup scripts</p>
+
+<p>You&rsquo;ll notice that my backup scripts where in my Dropbox: @~/Dropbox/scripts/backup.command@ . Not only does this mean that you&rsquo;ve backed up your scripts (always a good practice), but you can change your backup procedure from anywhere you can access Dropbox! This is so simple it&rsquo;s one of the most effortless things to setup. You can also copy the contents of your crontab file Add this line to your crontab: @@daily crontab- l > ~/Dropbox/crontab.txt@ &ldquo;@daily&rdquo; is shorthand for &ldquo;everyday at midnight&rdquo;. This is a nice way of archiving any changes you make to your crontab. With the other backup scripts you can make changes on any computer and the Media Center will pull them in thanks to DropBox. But for the crontab you&rsquo;ll actually want to make changes directly to the Media Center using the &ldquo;crontab -e&rdquo; command.</p>
+
+<p>h3. External backups of everything else</p>
+
+<p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe&rsquo;s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I&rsquo;ll keep it going for that. For now I&rsquo;ll stick with MobileMe for my larger media backup as well, although I can tell you now I&rsquo;m not exactly happy about it. One of the downsides of MobileMe is that it doesn&rsquo;t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it&rsquo;ll show in &ldquo;/Volumes&rdquo;. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application &ldquo;Finder&rdquo; mount volume &ldquo;<a href="http://idisk.mac.com/myusername/">http://idisk.mac.com/myusername/</a>&rdquo; as user name &ldquo;myusername&rdquo; with password &ldquo;mypassword&rdquo; end tell @ Save it as file format &ldquo;Application&rdquo; with &ldquo;Run Only&rdquo; checked, but don&rsquo;t check &ldquo;Stay Open&rdquo; or &ldquo;Startup Screen&rdquo;. Save this application somewhere then add it to your startup items. The last part is setting up the &ldquo;remote.command&rdquo; script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.</p>
+
+<p><div>
+  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
+rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code></pre>
+</div>
+</p>
+
+<p>This just runs weekly everything here doesn&rsquo;t change that much. The Pictures directly is the main one that&rsquo;ll be updated, as it&rsquo;s a single iPhoto file that changes often.</p>
+
+<p>h3. Woh, that&rsquo;s a lot. Did we miss anything?</p>
+
+<p>Well, two things were skipped- &ndash; Music and Videos. I have a decent sized music collection, and I tend to archive my DVDs for use with Plex. Backing up 2TB of data remotely when you&rsquo;re limited to 70k/s upload speeds isn&rsquo;t exactly possible. What I am doing is storing all my media on a Drobo which protects it against a single hard drive failure (maybe more, depending on when the failures occur). My TimeMachine drive is actually a 500gb drive split &ndash; 200 for Time Machine and the rest for media backup. Every night the Media Center pushes all music from the Drobo onto this external drive. At least that way all my music is protected in case the Drobo itself fails. There&rsquo;s no external backup for music, but I&rsquo;m OK with that. If I was a little more paranoid I might archive weekly and leave the drive at work or something, but that&rsquo;s where I draw the line. That leaves one gaping hole &ndash; the movie collection this system was for in the first place! For now I&rsquo;m content with being protected against a single HD failure with the Drobo, but if anyone has any suggestions on how to back this up I&rsquo;m all ears. Also if you think of anything else I missed, or just something I could do better then please leave a comment!</p>
+
+<p>h3. Did this help?</p>
+
+<p>If this article helped you, please sign up for &ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> ! DropBox was in beta for a while, but now it&rsquo;s open and anyone can sign up. You get 2GB of space just for signing up. They have the added bonus of increasing your space by 250mb for everyone you refer (up to 5GB total), so by signing up you&rsquo;ll give me more space to experiment with. It&rsquo;s easily the best backup service I&rsquo;ve used, so I&rsquo;m looking forward to seeing how it grows.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building the Ultimate Media Center, Part 2: Plex]]></title>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple/"/>
+    <updated>2009-03-16T00:00:00-04:00</updated>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple</id>
+    <content type="html"><![CDATA[<p>If there&rsquo;s a killer app out there in the media center world, it&rsquo;s &ldquo;Plex&rdquo;:<a href="http://www.plexapp.com/">http://www.plexapp.com/</a> . Built on the long running &ldquo;XBMC&rdquo;:<a href="http://xbmc.org/">http://xbmc.org/</a> , Plex is a fork of the project optimized to run on the Mac. XBMC has been around since the first Xbox, making one of the most established media center platforms out there. It&rsquo;s long outgrown the console however, and now serves as the core for projects like Plex and &ldquo;Boxee&rdquo;:<a href="http://boxee.tv/">http://boxee.tv/</a> . It was also featured on a recent &ldquo;FLOSS Weekly&rdquo;:<a href="http://twit.tv/FLOSS">http://twit.tv/FLOSS</a> episode which is worth a listen. With lots of &ldquo;recent talk about Boxee&rdquo;:<a href="http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4">http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4</a> , I thought I&rsquo;d add Plex to the conversation with a little talk on why I think it&rsquo;s the best media center software available.</p>
+
+<p>!/media/media_center/home.png!</p>
+
+<p>h3. Media Management</p>
+
+<p>Like other projects based on XBMC, Plex has built in capacity for managing your media collection. This enables Plex to have an internal listing of what movies you have available in a much nicer format than the typical folder structure. Within Plex you do this by adding sources (in the form of folders containing files) and specifying what type of content resides there (movies, tv shows, music videos). Plex even allows for different sources to pull down the information on the video- &ndash; from IMDB, OFDB, MovieMaze, TheTVDB, TV.com and many more. If you want to pull data from another site, it can be added using Python, so if a better movie database comes out, it&rsquo;s just a matter of writing an adapter for it. Plex uses the file name or folder name to look it up, so it&rsquo;s important to name your files correctly and add the year the movie/tv show was released. You can do this manually from within Plex as well, but it&rsquo;ll find your media on IMDB if your files are named correctly.</p>
+
+<p>!/media/media_center/movies_list.png!</p>
+
+<p>One issue that always come up when crawling a media collection is varying file format and folder structure. Chances are not all of your videos will be in the same format. Some might be single file avis, mkvs, or they might be in multiple small files (disc1, disc2), or even in DVD rips (in a VIDEO_TS folder) or Blu-ray rips. If you follow Plex&rsquo;s conventions, all of these can be used and you won&rsquo;t even have to concern yourself with it later on. Here&rsquo;s a sample folder structure for this setup: @/WALL.E (2008).mkv /Wanted (2008)/any_file_name_disca.avi /Wanted (2008)/any_file_name_discb.avi /Waltz with Bashir (2008)/VIDEO_TS/* (DVD contents here) @ To Plex all these will be listed the same, with IMDB show descriptions, artwork, genre listing and even actor/actresses if you want. When you play &ldquo;Wanted (2008)&rdquo;, it&rsquo;ll queue up all files in the folder and play them in alphabetical order. I sometimes notice a short skip when it transitions to the second video, but it may not be noticeable all the time. Playing the DVD file is very similar as well. Upon selecting it to play, it&rsquo;ll open you up to the DVD title menu, the same menu you&rsquo;d go to if you were using the DVD itself! I&rsquo;ve found there is a bit more overhead to using DVDs, as it has to put the entire menu into memory, rather than streaming the video from the start. This is really only an issue if you&rsquo;re playing your media off a NAS. DVDs will still work, but they won&rsquo;t be as snappy at starting.</p>
+
+<p>!/media/media_center/single_episode.png!</p>
+
+<p>TV shows are categorized by season number, but aside from that they work the same. Each season has it&rsquo;s own folder, and within that each episode is named accordingly. You can choose to add in descriptions, or leave them blank. You can also combine episodes if multiple ones are in the same file. @/Arrested Development (2003)/Season 1/Arrested Development (2003)&ndash; S01E01 &ndash; pilot.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &ndash; S01E02.avi /Arrested Development (2003)/Season 1/Arrested Development (2003) &ndash; S01E03-04.avi @ Like with movies, TV DVDs also work here, but you&rsquo;d want to check the &ldquo;Plex Wiki&rdquo;:<a href="http://wiki.plexapp.com/">http://wiki.plexapp.com/</a> for instructions on setting that up. In addition to downloading cast, banners and artwork from movies and TV shows, Plex will also download TV theme songs. As you&rsquo;re browsing through your TV shows you&rsquo;ll hear a little snippet that Plex was able to grab for each series. One very relivieving thing to note is that Plex won&rsquo;t touch your media folders or add new files to them at all. You know how you can set iTunes to manage your media library? There&rsquo;s no similar setting on Plex. You have full control of your files, and Plex won&rsquo;t alter them in any way. The additional files that Plex downloads will be stored your Application Support folder on the computer running Plex.</p>
+
+<p>h3. Library Searching</p>
+
+<p>After all you files have been discovered by Plex that&rsquo;s when the fun begins. Just browsing your movies and tv shows is a visual treat, and the Plex team has done an excellent job of making the experience similar regardless of what type of artwork is available. You can filter Movies or TV shows by year, imdb rating, director, genre, actor/actress, and even whether or not you&rsquo;ve seen them or not. The ability to list what you haven&rsquo;t seen, and even hide descriptions for new items, is extremely useful, serving as a bookmark for where you left off in a series. The Favorites system that was recently introduced gives one click access to some commonly used movies, shows or even apps. I&rsquo;m currently re-watching a TV Series, so having in Favorites saves time. If you&rsquo;re using a Harmony Remote, you can even setup a button to open favorite directly. For instance, if you wanted to watch something with Christian Bale in it, you could filter your entire movie library to just movies he was in. Plex keeps an internal actor/actress list if you specify it when adding a folder (a source).</p>
+
+<p>!/media/media_center/show_movie.png!</p>
+
+<p>h3. 3rd Party Plugins</p>
+
+<p>With a little background in Python, anyone can create plugins to pull video from other sites. Since this feature was added to the .7 release of Plex a few months ago, there&rsquo;s been a huge flood of these apps making Plex better and better. Some of the more popular include Hulu, Joost, MTV, Comedy Central, South Park, Ted, Escapist Magazine (Zero Punctuation!), Youtube, Apple Trailers, Pandora, CNN, The Onion, Daily Show, Colbert Report- &ndash; the list goes on and on. The framework for building these apps allows full screen playback and scaling of flash videos, which just about all of these are. Need to click on a close button within the video so an ad doesn&rsquo;t show? The plugin developer can even do that. These plugins have quickly become one of the most useful features in Plex for expanding it into new territory.</p>
+
+<p>h3. External Applications</p>
+
+<p>You can setup any application to launch from within Plex. When this application is closed, Plex is reopened. This seems like a throwaway feature at first glance &mdash; why would you need to open up something else when Plex can do so much? But from a media center standpoint it helps having one more way of extending the livingroom feel without having to go back to the mouse/keyboard setup if you get it right. One application that is a prime candidate for launching in this manner is &ldquo;Emulaunch&rdquo;:<a href="http://www.emulaunch.com/">http://www.emulaunch.com/</a> , and emulator launching program. Emulaunch fits in perfectly &mdash; running full screen and launching ROMs full screen. Emulaunch isn&rsquo;t an actual emulator program, for that you&rsquo;ll need something like &ldquo;SNES9x&rdquo;:<a href="http://www.snes9x.com/">http://www.snes9x.com/</a> . Emulaunch will run the rom using whatever program it&rsquo;s associated to run in (whatever program would run it when you double click). Without much trouble at all I was playing some Zelda a Link to the Past launched from Plex. If you were playing a specific game repeatedly, you could also set it up to run directly from Plex by launching the emulator you&rsquo;d want to use and passing the game in as an argument. Since it&rsquo;s possible to use Xbox 360 controllers (both wired, or wireless if you buy the controller adapter), this could easily become a new center for gaming.</p>
+
+<p>h3. Remote Control</p>
+
+<p>I mentioned this last week, but it bears repeating &mdash; Plex has excellent support for apple remotes and Harmony remotes. I&rsquo;d been using an Apple remote for the past year without any trouble actually. It&rsquo;s so simple to use that you could give it to someone who&rsquo;s never used Plex before and they&rsquo;d be able to navigate around, play videos and even browse Hulu. To be fair, you can do all this with an Apple remote from Boxee as well. One of the advantages of Plex though, is that by holding down the menu button, you can get a list of advanced features which become important in managing a media collection. You could be perfectly happy running Plex with an Apple remote for a long time. I still plan to use it when people are over because of how easily new people take to it. For general use though, I love having a universal remote &mdash; a single remote for all my devices. That&rsquo;s where the Harmony One comes in. With the One, and other higher end Harmony remotes, you set all devices through the bundled software. I was shocked when I went to add my Mac Mini here only to find Plex as a listed device. This sets up the remote with all of Plex&rsquo;s default keys, getting your running with Plex right away. There is also a screen from within Plex to set this up which can be set for the Harmony line of remotes.</p>
+
+<p>!/media/media_center/harmony_control.png!</p>
+
+<p>!/media/media_center/plex_system.png!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building the Ultimate Media Center, Part 1: Hardware]]></title>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-1-har/"/>
+    <updated>2009-03-09T00:00:00-04:00</updated>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-1-har</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re a geek, chances are you&rsquo;ve dreamed of having an amazing media setup that gives you a movie theater at home feel while providing all the options to extend it with your media. Well, thanks to the recent release of the &ldquo;Apple Mac mini&rdquo;:<a href="http://www.apple.com/macmini/">http://www.apple.com/macmini/</a> , hardware and software (specifically &ldquo;Plex&rdquo;:<a href="http://www.plexapp.com">http://www.plexapp.com</a> ) are at a great point right now to do just about everything you could want on a single system. Since this past Tuesday when the Mac Mini came out I&rsquo;ve been setting a system for this purpose. Hopefully my research can save someone else a little bit of time.</p>
+
+<p>h3. So what do I want to be able to do?</p>
+
+<ul>
+<li>Watch TV</li>
+<li>Watch DVDs/BluRay</li>
+<li>Watch downloaded/ripped videos of any format (avi, mkv, DVDs, hd video)</li>
+<li>Stream videos off the network (so we don&rsquo;t have to have a NAS in the living room)</li>
+<li>Have some sort of way to track ratings, seen/not seen, imdb information, genres, cast, and movie/tv show information automatically</li>
+<li>Ability to watch 1080p video with minimal artifacts (if any)</li>
+<li>Play video games through an emulator</li>
+<li>Use a wireless Xbox 360 controller for games</li>
+<li>Use a single remote control for media center, dvd, blueray, cable</li>
+<li>Full surround sound (7.1, or 5.1 at least)</li>
+<li>Watch videos from a variety of web-only sources ( &ldquo;Hulu&rdquo;:<a href="http://www.hulu.com">http://www.hulu.com</a> , &ldquo;Joost&rdquo;:<a href="http://www.joost.com">http://www.joost.com</a> , &ldquo;TED&rdquo;:<a href="http://www.ted.com">http://www.ted.com</a> , others)</li>
+</ul>
+
+
+<p>All these things and more will be possible through this system, though it will take some setting up and experimentation.</p>
+
+<p>h3. Uhh, what don&rsquo;t you want to do?</p>
+
+<p>This is just as important to know when it can impact the core hardware. There is one thing left out of here- the ability to record from cable on a computer (a DVR). This is one feature that has always sounded cool in theory. &ldquo;MythTV&rdquo;:<a href="http://www.mythtv.org/">http://www.mythtv.org/</a> looks impressive, but the idea of having something I setup control whether I see my favorite shows or not is one big variable. The hardware encoding and conversion don&rsquo;t interest me too much at this point, and since I don&rsquo;t plan on archiving media indefinitely, there&rsquo;s no need for digital copy. Likewise for the ability to watch TV through a media center. I have a DVR setup anyway, so I don&rsquo;t mind switching from the media center over to it for TV. Someday maybe these could be one &mdash; someday soon actually.</p>
+
+<p>h3. Hardware Matters</p>
+
+<p>This system will be running &ldquo;Plex&rdquo;:<a href="http://www.plexapp.com/">http://www.plexapp.com/</a> at it&rsquo;s core, so it will have to be a Mac. Since it&rsquo;ll be in the living room, and because we&rsquo;re aiming for lowest power consumption the Mini is the perfect choice. Like all Macs it also has Bluetooth and IR capabilities so we can go completely wireless. Some of the other hardware will be completely dependent on what you want as the core of your system.</p>
+
+<p>h3. Generic Hardware</p>
+
+<p>The TV, Cable Box/DVR Box and Receiver could really be anything for this. There are a couple of requirements, but nothing that even middle of the line items don&rsquo;t have anymore. The TV should have at least one HDMI input, and doesn&rsquo;t hurt to have a Component IN. The receiver should also have inputs for at least your cable box and a HDMI connector. It should also have at least two optical audio (toslink) connections. The receiver should also have 5.1 surround (2 front, 1 center, 2 side speakers), or 7.1 surround (5.1 + 2 behind). 6.1 Surround will also work (5.1 + 1 behind). Hopefully your cable box will have component or HDMI output as well as toslink for audio for full surround and HD video. The speakers and speaker cable can be whatever; there are better places than here for information on that.</p>
+
+<p>h3. Media Computer</p>
+
+<p>Ah yes, this is the core of this new system isn&rsquo;t it. This should be one of the new Mac Mini&rsquo;s for a few major reasons. The CPU is slightly faster 2.0/2.26Ghz rather than 1.83Ghz. It also has a faster frontside bus. The graphics card is wildly improved from 64mb to 128/256mb. Old models only had 1GB of memory and it was not officially expandable. Now though, models start at 1GB/2GB and go up to 4GB (through 2x2GB chips). That difference in the graphics card looks like it would make a world of difference when playing videos, but it&rsquo;s just not the case. There is no hardware assisted decoding when playing media files so video ram doesn&rsquo;t help out one bit. &ldquo;Adding more RAM&rdquo;:<a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820148191&amp;amp;nm_mc=OTC-pr1c3grabb3r&amp;amp;cm_mmc=OTC-pr1c3grabb3r-_-Memory+">http://www.newegg.com/Product/Product.aspx?Item=N82E16820148191&amp;amp;nm_mc=OTC-pr1c3grabb3r&amp;amp;cm_mmc=OTC-pr1c3grabb3r-_-Memory+</a>(Notebook+Memory)&ndash;<em>-Crucial+Technology-</em>-20148191 is what makes all the difference actually. Maxing it out at 4GB is only an extra $50, so it&rsquo;s well worth it. Plex does an amazing job of rendering videos that no other video software can play, but it requires some serious RAM to make it happen.</p>
+
+<p>h3. Audio</p>
+
+<p>Only a few cables are needed to get things going. To output sound you&rsquo;ll need a &ldquo;toslink cable&rdquo;:<a href="http://www.amazon.com/s?ie=UTF8&amp;amp;tag=mozilla-20&amp;amp;index=blended&amp;amp;link_code=qs&amp;amp;field-keywords=toslink">http://www.amazon.com/s?ie=UTF8&amp;amp;tag=mozilla-20&amp;amp;index=blended&amp;amp;link_code=qs&amp;amp;field-keywords=toslink</a> as well as a &ldquo;mini to toslink adapter&rdquo;:<a href="http://www.amazon.com/Toslink-Female-Mini-Plug-Male-Adapter/dp/B000FMM8TO/ref=sr_1_17?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236569536&amp;amp;sr=8-17">http://www.amazon.com/Toslink-Female-Mini-Plug-Male-Adapter/dp/B000FMM8TO/ref=sr_1_17?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236569536&amp;amp;sr=8-17</a> . The mini uses special combination analog/optical-digital audio jacks, so with toslink cables you can get full surround sound.</p>
+
+<p>h3. Video</p>
+
+<p>The Mini has a mini-DVI port and comes with a mini-DVI to DVI-D connector, which is what we&rsquo;ll use for video. Your TV might have a DVI input, but the quality won&rsquo;t be the same as using HDMI. I found that my TV wouldn&rsquo;t go to full 1080p with the DVI connector attached, but with HDMI it would. Luckily there&rsquo;s plenty of &ldquo;DVI-D to HDMI&rdquo;:<a href="http://www.amazon.com/s/ref=nb_ss_e?url=search-alias%3Delectronics&amp;amp;field-keywords=hdmi+to+dvi&amp;amp;x=0&amp;amp;y=0">http://www.amazon.com/s/ref=nb_ss_e?url=search-alias%3Delectronics&amp;amp;field-keywords=hdmi+to+dvi&amp;amp;x=0&amp;amp;y=0</a> cables on Amazon. You shouldn&rsquo;t buy HDMI cables locally at all actually. Best Buy sells them for 10x the price on Amazon (or more).</p>
+
+<p>h3. Computer Devices</p>
+
+<p>I already had a &ldquo;Apple wireless keyboard&rdquo;:<a href="http://www.amazon.com/Apple-MB167LL-A-Wireless-Keyboard/dp/B000V01RLK/ref=sr_1_8?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-8">http://www.amazon.com/Apple-MB167LL-A-Wireless-Keyboard/dp/B000V01RLK/ref=sr_1_8?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-8</a> and a &ldquo;wireless Might Mouse&rdquo;:<a href="http://www.amazon.com/Apple-Mighty-Mouse-Wireless-Kit/dp/B000V1LOC6/ref=sr_1_9?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-9">http://www.amazon.com/Apple-Mighty-Mouse-Wireless-Kit/dp/B000V1LOC6/ref=sr_1_9?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236570418&amp;amp;sr=1-9</a> , which do the trick. There&rsquo;s no way I want cables running from my media center all the way to the couch each time I need to use it, so wireless is essential- &ndash; as are rechargeable batteries. The mini found both of these devices when it was first started, which was an added bonus.</p>
+
+<p>h3. Gaming Devices</p>
+
+<p>The &ldquo;Xbox 360 Controller&rdquo;:<a href="http://www.amazon.com/Xbox-360-Wireless-Controller/dp/B000B6MLUA/ref=pd_bbs_sr_1?ie=UTF8&amp;amp;s=videogames&amp;amp;qid=1236570794&amp;amp;sr=8-1">http://www.amazon.com/Xbox-360-Wireless-Controller/dp/B000B6MLUA/ref=pd_bbs_sr_1?ie=UTF8&amp;amp;s=videogames&amp;amp;qid=1236570794&amp;amp;sr=8-1</a> is absolutely amazing. It feels more natural in your hands than any other controller, has a great combination of controls that allow it work with just about any previous system. Keeping with the previous trend, we also want this to be wireless. Using a wireless controller should be a breeze these days, but Microsoft decided to use a proprietary RF format so no one else could use it. Well, not without some hoops anyways. If you have a USB Xbox 360 controller it should work once you&rsquo;ve setup some drivers for it. To use the wireless controller though, you also have to buy a &ldquo;Xbox 360 Wireless Gaming Receiver for Windows&rdquo;:<a href="http://www.amazon.com/Xbox-Wireless-Gaming-Receiver-Windows-Pc/dp/B000HZFCT2/ref=sr_1_1?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236571475&amp;amp;sr=1-1">http://www.amazon.com/Xbox-Wireless-Gaming-Receiver-Windows-Pc/dp/B000HZFCT2/ref=sr_1_1?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1236571475&amp;amp;sr=1-1</a> . This is a little USB device that allows you to pair your controllers with a computer. By default it doesn&rsquo;t work on the Mac, although thanks to &ldquo;the great work&rdquo;:<a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver</a> by some smart people, the controller works great. The driver adds a preference pane where you can test out if the controllers are working too, which is great for testing too.</p>
+
+<p>h3. Remote Control</p>
+
+<p>Plex has amazing support for the Apple Remote. Although the Mac Mini doesn&rsquo;t come with it, it&rsquo;s a perfectly good remote for controlling just about anything within Plex. It doesn&rsquo;t control the TV or receiver though, you&rsquo;d still need multiple remote controls. That&rsquo;s where a great remote like the &ldquo;Logitech Harmony One&rdquo;:<a href="http://www.amazon.com/Logitech-Harmony-Advanced-Universal-Remote/dp/B00119T6NQ">http://www.amazon.com/Logitech-Harmony-Advanced-Universal-Remote/dp/B00119T6NQ</a> comes into play. In addition to working on all my devices (and just about anything out there), it comes with a special setting in for Plex! The One also has a series of macro buttons you can use to do multiple things at once. For instance, using Plex requires changing my TV to the HDMI input and changing the receiver to the PC input. Doing this and going back to Cable is a one click process. There&rsquo;s a few more bells and whistles you can customize for Harmony within Plex as well, once you&rsquo;re up and running. For instance, you can add one touch buttons for things like &ldquo;Watch Hulu&rdquo;, or &ldquo;My Favorites&rdquo; or even &ldquo;Watch The Daily Show on Hulu&rdquo;. Not bad for a single click. You can also customize the buttons per context as well. So the number 0 might do something different when you&rsquo;re watching a movie than when you&rsquo;re in a listing of movies. Lots of possibilities there.</p>
+
+<p>h3. That&rsquo;s all there is to it</p>
+
+<p>Getting everything up and running was surprisingly smooth. It&rsquo;s all dependent on a very small set of core programs and some smart settings to keep memory usage low. If you&rsquo;re wanting to see if your setup can handle HD video, try downloading the &ldquo;birds scene from Planet Earth&rdquo;:<a href="http://forums.plexapp.com/index.php?showtopic=3029">http://forums.plexapp.com/index.php?showtopic=3029</a> and see how it performs. If it doesn&rsquo;t even run (and chances are it might not), try downloading Plex and trying it form there. You can also benchmark within Plex by pressing &lsquo;i&rsquo;, which can serve as a good gauge of how many frames are being dropped. I&rsquo;ll save that for the next entry on media software.</p>
+]]></content>
+  </entry>
+  
+</feed>

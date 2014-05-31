@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: self improvement | Blog for Adam Fortuna]]></title>
+  <link href="http://adamfortuna.com/tags/self-improvement/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-05-31T14:28:11-04:00</updated>
+  <id>http://adamfortuna.com/</id>
+  <author>
+    <name><![CDATA[Adam Fortuna]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Seeking Mentors]]></title>
+    <link href="http://adamfortuna.com/seeking-mentors/"/>
+    <updated>2014-01-11T22:07:00-05:00</updated>
+    <id>http://adamfortuna.com/seeking-mentors</id>
+    <content type="html"><![CDATA[<p>Earlier this week, I stumbled upon an interesting blog post about <a href="http://www.nczonline.net/blog/2014/01/07/how-to-be-a-mentor/">How to Be a Mentor</a> that included a variety of great advice on the subject. It occurred to me how many tips I could take and also how many mentors I&rsquo;ve sought out in just the past year or two.</p>
+
+<h2>Fitness</h2>
+
+<p>One of the major advantages to something like <a href="/2-years-of-crossfit">CrossFit</a> is the personalized coaching. Getting a training session with an extremely experienced trainer 3-5 times a week isn&rsquo;t something that seems unusual. More days than not I start the day with a challenge from Mike, Josh or Jason.</p>
+
+<h3>Olympic Lifting</h3>
+
+<p>Recently I started attending an Olympic Lifting class at the gym, with a focus on a few select movements &mdash; clean, jerk, front squat and snatch. The coach for it, <a href="http://crossfitkingspoint.com/about/about-the-trainers/">Mike Koenig</a> has been an amazing trainer over the last 2 years I&rsquo;ve been working with him, and I&rsquo;m excited to see how the added emphasis on these lifts helps my progress.</p>
+
+<h3>Yoga</h3>
+
+<p>Another unlikely addition to my fitness regime over the past year has been adding in a dash of yoga. Every Wednesday at Envy Labs, we push the ping pong table aside and do a yoga session. <a href="http://www.orlandopoweryoga.com/orlando-power-yoga-instructors.php">Courtney Singleton</a> has been an amazing instructor at easing me into the yoga world, in a non-sweaty introductory way that has helped my flexibility, and surely my performance in other fitness aspects as well.</p>
+
+<p>After I strained my ankle a little over a year ago, yoga was one form of exercise that felt best for it. By Wednesday I&rsquo;m somewhat sore from working out, so having yoga mid week has helped as a recovery tool.</p>
+
+<h3>Running</h3>
+
+<p>Around the office, it&rsquo;s been <a href="http://happymediumblog.com/">Aimee Simone</a> who has continually helped bring people together for runs &ndash; often around downtown Orlando. The path around Lake Eola is a beautiful run, and this time of year it&rsquo;s something to take advantage of. Aimee also spearheaded the Yoga initiative which is always accepting new members.</p>
+
+<h2>Piano</h2>
+
+<p>Growing up, I remember going to my flute lessons in my karate gi. I didn&rsquo;t play flute for too long, maybe 2 or 3 years, but left always wanting to play piano. My dad was always an inspiration to me in the area of music. Throughout my early years, the house was filled with piano or guitar strings, which I came to love waking up to.</p>
+
+<p>Last year I decided to take the plunge and buy an electric piano and find myself a teacher. I&rsquo;d put this off for quite a while mostly because I know it&rsquo;s not something that&rsquo;ll happen overnight. For the last year I&rsquo;ve been attending classes with <a href="http://www.gardenmusiconline.com/">Al</a> at Winter Garden Music near my house. Al&rsquo;s the kind of guy who you&rsquo;d give any piece of music to and he&rsquo;ll play through it verbatim on the first run through. With his help and encouragement, I&rsquo;m slowly improving, but I have a long ways to go.</p>
+
+<h2>Programming</h2>
+
+<p>When it comes to programming, there&rsquo;s something you can learn from everyone you meet, so it&rsquo;s impossible to list out any kind of complete list of mentors. My coworkers at Envy Labs push me to learn, teach and grow, especially <a href="https://twitter.com/eallam">Eric Allam</a>, <a href="https://twitter.com/caike">Carlos Souza</a> and <a href="https://twitter.com/greggpollack">Gregg Pollack</a>.</p>
+
+<p>Not all mentors are as hands on as the in person list above. Some mentors are idea creators and code writers who you interact with through the product of their work. Ever since stumbling on <a href="https://vimeo.com/36579366">Inventing on Principle</a> and <a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>, I&rsquo;ve been following (stalking?) <a href="http://worrydream.com/">Bret Victor</a>. I&rsquo;m reasonably sure it&rsquo;s normal to have Google Alerts setup for whenever his name is mentioned.</p>
+
+<p>Working at <a href="http://codeschool.com">Code School</a> and always trying to push the envelope when it comes to how we teach, just seeing these kinds of inspirational ideas helps immensely. Following the specific approaches Bret mentions isn&rsquo;t the important takeaway, but attempting to understand a concept from a students perspective and giving the tools for them to feel powerful when learning is an important goal to strive for.</p>
+
+<p>I&rsquo;m still working my way through his lengthly list of <a href="http://worrydream.com/Links2013/">Links 2013</a>, but I&rsquo;m looking forward to reading all of them.</p>
+
+<h2>Seeking Mentors</h2>
+
+<p>One interest I mentioned in my <a href="/2013-year-in-review">2013 Year In Review</a> post was my desire to dive deeper into the JavaScript world. Part is this is reading through more JavaScript code by other people. If you&rsquo;re reading this and come across any interesting JavaScript code or blog posts the year, feel free send them my way. If for no other reason than it&rsquo;s more material to cover on the <a href="http://five-js.envylabs.com/">5 Minutes of JavaScript</a> podcast Carlos and I have been releasing every Thursday.</p>
+
+<p>Seeking out mentors doesn&rsquo;t happen overnight. Finding programming mentors may be difficult outside of the workplace, but most people I talk are more than willing to guide people &ndash; just no one asks. If you respect someone and want advice, don&rsquo;t be shy to ask them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2013 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2013-year-in-review/"/>
+    <updated>2014-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2013-year-in-review</id>
+    <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. I&rsquo;ve come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.</p>
+
+<h2>Travel</h2>
+
+<p>I didn&rsquo;t travel all that much this year. The biggest trips were Rails Conf and WWDC &ndash; both week long conferences attended with coworkers.</p>
+
+<ul>
+<li><a href="http://railsconf.com/">Rails Conf</a> in Portland, OR</li>
+<li>Was extremely lucky to attend <a href="/wwdc">WWDC</a> in San Francisco</li>
+<li><a href="https://twitter.com/adamfortuna/status/365957862113021952">Sanibel</a> with Marilyn for her birthday weekend</li>
+<li>Went to Miami for <a href="https://twitter.com/adamfortuna/status/404414324401520641">Distant Worlds</a>, a Final Fantasy Concert</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<p>The most random event this year was Distant Worlds. Marilyn and I were discussing &ldquo;What musical acts would you absolutely love to see that you haven&rsquo;t?&rdquo; and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he&rsquo;s only performed in the US 10 times in 10+ years, we really lucked out!</p>
+
+<p><div class='pull-right '><p>If you like movies, I’d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!</p>
+</div></p>
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/year/2013/">load of movies</a>, my favorites for the year being: Somm, Gravity and Stoker</li>
+<li>Went to the Florida Film Festival Premiere, followed by seeing a number of awesome movies</li>
+<li>Attended Megacon for the 15th straight year</li>
+<li>Lots of <a href="/books">audiobooks</a> &mdash; 45 total for the year. My favorites were Hyperion, Maphead, His Dark Materials and Bossypants. Many more were amazing.</li>
+<li>The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland and Breaking Bad</li>
+<li>Went to <a href="https://twitter.com/adamfortuna/status/335839768439029761">BarCampOrlando</a> and presented on &ldquo;R Programming for Ruby and Rails Developers&rdquo;</li>
+<li>The Postal Service concert viewed from the balcony at Hard Rock</li>
+<li>A hilarious Richard Cheese and Lounge Against the Machine concert at House of Blues</li>
+<li>Saw Kevin Smith live at the Plaza Theater</li>
+<li>Distant Worlds Concert</li>
+<li>Only played a few video games, including more Skyrim, Final Fantasy VI, Bioshock and Final Fantasy XII</li>
+</ul>
+
+
+<h2>Body</h2>
+
+<p>2011 was about having fun and keeping interested (when it comes to CrossFit). This year was more about testing my limits and seeing how I could improve. Towards the end of the year I did start to plateau when it comes to working out. I suspect it was due to an awful diet and lack of sleep.</p>
+
+<ul>
+<li><a href="/2-years-of-crossfit">Worked out</a> usually around 3 or 4 times a week, nearly always at 8am</li>
+<li>Stopped by <a href="http://www.crossfitportland.com/">CrossFit Portland</a> with <a href="https://twitter.com/yeabuddy">Casey</a> when in town for Rails Conf</li>
+<li>Participated in the <a href="http://evaleverything.com/2013/11/12/xkcd-style-graphs-with-r/">CrossFit Open</a> with a few other people to see how I matched up. My best performance was in the 20% percentile, but most were in the 4%</li>
+<li>Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury</li>
+<li>Did <a href="http://www.crossfit.com/mt-archive2/000881.html">Murph</a> in 51:17 for Memorial Day. Confident I can do better next time!</li>
+<li>Ran in a <a href="https://twitter.com/adamfortuna/status/297775932167553024">Warrior Dash</a> outside of Orlando with a few friends. Muddy and cold, but a load of fun</li>
+<li>Running around Lake Eola in downtown Orlando after work occasionally when not too hot out</li>
+</ul>
+
+
+<p><div class='pull-right '><p>The FitBit is awesome, but it doesn’t understand how much I hate wall balls.</p>
+</div></p>
+
+<ul>
+<li>Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<p>Worked at <a href="http://envylabs.com">Envy Labs</a> entirely on <a href="http://codeschool.com">Code School</a> all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.</p>
+
+<p><div class='pull-right '><p>Work mantra: always ask “What Would Bret Victor Do?”</p>
+</div></p>
+
+<ul>
+<li>Changed job titles to &ldquo;Technical Director at Code School&rdquo;, whatever that means.</li>
+<li>Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013</li>
+<li>Helped write and worked on <a href="http://try.jquery.com">Try jQuery</a>, a free way to learn jQuery in the browser (and linked to from the jQuery site). Followed up by writing <a href="https://www.codeschool.com/courses/jquery-the-return-flight">jQuery: The Return Flight</a></li>
+<li>Helped write the Ruby/JavaScript side of Code Schools <a href="https://www.codeschool.com/courses/core-ios-7">Core iOS 7</a> course, which lead to a few <a href="http://evaleverything.com/2013/10/04/teaching-ios-7-at-codeschool/">blog posts</a> about it</li>
+<li>Wrote and helped implement <a href="https://www.codeschool.com/courses/warming-up-with-emberjs">Warming up with Emberjs</a>, a course to learn Ember.js from scratch. Basing the implemention on everything we&rsquo;d learned about teaching programming in the browser.</li>
+</ul>
+
+
+<h2>Great Meals</h2>
+
+<p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out.</p>
+
+<p><div class='pull-right '><p>Having coffee at Victoria &amp; Alberts is a magical experience.</p>
+</div></p>
+
+<ul>
+<li>Went to <a href="http://victoria-alberts.com/">Victoria &amp; Alberts</a> restaurant with Marilyn for our Anniversary</li>
+<li>Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige</li>
+<li>The Chefs Table of Edgewater for mothers day with Marilyns family</li>
+<li>Went to Cask &amp; Larder for an Envy Labs lunch</li>
+<li>The Chefs Table of Edgewater dinner with Alli and Jeff</li>
+<li>Had Marilyns Birthday dinner at Pharmacy with tons of friends</li>
+<li>Stone Crab Festival in St. Pete with Nate and so many friends</li>
+<li>Food and Wine Festival with the Envy Labs gang</li>
+</ul>
+
+
+<h2>Personal</h2>
+
+<p><div class='pull-right '><p>Seriously, the little girl in the Piano lesson after mine is soo much better than me.</p>
+</div></p>
+
+<ul>
+<li>Bought an electric piano and started taking lessons every week. Still not very good, but making progress</li>
+<li>Cleaned out and organized the garage and attic to where we actually know where things are</li>
+<li>Launched a programming blog called <a href="http://evaleverything.com/">eval everything</a>, where I&rsquo;ve been writing about anything technical topics that are interesting</li>
+<li>Updated this blog from it&rsquo;s previous setup!</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>Looks like I&rsquo;m in the <a href="http://www.statisticbrain.com/new-years-resolution-statistics/">45% of people who make New Years resolutions</a>.</p>
+
+<p><strong>Continue learning piano</strong>. For me this means doing more practice at home as well as keeping up with lessons.</p>
+
+<p><strong>Get into Angular.js development</strong>, which we&rsquo;re using for a new Code School project. Kind of have to do this one for work anyways, but I&rsquo;ve been wanting to do it too.</p>
+
+<p><strong>Get more into JavaScript testing frameworks</strong> out there. I&rsquo;ve let my JavaScript go untested for far too long.</p>
+
+<p><strong>Invite friends over more</strong>, typically to play games or anything really. Too many times this year we said &ldquo;we need to have a game night&rdquo;. If you ever want to have a game night, just let me know!</p>
+
+<p><strong>Keep track of things more</strong>. Kind of an obvious one, but &ldquo;What gets measured gets improved&rdquo; has always been true for me. I&rsquo;m already doing these &mdash; some all the time, some intermittently.</p>
+
+<ul>
+<li>My Todo list in <a href="http://culturedcode.com/things/">Things</a></li>
+<li>Workouts and fitness goals in Evernote</li>
+<li>Piano practice in Evernote</li>
+<li>Audiobooks in my <a href="/books">book log</a></li>
+<li>Sleep in FitBit</li>
+<li>Expenses in Google Docs</li>
+<li>Weight via <a href="http://www.withings.com/en/scales">Withings</a></li>
+<li>Monthly goals in Evernote</li>
+</ul>
+
+
+<p>Confident that 2014 will be an amazing year!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2 Years of CrossFit]]></title>
+    <link href="http://adamfortuna.com/2-years-of-crossfit/"/>
+    <updated>2013-11-01T12:04:00-04:00</updated>
+    <id>http://adamfortuna.com/2-years-of-crossfit</id>
+    <content type="html"><![CDATA[<p>As of November 1st, I will have been doing <a href="http://crossfit.com/">CrossFit</a> for 2 years. What started as a casual twice a week workout, slowly grew up to four and sometimes even 5 workouts a week. It&rsquo;s been an amazing, life changing experience that I bring up in conversation entirely too often. 2 years seems like as good a time as any to reflect and detail my experience so far.</p>
+
+<h2>Fitness Background</h2>
+
+<p>Earlier in life I used to work out often. I had a good routine of jogging in the morning, and weight training after work a few days a week. This went well, but I didn&rsquo;t love it. This routine was thrown off when I changed jobs and I spent nearly 3 years doing absolutely nothing that required raising my heart rate.</p>
+
+<p>That might have continued if not for my friend and coworker <a href="http://caseyjenks.com/">Casey Jenks</a> who co-founded <a href="http://crossfitkingspoint.com/">CrossFit Kings Point</a>. After a few months of hearing about this CrossFit thing, I decided to check it out.</p>
+
+<h2>Getting Started</h2>
+
+<p><div class='pull-right '><p>Box: Term for a local CrossFit affiliate</p>
+</div></p>
+
+<p>So let&rsquo;s say you want to try out CrossFit. What should you expect? Well, after joining a local box, there&rsquo;s a period where you&rsquo;re learning an entire new vocabulary and trying new movements every week. I started slow, at only 2 days a week. 2 days a week is better than 0, and getting a sustainable routine is an important step.</p>
+
+<p><div class='pull-left '><p>CrossFit Kings Point</p>
+</div></p>
+
+<p><div class='pull-panorama '><p><img src="/images/2-years-of-crossfit/gym.png" alt="Inside CrossFit Kings Point" /></p>
+</div></p>
+
+<h3>Your First Day</h3>
+
+<p><div class='pull-left '><p><img src="/images/2-years-of-crossfit/kingspoint.png" alt="Core iOS 7" class="icon" /></p>
+</div></p>
+
+<p><a href="http://crossfitkingspoint.com/">CrossFit Kings Point</a> and most CrossFit gyms start people off with some type of &ldquo;On Ramp&rdquo; program. The way it currently works is you come in for your initial workout and you&rsquo;re paired with a trainer in a small class, possibly even alone, and taken through all the exercises for the day. A typical workout might look something like this:</p>
+
+<p><div class='pull-right '><p>EMOM: Every minute on the minute
+AMRAP: As many rounds as possible</p>
+</div></p>
+
+<p><blockquote><p>Strength: Weighted Pull Ups<br/>3 x 3 x 3 x 3 x 3<br/>Rest 2 Minutes between Sets<br/>Or<br/>10 Minute EMOM of Muscle Ups<br/>(Based on your ability)</p></p><p><p>Then, 7 Minute AMRAP<br/>7 Burpees<br/>7 Pull-Ups<br/>7 Box Jumps (24/20)</p></blockquote></p>
+
+<p><div class='pull-right '><p>WOD: Workout of the day</p>
+</div></p>
+
+<p>Going into your first day can be intimidating, but having someone there walk you through it can be amazing for getting started. For something like this, you&rsquo;ll learn about the structure of the workout &mdash; namely that there will be a skill portion where you&rsquo;re moving slow but working on strength, followed by a WOD where you you&rsquo;re moving fast for 7 minutes.</p>
+
+<p>You&rsquo;d learn about using bands for pullups which provide additional help if you&rsquo;re unable to do body weight pull ups. The trainer would also walk you through the individual movements, showing you what it means to do a burpee, a pull-up and a box jump.</p>
+
+<p>Every gym has a different way of introducing new members to fitness, so check out how the gym near you structures your first days and weeks.</p>
+
+<h3>My First Day</h3>
+
+<p><div class='pull-right '><p>CrossFit has many named workouts that you can use as a benchmark for your progress.</p>
+</div></p>
+
+<p>My first workout was a &ldquo;Half Cindy&rdquo;, which consisted of doing 5 pull-ups, 10 pushups and 15 squats in that series over and over for 10 minutes (an AMRAP). Even with the assistance of a band, I struggled to not throw up after 5 rounds. Even with that awkward feeling, it felt amazing. I scheduled my next workout immediately and didn&rsquo;t look back.</p>
+
+<p>On a side note, wecently we did &ldquo;Cindy&rdquo;, which is the same workout, but over 20 minutes. I managed 17 rounds this time, without using a band. Amazing to be able to look back. Maybe in another year, that number will be 20 &mdash; or more?</p>
+
+<h2>Avoiding Injuries</h2>
+
+<p><div class='pull-right '><p>Bouldering: Rock climbing on a wall no higher than 12ft without a rope.</p>
+</div></p>
+
+<p>In 2 years, I&rsquo;ve had 2 injuries, and only one was CrossFit related. I strained my ankle bouldering and couldn&rsquo;t run for a month. In that time I continued working out, but instead of running, I&rsquo;d row. Other ankle related movements, like squats, weren&rsquo;t a problem. Workouts can always be scaled back based on injuries if you make it clear with the trainer.</p>
+
+<p><div class='pull-right '><p>I’m not counting torn hands, bruises or scrapped knees as injuries.</p>
+</div></p>
+
+<p>My only CrossFit related injury was on such a light, simple movement, it&rsquo;s hard to believe it ended up with me not being unable to walk straight for 3 weeks. I was doing a stiff legged deadlift with a light 56 lb kettlebell as a warmup, and on the way up I heard my back crack. I knew right away something was wrong and I had to lay down and limit my movement right away. My trainer (Mike), insisted I sit out and stretch rather than participate in the workout. Within half an hour I could barely move without intense pain.</p>
+
+<p>I managed to get it looked at that day, which lead to some pain medicine for it, followed by a massage. Luckily for me it was nothing serious &mdash; just a back strain. My back was a persistant spasmed state for a number of weeks, but I was able to return to working out after a week and a half off by adjusting the workouts for my limitations.</p>
+
+<h2>Diet</h2>
+
+<p>When it comes to diet, there&rsquo;s always two &mdash; what you aim for and what actually happens. I go through periods of focus with my diet, which generally lead to larger gains. Between them is my usual, mostly-healthy diet.</p>
+
+<h3>Paleo</h3>
+
+<p><div class='pull-right '><p>There may or may not be shirtless before/after pictures of me for this Paleo Challenge.</p>
+</div></p>
+
+<p>For the month of August 2012, I participated in a &ldquo;<a href="http://crossfitkingspoint.com/paleo-challenge-results/">Paleo Challenge</a>&rdquo; competition run by my gym. The goal was to eat no grains, sugars, salt, vinegar, rice, chocolate &mdash; or other things considered non-paleo for the month. This generally meant eating meats, vegetables, fruits, nuts, olive oil and not much else. I cut out fruit as well to try to lower my sugar intake even lower.</p>
+
+<p>The result of this was that I went down from 8.2% to 6.8% body fat over the course of a month. At 132lbs, that&rsquo;s almost surely the slimest I&rsquo;ll ever be in my life. At that rediculously small size, I didn&rsquo;t have any visible 6-pack. Genetics still plays a factor in something like that.</p>
+
+<p>I don&rsquo;t follow paleo now, although I do tend to eat more meat and less sugar than the average person. Some things, like salt, are annoyingly difficult to limit, and the occasional beer/wine throughout the week is still an indulgence. The biggest takeaway from the paleo education is understanding how different foods affect my energy level, moods and training goals.</p>
+
+<h3>Weight</h3>
+
+<p>I haven&rsquo;t talked about weight all that much because it hasn&rsquo;t been a goal of mine. Going into my first workout I weighed around 155lbs. My first 10 months ended up shedding 20lbs of that going three times a week. In the year since then, I&rsquo;ve managed to put that amount back on, mostly as muscle.</p>
+
+<p>During this time, I&rsquo;ve never had a &ldquo;goal weight&rdquo;. Instead I&rsquo;ve aimed for periods of eating a caloric deficit, followed by periods of eating a surplus.</p>
+
+<h2>Tracking Progress</h2>
+
+<p>I don&rsquo;t plan on doing CrossFit at any kind of competitive level, but I do enjoy pushing myself and seeing improvements over time. I&rsquo;m securely in the &ldquo;intermediate&rdquo; tier on the arbitrary <a href="http://www.crossfit.com/cf-journal/WLSTANDARDS.pdf">CrossFit Strength Standards</a> document for my weight in all movements.</p>
+
+<p><div class='pull-right '><p>I really want to do something with the Evernote API for tracking personal bests, volume and progress.</p>
+</div></p>
+
+<p>For tracking my own progress, I create a new <a href="http://evernote.com">Evernote</a> note for each day, and tag it with each movement, and the name of the workout if there is one. Pulling up previous times and maxes on a given lift are as easy as looking at other notes with that tag. I&rsquo;ve been keeping a single <a href="https://www.evernote.com/shard/s2/sh/973a96d9-aa87-47d3-9f85-04de242891a5/24a64823dbfba5d6f83e918706cbdf55">Max Lifts</a> note containing my current progress as a quick reference.</p>
+
+<h3>The Open</h3>
+
+<p>One other way of tracking progress is participating in The Open, the very base level of competition. The Open consists of 5 workouts that you perform at your local gym. Every athlete around the world performs the exact same workouts, with the same weights, which allows for a global ranking. The top 30ish in each region participate in &ldquo;Regionals&rdquo; where they do a few more workouts. The top 3 from each region then move on to &ldquo;The Games&rdquo;. This is the big event that&rsquo;s broadcast on ESPN each summer.</p>
+
+<p>There is a huge thrill in being the same starting pool as those who go onto to The Games, even if it&rsquo;s a completely different level. It&rsquo;s similar to the US Open Golf tournament where anyone can participate, but the amazing thing about The Open is how many people join due to its distributed nature &mdash; 150,000.</p>
+
+<p>For the last 2 years I participated, even though in both cases still a beginner. During the 2nd year I analyzed my progress and progress to compare against the field at large. The result? I was in somewhere between the 4% and 21% percentile for all of the workouts. I&rsquo;m already looking forward to seeing how I compare next year!</p>
+
+<h2>Finding Friends</h2>
+
+<p>One of the biggest surprises about starting CrossFit was making so many friends. After 2 years at LA Fitness, the longest conversation I had with anyone was &ldquo;Are you done here?&rdquo;. At the gym I go to, there are other regulars at the 8am class I attend, which has lead to meeting smart and driven people that I wake up to each day. That&rsquo;s not to mention the amazing trainers who help shape your progress and provide inspiration.</p>
+
+<p>Being a developer and tending to find myself at developer events and developer conferences, spending time with people outside my profession has refreshing. The group I&rsquo;ve come to know includes trainers, chefs, salespeople, flight attendants, former gymnists, students, parents, and too many more to list. Ages range dramatically from teens up to 60s and higher. During many, if not most classes, there are more women than men.</p>
+
+<p><div class='pull-right '><p>Worth every penny.</p>
+</div></p>
+
+<p>Tim Dikun, a coworker, friend and fellow CrossFitter, mentioned the biggest diversity gap in his <a href="http://timdikun.com/journal/2013/02-crossfit-year-in-review/">CrossFit Year in Review</a> post: income. CrossFit isn&rsquo;t cheap. While a month at 24h Fitness is $10, a month at a CrossFit gym will run somewhere around $150/month or more.</p>
+
+<h2>Try It Out!</h2>
+
+<p>If you&rsquo;re interested in trying out CrossFit, don&rsquo;t be intimidated. Everyone is a beginner at some point and knows what it feels like. I&rsquo;ve never talked to anyone at the gym that didn&rsquo;t greet me with smiles.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2012 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2012-year-in-review/"/>
+    <updated>2013-01-01T00:00:00-05:00</updated>
+    <id>http://adamfortuna.com/2012-year-in-review</id>
+    <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year. Looking back on this year, it was much less active than <a href="http://blog.adamfortuna.com/2011-year-in-review/">last year</a>. Most life changing events of the year would probably by Marilyn and my trip to Europe, having fun getting fit and trying to tackle more difficult problems at work (or at home).</p>
+
+<h3>Travel</h3>
+
+<p>Light year for quantity of travel, but the last one was big.</p>
+
+<ul>
+<li><a href="http://railsconf2012.com/">Rails Conf</a> in Austin</li>
+<li>Tampa various times</li>
+<li>San Francisco for my sister Kara and Morgans wedding</li>
+<li>Homosassa Springs for scalloping</li>
+<li>London, Paris and Amsterdam with Marilyn for an amazing trip</li>
+</ul>
+
+
+<h3>Events and Entertainment</h3>
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/films/diary/by/rating/">load of movies</a>, my favorites for the year being: Cabin the Woods, The Hunger Games, The Dark Knight Rises</li>
+<li>Lots of audiobooks including The Hunger Games saga, Game of Thrones Series, Enders Shadow saga and a few more</li>
+<li>The TV Shows I looked forward to most this year were Game of Thrones, Walking Dead, Homeland, Dexter and Breaking Bad</li>
+<li>Pink Martini concert in Tampa</li>
+<li>This American Life Live</li>
+<li>Went on a hot air balloon ride with Marilyn</li>
+<li>The Lion King at Bob Carr</li>
+<li>Zelda: Symphony of the Goddess at Bob Carr</li>
+<li>Beauty and the Beast at Bob Carr</li>
+<li>Food and Wine Festival with the EnvyLabs gang</li>
+<li>Reefer Madness at Theater Downtown</li>
+<li>MythBusters Live at UCF</li>
+<li>Weezer at House of Blues</li>
+<li>Loius C.K. in Tampa</li>
+<li>Front row of The Mikado at the English National Opera</li>
+<li>Cabaret at the Savoy Opera House</li>
+</ul>
+
+
+<h3>Body</h3>
+
+<p>Fitness was a fun priority this past year. It was less about pushing limits and more about finding ways to have fun that kept me coming back.</p>
+
+<ul>
+<li><a href="http://crossfitkingspoint.com/">Worked out</a> at least 3x every week I was physically able to.</li>
+<li>Got a Lasik adjustment in both my eyes, bringing them a little closer to 20/20</li>
+<li>Strained my ankle rock climbing at Rails Conf in late April, took 3 months to heal to the point where I no longer felt pain</li>
+<li>Ate mostly paleo (some surplus, some deficit) to help build a bit more muscle</li>
+<li>Started doing yoga at work thanks to <a href="https://twitter.com/aimee_simone">Aimee</a> organizing it</li>
+<li>Dropped down to about 7% body fat during a month long paleo challenge at the gym before returning to a more stable weight</li>
+<li>Started playing Ultimate Frisbee again, this time in the competitive league</li>
+<li>Running more, including many runs around lake Eola with the EnvyLabs gang</li>
+<li>Strained my back during a workout, causing me to barely be able to stand up or walk for 2 weeks</li>
+</ul>
+
+
+<h3>Work</h3>
+
+<ul>
+<li>Awesome year working at <a href="http://envylabs.com">EnvyLabs</a> mostly on <a href="http://codeschool.com">CodeSchool</a></li>
+<li>Had one very crazy week where I worked 85 hours (including 24 hours straight), went to 3 fancy dinners for <a href="http://forkful.net">Marilyn&rsquo;s blog</a> and still hit the gym 3 times</li>
+<li>Involved in some way of releasing a number of educational courses for <a href="http://codeschool.com">CodeSchool</a> on a variety of topics including <a href="http://www.codeschool.com/courses/journey-into-mobile">mobile web</a>, <a href="http://www.codeschool.com/courses/anatomy-of-backbonejs">backbone.js</a>, <a href="http://www.codeschool.com/courses/testing-with-rspec">RSpec</a>, <a href="http://www.codeschool.com/courses/git-real">Git</a>, <a href="http://www.codeschool.com/courses/ruby-bits">Ruby</a>, <a href="http://www.codeschool.com/courses/assembling-sass">Sass</a>, <a href="http://www.codeschool.com/courses/try-r">R</a>, and <a href="http://www.codeschool.com/courses/try-ios">iOS</a></li>
+<li>Rolled out a new framework for CodeSchool courses that allows more flexibility in how we implement them. Really looking forward to improving on this in the new year</li>
+</ul>
+
+
+<h3>Personal</h3>
+
+<ul>
+<li>This year I did a lot of throw away projects &mdash; projects I worked on for a week or two then completely abandon</li>
+<li>Bought a Retina Macbook Pro, upgrading my 5 year old 17" MacBook Pro</li>
+<li>Took an iOS Programming course at Valencia Community College to keep myself on track education wise</li>
+<li>Moved off Bank Of America, and loving Simple so far</li>
+<li>Had a break in where they stole our TV and Marilyns jewelry box while I was in Austin. Luckily Marilyn was gone at the time and Lily was OK</li>
+<li>Lost our cat of 6+ years, Loverboy. He was always an outdoor cat, and lived to be at least 11 years old before disappearing. We can still hope that he was adopted</li>
+<li>Made some improvements to the backyard including a low fence and lighting that makes being out back more fun</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>This coming year is the first that I won&rsquo;t have any kind of fitness/diet related goals. I&rsquo;m happy with where I am there, so just a matter of keeping the habits that have been built up. I&rsquo;m not a fan of making resolutions in general, but more listing out what my current objectives are and where I&rsquo;m trying to change my current behavior. At the moment this includes:</p>
+
+<ul>
+<li>Spend even less time watching TV and reading junk (reddit, hacker news)</li>
+<li>Be more conscious of my time in general</li>
+<li>Spend more time with friends and family</li>
+<li>More time working on non-computer related projects (garden, house improvements, etc)</li>
+</ul>
+
+
+<p>We really have no plans whatsoever for the upcoming year right now, but I&rsquo;m looking forward to it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Uncluttering Manifesto]]></title>
+    <link href="http://adamfortuna.com/uncluttering-manifesto/"/>
+    <updated>2012-06-22T00:00:00-04:00</updated>
+    <id>http://adamfortuna.com/uncluttering-manifesto</id>
+    <content type="html"><![CDATA[<p>In college, and shortly thereafter, I wasn&rsquo;t the best with  money. I spent entirely too much needlessly upgrading my computer to the latest hardware for no real reason. Like many who come into some funds with a first job after college, I wasn&rsquo;t the most thoughtful about where I spent my money. It didn&rsquo;t take too long for that to change though.</p>
+
+<h2>A Catalyst</h2>
+
+<p>Three months after I graduated college, my mom unexpectedly passed away. The entire next year of my life was spent driving two hours each weekend to her now empty house and going through her lifes posessions and looking back on the home I  grew up in for 22 years. During this time I made the decision to save a great many posessions of hers that I couldn&rsquo;t push myself to part with. Still today I am sorting through this inheritance deciding what I want to keep for the rest of my life, and what is a memory I can save without the physical representation.</p>
+
+<p>Since then one goal on my mind has been to go through and minimize the clutter in my life. This applies both to my thoughts on acquiring new stuff, and getting rid of anything unused. For instance, for every physical book brought home, I make sure at least 3 are removed. I try to follow a similar approach for everything I bring home &ndash; with the goal that whenever I bring something home for good, I donate or sell something to offset the addition.</p>
+
+<h2>Collecting Experiences</h2>
+
+<p>You&rsquo;re not going to find many who disagree with the sentiment that experiences and relationships are the most important part of life. In my own experience it is easier to focus on this when your life is in order. In my case that meant fixing up and selling my moms old house, as well as simplifying my schedule to only those things that mattered most to me. I&rsquo;ve found the less clutter I have in my life, the more open I am to new experiences.</p>
+
+<p>The end result of all this is that as you become more restrictive when it comes to acquiring posessions, you can become more open when it comes to new experiences.</p>
+
+<h2>A Challenge</h2>
+
+<p>How many things do you own that you could get rid of? Do you think you could elimate enough possessions to where you were down to 100 things? If so, you might want to attempt the <a href="http://guynameddave.com/about-the-100-thing-challenge/">100 Thing Challenge</a>. The idea is simple &mdash; elimate clutter from your life to the point where you only own 100 things (though some things you could own multiple copies of &mdash; like shirts or pants.</p>
+
+<p>Do you think you can make it down to 100 things? Do you think it would make you happier?</p>
+]]></content>
+  </entry>
+  
+</feed>
