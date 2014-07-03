@@ -48141,7 +48141,8 @@ App.Book.FIXTURES = [
     rating: 5,
     genres: [100],
     amazon_id: '0765350386',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'One of the best fantasy books I\'ve ever read. The concept in this one is a fantasy world that is slightly different from our own with the inclusion of allomancers, people born with a special ability to manipulate the world (or themselves) in some way. These include things like being able to push/pull steel, refine your senses or incease your strength. "Mistborns" can use all of these abilities.\n\nThe characters and world drew me in with its mysteries and hints at epic problems rotating around our central players. The magical element for this world was the most memorable I can imagine, and I would highly recommend it. You could go with this one on your own, but books 2 & 3 expand on the world.'
   },
   {
     id: 48,
@@ -48152,7 +48153,8 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [100],
     amazon_id: '0765356139',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Mistborn ends in a good place, but hints at some of the larger problems facing the world as a whole. Book 2 starts down that path letting a little bit more light into the world. The story was slower than part 1, but had good build up.'
   },
   {
     id: 49,
@@ -48163,7 +48165,8 @@ App.Book.FIXTURES = [
     rating: 3,
     genres: [100],
     amazon_id: '0765356147',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'The conclusion of the Mistborn series was also the most slow of all of them. A satisfying ending for sure, but somewhat repetitive in the path there.'
   },
   {
     id: 50,
@@ -48174,18 +48177,20 @@ App.Book.FIXTURES = [
     rating: 4,
     genres: [100],
     amazon_id: '0765365278',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'This is the first book of Brandon Sandersons, The Stormlight Archive series -- which at the time of this writing has only 2 books released for it with about 10 total to be written. The story follows a number of characters involved in a world at war with the Parshendi, a mysterious race closeby. Like other Sanderson novels, there is a magical element which is slowly revealed. Although I enjoyed Mistborn more, I identified with the characters in Way of Kings more.'
   },
   {
     id: 51,
     title: 'Words of Radiance (The Stormlight Archive, Book 2)',
     author: 'Brandon Sanderson',
     started_at: new Date('5/12/2014'),
-    finished_at: null,
-    rating: 3,
+    finished_at: new Date('6/3/2014'),
+    rating: 4,
     genres: [100],
     amazon_id: '0765326361',
-    isAudiobook: true
+    isAudiobook: true,
+    review: 'Mysterious, dangerous magic, vendettas and high stakes battles keep you on the edge for this entire book. Characters you want to succeed have moments of glory, mixed with dispair.'
   },
   {
     id: 52,
@@ -48196,6 +48201,66 @@ App.Book.FIXTURES = [
     rating: 2,
     genres: [103],
     amazon_id: '1456458884',
+    isAudiobook: true,
+    review: 'A short one, which I was able to listen to on the way to JSConf. I felt as though it only goes skin deep into the problems facing education -- reiterating issues I\'ve heard discussed many times before. The group education concept and self directed learning this one promotes are clearly useful, but falls short of showing how it might help reframe our current systems.'
+  },
+  {
+    id: 53,
+    title: 'Quiet: The Power of Introverts',
+    author: 'Susan Cain',
+    started_at: new Date('6/3/2014'),
+    finished_at: new Date('6/5/2014'),
+    rating: 4,
+    genres: [103],
+    amazon_id: 'B004J4WNL2',
+    isAudiobook: true,
+    review: 'This is the book I wish I had read in grade school. Growing up, I always thought of the largest difference between introverts and extroverts to be quiet vs outgoing. The difference though is much more complex. The premise of this book is the idea that extroverts get energy from crowds, while it costs introverts energy to interact. The idea that some introverts even enjoy speaking because they value getting their message across more than their distake for public speaking hit close to home for me.'
+  },
+  {
+    id: 54,
+    title: 'Think Like a Freak',
+    author: 'Steven D. Levitt, Stephen J. Dubner',
+    started_at: new Date('6/5/2014'),
+    finished_at: new Date('6/7/2014'),
+    rating: 3,
+    genres: [103],
+    amazon_id: 'B00BATINVS',
+    isAudiobook: true,
+    review: 'Not as good as their first two books. Maybe after listening to their podcast since episode 1, I had too high a bar set for it. Still funny and amusing though.'
+  },
+  {
+    id: 55,
+    title: 'The Design of Everyday Things',
+    author: 'Donald Norman',
+    started_at: new Date('6/8/2014'),
+    finished_at: new Date('6/10/2014'),
+    rating: 2,
+    genres: [103],
+    amazon_id: 'B00E257T6C',
+    isAudiobook: true,
+    review: 'After hearing about this one for well over a decade, I decided to give it a shot. If I had read this one when it came out, it might have hit much closer to the target. As it stands now, I\'s mostly a refresher of things already heard. Now -- I wouldn\'t be surprised if wherever I heard them from were originally from this book, as it is a design classic.'
+  },
+  {
+    id: 56,
+    title: 'Outlander',
+    author: 'Diana Gabaldon',
+    started_at: new Date('6/11/2014'),
+    finished_at: new Date('6/30/2014'),
+    rating: 3,
+    genres: [101],
+    amazon_id: 'B000FC2L1O',
+    isAudiobook: true,
+    review: 'With the TV series for this book coming out later this year, and this being one of Marilyns favorites, I knew I had to read it before that. Although the characters were intresting, for a story about someone who lived through World War II, and time travels 200 years back to Scotland, this was surprisingly boring. The story is interesting, but I wanted more sci-fi/fantasy/time travel and less romance and political intrigue.'
+  },
+  {
+    id: 57,
+    title: 'Wizards First Rule',
+    author: 'Diana Gabaldon',
+    started_at: new Date('7/2/2014'),
+    finished_at: null,
+    rating: null,
+    genres: [101],
+    amazon_id: 'B00433TO4I',
     isAudiobook: true
   }
 ];

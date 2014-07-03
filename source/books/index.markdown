@@ -9,6 +9,10 @@ runAfter: >
   <script src="/javascripts/books-min.js"></script>
 ---
 
+I listen to a lot of audiobooks. Whenever I'm driving, walking my dog or doing things around the house I'm probably listening to something. This usually means periods of lots of books with the occasional day off between series to catch up a few podcasts. Starting in 2013, I began keeping track of what I listened to.
+
+The [code this page](https://github.com/codeschool/EmberReadinglist), was used to make a number of Code School screencasts including me building it from scratch in the [Soup to Bits: Warming Up With Ember.js](https://www.codeschool.com/code_tv/soup-to-bits-warming-up-with-ember) video. The app was expanded on to add a Rails backend in the [Soup to Bits: Surviving APIs with Rails](https://www.codeschool.com/code_tv/soup-to-bits-surviving-apis-with-rails) video. The same app was also used to build an Angular.js version in [Soup to Bits: Shaping Up With Angular.js](https://www.codeschool.com/code_tv/soup-to-bits-shaping-up-with-angular-js).
+
 {% raw %}
 <div id='app'></div>
 
