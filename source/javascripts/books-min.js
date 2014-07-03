@@ -48139,7 +48139,7 @@ App.Book.FIXTURES = [
     started_at: new Date('1/14/2014'),
     finished_at: new Date('1/28/2014'),
     rating: 5,
-    genres: [100],
+    genres: [101],
     amazon_id: '0765350386',
     isAudiobook: true,
     review: 'One of the best fantasy books I\'ve ever read. The concept in this one is a fantasy world that is slightly different from our own with the inclusion of allomancers, people born with a special ability to manipulate the world (or themselves) in some way. These include things like being able to push/pull steel, refine your senses or incease your strength. "Mistborns" can use all of these abilities.\n\nThe characters and world drew me in with its mysteries and hints at epic problems rotating around our central players. The magical element for this world was the most memorable I can imagine, and I would highly recommend it. You could go with this one on your own, but books 2 & 3 expand on the world.'
@@ -48151,7 +48151,7 @@ App.Book.FIXTURES = [
     started_at: new Date('1/28/2014'),
     finished_at: new Date('2/18/2014'),
     rating: 4,
-    genres: [100],
+    genres: [101],
     amazon_id: '0765356139',
     isAudiobook: true,
     review: 'Mistborn ends in a good place, but hints at some of the larger problems facing the world as a whole. Book 2 starts down that path letting a little bit more light into the world. The story was slower than part 1, but had good build up.'
@@ -48163,7 +48163,7 @@ App.Book.FIXTURES = [
     started_at: new Date('2/18/2014'),
     finished_at: new Date('4/11/2014'),
     rating: 3,
-    genres: [100],
+    genres: [101],
     amazon_id: '0765356147',
     isAudiobook: true,
     review: 'The conclusion of the Mistborn series was also the most slow of all of them. A satisfying ending for sure, but somewhat repetitive in the path there.'
@@ -48175,7 +48175,7 @@ App.Book.FIXTURES = [
     started_at: new Date('4/12/2014'),
     finished_at: new Date('5/12/2014'),
     rating: 4,
-    genres: [100],
+    genres: [101],
     amazon_id: '0765365278',
     isAudiobook: true,
     review: 'This is the first book of Brandon Sandersons, The Stormlight Archive series -- which at the time of this writing has only 2 books released for it with about 10 total to be written. The story follows a number of characters involved in a world at war with the Parshendi, a mysterious race closeby. Like other Sanderson novels, there is a magical element which is slowly revealed. Although I enjoyed Mistborn more, I identified with the characters in Way of Kings more.'
@@ -48187,7 +48187,7 @@ App.Book.FIXTURES = [
     started_at: new Date('5/12/2014'),
     finished_at: new Date('6/3/2014'),
     rating: 4,
-    genres: [100],
+    genres: [101],
     amazon_id: '0765326361',
     isAudiobook: true,
     review: 'Mysterious, dangerous magic, vendettas and high stakes battles keep you on the edge for this entire book. Characters you want to succeed have moments of glory, mixed with dispair.'
