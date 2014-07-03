@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: education | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/tags/education/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/"/>
-  <updated>2014-05-31T14:28:11-04:00</updated>
-  <id>http://adamfortuna.com/</id>
+  <link href="http://adamfortuna.com/adamfortuna/tags/education/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/adamfortuna/"/>
+  <updated>2014-07-02T23:02:23-04:00</updated>
+  <id>http://adamfortuna.com/adamfortuna/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Choice Between Learning and Doing]]></title>
-    <link href="http://adamfortuna.com/choice-between-learning-and-doing/"/>
+    <link href="http://adamfortuna.com/adamfortuna/choice-between-learning-and-doing/"/>
     <updated>2006-10-10T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/choice-between-learning-and-doing</id>
+    <id>http://adamfortuna.com/adamfortuna/choice-between-learning-and-doing</id>
     <content type="html"><![CDATA[<p>Learning something new isn&rsquo;t always easy, in fact it&rsquo;s usually quite a challenge or you&rsquo;d know it already. When it comes to programming, or anything with computers I can&rsquo;t imagine learning by any means other than a hands on approach. You never see people become experts without doing, so attempting to learn something without at least an idea in place to apply what you&rsquo;re learning doesn&rsquo;t make too much sense. But how do you decide when to apply and when to keep on learning?</p>
 
 <p>That&rsquo;s something I&rsquo;ve always struggled with to be honest. I&rsquo;ll read the first chapter of a book and be so inspired by it that I have to start making something with the little bit of knowledge learned &ndash; only to find out that it&rsquo;s either not enough to do anything I&rsquo;d want in complete detail, or there&rsquo;s just too much that was left unsaid to get a decent picture of the architecture. Recently when learning Ruby On Rails for example, I was reading through &ldquo;Agile Web Development with Rails&rdquo;:<a href="http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;amp;s=books</a> and after each chapter I was amazed by amount of new possibilities that opened up at each step. I&rsquo;d end up setting up rails, getting a hello world app going and spending more time researching online before even getting into the chapters that dealt with what I wanted to do.</p>

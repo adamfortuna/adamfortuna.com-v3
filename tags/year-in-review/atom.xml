@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: year in review | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/tags/year-in-review/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/"/>
-  <updated>2014-05-31T14:28:11-04:00</updated>
-  <id>http://adamfortuna.com/</id>
+  <link href="http://adamfortuna.com/adamfortuna/tags/year-in-review/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/adamfortuna/"/>
+  <updated>2014-07-02T23:02:23-04:00</updated>
+  <id>http://adamfortuna.com/adamfortuna/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2013-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2013-year-in-review/"/>
     <updated>2014-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2013-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2013-year-in-review</id>
     <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. I&rsquo;ve come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.</p>
 
 <h2>Travel</h2>
@@ -157,9 +157,9 @@
   
   <entry>
     <title type="html"><![CDATA[2012 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2012-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2012-year-in-review/"/>
     <updated>2013-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2012-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2012-year-in-review</id>
     <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year. Looking back on this year, it was much less active than <a href="http://blog.adamfortuna.com/2011-year-in-review/">last year</a>. Most life changing events of the year would probably by Marilyn and my trip to Europe, having fun getting fit and trying to tackle more difficult problems at work (or at home).</p>
 
 <h3>Travel</h3>
@@ -255,9 +255,9 @@
   
   <entry>
     <title type="html"><![CDATA[2011 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2011-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2011-year-in-review/"/>
     <updated>2012-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2011-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2011-year-in-review</id>
     <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year.</p>
 
 <h2>Travel</h2>
@@ -340,9 +340,9 @@
   
   <entry>
     <title type="html"><![CDATA[2010 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2010-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2010-year-in-review/"/>
     <updated>2011-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2010-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2010-year-in-review</id>
     <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year.</p>
 
 <h2>Travel</h2>

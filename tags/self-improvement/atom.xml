@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: self improvement | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/tags/self-improvement/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/"/>
-  <updated>2014-05-31T14:28:11-04:00</updated>
-  <id>http://adamfortuna.com/</id>
+  <link href="http://adamfortuna.com/adamfortuna/tags/self-improvement/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/adamfortuna/"/>
+  <updated>2014-07-02T23:02:23-04:00</updated>
+  <id>http://adamfortuna.com/adamfortuna/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Seeking Mentors]]></title>
-    <link href="http://adamfortuna.com/seeking-mentors/"/>
+    <link href="http://adamfortuna.com/adamfortuna/seeking-mentors/"/>
     <updated>2014-01-11T22:07:00-05:00</updated>
-    <id>http://adamfortuna.com/seeking-mentors</id>
+    <id>http://adamfortuna.com/adamfortuna/seeking-mentors</id>
     <content type="html"><![CDATA[<p>Earlier this week, I stumbled upon an interesting blog post about <a href="http://www.nczonline.net/blog/2014/01/07/how-to-be-a-mentor/">How to Be a Mentor</a> that included a variety of great advice on the subject. It occurred to me how many tips I could take and also how many mentors I&rsquo;ve sought out in just the past year or two.</p>
 
 <h2>Fitness</h2>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2013-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2013-year-in-review/"/>
     <updated>2014-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2013-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2013-year-in-review</id>
     <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. I&rsquo;ve come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.</p>
 
 <h2>Travel</h2>
@@ -206,9 +206,9 @@
   
   <entry>
     <title type="html"><![CDATA[2 Years of CrossFit]]></title>
-    <link href="http://adamfortuna.com/2-years-of-crossfit/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2-years-of-crossfit/"/>
     <updated>2013-11-01T12:04:00-04:00</updated>
-    <id>http://adamfortuna.com/2-years-of-crossfit</id>
+    <id>http://adamfortuna.com/adamfortuna/2-years-of-crossfit</id>
     <content type="html"><![CDATA[<p>As of November 1st, I will have been doing <a href="http://crossfit.com/">CrossFit</a> for 2 years. What started as a casual twice a week workout, slowly grew up to four and sometimes even 5 workouts a week. It&rsquo;s been an amazing, life changing experience that I bring up in conversation entirely too often. 2 years seems like as good a time as any to reflect and detail my experience so far.</p>
 
 <h2>Fitness Background</h2>
@@ -332,9 +332,9 @@ AMRAP: As many rounds as possible</p>
   
   <entry>
     <title type="html"><![CDATA[2012 Year in Review]]></title>
-    <link href="http://adamfortuna.com/2012-year-in-review/"/>
+    <link href="http://adamfortuna.com/adamfortuna/2012-year-in-review/"/>
     <updated>2013-01-01T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/2012-year-in-review</id>
+    <id>http://adamfortuna.com/adamfortuna/2012-year-in-review</id>
     <content type="html"><![CDATA[<p>My yearly recap of what&rsquo;s happened in my life over the last year. Looking back on this year, it was much less active than <a href="http://blog.adamfortuna.com/2011-year-in-review/">last year</a>. Most life changing events of the year would probably by Marilyn and my trip to Europe, having fun getting fit and trying to tackle more difficult problems at work (or at home).</p>
 
 <h3>Travel</h3>
@@ -430,9 +430,9 @@ AMRAP: As many rounds as possible</p>
   
   <entry>
     <title type="html"><![CDATA[Uncluttering Manifesto]]></title>
-    <link href="http://adamfortuna.com/uncluttering-manifesto/"/>
+    <link href="http://adamfortuna.com/adamfortuna/uncluttering-manifesto/"/>
     <updated>2012-06-22T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/uncluttering-manifesto</id>
+    <id>http://adamfortuna.com/adamfortuna/uncluttering-manifesto</id>
     <content type="html"><![CDATA[<p>In college, and shortly thereafter, I wasn&rsquo;t the best with  money. I spent entirely too much needlessly upgrading my computer to the latest hardware for no real reason. Like many who come into some funds with a first job after college, I wasn&rsquo;t the most thoughtful about where I spent my money. It didn&rsquo;t take too long for that to change though.</p>
 
 <h2>A Catalyst</h2>
