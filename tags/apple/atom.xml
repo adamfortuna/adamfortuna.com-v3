@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: apple | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/adamfortuna/tags/apple/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/adamfortuna/"/>
-  <updated>2014-07-02T23:24:22-04:00</updated>
-  <id>http://adamfortuna.com/adamfortuna/</id>
+  <link href="http://adamfortuna.com/tags/apple/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-07-18T22:34:03-04:00</updated>
+  <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2013]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/wwdc/"/>
+    <link href="http://adamfortuna.com/wwdc/"/>
     <updated>2013-06-18T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/wwdc</id>
+    <id>http://adamfortuna.com/wwdc</id>
     <content type="html"><![CDATA[<p>In the Apple development world, there aren&rsquo;t many public conferences. This is unlike the Ruby community which has local events throughout the country, with lots of international ones thrown in the mix. Apple, on the other hand, limits their exposure to a single week in June known as WWDC, Apple Worldwide Developers Conference, held in San Francisco.</p>
 
 <p>In past years, we&rsquo;ve seen the launch of devices by Steve Jobs like the iPhone and the iPad. Iconic moments like the reveal of the MacBook Air by pulling it out of a manilla envelope while popularizing the phrase &ldquo;One more thing&hellip;&rdquo;. The &ldquo;Keynote&rdquo; as this event is dubbed, is the only public event at WWDC, and kicks off an entire week of developer targetted talks. I was lucky enough to have <a href="http://codeschool.com">Code School</a> send me, <a href="https://twitter.com/eallam">Eric Allam</a> and <a href="https://twitter.com/jonfriskics">Jon Friskics</a> out west this year to experience this amazing event.</p>
@@ -108,9 +108,9 @@ Lucky for us, Apple gave us all a call individually 6 hours later, letting us kn
   
   <entry>
     <title type="html"><![CDATA[Building the Ultimate Media Center, Part 3: Backup]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-3-bac/"/>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac/"/>
     <updated>2009-03-22T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-3-bac</id>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac</id>
     <content type="html"><![CDATA[<p>Describing what I&rsquo;ve been working on so far as a media center may not be quite sufficient. Now a days term &ldquo;home server&rdquo; seems to do it a bit more justice, and if a home computer is on full time you&rsquo;ll certainly want to get the most out of it. If you&rsquo;ve ever wanted to do backups within your home, you might&rsquo;ve looked into &ldquo;Windows Home Server&rdquo;:<a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx</a> or Apples &ldquo;Time Capsule&rdquo;:<a href="http://www.apple.com/timecapsule/">http://www.apple.com/timecapsule/</a> / &ldquo;Time Machine&rdquo;:<a href="http://www.apple.com/macosx/features/timemachine.html">http://www.apple.com/macosx/features/timemachine.html</a> setups, but neither is quite what I was looking for. First off, I don&rsquo;t really want a Windows box in (mostly) mac home, so that&rsquo;s out. Time Machine alone doesn&rsquo;t do everything I have in mind, although it does play an important part. I&rsquo;ve had a lot of backup plans in the past, but none were quite &ldquo;perfect&rdquo;, which got me wondering what a perfect backup plan would look like.</p>
 
 <p>h3. What do you want in backup plan?</p>
@@ -262,9 +262,9 @@ rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</
   
   <entry>
     <title type="html"><![CDATA[Building the Ultimate Media Center, Part 2: Plex]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-2-ple/"/>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple/"/>
     <updated>2009-03-16T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-2-ple</id>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-2-ple</id>
     <content type="html"><![CDATA[<p>If there&rsquo;s a killer app out there in the media center world, it&rsquo;s &ldquo;Plex&rdquo;:<a href="http://www.plexapp.com/">http://www.plexapp.com/</a> . Built on the long running &ldquo;XBMC&rdquo;:<a href="http://xbmc.org/">http://xbmc.org/</a> , Plex is a fork of the project optimized to run on the Mac. XBMC has been around since the first Xbox, making one of the most established media center platforms out there. It&rsquo;s long outgrown the console however, and now serves as the core for projects like Plex and &ldquo;Boxee&rdquo;:<a href="http://boxee.tv/">http://boxee.tv/</a> . It was also featured on a recent &ldquo;FLOSS Weekly&rdquo;:<a href="http://twit.tv/FLOSS">http://twit.tv/FLOSS</a> episode which is worth a listen. With lots of &ldquo;recent talk about Boxee&rdquo;:<a href="http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4">http://paulstamatiou.com/2009/03/09/review-boxee-media-center-or-going-hd-part-4</a> , I thought I&rsquo;d add Plex to the conversation with a little talk on why I think it&rsquo;s the best media center software available.</p>
 
 <p>!/media/media_center/home.png!</p>
@@ -307,9 +307,9 @@ rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</
   
   <entry>
     <title type="html"><![CDATA[Building the Ultimate Media Center, Part 1: Hardware]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-1-har/"/>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-1-har/"/>
     <updated>2009-03-09T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-1-har</id>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-1-har</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re a geek, chances are you&rsquo;ve dreamed of having an amazing media setup that gives you a movie theater at home feel while providing all the options to extend it with your media. Well, thanks to the recent release of the &ldquo;Apple Mac mini&rdquo;:<a href="http://www.apple.com/macmini/">http://www.apple.com/macmini/</a> , hardware and software (specifically &ldquo;Plex&rdquo;:<a href="http://www.plexapp.com">http://www.plexapp.com</a> ) are at a great point right now to do just about everything you could want on a single system. Since this past Tuesday when the Mac Mini came out I&rsquo;ve been setting a system for this purpose. Hopefully my research can save someone else a little bit of time.</p>
 
 <p>h3. So what do I want to be able to do?</p>

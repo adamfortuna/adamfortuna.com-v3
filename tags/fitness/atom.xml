@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: fitness | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/adamfortuna/tags/fitness/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/adamfortuna/"/>
-  <updated>2014-07-02T23:24:22-04:00</updated>
-  <id>http://adamfortuna.com/adamfortuna/</id>
+  <link href="http://adamfortuna.com/tags/fitness/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-07-18T22:34:03-04:00</updated>
+  <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2 Years of CrossFit]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/2-years-of-crossfit/"/>
+    <link href="http://adamfortuna.com/2-years-of-crossfit/"/>
     <updated>2013-11-01T12:04:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/2-years-of-crossfit</id>
+    <id>http://adamfortuna.com/2-years-of-crossfit</id>
     <content type="html"><![CDATA[<p>As of November 1st, I will have been doing <a href="http://crossfit.com/">CrossFit</a> for 2 years. What started as a casual twice a week workout, slowly grew up to four and sometimes even 5 workouts a week. It&rsquo;s been an amazing, life changing experience that I bring up in conversation entirely too often. 2 years seems like as good a time as any to reflect and detail my experience so far.</p>
 
 <h2>Fitness Background</h2>

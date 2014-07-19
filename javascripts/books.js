@@ -176,7 +176,7 @@ App.Book.FIXTURES = [
     author: 'Neal Stephenson',
     started_at: new Date('5/27/2013'),
     finished_at: new Date('6/26/2013'),
-    rating: 4,
+    rating: 3,
     genres: [100],
     review: "Another Neal Stephenson story following 2 story lines: one following code breakers in World War II, another a group of dot com entrepreneurs. Featuring fictionalized versions of names from the time including Alan Turing made it easier to  identify with the characters. The first half of this very long book was tough to get through, with most of the payoff towards the end. The detailed descriptions of cryptography and theories about a digital currency were the most interesting part.",
     amazon_id: '0060512806',
@@ -557,6 +557,18 @@ App.Book.FIXTURES = [
     review: 'This book is only just about every top list of science fiction I\'ve come across, and with good reason. Charlie journey thoughout the book is presented in a memorable way that sticks with you for how personal it is by making this story Charlies journal.'
   },
   {
+    id: 58,
+    title: 'Because I Said So',
+    author: 'Ken Jennings',
+    started_at: new Date('1/04/2014'),
+    finished_at: new Date('1/06/2014'),
+    rating: 4,
+    genres: [103],
+    amazon_id: 'B007EE5852',
+    isAudiobook: true,
+    review: 'Ken Jennings takes a look into common myths we tell ourselves. Why do we wait 15 minutes after eating to swim? Why stay away from windows during a thunderstorm? How many of these myths are true, and where did the myths come from? Jennings comical take on these was enjoyable, despite the book itself being only slightly longer than a podcast.'
+  },
+  {
     id: 47,
     title: 'Mistborn: The Final Empire (Book 1)',
     author: 'Brandon Sanderson',
@@ -679,14 +691,51 @@ App.Book.FIXTURES = [
   {
     id: 57,
     title: 'Wizards First Rule',
-    author: 'Diana Gabaldon',
+    author: 'Terry Goodkind',
     started_at: new Date('7/2/2014'),
-    finished_at: null,
-    rating: null,
+    finished_at: new Date('7/14/2014'),
+    rating: 4,
     genres: [101],
     amazon_id: 'B00433TO4I',
-    isAudiobook: true
-  }
+    isAudiobook: true,
+    review: 'In high school, my sister sent me Wizards First Rule as a Christmas gift. Sadly, I never did get around to reading it back then, missing out on a great fantasy world. This is the first in over a dozen books in Goodkinds Sword of Truth which was also made into a TV series: The Legend of the Seeker. The confessors were the most interesting part for me -- women who can touch a person and control them for the rest of the their lives. The wizards of this story seemed all powerful and not powerful at once, which left me confused on their abilities.'
+  },
+  {
+    id: 58,
+    title: 'A Wrinkle in Time',
+    author: 'Madeleine L\'Engle',
+    started_at: new Date('7/14/2014'),
+    finished_at: new Date('7/15/2014'),
+    rating: 3,
+    genres: [101],
+    amazon_id: '0312367546',
+    isAudiobook: true,
+    review: 'Would\'ve enjoyed this one a lot more if I read it when I was a kid.'
+  },
+  {
+    id: 59,
+    title: 'Ready Player One',
+    author: 'Ernest Cline',
+    started_at: new Date('7/15/2014'),
+    finished_at: new Date('7/16/2014'),
+    rating: 5,
+    genres: [100],
+    amazon_id: '0307887448',
+    isAudiobook: true,
+    review: 'One of the most FUN books I\'ve ever listened to -- and read by Wil Wheaton. The premise for this one takes place about 30 years in the future, where the creator of an MMO dies (imagine 2nd Life + WoW + Eve + the web itself + more). His will leaves his assets, and the fate of the game itself, to whoever can find the Easter Egg he hid within Oasis, his game.\n\nThe quest to find the Easter Egg dives into geek culture -- specifically from the 80s. Games, TV, movies, anime, cartoons, computers, music and too much more to count are referenced. Most of the book takes place in the game itself, allowing for a world where anything can happen without the need to justify. Things get interesting when the high score list highlights names of players -- effectively making them targets both in the game and in the real world.\n\nIf you\'re up for an 80s pop culture history lesson in the form of a book, that reads like a game, you should check this out.'
+  },
+  {
+    id: 60,
+    title: 'Creativity, Inc',
+    author: 'Ed Catmull',
+    started_at: new Date('7/17/2014'),
+    finished_at: null,
+    rating: 0,
+    genres: [103],
+    amazon_id: '0812993012',
+    isAudiobook: true,
+    review: 'Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration'
+  },
 ];
 
 App.Genre.FIXTURES = [

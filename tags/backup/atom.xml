@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: backup | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/adamfortuna/tags/backup/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/adamfortuna/"/>
-  <updated>2014-07-02T23:24:22-04:00</updated>
-  <id>http://adamfortuna.com/adamfortuna/</id>
+  <link href="http://adamfortuna.com/tags/backup/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-07-18T22:34:03-04:00</updated>
+  <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Home Backup Like a Boss]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/backup-like-a-boss/"/>
+    <link href="http://adamfortuna.com/backup-like-a-boss/"/>
     <updated>2011-06-27T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/backup-like-a-boss</id>
+    <id>http://adamfortuna.com/backup-like-a-boss</id>
     <content type="html"><![CDATA[<p>After hearing about the &ldquo;FBI Raid on Marco Arment&rsquo;s servers&rdquo;:<a href="http://5by5.tv/buildanalyze/30,">http://5by5.tv/buildanalyze/30,</a> it got me interested in how he was doing backups. I&rsquo;ve been slowly tweaking my own backup procedures over the last few years &mdash; to the point of being borderline obsessed with having local backups. A few years ago in 2002, a failing SATA drive containing my windows partition and all my files left me high and dry and without just about any backups of anything. This was a time before &ldquo;Dropbox&rdquo;:<a href="http://db.tt/ueGBRCn">http://db.tt/ueGBRCn</a> and other synchronizing services had come along to make things easier, and I hadn&rsquo;t taken the step on my own to make backup a priority.</p>
 
 <p>Two years ago when I was setting up my &ldquo;home media center&rdquo;:<a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/,">http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/,</a> I took a first stab at serious backup. Since then I&rsquo;ve been gradually tweaking my system and trying new things. What follows is what worked for me.</p>
@@ -34,7 +34,7 @@
 </ul>
 
 
-<p>!(right)http://adamfortuna.com/adamfortuna/media/media_center/mini-small.png! I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&rsquo;ll be down to a &ldquo;manageable&rdquo; 5TB soon enough.</p>
+<p>!(right)http://adamfortuna.com/media/media_center/mini-small.png! I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&rsquo;ll be down to a &ldquo;manageable&rdquo; 5TB soon enough.</p>
 
 <p>h3. What Hardware is this Using?</p>
 
@@ -46,7 +46,7 @@
 </ul>
 
 
-<p>p(center). !http://adamfortuna.com/adamfortuna/media/media_center/drobo.png!&nbsp;&nbsp;&nbsp;&nbsp;!http://adamfortuna.com/adamfortuna/media/media_center/mediasonic.png!</p>
+<p>p(center). !http://adamfortuna.com/media/media_center/drobo.png!&nbsp;&nbsp;&nbsp;&nbsp;!http://adamfortuna.com/media/media_center/mediasonic.png!</p>
 
 <p>The Drobo and MediaSonic both can withstand a single drive failure with no data loss, which is an ideal first line of defense. I&rsquo;ve heard from many reviews that the performance of the Drobo is awful, but I haven&rsquo;t had too many issues. The initial load of data onto it is a long, slow, painful experience &mdash; and adding a new drive can require upwards of a day before you can use it, but for general use I haven&rsquo;t had any issues.</p>
 
@@ -56,7 +56,7 @@
 
 <p>h3. Software Makes it Happen</p>
 
-<p>There&rsquo;s a few important pieces of software that keep things in sync. In my &ldquo;previous post&rdquo;:<a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/</a> I was using mostly cron jobs &ndash; which works, but were a little rough around the edges. Since then I&rsquo;ve added a few more to the mix: !(right)http://adamfortuna.com/adamfortuna/media/media_center/cronosync.png!</p>
+<p>There&rsquo;s a few important pieces of software that keep things in sync. In my &ldquo;previous post&rdquo;:<a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/</a> I was using mostly cron jobs &ndash; which works, but were a little rough around the edges. Since then I&rsquo;ve added a few more to the mix: !(right)http://adamfortuna.com/media/media_center/cronosync.png!</p>
 
 <ul>
 <li>TimeMachine is installed on all 3 Macs</li>
@@ -68,13 +68,13 @@
 
 <p>Now, if I had less than 100 GB of total data, I&rsquo;d just use Dropbox and call it a day. I&rsquo;d probably even enable the &ldquo;Packrat&rdquo; option for unlimited undo history. Even with the recent &ldquo;Dropbox authentication bug&rdquo;:<a href="http://blog.dropbox.com/?p=821">http://blog.dropbox.com/?p=821</a> it&rsquo;s still the best tool on the market. There are other ways to &ldquo;roll your own Dropbox&rdquo;:<a href="http://www.readwriteweb.com/cloud/2011/05/4-ways-to-build-your-own-dropbox.php">http://www.readwriteweb.com/cloud/2011/05/4-ways-to-build-your-own-dropbox.php</a> that may be worth checking out as well. Dropbox has the added bonus of having an API that other tools can interact with, that you wouldn&rsquo;t get from a home rolled solution.</p>
 
-<p>p(center). !http://adamfortuna.com/adamfortuna/media/screenshots/dropbox_referral.png!</p>
+<p>p(center). !http://adamfortuna.com/media/screenshots/dropbox_referral.png!</p>
 
 <p>It&rsquo;s also possible to increase the size of your Dropbox with referrals and other promotions they offer. My 50 GB box is up to 67.75 GB at the moment, just by taking advantage of their offer to increase the size with referrals. The additional amount of space for each referral is dependent on your pricing level, so you get more extra space for a referral when you&rsquo;re on the 50 GB plan than on the free plan.</p>
 
 <p>Backblaze is a tool I haven&rsquo;t heard much fuss about, but for me it&rsquo;s been a reliable, cost efficient and effective tool in my backup strategy. The Mac app for Backblaze installs itself into your system preferences and is completely controlled from there. You can specify which folders/drives you want to keep backed up, and tweak the speed to upload.</p>
 
-<p>p(center). !http://adamfortuna.com/adamfortuna/media/screenshots/backblaze_persephone.png!</p>
+<p>p(center). !http://adamfortuna.com/media/screenshots/backblaze_persephone.png!</p>
 
 <p>It took upwards of 3 months to upload 6 TB to Backblaze (which Brighthouse luckily didn&rsquo;t have any issues with). Since then it&rsquo;s stayed in sync a few days at any given time. The contents on the drive aren&rsquo;t in constant flux, so often it&rsquo;s updated within a few minutes. If you&rsquo;re on a slow connection, this might not be possible, but &ldquo;Road Runner Lightning&rdquo;:<a href="http://brighthouse.com/central-florida/shop/internet/road-runner-lightning">http://brighthouse.com/central-florida/shop/internet/road-runner-lightning</a> or FIOS will make the process a lot smoother.</p>
 
@@ -84,13 +84,13 @@
 
 <p>h4. Time Machine</p>
 
-<p>!(right)http://adamfortuna.com/adamfortuna/media/media_center/timemachine.png! The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a USB hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&rsquo;t do a first backup via USB then plug it in there either &mdash; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
+<p>!(right)http://adamfortuna.com/media/media_center/timemachine.png! The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a USB hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&rsquo;t do a first backup via USB then plug it in there either &mdash; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
 
 <p>h4. Music</p>
 
 <p>Music on my main computer isn&rsquo;t backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it&rsquo;ll be backed up that same day.</p>
 
-<p>!(left)http://adamfortuna.com/adamfortuna/media/media_center/itunes.png! The MediaSonic has 2 Music folders actually. It has an &ldquo;In Use&rdquo; folder and an &ldquo;Archive&rdquo; folder. The MacBook Pro music folder is mirrored to &ldquo;In Use&rdquo; &ndash; which is always a snapshot of what&rsquo;s currently on my laptop. Later, the Mac Mini does a sync to a second &ldquo;Archive&rdquo; folder. This may sound redundant, but that&rsquo;s because for much of the data it is.</p>
+<p>!(left)http://adamfortuna.com/media/media_center/itunes.png! The MediaSonic has 2 Music folders actually. It has an &ldquo;In Use&rdquo; folder and an &ldquo;Archive&rdquo; folder. The MacBook Pro music folder is mirrored to &ldquo;In Use&rdquo; &ndash; which is always a snapshot of what&rsquo;s currently on my laptop. Later, the Mac Mini does a sync to a second &ldquo;Archive&rdquo; folder. This may sound redundant, but that&rsquo;s because for much of the data it is.</p>
 
 <p>The nice part is that if I delete something from my laptop, it&rsquo;ll also be deleted from the &ldquo;In Use&rdquo; copy, but the &ldquo;Archive&rdquo; folder will retain a copy. The goal of all this is that I can restore my music directly at anytime, not eat up space on the TimeMachine drive, and have an canonical archive for all music.</p>
 
@@ -114,9 +114,9 @@
   
   <entry>
     <title type="html"><![CDATA[8 Awesome Uses for DropBox]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/8-awesome-uses-for-dropbox/"/>
+    <link href="http://adamfortuna.com/8-awesome-uses-for-dropbox/"/>
     <updated>2009-04-03T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/8-awesome-uses-for-dropbox</id>
+    <id>http://adamfortuna.com/8-awesome-uses-for-dropbox</id>
     <content type="html"><![CDATA[<p>Although only a very small part of my &ldquo;backup strategies&rdquo;:<a href="http://www.adamfortuna.com/2009/03/22/building-the-ultimate-media-center-part-3-backup/">http://www.adamfortuna.com/2009/03/22/building-the-ultimate-media-center-part-3-backup/</a> post dealt with &ldquo;Dropbox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> , after using it for a second week I&rsquo;ve fallen for it. Sure, it&rsquo;s useful for syncing commonly used files between computers, and there&rsquo;s many more files that it would be useful to have revision history on, but there&rsquo;s more to it than just sharing files. With that in mind I&rsquo;ve been on a rampage to use it for simplifying my life as much as possible. Here&rsquo;s a few tricks I&rsquo;ve found that help make things easier.</p>
 
 <p>h3. Backup Folders Not in Dropbox</p>
@@ -187,9 +187,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building the Ultimate Media Center, Part 3: Backup]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-3-bac/"/>
+    <link href="http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac/"/>
     <updated>2009-03-22T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/building-the-ultimate-media-center-part-3-bac</id>
+    <id>http://adamfortuna.com/building-the-ultimate-media-center-part-3-bac</id>
     <content type="html"><![CDATA[<p>Describing what I&rsquo;ve been working on so far as a media center may not be quite sufficient. Now a days term &ldquo;home server&rdquo; seems to do it a bit more justice, and if a home computer is on full time you&rsquo;ll certainly want to get the most out of it. If you&rsquo;ve ever wanted to do backups within your home, you might&rsquo;ve looked into &ldquo;Windows Home Server&rdquo;:<a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx</a> or Apples &ldquo;Time Capsule&rdquo;:<a href="http://www.apple.com/timecapsule/">http://www.apple.com/timecapsule/</a> / &ldquo;Time Machine&rdquo;:<a href="http://www.apple.com/macosx/features/timemachine.html">http://www.apple.com/macosx/features/timemachine.html</a> setups, but neither is quite what I was looking for. First off, I don&rsquo;t really want a Windows box in (mostly) mac home, so that&rsquo;s out. Time Machine alone doesn&rsquo;t do everything I have in mind, although it does play an important part. I&rsquo;ve had a lot of backup plans in the past, but none were quite &ldquo;perfect&rdquo;, which got me wondering what a perfect backup plan would look like.</p>
 
 <p>h3. What do you want in backup plan?</p>

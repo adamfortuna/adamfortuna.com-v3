@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: body | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/adamfortuna/tags/body/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/adamfortuna/"/>
-  <updated>2014-07-02T23:24:22-04:00</updated>
-  <id>http://adamfortuna.com/adamfortuna/</id>
+  <link href="http://adamfortuna.com/tags/body/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-07-18T22:34:03-04:00</updated>
+  <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My LASIK Experience]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/my-lasik-experience/"/>
+    <link href="http://adamfortuna.com/my-lasik-experience/"/>
     <updated>2011-07-11T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/my-lasik-experience</id>
+    <id>http://adamfortuna.com/my-lasik-experience</id>
     <content type="html"><![CDATA[<p>On Thursday, June 23, 2011 at about 11:30am, I had LASIK. It took years of coming to terms with the idea that if something failed I may end up blind for the rest of my life. Having come through the procedure successfully, and with practically no issues whatsoever so far, I wanted to give a basic heads up on what&rsquo;s involved in having LASIK, and what you should expect based on my experiences.</p>
 
 <h2>Consultation (~ half hour)</h2>

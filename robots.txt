@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://adamfortuna.com/adamfortuna/sitemap.xml 
+Sitemap: http://adamfortuna.com/sitemap.xml 

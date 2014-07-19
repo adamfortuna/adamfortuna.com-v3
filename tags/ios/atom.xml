@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: ios | Blog for Adam Fortuna]]></title>
-  <link href="http://adamfortuna.com/adamfortuna/tags/ios/atom.xml" rel="self"/>
-  <link href="http://adamfortuna.com/adamfortuna/"/>
-  <updated>2014-07-02T23:24:22-04:00</updated>
-  <id>http://adamfortuna.com/adamfortuna/</id>
+  <link href="http://adamfortuna.com/tags/ios/atom.xml" rel="self"/>
+  <link href="http://adamfortuna.com/"/>
+  <updated>2014-07-18T22:34:03-04:00</updated>
+  <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2013]]></title>
-    <link href="http://adamfortuna.com/adamfortuna/wwdc/"/>
+    <link href="http://adamfortuna.com/wwdc/"/>
     <updated>2013-06-18T00:00:00-04:00</updated>
-    <id>http://adamfortuna.com/adamfortuna/wwdc</id>
+    <id>http://adamfortuna.com/wwdc</id>
     <content type="html"><![CDATA[<p>In the Apple development world, there aren&rsquo;t many public conferences. This is unlike the Ruby community which has local events throughout the country, with lots of international ones thrown in the mix. Apple, on the other hand, limits their exposure to a single week in June known as WWDC, Apple Worldwide Developers Conference, held in San Francisco.</p>
 
 <p>In past years, we&rsquo;ve seen the launch of devices by Steve Jobs like the iPhone and the iPad. Iconic moments like the reveal of the MacBook Air by pulling it out of a manilla envelope while popularizing the phrase &ldquo;One more thing&hellip;&rdquo;. The &ldquo;Keynote&rdquo; as this event is dubbed, is the only public event at WWDC, and kicks off an entire week of developer targetted talks. I was lucky enough to have <a href="http://codeschool.com">Code School</a> send me, <a href="https://twitter.com/eallam">Eric Allam</a> and <a href="https://twitter.com/jonfriskics">Jon Friskics</a> out west this year to experience this amazing event.</p>

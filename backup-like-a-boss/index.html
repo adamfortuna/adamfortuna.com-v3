@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adamfortuna.com/adamfortuna/backup-like-a-boss">
+  <link rel="canonical" href="http://adamfortuna.com/backup-like-a-boss">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.feedburner.com/adamfortuna" rel="alternate" title="Blog for Adam Fortuna" type="application/atom+xml">
@@ -89,7 +89,7 @@
 	<li>About <em>(gulp)</em> 7 TB of movies. This includes a <span class="caps">DVD</span> rip of just every movie I&#8217;ve ever bought.</li>
 	<li>3 Macs are being backed up with TimeMachine (Mac Mini and 2 MacBook Pros)</li>
 </ul>
-<p><img src="http://adamfortuna.com/adamfortuna/media/media_center/mini-small.png" class="right" alt="" /> I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&#8217;ll be down to a &#8220;manageable&#8221; 5TB soon enough.</p>
+<p><img src="http://adamfortuna.com/media/media_center/mini-small.png" class="right" alt="" /> I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that&#8217;ll be down to a &#8220;manageable&#8221; 5TB soon enough.</p>
 <h3>What Hardware is this Using?</h3>
 <ul>
 	<li>Dedicated Seagate 1TB TimeMachine Hard Drive</li>
@@ -97,12 +97,12 @@
 	<li><a href="http://www.amazon.com/Mediasonic-eSATA-3-5-Inch-Enclosure-HFR2-SU3S2/dp/B003YFHEAC/ref=pd_sim_e_6?tag=adamfortuna-20">4-bay MediaSonic Raid Enclosure</a> with 4&#215;1TB (~3TB) connected to the MacMini</li>
 	<li>2 x Western Digital 3TB Drive connected to the Mac Mini (used exclusively for backups).</li>
 </ul>
-<p class="center"><img src="http://adamfortuna.com/adamfortuna/media/media_center/drobo.png" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://adamfortuna.com/adamfortuna/media/media_center/mediasonic.png" alt="" /></p>
+<p class="center"><img src="http://adamfortuna.com/media/media_center/drobo.png" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://adamfortuna.com/media/media_center/mediasonic.png" alt="" /></p>
 <p>The Drobo and MediaSonic both can withstand a single drive failure with no data loss, which is an ideal first line of defense. I&#8217;ve heard from many reviews that the performance of the Drobo is awful, but I haven&#8217;t had too many issues. The initial load of data onto it is a long, slow, painful experience &#8212; and adding a new drive can require upwards of a day before you can use it, but for general use I haven&#8217;t had any issues.</p>
 <p>I&#8217;d consider the MediaSonic enclosure as a lower priced alternative. The downside is needing 4 drives up front, but that&#8217;s an issue you&#8217;ll encounter with any <span class="caps">RAID</span> solution. You have the option of choosing the level of Raid you want, and formatting takes only a few minutes.</p>
 <p>It&#8217;s been a a year or two since I looked into hardware, but these have both lasted well without any data loss, and without any failed drives (so far).</p>
 <h3>Software Makes it Happen</h3>
-<p>There&#8217;s a few important pieces of software that keep things in sync. In my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">previous post</a> I was using mostly cron jobs &#8211; which works, but were a little rough around the edges. Since then I&#8217;ve added a few more to the mix: <img src="http://adamfortuna.com/adamfortuna/media/media_center/cronosync.png" class="right" alt="" /></p>
+<p>There&#8217;s a few important pieces of software that keep things in sync. In my <a href="http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/">previous post</a> I was using mostly cron jobs &#8211; which works, but were a little rough around the edges. Since then I&#8217;ve added a few more to the mix: <img src="http://adamfortuna.com/media/media_center/cronosync.png" class="right" alt="" /></p>
 <ul>
 	<li>TimeMachine is installed on all 3 Macs</li>
 	<li><a href="http://www.econtechnologies.com/pages/cs/chrono_overview.html">Chronosync</a> installed everywhere</li>
@@ -110,18 +110,18 @@
 	<li><a href="http://db.tt/ueGBRCn">Dropbox</a> ($99/year) on laptop</li>
 </ul>
 <p>Now, if I had less than 100 GB of total data, I&#8217;d just use Dropbox and call it a day. I&#8217;d probably even enable the &#8220;Packrat&#8221; option for unlimited undo history. Even with the recent <a href="http://blog.dropbox.com/?p=821">Dropbox authentication bug</a> it&#8217;s still the best tool on the market. There are other ways to <a href="http://www.readwriteweb.com/cloud/2011/05/4-ways-to-build-your-own-dropbox.php">roll your own Dropbox</a> that may be worth checking out as well. Dropbox has the added bonus of having an <span class="caps">API</span> that other tools can interact with, that you wouldn&#8217;t get from a home rolled solution.</p>
-<p class="center"><img src="http://adamfortuna.com/adamfortuna/media/screenshots/dropbox_referral.png" alt="" /></p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/dropbox_referral.png" alt="" /></p>
 <p>It&#8217;s also possible to increase the size of your Dropbox with referrals and other promotions they offer. My 50 GB box is up to 67.75 GB at the moment, just by taking advantage of their offer to increase the size with referrals. The additional amount of space for each referral is dependent on your pricing level, so you get more extra space for a referral when you&#8217;re on the 50 GB plan than on the free plan.</p>
 <p>Backblaze is a tool I haven&#8217;t heard much fuss about, but for me it&#8217;s been a reliable, cost efficient and effective tool in my backup strategy. The Mac app for Backblaze installs itself into your system preferences and is completely controlled from there. You can specify which folders/drives you want to keep backed up, and tweak the speed to upload.</p>
-<p class="center"><img src="http://adamfortuna.com/adamfortuna/media/screenshots/backblaze_persephone.png" alt="" /></p>
+<p class="center"><img src="http://adamfortuna.com/media/screenshots/backblaze_persephone.png" alt="" /></p>
 <p>It took upwards of 3 months to upload 6 TB to Backblaze (which Brighthouse luckily didn&#8217;t have any issues with). Since then it&#8217;s stayed in sync a few days at any given time. The contents on the drive aren&#8217;t in constant flux, so often it&#8217;s updated within a few minutes. If you&#8217;re on a slow connection, this might not be possible, but <a href="http://brighthouse.com/central-florida/shop/internet/road-runner-lightning">Road Runner Lightning</a> or <span class="caps">FIOS</span> will make the process a lot smoother.</p>
 <h3>Bringing it All Together</h3>
 <p>The Drobo and Mediasonic devices serve as file storage for archived DVDs, and also store all music I&#8217;ve ever ripped/downloaded. Both devices allow for a single drive failure without the loss of data &#8211; and advantage over the standalone Western Digital 3TB drives which if they fail, all data is lost.</p>
 <h4>Time Machine</h4>
-<p><img src="http://adamfortuna.com/adamfortuna/media/media_center/timemachine.png" class="right" alt="" /> The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a <span class="caps">USB</span> hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&#8217;t do a first backup via <span class="caps">USB</span> then plug it in there either &#8212; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
+<p><img src="http://adamfortuna.com/media/media_center/timemachine.png" class="right" alt="" /> The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a <span class="caps">USB</span> hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can&#8217;t do a first backup via <span class="caps">USB</span> then plug it in there either &#8212; you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).</p>
 <h4>Music</h4>
 <p>Music on my main computer isn&#8217;t backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it&#8217;ll be backed up that same day.</p>
-<p><img src="http://adamfortuna.com/adamfortuna/media/media_center/itunes.png" class="left" alt="" /> The MediaSonic has 2 Music folders actually. It has an &#8220;In Use&#8221; folder and an &#8220;Archive&#8221; folder. The MacBook Pro music folder is mirrored to &#8220;In Use&#8221; &#8211; which is always a snapshot of what&#8217;s currently on my laptop. Later, the Mac Mini does a sync to a second &#8220;Archive&#8221; folder. This may sound redundant, but that&#8217;s because for much of the data it is.</p>
+<p><img src="http://adamfortuna.com/media/media_center/itunes.png" class="left" alt="" /> The MediaSonic has 2 Music folders actually. It has an &#8220;In Use&#8221; folder and an &#8220;Archive&#8221; folder. The MacBook Pro music folder is mirrored to &#8220;In Use&#8221; &#8211; which is always a snapshot of what&#8217;s currently on my laptop. Later, the Mac Mini does a sync to a second &#8220;Archive&#8221; folder. This may sound redundant, but that&#8217;s because for much of the data it is.</p>
 <p>The nice part is that if I delete something from my laptop, it&#8217;ll also be deleted from the &#8220;In Use&#8221; copy, but the &#8220;Archive&#8221; folder will retain a copy. The goal of all this is that I can restore my music directly at anytime, not eat up space on the TimeMachine drive, and have an canonical archive for all music.</p>
 <h4>In-House Backups</h4>
 <p>The MediaSonic drive is synced nightly to one of the WD 3TB drives. The sizes match, so it&#8217;s a clean mirror. Chronosync handles the scheduling and syncing, keeping it easy to edit as well. 3 TB of data from the Drobo is backed up to the other MediaSonic Drive nightly as well. That leaves about 2.6 TB of data that&#8217;s not duplicated in house, but is still available on Backblaze.</p>
