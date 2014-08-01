@@ -729,12 +729,84 @@ App.Book.FIXTURES = [
     title: 'Creativity, Inc',
     author: 'Ed Catmull',
     started_at: new Date('7/17/2014'),
-    finished_at: null,
-    rating: 0,
+    finished_at: new Date('7/19/2014'),
+    rating: 5,
     genres: [103],
     amazon_id: '0812993012',
     isAudiobook: true,
-    review: 'Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration'
+    review: 'The full title for this one is "Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration". Hearing the title and knowing it was written by Ed Catmull, one of the cofounders of Pixar, was enough to draw me in. As someone who works in technology, but also leans towards ways of managing projects, this one hit on a long list of points that were relavant to working at Code School. Although on a completely different level, the way Pixar puts out pictures each year with multiple teams and different departments is similar to Code Schools monthly course structure. Page after page I saw problems that were familiar to me, and how they solved them at Pixar.'
+  },
+  {
+    id: 61,
+    title: 'Childhoods End',
+    author: 'Arthur C Clarke',
+    started_at: new Date('7/20/2014'),
+    finished_at: new Date('7/22/2014'),
+    rating: 5,
+    genres: [100],
+    amazon_id: '0345347951',
+    isAudiobook: true,
+    review: 'This was written in 1953, but feels like it could have been written this year -- which shows how timeless Clarkes style of science fiction is. The story is familiar if you\'ve watched the movie Independence Day. But what happens if the aliens seem inteligent and malevolent? How long does it take for humans to accept aliens? This relatively short novel was beat out for Retro Hugo Award by Fahrenheit 451.'
+  },
+  {
+    id: 62,
+    title: 'The Maze Runner',
+    author: 'James Dashner',
+    started_at: new Date('7/23/2014'),
+    finished_at: new Date('7/25/2014'),
+    rating: 3,
+    genres: [100],
+    amazon_id: '0385737955',
+    isAudiobook: true,
+    review: 'The movie preview for this story drew me into to check it out before release. With a lot of recent young adult novels in a similar world being made into movies (Hunger Games, Enders Game), this one looked like it could be another hit.\n\nThe book though seemed like a copy of too many other stories -- namely the above two. Without storyline spoilers though, the feel from the book is similar, but the connection to the characters was limited. I\'m undecided if I\'ll listen to the other two books in the series.'
+  },
+  {
+    id: 63,
+    title: 'Masters of Doom',
+    author: 'David Kushner',
+    started_at: new Date('7/26/2014'),
+    finished_at: new Date('7/29/2014'),
+    rating: 4,
+    genres: [102],
+    amazon_id: '0812972155',
+    isAudiobook: true,
+    review: 'One of the first computer games I ever played was Wolfenstein 3D on my moms Packard Bell 386 computer. Eventually I also played Doom on it as well. At the time I didn\'t realize what was behind those games. Masters is more a biography of John Carmack and John Romero - the technical and design talent behind these games and id software.\n\nIt\'s crazy to me how this company got started -- "borrowing" computers from their day job to program on them at night and eventually release Wolfenstein. The small group of guys working in their house part time ended up impacting the world of video games as much as anyone else has, and this is the rise and fall of that empire.'
+  },
+  {
+    id: 64,
+    title: 'The Emperors Soul',
+    author: 'Brandon Sanderson',
+    started_at: new Date('7/29/2014'),
+    finished_at: new Date('7/30/2014'),
+    rating: 5,
+    genres: [101],
+    amazon_id: '1616960922',
+    isAudiobook: true,
+    review: 'A short story by Sanderson which earned a Hugo award. Much of the feel from this seemed to be the inspiration for the soulcasters in his Stormlight Archives series. Like other worlds, this has a magic element which allows for "forging" -- modifying the history of an object to change how it appears today. For instance -- rewriting the history of a neglected table to have been cared for in order to make it strong a beautiful today. What about rewriting the past of a person? Would that change their soul?'
+  },
+  {
+    id: 65,
+    title: 'Redshirts',
+    author: 'John Scalzi',
+    started_at: new Date('7/30/2014'),
+    finished_at: new Date('7/31/2014'),
+    rating: 5,
+    genres: [100],
+    amazon_id: '0765334798',
+    isAudiobook: true,
+    review: 'Having seen every Star Trek episode and being a huge fan of Galaxy Quest, this one was amazing. The story revolves around a space ship (like the Enterprise) where a surprising number of crew members are dying on away missions -- especially those lower on the totem pole. Once the bit characters begin to realize this trend they divise ways to take advantage of the situation.\n\nMuch of what made this great was how meta it was. Almost like a darker version of Glaxy Quest.'
+  },
+  {
+    id: 66,
+    title: 'Console Wars',
+    author: 'Blake Harris',
+    started_at: new Date('8/1/2014'),
+    finished_at: null,
+    rating: 0,
+    genres: [103],
+    amazon_id: '0062276697',
+    isAudiobook: true,
+    review: ''
   },
 ];
 
