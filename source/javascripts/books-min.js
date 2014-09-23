@@ -48377,13 +48377,133 @@ App.Book.FIXTURES = [
     title: 'Console Wars',
     author: 'Blake Harris',
     started_at: new Date('8/1/2014'),
-    finished_at: null,
-    rating: 0,
+    finished_at: new Date('8/6/2014'),
+    rating: 5,
     genres: [103],
     amazon_id: '0062276697',
     isAudiobook: true,
-    review: ''
+    review: 'I remember getting a Nintendo for Christmas in the late 80s and it shaping my entire childhood. Later on I\'d go onto to get a Super Nintendo, a Genesis and a Playstation before heading to college and eventually buying any system I wanted. The systems that truely shaped my gaming experience were, without a doubt NES, SNES and PSX.\n\nConsole Wars goes into the history of Nintendo, Sega and Sony with the rise of the console industry in America. Having been a kid at the time, I did\'t know show much of an underdog Sega was at the time -- and how badly managed Sega was in Japan. Nintendo had it\'s problems as well. The story behind the creation of Donkey Kong Country was amazing and made me surprised the game even got made -- better yet that it was (possibly) the best game for that system.'
   },
+  {
+    id: 67,
+    title: 'Flash Boys',
+    author: 'Michael Lewis',
+    started_at: new Date('8/7/2014'),
+    finished_at: new Date('8/9/2014'),
+    rating: 5,
+    genres: [103],
+    amazon_id: '0393244660',
+    isAudiobook: true,
+    review: 'If you ever listened to the Radiolab episode about high frequency trading, you should give this a listen. Lewis goes into much more detail on the same subject, including the concept of "dark pools" which I was unaware of. It\'s crazy how differeny things are from when I learned about the stock market in high school, but this one does an entertaining job of explaining why.'
+  },
+  {
+    id: 68,
+    title: 'The 4-Hour Workweek',
+    author: 'Timothy Ferriss',
+    started_at: new Date('8/16/2014'),
+    finished_at: new Date('8/17/2014'),
+    rating: 1,
+    genres: [103],
+    amazon_id: 'B002WE46UW',
+    isAudiobook: true,
+    review: 'I appreaciate the premise: How do you do the least amount of work possible? For any developer that\'s a goal. That\'s not the goal because then you can take off though - it\'s so you can get more done. Most of the projects suggested in the book contribute nothing to society, and are usually self serving.'
+  },
+  {
+    id: 69,
+    title: 'The Millionaire Next Door',
+    author: 'Thomas Stanley',
+    started_at: new Date('8/18/2014'),
+    finished_at: new Date('8/19/2014'),
+    rating: 4,
+    genres: [103],
+    amazon_id: 'B00CLT31D6',
+    isAudiobook: true,
+    review: 'Lots of good advice on how on how to safe and live within your means. Great look at how most millionaires are not driving flashy cars, but purchasing used vehicles with research.'
+  },
+  {
+    id: 70,
+    title: 'Good To Great',
+    author: 'Jim Collins',
+    started_at: new Date('8/7/2014'),
+    finished_at: new Date('8/9/2014'),
+    rating: 3,
+    genres: [103],
+    amazon_id: 'B0058DRUV6',
+    isAudiobook: true,
+    review: 'Why did Eckerd fail, when Walgreens took over? Collins explains the basics behind why some companies are able to make the leap to becoming great, while some are destined to fail.'
+  },
+  {
+    id: 71,
+    title: 'Unstuff Your Life',
+    author: 'Andrew Mellen',
+    started_at: new Date('9/1/2014'),
+    finished_at: new Date('9/5/2014'),
+    rating: 4,
+    genres: [103],
+    amazon_id: 'B003QMLBPM',
+    isAudiobook: true,
+    review: 'In an attempt to do some uncluttering, I thought this one would be a good listen, and it was surprisingly helpful. Mellen takes things room by room, looking for ways of making each one cleaner and uncluttered.'
+  },
+  {
+    id: 72,
+    title: 'The Martian',
+    author: 'Andy Weir',
+    started_at: new Date('9/9/2014'),
+    finished_at: new Date('9/12/2014'),
+    rating: 4,
+    genres: [100],
+    amazon_id: 'B00EMXBDMA',
+    isAudiobook: true,
+    review: 'The Martian started as a self published book on Amazon before eventually being picked up by a publisher, and now has a movie in the works with Matt Damon scheduled for late 2015. The easiest way to describe it is Castaway meets Apollo 13. It was a gripping story with enough realism to keep things interesting.'
+  },
+  {
+    id: 73,
+    title: 'Old Man\'s War',
+    author: 'John Scalzi',
+    started_at: new Date('9/12/2014'),
+    finished_at: new Date('9/16/2014'),
+    rating: 3,
+    genres: [100],
+    amazon_id: 'B000SEIK2S',
+    isAudiobook: true,
+    review: 'In a future where Earth is at war with neighboring aliens on the widening frontier of mankind, recruits are no longer the young. Now the elderly enlist, with the promise of youth and longer life. The first book in the series was solid on its own, although the ending was more rushed than I expected. I probably won\'t listen to the next 5 in the series.'
+  },
+  {
+    id: 74,
+    title: 'Rendezvous with Rama',
+    author: 'Arthur C. Clarke',
+    started_at: new Date('9/16/2014'),
+    finished_at: new Date('9/19/2014'),
+    rating: 4,
+    genres: [100],
+    amazon_id: 'B00AHIP8ZM',
+    isAudiobook: true,
+    review: 'After loving Childhoods End, I wanted to check out more by Clark. Rama is different book than I imagined. In a future earth where we\'ve settled the solar system, a large cylindrical spaceship decides to make its way to us. The book explores the interactions with this unknown ship.\n\n It is the first in a four-book series, but it could also be thought of as the first half of a story. I felt somewhat incomplete with the way it ended, although it is as likely an ending as any.'
+  },
+  {
+    id: 75,
+    title: 'The Fountains of Paradise',
+    author: 'Arthur C. Clarke',
+    started_at: new Date('9/19/2014'),
+    finished_at: new Date('9/23/2014'),
+    rating: 3,
+    genres: [100],
+    amazon_id: '0446677949',
+    isAudiobook: true,
+    review: 'Orbital elevators have always been an interesting topic to me. It\'s something about having a train, but one that takes you to the stars. This Hugo and Nebula award winning story has been theorized about for many years. The story itself is more a book about an engineering project than science fiction, which drifted to religion at times. I appreciated the concept more than the presentation.'
+  },
+  {
+    id: 76,
+    title: 'Illium',
+    author: 'Dan Simmons',
+    started_at: new Date('9/23/2014'),
+    finished_at: null,
+    rating: 0,
+    genres: [100],
+    amazon_id: '0380817926',
+    isAudiobook: true,
+    review: ''
+  }
 ];
 
 App.Genre.FIXTURES = [
