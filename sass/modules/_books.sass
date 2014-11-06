@@ -1,44 +1,91 @@
 .books
   .book
     padding: 1em 0
-    border-bottom: 1px solid lighten($c-header-backgroundColor, 30%)
+    border-bottom: 1px solid #b6daf2
+    min-height: 220px
 
+    &.rating-5, &.rating-4
+      .rating
+        color: #5cb85c
+    &.rating-3
+      .rating
+        color: #f0ad4e
+    &.rating-2, &.rating-1
+      .rating
+        color: #d9534f
+
+    h3
+      color: #555
+      margin-top: 0
     img
       width: 100px
       height: 150px
+      border: 1px solid #888
+      top: 0
+      left: 0
+      position: absolute
+
+    .book-image
+      position: relative
+      display: block
+    .date-read
+      color: #666
+      font-size: 14px
+      font-style: italic
+      display: block
+      padding-top: 20px
+      text-align: right
+    .description
+      font-style: italic
+      color: #888
+    .genres
+      float: left
+    .meta a.author
+      font-size: 12px
     .rating
       padding: 10px 0 0 28px
       color: #888
       font-size: 16px
-      .rate
+      position: absolute
+      top: 150px
+      left: 18px
+      .rate 
         font-size: 24px
         font-color: #666
-    h3
-      margin-top: 0
-    .date-read
-      color: #666
-      font-size: 14px
-      float: right
-      font-style: italic
-    .genres
-      float: left
 
+.currently-reading
+  .book-image, .description, .review
+    display: none
+  .books
+    border-top: 1px solid #b6daf2
+    .book
+      min-height: inherit
 
-    &.rating-5 .rating
-      color: #5cb85c
-    &.rating-4 .rating
-      color: #5cb85c
+/// .btn-rating-1
+///   background-color: #fdd
+///   &:hover, &.active
+///     background-color: #dcc
+//
+/// .btn-rating-2
+///   background-color: #fee
+///   &:hover, &.active
+///     background-color: #edd
+//
+/// .btn-rating-3
+///   background-color: #ffe
+///   &:hover, &.active
+///     background-color: #ffc
+//
+/// .btn-rating-4
+///   background-color: #efe
+///   &:hover, &.active
+///     background-color: #ded
+//
+/// .btn-rating-5
+///   background-color: #dfd
+///   &:hover, &.active
+///     background-color: #cdc
 
-    &.rating-3 .rating
-      color: #f0ad4e
-
-    &.rating-2 .rating
-      color: #d9534f
-    &.rating-1 .rating
-      color: #d9534f
-
-
-#filter-format,
-#filter-ratings,
-#filter-read-in-2013
-  display: none
+.filters
+  a:hover
+    cursor: pointer
