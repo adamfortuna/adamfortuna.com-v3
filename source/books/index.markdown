@@ -10,7 +10,7 @@ runAfter: >
   <script>
     angular.module('Scribe').config(['settingsProvider', function config(settingsProvider) {
       settingsProvider.setId(2419634);
-      settingsProvider.setApiUrl('http://api.adamfortuna.com');
+      settingsProvider.setApiUrl('http://goodcache.herokuapp.com');
     }]);
   </script>
 ---
