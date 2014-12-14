@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 runAfter: >
-  <script src="/javascripts/scribe.min.js"></script>
+  <script src="http://adamfortuna.github.io/scribe/dist/scribe.min.js"></script>
   <script>
     angular.module('Scribe').config(['settingsProvider', function config(settingsProvider) {
       settingsProvider.setId(2419634);
