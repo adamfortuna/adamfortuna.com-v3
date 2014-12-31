@@ -37,7 +37,7 @@ CrossFit Kings Point
 ### Your First Day
 
 {%pullside left %}
-![Core iOS 7](/images/2-years-of-crossfit/kingspoint.png){: .icon}
+![CrossFit Kings Point](/images/2-years-of-crossfit/kingspoint.png){: .icon}
 {% endpullside %}
 
 [CrossFit Kings Point][] and most CrossFit gyms start people off with some type of "On Ramp" program. The way it currently works is you come in for your initial workout and you're paired with a trainer in a small class, possibly even alone, and taken through all the exercises for the day. A typical workout might look something like this:
@@ -77,7 +77,7 @@ Every gym has a different way of introducing new members to fitness, so check ou
 CrossFit has many named workouts that you can use as a benchmark for your progress.
 {% endpullside %}
 
-My first workout was a "Half Cindy", which consisted of doing 5 pull-ups, 10 pushups and 15 squats in that series over and over for 10 minutes (an AMRAP). Even with the assistance of a band, I struggled to not throw up after 5 rounds. Even with that awkward feeling, it felt amazing. I scheduled my next workout immediately and didn't look back. 
+My first workout was a "Half Cindy", which consisted of doing 5 pull-ups, 10 pushups and 15 squats in that series over and over for 10 minutes (an AMRAP). Even with the assistance of a band, I struggled to not throw up after 5 rounds. Even with that awkward feeling, it felt amazing. I scheduled my next workout immediately and didn't look back.
 
 On a side note, wecently we did "Cindy", which is the same workout, but over 20 minutes. I managed 17 rounds this time, without using a band. Amazing to be able to look back. Maybe in another year, that number will be 20 -- or more?
 
@@ -111,7 +111,7 @@ For the month of August 2012, I participated in a "[Paleo Challenge][]" competit
 
 The result of this was that I went down from 8.2% to 6.8% body fat over the course of a month. At 132lbs, that's almost surely the slimest I'll ever be in my life. At that rediculously small size, I didn't have any visible 6-pack. Genetics still plays a factor in something like that.
 
-I don't follow paleo now, although I do tend to eat more meat and less sugar than the average person. Some things, like salt, are annoyingly difficult to limit, and the occasional beer/wine throughout the week is still an indulgence. The biggest takeaway from the paleo education is understanding how different foods affect my energy level, moods and training goals. 
+I don't follow paleo now, although I do tend to eat more meat and less sugar than the average person. Some things, like salt, are annoyingly difficult to limit, and the occasional beer/wine throughout the week is still an indulgence. The biggest takeaway from the paleo education is understanding how different foods affect my energy level, moods and training goals.
 
 ### Weight
 
@@ -121,7 +121,7 @@ During this time, I've never had a "goal weight". Instead I've aimed for periods
 
 ## Tracking Progress
 
-I don't plan on doing CrossFit at any kind of competitive level, but I do enjoy pushing myself and seeing improvements over time. I'm securely in the "intermediate" tier on the arbitrary [CrossFit Strength Standards](http://www.crossfit.com/cf-journal/WLSTANDARDS.pdf) document for my weight in all movements. 
+I don't plan on doing CrossFit at any kind of competitive level, but I do enjoy pushing myself and seeing improvements over time. I'm securely in the "intermediate" tier on the arbitrary [CrossFit Strength Standards](http://www.crossfit.com/cf-journal/WLSTANDARDS.pdf) document for my weight in all movements.
 
 {% pullside right %}
 I really want to do something with the Evernote API for tracking personal bests, volume and progress.
@@ -141,7 +141,7 @@ For the last 2 years I participated, even though in both cases still a beginner.
 
 One of the biggest surprises about starting CrossFit was making so many friends. After 2 years at LA Fitness, the longest conversation I had with anyone was "Are you done here?". At the gym I go to, there are other regulars at the 8am class I attend, which has lead to meeting smart and driven people that I wake up to each day. That's not to mention the amazing trainers who help shape your progress and provide inspiration.
 
-Being a developer and tending to find myself at developer events and developer conferences, spending time with people outside my profession has refreshing. The group I've come to know includes trainers, chefs, salespeople, flight attendants, former gymnists, students, parents, and too many more to list. Ages range dramatically from teens up to 60s and higher. During many, if not most classes, there are more women than men. 
+Being a developer and tending to find myself at developer events and developer conferences, spending time with people outside my profession has refreshing. The group I've come to know includes trainers, chefs, salespeople, flight attendants, former gymnists, students, parents, and too many more to list. Ages range dramatically from teens up to 60s and higher. During many, if not most classes, there are more women than men.
 
 {% pullside right %}
 Worth every penny.
