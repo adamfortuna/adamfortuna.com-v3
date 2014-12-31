@@ -8,7 +8,7 @@
   <title>Blog for Adam Fortuna</title>
   <meta name="author" content="Adam Fortuna">
   
-  <meta name="description" content="Building the Ultimate Media Center, Part 2: Plex Written March 16, 2009 Comments apple Adam Fortuna is a developer, crossfitter, foodie who lives in &hellip;">
+  <meta name="description" content="Building the Ultimate Media Center, Part 3: Backup Written March 22, 2009 Comments apple, backup, review Adam Fortuna is a developer, crossfitter, &hellip;">
   
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -56,6 +56,134 @@
     <div class='container'>
       <div class='col-md-10 col-md-offset-2'>
         <h1 class="title">
+          <a href="/building-the-ultimate-media-center-part-3-bac/">Building the Ultimate Media Center, Part 3: Backup</a>
+        </h1>
+        <ul class='meta group'>
+  <li>Written March 22, 2009</li>
+  
+    <li><a href="/building-the-ultimate-media-center-part-3-bac/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/building-the-ultimate-media-center-part-3-bac">Comments</a></li>
+  
+
+  
+  
+    <li><a class='tag' href='/tags/apple/'>apple</a>, <a class='tag' href='/tags/backup/'>backup</a>, <a class='tag' href='/tags/review/'>review</a></li>
+  
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class='container content'>
+    <section class='col-md-7 col-md-offset-2'>    
+      
+        <div class='pull-right author'>
+  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
+<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
+</div>
+      
+      <div class='post-content'>
+        
+          <p>Describing what I&#8217;ve been working on so far as a media center may not be quite sufficient. Now a days term &#8220;home server&#8221; seems to do it a bit more justice, and if a home computer is on full time you&#8217;ll certainly want to get the most out of it. If you&#8217;ve ever wanted to do backups within your home, you might&#8217;ve looked into <a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">Windows Home Server</a> or Apples <a href="http://www.apple.com/timecapsule/">Time Capsule</a> / <a href="http://www.apple.com/macosx/features/timemachine.html">Time Machine</a> setups, but neither is quite what I was looking for. First off, I don&#8217;t really want a Windows box in (mostly) mac home, so that&#8217;s out. Time Machine alone doesn&#8217;t do everything I have in mind, although it does play an important part. I&#8217;ve had a lot of backup plans in the past, but none were quite &#8220;perfect&#8221;, which got me wondering what a perfect backup plan would look like.</p>
+<h3>What do you want in backup plan?</h3>
+<p>Just like in creating software, when setting up a backup plan it&#8217;s important to know your requirements ahead of time. Otherwise what are you working towards? So what do I want this backup plan to be able to do&#8230;</p>
+<ul>
+	<li>Make it so that there is no single point of failure for any important data</li>
+	<li>Have on site and off site backups of everything</li>
+	<li>Backup and sync core data between macs (settings, address book, calendar, keychain, etc)</li>
+	<li>Some kind revision system for all text files. Something like git or svn where you can rollback changes</li>
+	<li>A local redundant hard drive array to guarantee no data loss if a single drive fails</li>
+	<li>Backup all core documents on various time intervals (daily, weekly, monthly). That way if I mess up a file and don&#8217;t realize it for a week I&#8217;ll be able to grab the version a month ago.</li>
+</ul>
+<h3>Settings, Calendars, Address Book and more</h3>
+<p>If you have multiple Macs <a href="http://www.apple.com/mobileme/">Mobile Me</a> is a good choice for easy syncing between macs. The system has had a lot of problems, and continues to struggle with performance. iDisk, the webdav interface to your MobileMe account is <em>painfully</em> slow, and continues to be. Just cleaning out a few hundred empty folders was enough to stall it earlier. The online image gallery MobileMe has is one of the better one&#8217;s seen, and if you use iPhoto it&#8217;s a convenient photo storage location. Just so that all my calendars and contacts aren&#8217;t confined to a single system (the Mac ecosystem), I use <a href="http://spanningsync.com/">Spanning Sync</a> to keep my Google Calendars and Google Contacts in check with iCal and Address Book. My girlfriend and I share calendars with each other on Google, and this way any changes she makes show up on my iCal, and any I make on iCal show up on hers. Also, whenever I get Google Calendar invites to my email address, they show up on Google Calendar then get syncd back to iCal. 2 way syncing is the way to go!</p>
+<h3>Complete Backups With Time Machine</h3>
+<p>Time Capsule is powerful and dead simple for full system backups. The way it works is simple: all macs on a network will have Time Machine (a program that ships with Leopard) enabled and set to use the Time Capsule hardware. Every hour or so, changes made to the core and specific folders will be pushed from the client computer (in this case my laptop) to the Time Capsule. You can specify which folders to watch for this as well. You might not want it watching your Downloads folder or others that are similarly volatile, but that&#8217;s easy to change. The first time you back up everything to Time Capsule you&#8217;ll want a hardline to it rather than doing it over a home network (even if it&#8217;s wireless N). Transferring your entire computer initially could take a full day if not, so be sure to plug it in. The hourly backups after that work wirelessly though, as they are much much smaller. Apple&#8217;s Airport Extreme has the ability to add a remote hard drive which can serve as a Time Machine drive as well. The nice part about this is that you can use an old external hard drive you have, or choose any drive out there. Leopard didn&#8217;t originally allow you to sync with drives like this, but in one of the recent updates it was enabled. For me, after the initial backup the incremental backups are very quick if not much has changed. Running TimeMachine for the first time is a trippy experience. You &#8220;go back in time&#8221; to the point where you want to see a file, then you can restore it. This covers a few of the requirements such as versioned files locally and full system backups with the ability to restore on any Mac.</p>
+<h3>Backups to a local <span class="caps">RAID</span> (or Drobo)</h3>
+<p>Finally, the first step that the Media Center can help with. Whether you go with <span class="caps">RAID</span>, a <a href="http://www.drobo.com/">Drobo</a> or something else, the backup procedure to it will be about the same. The easiest way I&#8217;ve found to do backups to this is with rsync and crontab. Here&#8217;s how it works: Your media server will have a series of scripts setup to run daily, weekly and monthly. These scripts will do all the heavy lifting of the backup &#8211; grabbing files from every computer on your network you want to backup and moving them to the redundant array. So firstoff the media server should be setup to backup everything from the computers on the network. That&#8217;s easy actually. On each computer you want to back files up from, go into System Preferences &gt; Sharing and enable &#8220;Remote Login&#8221;. This will allow the media center to ssh into each laptop. Backing up using rsync can be done by mapping drives in Finder and using those paths (/Volumes/adam), or by using <span class="caps">SSH</span>. With <span class="caps">SSH</span> you don&#8217;t have to map the drive beforehand, so it is the preferred method. On the media center, open up a text file. This will contain everything you want to copy from your client computers, and the path (on your media center) that you want to store them in.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
+<p>rsync -aE &#8212;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current <br />
+rsync -aE &#8212;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current</code></pre></p>
+</div>
+<p>Note that the destination (the 2nd path) is the same. That&#8217;s just because it&#8217;ll actually store the documents folder in &#8220;/Volumes/Drobo/Users/adam/current/Documents&#8221;. The- a option specifies &#8220;Archive&#8221;, which is actually shorthand for a few other options. It will recusively copy all directories, copy symlinks, preserve file permissions, preserve owner and groups, preserve file times preserve special files. The &#45;E flag preserves executability, while &#45;&#45;delete deletes extraneous files &#45; like those that were deleted. Save this file somewhere on the media center as a .command file. I kept it simple &#8211; backup.command. You should be able to run this script by just double clicking on it now. But there is a one major problem &#8212; authentication.</p>
+<h3>Setting up <span class="caps">SSH</span> keys</h3>
+<p>By setting up <span class="caps">SSH</span> Keys you can automate the authentication from the Media Server to any clients you want to backup. The way you do this is very easy. On the Media server, run the command @ ssh-keygen- t dsa@ . Go with the defaults, but choose a passphrase you can remember. Copy this file from the Media server to the computer you want to backup <span class="caps">FROM</span>. Since you should already have <span class="caps">SSH</span> setup, something like this should do the job.</p>
+<div>
+<pre><code class='bash'>link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@</code></pre>
+</div>
+<p>If you already have an <code>authorized_keys2</code> file, you&#8217;ll want to add the contents of <code>id_dsa.pub</code> to it instead of replacing it. After that&#8217;s updated, try SSHing to that client from the Media Server. You should get prompted for the passphrase (a mac prompt, not a terminal prompt). After you enter it and save it for later you should be able to <span class="caps">SSH</span> without any password going forward.</p>
+<h3>Setting it up to run automatically</h3>
+<p>Not worrying about backups is the whole point of this entire system, so running it automatically is essential. Luckily Unix systems have an easy way of doing this using cron jobs. To open up the list of cron jobs, just enter <code>crontab -e</code> in a terminal window. This will open up the cron file using VI. Editing in VI can be a bit annoying without knowing the comamnds. To edit it you don&#8217;t need to know much VI though. Just hit &#8220;i&#8221; to go into insert mode, where you can start typing. Each line you enter is a single scheduled cron job with a very specific format. For example, here&#8217;s a line to run a script every day at 3:30am:</p>
+<div>
+<pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command</code></pre>
+</div>
+<p>The &#8220;30 3 *&#8221; part deals with when it should be run, while the part after that is what to run. Here&#8217;s what those first 5 options translate to:</p>
+<ul>
+	<li>30- minute to run job on</li>
+	<li>3 &#8211; hour to run job on</li>
+	<li>* &#8211; Day of the month to run job on</li>
+	<li>* &#8211; Which month to run job on</li>
+	<li>* &#8211; Which day of the week to run the job on</li>
+</ul>
+<p>It&#8217;s a bit tricky to remember at first, but it&#8217;s a very simple scheduling system. For example, if you want to run something on sunday (the 0th day of the week) at 5:30 am, the parameters would be &#8220;30 5 0 &#8230;&#8221;. Here&#8217;s my full crontab that I&#8217;m using (some of these scripts I haven&#8217;t discussed yet, but we&#8217;ll get to later).</p>
+<div>
+<pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command
+<p>00 5 1 sh ~/Dropbox/scripts/weekly.command <br />
+00 6 1 sh ~/Dropbox/scripts/monthly.command <br />
+30 6 1 sh ~/Dropbox/scripts/external.backup.command</code></pre></p>
+</div>
+<p>The weekly and monthly scripts will just take a snapshot every month rather than every day. Nothing much to those scripts &#8212; just removing the last update and copying a snapshot. The monthly script is exactly the same but with &#8220;weekly&#8221; changed to &#8220;monthly&#8221;. The point of this is that if anything big goes wrong, you&#8217;ll have a backup locally of the original.</p>
+<div>
+<pre><code class='bash'>rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/</code></pre>
+</div>
+<h3>Versioned changes with Dropbox</h3>
+<p><a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It&#8217;ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What&#8217;s extra-useful about this is that all files will be versioned. I&#8217;m storing my Documents and Sites folders in here and backing up daily. Even if I haven&#8217;t committed site changes for something I&#8217;m working on, it&#8217;ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
+<p>rsync- aE &#8212;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</code></pre></p>
+</div>
+<p>One really nice part about Dropbox&#8217;s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it&#8217;s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.</p>
+<h3>Backing up your backup scripts</h3>
+<p>You&#8217;ll notice that my backup scripts where in my Dropbox: <code>~/Dropbox/scripts/backup.command</code> . Not only does this mean that you&#8217;ve backed up your scripts (always a good practice), but you can change your backup procedure from anywhere you can access Dropbox! This is so simple it&#8217;s one of the most effortless things to setup. You can also copy the contents of your crontab file Add this line to your crontab: <code>@daily crontab- l &gt; ~/Dropbox/crontab.txt</code> &#8220;@daily&#8221; is shorthand for &#8220;everyday at midnight&#8221;. This is a nice way of archiving any changes you make to your crontab. With the other backup scripts you can make changes on any computer and the Media Center will pull them in thanks to DropBox. But for the crontab you&#8217;ll actually want to make changes directly to the Media Center using the &#8220;crontab -e&#8221; command.</p>
+<h3>External backups of everything else</h3>
+<p><a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe&#8217;s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I&#8217;ll keep it going for that. For now I&#8217;ll stick with MobileMe for my larger media backup as well, although I can tell you now I&#8217;m not exactly happy about it. One of the downsides of MobileMe is that it doesn&#8217;t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it&#8217;ll show in &#8220;/Volumes&#8221;. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application &#8220;Finder&#8221; mount volume &#8220;http://idisk.mac.com/myusername/&#8221; as user name &#8220;myusername&#8221; with password &#8220;mypassword&#8221; end tell @ Save it as file format &#8220;Application&#8221; with &#8220;Run Only&#8221; checked, but don&#8217;t check &#8220;Stay Open&#8221; or &#8220;Startup Screen&#8221;. Save this application somewhere then add it to your startup items. The last part is setting up the &#8220;remote.command&#8221; script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.</p>
+<div>
+<pre><code class='bash'>rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
+<p>rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername <br />
+rsync -aE &#8212;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code></pre></p>
+</div>
+<p>This just runs weekly everything here doesn&#8217;t change that much. The Pictures directly is the main one that&#8217;ll be updated, as it&#8217;s a single iPhoto file that changes often.</p>
+<h3>Woh, that&#8217;s a lot. Did we miss anything?</h3>
+<p>Well, two things were skipped- &#8211; Music and Videos. I have a decent sized music collection, and I tend to archive my DVDs for use with Plex. Backing up 2TB of data remotely when you&#8217;re limited to 70k/s upload speeds isn&#8217;t exactly possible. What I am doing is storing all my media on a Drobo which protects it against a single hard drive failure (maybe more, depending on when the failures occur). My TimeMachine drive is actually a 500gb drive split &#8211; 200 for Time Machine and the rest for media backup. Every night the Media Center pushes all music from the Drobo onto this external drive. At least that way all my music is protected in case the Drobo itself fails. There&#8217;s no external backup for music, but I&#8217;m OK with that. If I was a little more paranoid I might archive weekly and leave the drive at work or something, but that&#8217;s where I draw the line. That leaves one gaping hole &#8211; the movie collection this system was for in the first place! For now I&#8217;m content with being protected against a single HD failure with the Drobo, but if anyone has any suggestions on how to back this up I&#8217;m all ears. Also if you think of anything else I missed, or just something I could do better then please leave a comment!</p>
+<h3>Did this help?</h3>
+<p>If this article helped you, please sign up for <a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">DropBox</a> ! DropBox was in beta for a while, but now it&#8217;s open and anyone can sign up. You get 2GB of space just for signing up. They have the added bonus of increasing your space by 250mb for everyone you refer (up to 5GB total), so by signing up you&#8217;ll give me more space to experiment with. It&#8217;s easily the best backup service I&#8217;ve used, so I&#8217;m looking forward to seeing how it grows.</p>
+          
+          
+            <footer>
+              <a rel="full-article" href="/building-the-ultimate-media-center-part-3-bac/">Read on &rarr;</a>
+            </footer>
+          
+        
+      </div>
+    </section>
+  </div>
+
+  
+</article>
+
+    
+  
+    <article>
+  <header>
+    <div class='container'>
+      <div class='col-md-10 col-md-offset-2'>
+        <h1 class="title">
           <a href="/building-the-ultimate-media-center-part-2-ple/">Building the Ultimate Media Center, Part 2: Plex</a>
         </h1>
         <ul class='meta group'>
@@ -74,11 +202,6 @@
   </header>
   <div class='container content'>
     <section class='col-md-7 col-md-offset-2'>    
-      
-        <div class='pull-right author'>
-  <img src='/images/adam-fortuna.png' alt='Adam Fortuna' class='img-rounded'/>
-<p>Adam Fortuna is a developer, crossfitter, foodie who lives in Orlando, FL. He blogs about programming at <a href='http://evaleverything.com'>evaleverything.com</a> and <a href='http://twitter.com/adamfortuna'>tweets</a> often.</p>
-</div>
       
       <div class='post-content'>
         
@@ -276,61 +399,6 @@
           
             <footer>
               <a rel="full-article" href="/one-more-new-member-of-9rules/">Read on &rarr;</a>
-            </footer>
-          
-        
-      </div>
-    </section>
-  </div>
-
-  
-</article>
-
-    
-  
-    <article>
-  <header>
-    <div class='container'>
-      <div class='col-md-10 col-md-offset-2'>
-        <h1 class="title">
-          <a href="/reading-list-74/">Reading List</a>
-        </h1>
-        <ul class='meta group'>
-  <li>Written December 10, 2006</li>
-  
-    <li><a href="/reading-list-74/#disqus_thread" data-disqus-identifier="adamfortuna-blog-/reading-list-74">Comments</a></li>
-  
-
-  
-  
-    <li><a class='tag' href='/tags/books/'>books</a>, <a class='tag' href='/tags/review/'>review</a>, <a class='tag' href='/tags/self-improvement/'>self improvement</a></li>
-  
-</ul>
-      </div>
-    </div>
-  </header>
-  <div class='container content'>
-    <section class='col-md-7 col-md-offset-2'>    
-      
-      <div class='post-content'>
-        
-          <p>Lately I&#8217;ve been negligent to my web projects in exchange for spending time reading. Unfortunately the distractions of blogs, digg, email and daily life have made this a slower process than I initially planned, but understanding how much time is spent on these things is the first step towards changing it. A while ago I moved my television out of the computer room, and I noticed an increase in my productivity. Similarly there&#8217;s a room in the house now that has no television or computer which can be an excellent reading room. It&#8217;s almost sad to think the time we spend as little kids watching TV repeating in this day with time spent repeatedly checking <span class="caps">RSS</span> feeds, Digg, Slashdot and email. One of my new years resolutions (which I&#8217;m slowly phasing in) is to try to limit this unproductive online time. First step is to thin out my Google Reader down from it&#8217;s unmanageable 89 feeds (!). Not too many have daily postings, but <a href="http://lifehacker.com">LifeHacker</a> , <a href="http://techcrunch.com">TechCruch</a> , <a href="http://slashdot.org">SlashDot</a> and <a href="http://joel.reddit.com">Joel.Reddit.com</a> are definitely staying on. What&#8217;s on my reading list right now?</p>
-<h3>Head First Design Patterns</h3>
-<p><img src="http://adamfortuna.com/media/books/design_patterns.jpg" class="left" alt="" /> This is one of the best written programming books I have ever read, and has made me a true believer in O&#8217;Reily&#8217;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &#8211; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&#8217;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
-<h3><span class="caps">UML</span> Distilled: A Brief Guide to the Standard Object Modeling Language</h3>
-<p><a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/uml.jpg" class="right" alt="" /></a> Getting into <span class="caps">OOP</span>, <span class="caps">UML</span> seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or <span class="caps">UML</span>.</p>
-<h3>Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</h3>
-<p><a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/oo_design.jpg" class="left" alt="" /></a> Along the same lines as above, but another take on it. I probably would have read this first, but I&#8217;d already started <span class="caps">UML</span> Distilled before I knew of this one.</p>
-<h3>Code Complete</h3>
-<p><a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/code_complete.jpg" class="right" alt="" /></a></p>
-<p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
-<h3>Patterns of Enterprise Application Architecture</h3>
-<p><a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/patterns_architecture.jpg" class="left" alt="" /></a> Sadly I started this book before getting distracted with Head First Patterns. I&#8217;ve enjoyed Martin Fowlers style of writing though, so this and <span class="caps">UML</span> design are both fun reads. If I&#8217;m still impressed when I finish them I might dive into MF&#8217;s Refactoring as well.</p>
-<p>Some of these books directly apply to things I&#8217;m working on, but for the most part they are just general knowledge that&#8217;s beneficial. There are some more direct things to read though, like <a href="http://www.fusionauthority.com/">Fusion Authority</a> and the <a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">Coldfusion MX 7 Study Guide</a> ( I want to get CF certified after all :). I&#8217;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&#8217;s what we do with the knowledge from them that&#8217;s important, so I&#8217;m sure I&#8217;ll work in some programming time along the way as well.</p>
-          
-          
-            <footer>
-              <a rel="full-article" href="/reading-list-74/">Read on &rarr;</a>
             </footer>
           
         

@@ -4,7 +4,7 @@
   <title><![CDATA[Blog for Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2014-12-14T12:38:42-05:00</updated>
+  <updated>2014-12-31T18:05:32-05:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -12,6 +12,151 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2014 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2014-year-in-review/"/>
+    <updated>2014-12-24T14:30:00-05:00</updated>
+    <id>http://adamfortuna.com/2014-year-in-review</id>
+    <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. It was a packed year &mdash; even without world changing events. Instead things were consistently active, busy and varied.</p>
+
+<p>The biggest themes for my year were: Code School, travel, audiobooks, learning Angular and using a todo list (off and on) to organize my time. I also noticed that since I like to try to do new things, giving them a try in an easier (and perhaps cheaper) way is beneficial &mdash; that way I can fail fast if it&rsquo;s not a fit.</p>
+
+<h2>So What&rsquo;s this All About?</h2>
+
+<p>For the last few years, I&rsquo;ve tried to take a little time to look back at the previous year and made some goals for the next year (with limited success). Either way, it&rsquo;s interesting to both look back, and to add focus for the coming year. It&rsquo;s too easy for me to get blinders on to everything else in life and miss some of the bigger picture type of self evaluation that is worthwhile.</p>
+
+<h2>Travel</h2>
+
+<p>The first 6 months of the year &mdash; or really the 3 month stretch from April to June &mdash; was crazy. Japan, New York, Jacksonville, Chicago. These trips were awesome, but had the unfortunate side effect of knocking me off any exercise schedule I tried to get on. Even still, this year had some seriously amazing trips I won&rsquo;t soon forget.</p>
+
+<div class='pull-right '><p>I already want to go back to Japan.</p>
+</div>
+
+
+<ul>
+<li>Fulfilled a lifelong goal and went to <a href="http://adamfortuna.com/japan">Japan</a> for 2 weeks with Marilyn.</li>
+<li>Went to <a href="http://2014.empirejs.org/">Empire.js</a> in New York with some of the Code School team.</li>
+<li>Amelia Island (by Jacksonville) for <a href="http://jsconf.com/">JSConf</a>, which was probably my favorite dev conference ever. Also gave my first every conference talk there.</li>
+<li>Chicago with Marilyn for the <a href="http://www.imdb.com/title/tt2870708/">Wish I Was Here</a> KickStarter launch and finally seeing the city.</li>
+<li>St. Petersburg for Crab Fest!</li>
+<li>St. Pete Beach for the Code School Retreat</li>
+<li>Currently planning a two week trip to Rome and Amsterdam for January.</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<p>We didn&rsquo;t end up going to many concerts this year, instead sticking to movies and a growing number of TV shows. I heard the term &ldquo;Golden Age of Television&rdquo; quite a few times this past year.</p>
+
+<div class='pull-right '><p>The code for my books page (Angular + Rails) is on <a href="https://github.com/adamfortuna/scribe">GitHub</a>.</p>
+</div>
+
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/list/top-10-films-of-2014/">load of movies</a>, my favorites for the year being: Intersteller, Edge of Tomorrow and The Wind Rises.</li>
+<li>Missed Megacon for my first time in 18 years. :( Heard it was crazy this year though.</li>
+<li>Lots of <a href="http://adamfortuna.com/books/#/?readAfter=2014-01-01&amp;readBefore=2015-01-01">audiobooks</a> &mdash; 42 total for the year. Top author was <a href="http://adamfortuna.com/books/#/?author=Brandon%20Sanderson&amp;readAfter=2014-01-01&amp;readBefore=2015-01-01">Brendon Sanderson</a>. Favorite books were <a href="http://adamfortuna.com/books/#/books/030788743X">Ready Player One</a>, <a href="http://adamfortuna.com/books/#/books/0812993012">Creativity Inc</a>, <a href="http://adamfortuna.com/books/#/books/0765326353">The Way of Kings</a> and <a href="http://adamfortuna.com/books/#/books/0765316994">Redshirts</a>.</li>
+<li>The TV Shows I looked forward to most this year were Downton Abbey, Game of Thrones, Walking Dead, Fargo and True Detective.</li>
+<li>Went to BarCampOrlando and gave my JSConf talk there.</li>
+<li>Saw Weezer&rsquo;s Blue Album performed live at Hard Rock.</li>
+<li>Saw a couple basketball games and the new arena here in Orlando.</li>
+<li>Did not play many video games this year. Mario Kart Wii U was at the top of the list, with Destiny and Elder Scrolls Online in the running.</li>
+<li>Listened to Belle and Sebastian perform at House of Blues from a comfy balcony seat.</li>
+<li>Saw a number of shows at Orlando Fringe including Escape from Baldwin Park, Sharknami: The Musical and Something&rsquo;s Weird in Weeki Wachi.</li>
+</ul>
+
+
+<h2>Fitness</h2>
+
+<p>Continued doing CrossFit this year. Went often during the first few months, then less after traveling upset my schedule. For a while I was going 4x a week, but lately it&rsquo;s been closer to 2. In the new year I plan to get back on a consistant 3x schedule.</p>
+
+<div class='pull-left '><p><img src="http://adamfortuna.com/images/2-years-of-crossfit/kingspoint.png" alt="CrossFit Kings Point" class="icon" /></p>
+</div>
+
+
+<ul>
+<li>Went to an Olympic Lifting class at the gym for a few months, which helped my form on cleans (175), snatches (125), deadlifts (300) and front squats (225) a ton.</li>
+<li>Continued <a href="http://adamfortuna.com/2-years-of-crossfit">CrossFit</a> usually around 3 times a week, nearly always at 8am. Moved to going to Kings Point West most the time, which gives me an extra 30 minutes to my days.</li>
+<li>Participated in the CrossFit Open and did much better than last year. I hadn&rsquo;t run all the numbers, but I think I was in the ~30th percentile (up from ~10th). I didn&rsquo;t do the last workout because I was in Japan though.</li>
+<li>Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury.</li>
+<li>Did <a href="http://www.crossfit.com/mt-archive2/000881.html">Murph</a> in 50:10 for Memorial Day. Really wanted to get under 50 minutes. Maybe next year!</li>
+<li>Participated in a local competition within our gym and got 4th place in the &ldquo;non-rx&rdquo; category. I&rsquo;m always amazed I can go head to head with people that are so strong, but luckily I get an advantage in the bodyweight exercise department.</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<div class='pull-right '><p>Work mantra: “Will this make people happy?”</p>
+</div>
+
+
+<p>Officially switched from working at <a href="http://envylabs.com">Envy Labs</a> to <a href="https://www.codeschool.com">Code School</a> &mdash; even if that&rsquo;s what I&rsquo;d been doing already. My main focus has been on building an amazing, happy team that works well together and creates amazing things.</p>
+
+<div class='pull-left '><p><img src="http://adamfortuna.com/images/codeschool/ember.png" alt="Warming Up With Emberjs" style="height:100px" /></p>
+</div>
+
+
+<ul>
+<li>Released the 2nd half of the <a href="https://www.codeschool.com/courses/warming-up-with-emberjs">Warming up with Ember.js</a> course. The creator of the framework even said it was awesome! At JSConf, I heard Ember core team members recommending it, which was pretty damn awesome. :)</li>
+<li>Helped release a ton of Code School courses over the last year.</li>
+<li>Created a number of internal tools &ndash; <a href="http://codeschool.github.io/abecedary/example/">Abecedary</a> (for running client-side code), Tutor (for running server side code), Projector (central store for videos), Guidance v2 (Pretty Charts with D3), Riddler (Challenge builder for courses).</li>
+<li>Wrote the content for &ldquo;Blasting Off with Bootstrap&rdquo; and even presented in the videos! The course is coming out at the beginning of January.</li>
+<li>Spent a lot of the year trying to build up an amazing team that works well with other teams. Got lucky in having some amazing people come on board to an already great team.</li>
+<li>Was inspired a lot by Creativity Inc to change my mindset for managing from &ldquo;Get courses out&rdquo; to &ldquo;Make the team happier&rdquo;. I like how it has helped shape my decisions and make me personally happier as well.</li>
+</ul>
+
+
+<h2>Personal</h2>
+
+<div class='pull-left '><p><img src="http://images.amazon.com/images/P/B00HYAL84G.01.ZTZZZZZZ.jpg" alt="Fuji XT-1" /></p>
+</div>
+
+
+<p>In a year with a lot of new things at work, travel and fitness, there was a lot more focus on those specific areas, leaving this general &ldquo;personal&rdquo; category relatively bare. Of all the categories, this one had the last personal growth over the past year.</p>
+
+<ul>
+<li>Stopped going to Piano lessons. It&rsquo;s still one of those things I&rsquo;d love to learn, but man, it&rsquo;s going to be an investment of time I&rsquo;m not willing to make at the moment.</li>
+<li>Started learning photography and picked up a <a href="http://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_t1/">Fuji XT-1</a>. Amazing camera with physical dials for most functionality.</li>
+<li>Didn&rsquo;t do too much personal programming this year, instead focusing on Code School stuff. One goal for next year will be having more personal projects to drive learning and creativity.</li>
+<li>Revamped my <a href="http://adamfortuna.com/books">books</a> page to use Angular. Slowly adding some D3 to it as well.</li>
+<li>Spent lots of time researching for the various places we traveled this year.</li>
+<li>I&rsquo;d been using <a href="https://culturedcode.com/things/">Things</a> for a while off and on, but started using it, as well as calendars in general, much much more this year.</li>
+<li>Started making more interesting cocktails at home, with my favorite spirits being Chartreuse, Gin and Mezcal.</li>
+<li>Did a clean reformat of my Mac for the first time in 7 years.</li>
+</ul>
+
+
+<h2>Great Meals</h2>
+
+<p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out. We gave Cask and Larder a few shots this year but wasn&rsquo;t impressed by any of them unfortunately. Luckily Ravenous Pig is always solid.</p>
+
+<ul>
+<li>Breakfast and dinner in the room at our Ryokan in Hakone, Japan.</li>
+<li>Early morning Sushi at Tsukiji Market in Tokyo.</li>
+<li>Ramen at a number of amazing places in Tokyo including Ippudo and somewhere in Harajuku.</li>
+<li>Pastrami and Corned Beef at Carnegie Deli.</li>
+<li>Amazing Ramen at Momofuku Noodle Bar.</li>
+<li>Possibly the best meal of my life at Momofuku Ko.</li>
+<li>Ravenous Pig for some amazing Trout and Venison.</li>
+<li>Stone Crab Festival in St. Pete with Nate and so many friends.</li>
+<li>Food and Wine Festival with the Code School gang.</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>I wouldn&rsquo;t say these are resolutions exactly &mdash; I&rsquo;m not planning on changing behavior on a dime on January first. Instead these are more goals to work towards in the new year that might change as my interests and focus change:</p>
+
+<p>Get back on my old schedule of going to the gym 3x a week and eating a little better. I got out of this habit this year due to a lot of changes in my schedule, but I want to make sure I stick to it.</p>
+
+<p>Keep learning about photography. I&rsquo;m still completely new to it, with a lot to learn, but it&rsquo;s been fun so far.</p>
+
+<p>Continue keeping track of what I&rsquo;m working on using Things. This has been very helpful for pushing me to get a little more done. It doesn&rsquo;t feel like it adds stress to my life, but instead relieves it by helping to prioritize things much better.</p>
+
+<p>Well, that&rsquo;s about it. 2014 has been a fun year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Audiobook Habit]]></title>
@@ -1477,7 +1622,7 @@
 
 <h3>Your First Day</h3>
 
-<div class='pull-left '><p><img src="http://adamfortuna.com/images/2-years-of-crossfit/kingspoint.png" alt="Core iOS 7" class="icon" /></p>
+<div class='pull-left '><p><img src="http://adamfortuna.com/images/2-years-of-crossfit/kingspoint.png" alt="CrossFit Kings Point" class="icon" /></p>
 </div>
 
 
@@ -2370,26 +2515,6 @@ rsync -aE &#8212;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code
 <p>You guys are in your own little world of open-source/9rules love.</p>
 </blockquote>
 <p>And it&#8217;s true! Not to put down anyone in the 9rules/open source/rails community, but as a note of just how far from the popular culture the Coldfusion blogosphere is. There are a <span class="caps">LOT</span> of coldfusion bloggers, just check out the <a href="http://weblogs.macromedia.com">Macromedia Weblogs List</a> . If i had to give a turning point of when I went from being a regular Coldfusion programmer, to a more advanced one I&#8217;d say the interest started right there. I started reading all the Coldfusion feeds I could find, started removing Rails feeds from Google Reader and yes, starting this blog. So with that said, I was happy to see my name on the <a href="http://9rules.com/blog/2006/12/new-additions-12-29-06-the-end/">last list of 9Rules entries</a> for the year! Hopefully I can bring a little more exposure to Coldfusion and Flex to the rest of the programming world without getting too deep into the Coldfusion world where things stop making since to outsiders. It&#8217;s also very humbling to be a very small group of programming blogs on 9Rules which I held in such high regard.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reading List]]></title>
-    <link href="http://adamfortuna.com/reading-list-74/"/>
-    <updated>2006-12-10T00:00:00-05:00</updated>
-    <id>http://adamfortuna.com/reading-list-74</id>
-    <content type="html"><![CDATA[<p>Lately I&#8217;ve been negligent to my web projects in exchange for spending time reading. Unfortunately the distractions of blogs, digg, email and daily life have made this a slower process than I initially planned, but understanding how much time is spent on these things is the first step towards changing it. A while ago I moved my television out of the computer room, and I noticed an increase in my productivity. Similarly there&#8217;s a room in the house now that has no television or computer which can be an excellent reading room. It&#8217;s almost sad to think the time we spend as little kids watching TV repeating in this day with time spent repeatedly checking <span class="caps">RSS</span> feeds, Digg, Slashdot and email. One of my new years resolutions (which I&#8217;m slowly phasing in) is to try to limit this unproductive online time. First step is to thin out my Google Reader down from it&#8217;s unmanageable 89 feeds (!). Not too many have daily postings, but <a href="http://lifehacker.com">LifeHacker</a> , <a href="http://techcrunch.com">TechCruch</a> , <a href="http://slashdot.org">SlashDot</a> and <a href="http://joel.reddit.com">Joel.Reddit.com</a> are definitely staying on. What&#8217;s on my reading list right now?</p>
-<h3>Head First Design Patterns</h3>
-<p><img src="http://adamfortuna.com/media/books/design_patterns.jpg" class="left" alt="" /> This is one of the best written programming books I have ever read, and has made me a true believer in O&#8217;Reily&#8217;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &#8211; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&#8217;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
-<h3><span class="caps">UML</span> Distilled: A Brief Guide to the Standard Object Modeling Language</h3>
-<p><a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/uml.jpg" class="right" alt="" /></a> Getting into <span class="caps">OOP</span>, <span class="caps">UML</span> seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or <span class="caps">UML</span>.</p>
-<h3>Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</h3>
-<p><a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/oo_design.jpg" class="left" alt="" /></a> Along the same lines as above, but another take on it. I probably would have read this first, but I&#8217;d already started <span class="caps">UML</span> Distilled before I knew of this one.</p>
-<h3>Code Complete</h3>
-<p><a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/code_complete.jpg" class="right" alt="" /></a></p>
-<p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
-<h3>Patterns of Enterprise Application Architecture</h3>
-<p><a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books"><img src="http://adamfortuna.com/media/books/patterns_architecture.jpg" class="left" alt="" /></a> Sadly I started this book before getting distracted with Head First Patterns. I&#8217;ve enjoyed Martin Fowlers style of writing though, so this and <span class="caps">UML</span> design are both fun reads. If I&#8217;m still impressed when I finish them I might dive into MF&#8217;s Refactoring as well.</p>
-<p>Some of these books directly apply to things I&#8217;m working on, but for the most part they are just general knowledge that&#8217;s beneficial. There are some more direct things to read though, like <a href="http://www.fusionauthority.com/">Fusion Authority</a> and the <a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">Coldfusion MX 7 Study Guide</a> ( I want to get CF certified after all :). I&#8217;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&#8217;s what we do with the knowledge from them that&#8217;s important, so I&#8217;m sure I&#8217;ll work in some programming time along the way as well.</p>]]></content>
   </entry>
   
 </feed>

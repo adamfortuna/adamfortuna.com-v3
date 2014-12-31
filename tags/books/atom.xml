@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: books | Blog for Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/tags/books/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2014-12-14T12:38:42-05:00</updated>
+  <updated>2014-12-31T18:05:36-05:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -32,8 +32,9 @@
 
 <h3>Podcasts</h3>
 
-<p><div class='pull-right '><p>We started a <a href="http://instagram.com/p/wOq3osBzGu/">Cereal and Serial</a> listening club at work for the Serial Podcast.</p>
-</div></p>
+<p>{% pullside right %}
+We started a <a href="http://instagram.com/p/wOq3osBzGu/">Cereal and Serial</a> listening club at work for the Serial Podcast.
+{% endpullside %}</p>
 
 <p>I have missed out on some amazing podcasts in that time, and there are a few I&rsquo;ll still make sure to listen to. Freakanomics, RadioLab and Serial (for example) are all amazing, as well as too many others. Rather than tuning in each week for most of these (ie, all but Serial), I&rsquo;ll let them pile up then binge listen to 3-6 months of backlog in a few days. For other podcasts, I&rsquo;ll only pickout the episodes I like where they&rsquo;re touching on topics of interest, rather than listening to every episode regardless.</p>
 
@@ -43,11 +44,11 @@
 
 <p>What did this change have on my life? It wasn&rsquo;t immediately apparent, but a few things stand out. By tuning out tech gadget podcasts, I noticed my consumerist tendencies declined. By stopping some of the financial podcasts, I worried about investments less which resulted in less shifting money around and ultimately a more successful <a href="http://www.bogleheads.org/">Bogleheads</a> style strategy. By not tuning in on specific days each week for news, I had a less structured listening schedule where I wasn&rsquo;t immediately listening to whatever was available, and instead choosing what to listen to.</p>
 
-<p><div class='pull-left '><p><a href="/books/#/books/0812993012"><img src="http://images.amazon.com/images/P/0812993012.01.ZTZZZZZZ.jpg" alt="Creativity Inc" /></a>&lt;/p&gt;</p>
+<p>{%pullside left %}
+<a href="/books/#/books/0812993012"><img src="http://images.amazon.com/images/P/0812993012.01.ZTZZZZZZ.jpg" alt="Creativity Inc" /></a></p>
 
 <p><em>Creativity Inc</em>, 2014
-</p>
-</div></p>
+{% endpullside %}</p>
 
 <p>Listening around the house has helped me stay on track while getting things done. My entire garage was reorganized during a listen of <a href="http://adamfortuna.com/books/#/books/0380508567">Foundation</a>. <a href="http://adamfortuna.com/books/#/books/1583333894">Unstuff your Life</a> kickstarted a house cleanup that still proud of. <a href="http://adamfortuna.com/books/#/books/0812993012">Creativity Inc</a> began an amazing conversation at Code School that resulted in some effective changes to the way we work. <a href="http://adamfortuna.com/books/#/books/0307352145">Quiet: The Power of Introverts</a> was a interesting look at what gives me energy and helps drive me (and is a book I wish I had been able to read in middle school).</p>
 
@@ -59,11 +60,11 @@
 
 <h2>Recommendations</h2>
 
-<p><div class='pull-left '><p><a href="/books/#/books/0553283685"><img src="http://images.amazon.com/images/P/0553283685.01.ZTZZZZZZ.jpg" alt="Hyperion" /></a>&lt;/p&gt;</p>
+<p>{%pullside left %}
+<a href="/books/#/books/0553283685"><img src="http://images.amazon.com/images/P/0553283685.01.ZTZZZZZZ.jpg" alt="Hyperion" /></a></p>
 
 <p><em>Hyperion</em>, 1989
-</p>
-</div></p>
+{% endpullside %}</p>
 
 <p>If you&rsquo;re looking for recommendations, the easiest thing is to checkout which books I&rsquo;ve rated as 5-star on <a href="http://goodreads.com">Goodreads</a> using the handy <a href="/books/#/?rating=5">books</a> page. 3 Books I recommend to everyone (although completely different in nature) are <a href="/books/#/books/030788743X">Ready Player One</a>, <a href="/books/#/books/0553283685">Hyperion</a> and <a href="/books/#/books/0765326353">The Stormlight Archive Series</a> (the last being the Fantasy equivalent of Game of Thrones &mdash; minus the sex).</p>
 
@@ -80,25 +81,25 @@
 
 <p>h3. Head First Design Patterns</p>
 
-<p>!(left)http://adamfortuna.com/media/books/design_patterns.jpg! This is one of the best written programming books I have ever read, and has made me a true believer in O'Reily&rsquo;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &ndash; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&rsquo;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
+<p>!(left){{site.url}}/media/books/design_patterns.jpg! This is one of the best written programming books I have ever read, and has made me a true believer in O'Reily&rsquo;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &ndash; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&rsquo;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
 
 <p>h3. UML Distilled: A Brief Guide to the Standard Object Modeling Language</p>
 
-<p>!(right)http://adamfortuna.com/media/books/uml.jpg!:<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Getting into OOP, UML seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or UML.</p>
+<p>!(right){{site.url}}/media/books/uml.jpg!:<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Getting into OOP, UML seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or UML.</p>
 
 <p>h3. Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</p>
 
-<p>!(left)http://adamfortuna.com/media/books/oo_design.jpg!:<a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Along the same lines as above, but another take on it. I probably would have read this first, but I&rsquo;d already started UML Distilled before I knew of this one.</p>
+<p>!(left){{site.url}}/media/books/oo_design.jpg!:<a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Along the same lines as above, but another take on it. I probably would have read this first, but I&rsquo;d already started UML Distilled before I knew of this one.</p>
 
 <p>h3. Code Complete</p>
 
-<p>!(right)http://adamfortuna.com/media/books/code_complete.jpg!:<a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a></p>
+<p>!(right){{site.url}}/media/books/code_complete.jpg!:<a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a></p>
 
 <p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
 
 <p>h3. Patterns of Enterprise Application Architecture</p>
 
-<p>!(left)http://adamfortuna.com/media/books/patterns_architecture.jpg!:<a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Sadly I started this book before getting distracted with Head First Patterns. I&rsquo;ve enjoyed Martin Fowlers style of writing though, so this and UML design are both fun reads. If I&rsquo;m still impressed when I finish them I might dive into MF&rsquo;s Refactoring as well.</p>
+<p>!(left){{site.url}}/media/books/patterns_architecture.jpg!:<a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Sadly I started this book before getting distracted with Head First Patterns. I&rsquo;ve enjoyed Martin Fowlers style of writing though, so this and UML design are both fun reads. If I&rsquo;m still impressed when I finish them I might dive into MF&rsquo;s Refactoring as well.</p>
 
 <p>Some of these books directly apply to things I&rsquo;m working on, but for the most part they are just general knowledge that&rsquo;s beneficial. There are some more direct things to read though, like &ldquo;Fusion Authority&rdquo;:<a href="http://www.fusionauthority.com/">http://www.fusionauthority.com/</a> and the &ldquo;Coldfusion MX 7 Study Guide&rdquo;:<a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> ( I want to get CF certified after all :). I&rsquo;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&rsquo;s what we do with the knowledge from them that&rsquo;s important, so I&rsquo;m sure I&rsquo;ll work in some programming time along the way as well.</p>
 ]]></content>

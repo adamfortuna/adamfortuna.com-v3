@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: year in review | Blog for Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/tags/year-in-review/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2014-12-14T12:38:42-05:00</updated>
+  <updated>2014-12-31T18:05:36-05:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -12,6 +12,151 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2014 Year in Review]]></title>
+    <link href="http://adamfortuna.com/2014-year-in-review/"/>
+    <updated>2014-12-24T14:30:00-05:00</updated>
+    <id>http://adamfortuna.com/2014-year-in-review</id>
+    <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. It was a packed year &mdash; even without world changing events. Instead things were consistently active, busy and varied.</p>
+
+<p>The biggest themes for my year were: Code School, travel, audiobooks, learning Angular and using a todo list (off and on) to organize my time. I also noticed that since I like to try to do new things, giving them a try in an easier (and perhaps cheaper) way is beneficial &mdash; that way I can fail fast if it&rsquo;s not a fit.</p>
+
+<h2>So What&rsquo;s this All About?</h2>
+
+<p>For the last few years, I&rsquo;ve tried to take a little time to look back at the previous year and made some goals for the next year (with limited success). Either way, it&rsquo;s interesting to both look back, and to add focus for the coming year. It&rsquo;s too easy for me to get blinders on to everything else in life and miss some of the bigger picture type of self evaluation that is worthwhile.</p>
+
+<h2>Travel</h2>
+
+<p>The first 6 months of the year &mdash; or really the 3 month stretch from April to June &mdash; was crazy. Japan, New York, Jacksonville, Chicago. These trips were awesome, but had the unfortunate side effect of knocking me off any exercise schedule I tried to get on. Even still, this year had some seriously amazing trips I won&rsquo;t soon forget.</p>
+
+<p>{%pullside right %}
+I already want to go back to Japan.
+{%endpullside %}</p>
+
+<ul>
+<li>Fulfilled a lifelong goal and went to <a href="/japan">Japan</a> for 2 weeks with Marilyn.</li>
+<li>Went to <a href="http://2014.empirejs.org/">Empire.js</a> in New York with some of the Code School team.</li>
+<li>Amelia Island (by Jacksonville) for <a href="http://jsconf.com/">JSConf</a>, which was probably my favorite dev conference ever. Also gave my first every conference talk there.</li>
+<li>Chicago with Marilyn for the <a href="http://www.imdb.com/title/tt2870708/">Wish I Was Here</a> KickStarter launch and finally seeing the city.</li>
+<li>St. Petersburg for Crab Fest!</li>
+<li>St. Pete Beach for the Code School Retreat</li>
+<li>Currently planning a two week trip to Rome and Amsterdam for January.</li>
+</ul>
+
+
+<h2>Events and Entertainment</h2>
+
+<p>We didn&rsquo;t end up going to many concerts this year, instead sticking to movies and a growing number of TV shows. I heard the term &ldquo;Golden Age of Television&rdquo; quite a few times this past year.</p>
+
+<p>{% pullside right %}
+The code for my books page (Angular + Rails) is on <a href="https://github.com/adamfortuna/scribe">GitHub</a>.
+{% endpullside %}</p>
+
+<ul>
+<li>Saw a <a href="http://letterboxd.com/adamfortuna/list/top-10-films-of-2014/">load of movies</a>, my favorites for the year being: Intersteller, Edge of Tomorrow and The Wind Rises.</li>
+<li>Missed Megacon for my first time in 18 years. :( Heard it was crazy this year though.</li>
+<li>Lots of <a href="/books/#/?readAfter=2014-01-01&amp;readBefore=2015-01-01">audiobooks</a> &mdash; 42 total for the year. Top author was <a href="/books/#/?author=Brandon%20Sanderson&amp;readAfter=2014-01-01&amp;readBefore=2015-01-01">Brendon Sanderson</a>. Favorite books were <a href="/books/#/books/030788743X">Ready Player One</a>, <a href="/books/#/books/0812993012">Creativity Inc</a>, <a href="/books/#/books/0765326353">The Way of Kings</a> and <a href="/books/#/books/0765316994">Redshirts</a>.</li>
+<li>The TV Shows I looked forward to most this year were Downton Abbey, Game of Thrones, Walking Dead, Fargo and True Detective.</li>
+<li>Went to BarCampOrlando and gave my JSConf talk there.</li>
+<li>Saw Weezer&rsquo;s Blue Album performed live at Hard Rock.</li>
+<li>Saw a couple basketball games and the new arena here in Orlando.</li>
+<li>Did not play many video games this year. Mario Kart Wii U was at the top of the list, with Destiny and Elder Scrolls Online in the running.</li>
+<li>Listened to Belle and Sebastian perform at House of Blues from a comfy balcony seat.</li>
+<li>Saw a number of shows at Orlando Fringe including Escape from Baldwin Park, Sharknami: The Musical and Something&rsquo;s Weird in Weeki Wachi.</li>
+</ul>
+
+
+<h2>Fitness</h2>
+
+<p>Continued doing CrossFit this year. Went often during the first few months, then less after traveling upset my schedule. For a while I was going 4x a week, but lately it&rsquo;s been closer to 2. In the new year I plan to get back on a consistant 3x schedule.</p>
+
+<p>{%pullside left %}
+<img src="/images/2-years-of-crossfit/kingspoint.png" alt="CrossFit Kings Point" />{: .icon}
+{% endpullside %}</p>
+
+<ul>
+<li>Went to an Olympic Lifting class at the gym for a few months, which helped my form on cleans (175), snatches (125), deadlifts (300) and front squats (225) a ton.</li>
+<li>Continued <a href="/2-years-of-crossfit">CrossFit</a> usually around 3 times a week, nearly always at 8am. Moved to going to Kings Point West most the time, which gives me an extra 30 minutes to my days.</li>
+<li>Participated in the CrossFit Open and did much better than last year. I hadn&rsquo;t run all the numbers, but I think I was in the ~30th percentile (up from ~10th). I didn&rsquo;t do the last workout because I was in Japan though.</li>
+<li>Continued doing yoga at work on Wednesdays. Great way to relax and prevent injury.</li>
+<li>Did <a href="http://www.crossfit.com/mt-archive2/000881.html">Murph</a> in 50:10 for Memorial Day. Really wanted to get under 50 minutes. Maybe next year!</li>
+<li>Participated in a local competition within our gym and got 4th place in the &ldquo;non-rx&rdquo; category. I&rsquo;m always amazed I can go head to head with people that are so strong, but luckily I get an advantage in the bodyweight exercise department.</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<p>{% pullside right %}
+Work mantra: &ldquo;Will this make people happy?&rdquo;
+{% endpullside %}</p>
+
+<p>Officially switched from working at <a href="http://envylabs.com">Envy Labs</a> to <a href="https://www.codeschool.com">Code School</a> &mdash; even if that&rsquo;s what I&rsquo;d been doing already. My main focus has been on building an amazing, happy team that works well together and creates amazing things.</p>
+
+<p>{% pullside left %}
+<img src="/images/codeschool/ember.png" alt="Warming Up With Emberjs" />{:style=&lsquo;height:100px&rsquo;}
+{% endpullside %}</p>
+
+<ul>
+<li>Released the 2nd half of the <a href="https://www.codeschool.com/courses/warming-up-with-emberjs">Warming up with Ember.js</a> course. The creator of the framework even said it was awesome! At JSConf, I heard Ember core team members recommending it, which was pretty damn awesome. :)</li>
+<li>Helped release a ton of Code School courses over the last year.</li>
+<li>Created a number of internal tools &ndash; <a href="http://codeschool.github.io/abecedary/example/">Abecedary</a> (for running client-side code), Tutor (for running server side code), Projector (central store for videos), Guidance v2 (Pretty Charts with D3), Riddler (Challenge builder for courses).</li>
+<li>Wrote the content for &ldquo;Blasting Off with Bootstrap&rdquo; and even presented in the videos! The course is coming out at the beginning of January.</li>
+<li>Spent a lot of the year trying to build up an amazing team that works well with other teams. Got lucky in having some amazing people come on board to an already great team.</li>
+<li>Was inspired a lot by Creativity Inc to change my mindset for managing from &ldquo;Get courses out&rdquo; to &ldquo;Make the team happier&rdquo;. I like how it has helped shape my decisions and make me personally happier as well.</li>
+</ul>
+
+
+<h2>Personal</h2>
+
+<p>{% pullside left %}
+<img src="http://images.amazon.com/images/P/B00HYAL84G.01.ZTZZZZZZ.jpg" alt="Fuji XT-1" />
+{% endpullside %}</p>
+
+<p>In a year with a lot of new things at work, travel and fitness, there was a lot more focus on those specific areas, leaving this general &ldquo;personal&rdquo; category relatively bare. Of all the categories, this one had the last personal growth over the past year.</p>
+
+<ul>
+<li>Stopped going to Piano lessons. It&rsquo;s still one of those things I&rsquo;d love to learn, but man, it&rsquo;s going to be an investment of time I&rsquo;m not willing to make at the moment.</li>
+<li>Started learning photography and picked up a <a href="http://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_t1/">Fuji XT-1</a>. Amazing camera with physical dials for most functionality.</li>
+<li>Didn&rsquo;t do too much personal programming this year, instead focusing on Code School stuff. One goal for next year will be having more personal projects to drive learning and creativity.</li>
+<li>Revamped my <a href="/books">books</a> page to use Angular. Slowly adding some D3 to it as well.</li>
+<li>Spent lots of time researching for the various places we traveled this year.</li>
+<li>I&rsquo;d been using <a href="https://culturedcode.com/things/">Things</a> for a while off and on, but started using it, as well as calendars in general, much much more this year.</li>
+<li>Started making more interesting cocktails at home, with my favorite spirits being Chartreuse, Gin and Mezcal.</li>
+<li>Did a clean reformat of my Mac for the first time in 7 years.</li>
+</ul>
+
+
+<h2>Great Meals</h2>
+
+<p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out. We gave Cask and Larder a few shots this year but wasn&rsquo;t impressed by any of them unfortunately. Luckily Ravenous Pig is always solid.</p>
+
+<ul>
+<li>Breakfast and dinner in the room at our Ryokan in Hakone, Japan.</li>
+<li>Early morning Sushi at Tsukiji Market in Tokyo.</li>
+<li>Ramen at a number of amazing places in Tokyo including Ippudo and somewhere in Harajuku.</li>
+<li>Pastrami and Corned Beef at Carnegie Deli.</li>
+<li>Amazing Ramen at Momofuku Noodle Bar.</li>
+<li>Possibly the best meal of my life at Momofuku Ko.</li>
+<li>Ravenous Pig for some amazing Trout and Venison.</li>
+<li>Stone Crab Festival in St. Pete with Nate and so many friends.</li>
+<li>Food and Wine Festival with the Code School gang.</li>
+</ul>
+
+
+<h2>Next Year</h2>
+
+<p>I wouldn&rsquo;t say these are resolutions exactly &mdash; I&rsquo;m not planning on changing behavior on a dime on January first. Instead these are more goals to work towards in the new year that might change as my interests and focus change:</p>
+
+<p>Get back on my old schedule of going to the gym 3x a week and eating a little better. I got out of this habit this year due to a lot of changes in my schedule, but I want to make sure I stick to it.</p>
+
+<p>Keep learning about photography. I&rsquo;m still completely new to it, with a lot to learn, but it&rsquo;s been fun so far.</p>
+
+<p>Continue keeping track of what I&rsquo;m working on using Things. This has been very helpful for pushing me to get a little more done. It doesn&rsquo;t feel like it adds stress to my life, but instead relieves it by helping to prioritize things much better.</p>
+
+<p>Well, that&rsquo;s about it. 2014 has been a fun year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2013 Year in Review]]></title>
@@ -36,8 +181,9 @@
 
 <p>The most random event this year was Distant Worlds. Marilyn and I were discussing &ldquo;What musical acts would you absolutely love to see that you haven&rsquo;t?&rdquo; and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he&rsquo;s only performed in the US 10 times in 10+ years, we really lucked out!</p>
 
-<p><div class='pull-right '><p>If you like movies, I’d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!</p>
-</div></p>
+<p>{% pullside right %}
+If you like movies, I&rsquo;d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!
+{% endpullside %}</p>
 
 <ul>
 <li>Saw a <a href="http://letterboxd.com/adamfortuna/year/2013/">load of movies</a>, my favorites for the year being: Somm, Gravity and Stoker</li>
@@ -69,8 +215,9 @@
 </ul>
 
 
-<p><div class='pull-right '><p>The FitBit is awesome, but it doesn’t understand how much I hate wall balls.</p>
-</div></p>
+<p>{% pullside right %}
+The FitBit is awesome, but it doesn&rsquo;t understand how much I hate wall balls.
+{% endpullside %}</p>
 
 <ul>
 <li>Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.</li>
@@ -81,8 +228,9 @@
 
 <p>Worked at <a href="http://envylabs.com">Envy Labs</a> entirely on <a href="http://codeschool.com">Code School</a> all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.</p>
 
-<p><div class='pull-right '><p>Work mantra: always ask “What Would Bret Victor Do?”</p>
-</div></p>
+<p>{% pullside right %}
+Work mantra: always ask &ldquo;What Would Bret Victor Do?&rdquo;
+{% endpullside %}</p>
 
 <ul>
 <li>Changed job titles to &ldquo;Technical Director at Code School&rdquo;, whatever that means.</li>
@@ -97,8 +245,9 @@
 
 <p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out.</p>
 
-<p><div class='pull-right '><p>Having coffee at Victoria &amp; Alberts is a magical experience.</p>
-</div></p>
+<p>{% pullside right %}
+Having coffee at Victoria &amp; Alberts is a magical experience.
+{% endpullside %}</p>
 
 <ul>
 <li>Went to <a href="http://victoria-alberts.com/">Victoria &amp; Alberts</a> restaurant with Marilyn for our Anniversary</li>
@@ -114,8 +263,9 @@
 
 <h2>Personal</h2>
 
-<p><div class='pull-right '><p>Seriously, the little girl in the Piano lesson after mine is soo much better than me.</p>
-</div></p>
+<p>{% pullside right %}
+Seriously, the little girl in the Piano lesson after mine is soo much better than me.
+{% endpullside %}</p>
 
 <ul>
 <li>Bought an electric piano and started taking lessons every week. Still not very good, but making progress</li>
