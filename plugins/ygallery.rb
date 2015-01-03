@@ -10,16 +10,15 @@ module Jekyll
     end
 
     def render(context)
-      require 'pry'
       content = super
       return if content.include?('&lsquo;')
 
       gallery_path = "source/_galleries/#{@gallery}.yml"
 
-      gallery = YAML.load(IO.read(gallery_path)) rescue "Could not load #{content}"
+      gallery = YAML.load(IO.read(gallery_path))
 
-      #root_url = "http://s.adamfortuna.com"
-      root_url = "http://localhost:4001"
+      root_url = "http://s.adamfortuna.com"
+      #root_url = "http://localhost:4001"
 
       dimensions = {
         'col-3' => { width: 244, height: 293, small: 'col-sm-3 col-xs-12' },
@@ -47,7 +46,7 @@ module Jekyll
           'clearfix'
         end
         col_classes = dimensions[version][:small]
-        width, height = options[version].split('x') rescue binding.pry
+        width, height = options[version].split('x')
 
         images << <<-IMAGE
           <li class='#{col_classes} #{clearfix} lazy'>
