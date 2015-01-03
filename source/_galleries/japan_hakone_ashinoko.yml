@@ -1,0 +1,97 @@
+---
+adam_ships.jpg:
+  title: Adam between ships.
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+marilyn_camera.jpg:
+  title: Marilyn taking pictures.
+  columns: 3
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+lake.jpg:
+  title: Lake view from the ship.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+shore.jpg:
+  title: The south shoreline of Lake Ashinoko.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+adam_boat.jpg:
+  title: Adam out on the deck on Lake Ashinoko.
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+lake_boats.jpg:
+  title: Fishermans boats.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+smelt.jpg:
+  title: Smelt for lunch
+  columns: 5
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+fisherman.jpg:
+  title: Fisherman at Lake Ashinoko
+  columns: 3
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

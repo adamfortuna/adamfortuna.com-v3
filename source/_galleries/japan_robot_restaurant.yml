@@ -1,0 +1,121 @@
+---
+finale.jpg:
+  title: Part of the finale.
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+adam.jpg:
+  title: Adan looking confused.
+  columns: 6
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+entrance.jpg:
+  title: The entrance to the restaurant.
+  columns: 6
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+robot_horse.jpg:
+  title: Robots and a horse.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+drums.jpg:
+  title: two groups like this were playing drums on separate platforms.
+  columns: 3
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+adam_marilyn.jpg:
+  title: We got glowsticks.
+  columns: 4
+  compressed: 1280x960
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+path.jpg:
+  title: The walk down to the show.
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+robot_lights.jpg:
+  title: Robots and lights.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+not_sure.jpg:
+  title: I have no idea what was going on here.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+piano.jpg:
+  title: This guy was playing the piano.
+  columns: 4
+  compressed: 2500x1404
+  thumbs: 100x100
+  resized: 1170x657
+  col-6-tall: 585x329
+  col-9: 878x244
+  col-6: 585x329
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

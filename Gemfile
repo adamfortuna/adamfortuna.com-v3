@@ -21,6 +21,7 @@ group :development do
   gem 'pry'
   gem 'nokogiri'
   gem 'activesupport'
+  gem 'fastimage'
 end
 
 gem 'sinatra', '~> 1.4.2'

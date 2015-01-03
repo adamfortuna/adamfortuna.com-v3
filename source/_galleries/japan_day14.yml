@@ -1,0 +1,49 @@
+---
+ramen.jpg:
+  title: Delicious ramen.
+  columns: 12
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sides.jpg:
+  title: Fresh garlic at your table.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+takoyaki.jpg:
+  title: Finally tried some takoyaki.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+streets.jpg:
+  title: A school that Marilyn confused with a prison.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

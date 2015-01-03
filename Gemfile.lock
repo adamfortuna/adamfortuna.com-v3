@@ -8,6 +8,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    addressable (2.3.6)
     chunky_png (1.2.5)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
@@ -18,6 +19,8 @@ GEM
       sass (~> 3.1)
     directory_watcher (1.4.1)
     fast-stemmer (1.0.1)
+    fastimage (1.6.6)
+      addressable (~> 2.3, >= 2.3.5)
     fssm (0.2.9)
     haml (3.1.7)
     i18n (0.6.9)
@@ -80,6 +83,7 @@ DEPENDENCIES
   activesupport
   compass (~> 0.12.2)
   directory_watcher (= 1.4.1)
+  fastimage
   haml (~> 3.1.7)
   jekyll (~> 0.12)
   kramdown

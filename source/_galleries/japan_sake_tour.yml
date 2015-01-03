@@ -1,0 +1,206 @@
+---
+sakura.jpg:
+  title: The first cherry blossoms spotted in the wild.
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+blossoms.jpg:
+  title: Cherry blossoms.
+  columns: 3
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+under_blossoms.jpg:
+  title: Marilyn and I under the cherry blossoms.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+old_tree.jpg:
+  title: A very old cherry blossom tree at the a shrine.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sake_ball.jpg:
+  title: A ball made from a Japanese Cyprus tree. This indicates that the store sells sake.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+favorite_sake.jpg:
+  title: Our favorite sake was an unfiltered, unpasteurized sake. Its also one of only a few brewed by a woman.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+sake_barrels.jpg:
+  title: Instead of getting a keg for a party, try getting a sake barrel!
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sake_sampler.jpg:
+  title: The last stop on the tour had us sampling 6 more sakes.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+tatami.jpg:
+  title: Tatami mats outside of a small tatami mat crafter.
+  columns: 3
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+liquor_store.jpg:
+  title: A look at the liquor store that was our first stop. We tried a few different types of sake and got our first lesson here.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+poster-2.jpg:
+  title: Sake poster from the 1910s.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+poster-1.jpg:
+  title: Sake poster from the 1910s.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+  col-3: 293x244
+sampler_with_tofu.jpg:
+  title: A final sake samplier with a small bite of tofu.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+brewing_barrels.jpg:
+  title: Old wooden barrels for brewing sake. Imagine trying to get the rice out of those cracks in the boards.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+brewery_courtyard.jpg:
+  title: The courtyard of the Gekkeikan Okura Sake Museum.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+museum_pourer.jpg:
+  title: At the Gekkeikan Okura Sake Museum, we sampled three different types of sake with a very courteous host.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+sakura_sign.jpg:
+  title: I wonder what this says.
+  columns: 6-tall
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+

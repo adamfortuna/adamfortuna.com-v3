@@ -1,0 +1,193 @@
+---
+tempura.jpg:
+  columns: 12
+  title: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+croquette.jpg:
+  columns: 3
+  title: Freshly fried croquette. I chose squash as my flavor.
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+tempura_stand.jpg:
+  columns: 5
+  title: A view of the tempura stand. Alone on a street with a small crowd.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+bonito.jpg:
+  columns: 4
+  title: Bonito (dried, fermented fish) at a bonito store.
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+pancackes_and_takoyaki.jpg:
+  columns: 12
+  title: Freshly made stuffed pancakes and takoyaki.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+30_watermelon.jpg:
+  columns: 4
+  title: $30 for a watermelon seems a bit expensive.
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sampler_plate.jpg:
+  columns: 5
+  title: A sampler plate of various Japanese staples.
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sweet_potato_pancake.jpg:
+  columns: 3
+  title: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+egg_stuffed_with_eel.jpg:
+  columns: 6
+  title: Egg omlet stuffed with eel.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+sushi_plate.jpg:
+  columns: 6
+  title: Small sampler from the fish vendor. The squid coated my mouth in a way different from any squid I've tried.
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+fish_vendor.jpg:
+  columns: 12
+  title: All fish was trucked in this morning.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+pickels.jpg:
+  columns: 4
+  title: Kyoto is famous for its pickles.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+tea_sweet_rice.jpg:
+  columns: 5
+  title: Roasted green tea and green tea sweets.
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+characters.jpg:
+  columns: 3
+  title: Japan loves their characters. These were the characters for the market we were in.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+teahouse_hallway.jpg:
+  columns: 6-tall
+  title: Hallway outside of the teahouse.
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+tea_boxes.jpg:
+  columns: 6-tall
+  title: 100 year old boxes for storing tea.
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244

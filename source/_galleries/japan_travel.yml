@@ -1,0 +1,61 @@
+---
+rail_pass.jpg:
+  columns: 9
+  title: Our Japan Rail pass vouchers were easy to exchange at the Narita airport.
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+jr_humor.jpg:
+  title: They have a sense of humor at the JR station.
+  columns: 3
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+711_atm.jpg:
+  title: 7-11 ATMs are the of a few that can be used with overseas accounts. You can also use Chase ATMs.
+  columns: 3
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+narita_airport_adam.jpg:
+  title: Adam waiting in line to get rail passes.
+  columns: 5
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+gyodun_bowl.jpg:
+  title: Our $5 dinner at midnight the day we arrived. A rice bowl with chicken and rice with a small bowl of soup with thick noodles.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

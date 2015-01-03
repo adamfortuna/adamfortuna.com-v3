@@ -1,0 +1,61 @@
+---
+kurosawa.jpg:
+  title: Kurosawa
+  columns: 6
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+green_tea.jpg:
+  title: Green Tea cocktail with gold leaf.
+  columns: 6
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+cheese.jpg:
+  title: Cheese plate from Ishino Hana Bar.
+  columns: 3
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+goodbeer_faucets.jpg:
+  title: Goodbeer faucets.
+  columns: 5
+  compressed: 1875x2500
+  thumbs: 100x100
+  resized: 1170x1560
+  col-6-tall: 585x780
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 225x244
+  col-3: 293x244
+indoor.jpg:
+  title: The bar at Goodbeer faucets.
+  columns: 4
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

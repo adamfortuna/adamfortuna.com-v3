@@ -1,0 +1,133 @@
+---
+us.jpg:
+  title: Us at Owakudani
+  columns: 12
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+cable_car.jpg:
+  title: This cable car connects Hakone with the next small stop where the Hakone ropeway leaves from.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+ropeway_loading.jpg:
+  title: The ropeway had a huge line early in the morning, but went fast.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+ropeway_down.jpg:
+  title: One ropeway takes you up to Owakudani, another takes you down to Lake Ashinoko.
+  columns: 3
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+hot_water.jpg:
+  title: A view of the hot water.
+  columns: 3
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+adam_ropeway.jpg:
+  title: Adam on the ropeway.
+  columns: 5
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+ropeway_view.jpg:
+  title: A view of the ropeway.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+marilyn_sky.jpg:
+  title: Marilyn taking a break from pictures.
+  columns: 12
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+steamy.jpg:
+  title: Steam rising from the hot water.
+  columns: 3
+  compressed: 1667x2500
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 350x585
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+cooking_eggs.jpg:
+  title: Eggs preparing to be boiled.
+  columns: 4
+  compressed: 2500x1667
+  thumbs: 100x100
+  resized: 1170x780
+  col-6-tall: 585x390
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244
+eating_eggs.jpg:
+  title: The eggs were black after boiling, but tasted the same.
+  columns: 5
+  compressed: 2500x1875
+  thumbs: 100x100
+  resized: 1170x878
+  col-6-tall: 585x439
+  col-9: 878x244
+  col-6: 585x350
+  col-5: 487x244
+  col-4: 390x244
+  col-3: 293x244

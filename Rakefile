@@ -248,7 +248,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     system "git pull"
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
@@ -397,4 +397,41 @@ desc "list tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+
+
+namespace :gallery do
+  desc 'Generate all gallery.yml files'
+  task :generate do
+    require 'yaml'
+    require 'pry'
+    require 'pathname'
+    require 'fastimage'
+
+    jekyll_config = YAML.load(IO.read('_config.yml'))
+    versions = jekyll_config['mini_magick']['versions']
+    jekyll_config['mini_magick']['galleries'].each do |gallery|
+      gallery_files = {}
+
+      path = "/Users/adam/code/blogs/adamfortuna.com-images/images/galleries/#{gallery}"
+
+      Dir.glob(File.join(path, "*.{png,jpg,jpeg,gif,JPG}")) do |source|
+        file_name = Pathname.new(source).basename.to_s
+        gallery_files[file_name] ||= {}
+        versions.each_pair do |version, options|
+          version_path = "#{path}/#{version}/#{file_name}"
+          size = FastImage.size(version_path)
+          gallery_files[file_name][version] = size.join('x')
+        end
+      end
+
+      # Write out the YAML file with this config
+      gallery_path = "source/_galleries/#{gallery}.yml"
+      next if File.exist?(gallery_path)
+
+      File.open(gallery_path, 'w') { |file| file.write(gallery_files.to_yaml) }
+
+    end
+  end
 end

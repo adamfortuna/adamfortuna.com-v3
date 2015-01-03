@@ -21,7 +21,7 @@ module Jekyll
         @format = preset.delete('format')
         @commands = preset
       end
-   
+
       # Obtains source file path by substituting the preset's source directory
       # for the destination directory.
       #
@@ -29,7 +29,7 @@ module Jekyll
       def path
         File.join(@base, @name)
       end
-   
+
       # Use MiniMagick to create a derivative image at the destination
       # specified (if the original is modified).
       #   +dest+ is the String path to the destination dir
@@ -37,16 +37,16 @@ module Jekyll
       # Returns false if the file was not modified since last time (no-op).
       def write(dest)
         dest_path = File.join(@dst_dir, @name)
-        
+
         puts "#{dest_path}"
-   
+
         return false if File.exist? dest_path and !modified?
-   
+
         @@mtimes[path] = mtime
-   
+
         FileUtils.mkdir_p(File.dirname(dest_path))
         image = ::MiniMagick::Image.open(path)
-   
+
         @commands.each_pair do |command, arg|
           image.combine_options do |c|
              arg.each do |option|
@@ -73,7 +73,7 @@ module Jekyll
         versions = site.config['mini_magick']['versions']
 
         site.config['mini_magick']['galleries'].each do |gallery|
-          path = "/Users/adam/Dropbox/code/blogs/adamfortuna.com-images/images/galleries/#{gallery}"
+          path = "/Users/adam/code/blogs/adamfortuna.com-images/images/galleries/#{gallery}"
 
           # Loop through all images in this gallery
           Dir.glob(File.join(path, "*.{png,jpg,jpeg,gif,JPG}")) do |source|

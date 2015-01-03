@@ -13,9 +13,8 @@ module.exports = function(grunt) {
         src: [
           'source/javascripts/lib/modernizr-2.0.js',
           'source/javascripts/lib/jquery.js',
-          'source/javascripts/lib/jquery.fancybox.pack.js',
-          'source/javascripts/lib/jquery.fancybox-thumbs.js',
-          'source/javascripts/lib/jquery.fancybox-buttons.js',
+          'source/javascripts/lib/photoswipe.min.js',
+          'source/javascripts/lib/photoswipe-ui-default.min.js',
           'source/javascripts/lib/bootstrap.js',
           'source/javascripts/lib/jquery.unveil.min.js'
         ],

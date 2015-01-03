@@ -104,6 +104,10 @@ mini_magick_enabled: true
 mini_magick_regererate: false
 mini_magick:
   versions:
+    compressed:
+      commands:
+        - resize: "2500>x2500>"
+        - quality: "90"
     thumbs:
       commands:
         - thumbnail: "100x100^"
@@ -111,7 +115,7 @@ mini_magick:
     resized:
       commands:
         - resize: "1170x100^"
-    col-6-tall: 
+    col-6-tall:
       commands:
         - resize: "585x"
         - gravity: center
@@ -172,11 +176,15 @@ mini_magick:
     - japan_park_hyatt
     - japan_izakaya
     - japan_ueno
+    - japan_ueno2
     - japan_akihabara
     - japan_cocktails
     - japan_ghibli
+    - japan_tonkotsu
     - japan_traditional_dinner
     - japan_day12
+    - japan_kabuki
     - japan_tsukiji
     - japan_robot_restaurant
     - japan_day14
+    - japan_day14_adam
