@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: goals | Blog for Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/tags/goals/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2014-12-31T18:05:36-05:00</updated>
+  <updated>2015-01-03T15:50:02-05:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[2014 Year in Review]]></title>
     <link href="http://adamfortuna.com/2014-year-in-review/"/>
-    <updated>2014-12-24T14:30:00-05:00</updated>
+    <updated>2014-12-31T14:30:00-05:00</updated>
     <id>http://adamfortuna.com/2014-year-in-review</id>
     <content type="html"><![CDATA[<p>This is my annual recap of what&rsquo;s happened in my life over the last year. It was a packed year &mdash; even without world changing events. Instead things were consistently active, busy and varied.</p>
 
@@ -30,9 +30,8 @@
 
 <p>The first 6 months of the year &mdash; or really the 3 month stretch from April to June &mdash; was crazy. Japan, New York, Jacksonville, Chicago. These trips were awesome, but had the unfortunate side effect of knocking me off any exercise schedule I tried to get on. Even still, this year had some seriously amazing trips I won&rsquo;t soon forget.</p>
 
-<p>{%pullside right %}
-I already want to go back to Japan.
-{%endpullside %}</p>
+<p><div class='pull-right '><p>I already want to go back to Japan.</p>
+</div></p>
 
 <ul>
 <li>Fulfilled a lifelong goal and went to <a href="/japan">Japan</a> for 2 weeks with Marilyn.</li>
@@ -49,9 +48,8 @@ I already want to go back to Japan.
 
 <p>We didn&rsquo;t end up going to many concerts this year, instead sticking to movies and a growing number of TV shows. I heard the term &ldquo;Golden Age of Television&rdquo; quite a few times this past year.</p>
 
-<p>{% pullside right %}
-The code for my books page (Angular + Rails) is on <a href="https://github.com/adamfortuna/scribe">GitHub</a>.
-{% endpullside %}</p>
+<p><div class='pull-right '><p>The code for my books page (Angular + Rails) is on <a href="https://github.com/adamfortuna/scribe">GitHub</a>.</p>
+</div></p>
 
 <ul>
 <li>Saw a <a href="http://letterboxd.com/adamfortuna/list/top-10-films-of-2014/">load of movies</a>, my favorites for the year being: Intersteller, Edge of Tomorrow and The Wind Rises.</li>
@@ -71,9 +69,8 @@ The code for my books page (Angular + Rails) is on <a href="https://github.com/a
 
 <p>Continued doing CrossFit this year. Went often during the first few months, then less after traveling upset my schedule. For a while I was going 4x a week, but lately it&rsquo;s been closer to 2. In the new year I plan to get back on a consistant 3x schedule.</p>
 
-<p>{%pullside left %}
-<img src="/images/2-years-of-crossfit/kingspoint.png" alt="CrossFit Kings Point" />{: .icon}
-{% endpullside %}</p>
+<p><div class='pull-left '><p><img src="/images/2-years-of-crossfit/kingspoint.png" alt="CrossFit Kings Point" class="icon" /></p>
+</div></p>
 
 <ul>
 <li>Went to an Olympic Lifting class at the gym for a few months, which helped my form on cleans (175), snatches (125), deadlifts (300) and front squats (225) a ton.</li>
@@ -87,15 +84,13 @@ The code for my books page (Angular + Rails) is on <a href="https://github.com/a
 
 <h2>Work</h2>
 
-<p>{% pullside right %}
-Work mantra: &ldquo;Will this make people happy?&rdquo;
-{% endpullside %}</p>
+<p><div class='pull-right '><p>Work mantra: “Will this make people happy?”</p>
+</div></p>
 
 <p>Officially switched from working at <a href="http://envylabs.com">Envy Labs</a> to <a href="https://www.codeschool.com">Code School</a> &mdash; even if that&rsquo;s what I&rsquo;d been doing already. My main focus has been on building an amazing, happy team that works well together and creates amazing things.</p>
 
-<p>{% pullside left %}
-<img src="/images/codeschool/ember.png" alt="Warming Up With Emberjs" />{:style=&lsquo;height:100px&rsquo;}
-{% endpullside %}</p>
+<p><div class='pull-left '><p><img src="/images/codeschool/ember.png" alt="Warming Up With Emberjs" /></p>
+</div></p>
 
 <ul>
 <li>Released the 2nd half of the <a href="https://www.codeschool.com/courses/warming-up-with-emberjs">Warming up with Ember.js</a> course. The creator of the framework even said it was awesome! At JSConf, I heard Ember core team members recommending it, which was pretty damn awesome. :)</li>
@@ -109,9 +104,8 @@ Work mantra: &ldquo;Will this make people happy?&rdquo;
 
 <h2>Personal</h2>
 
-<p>{% pullside left %}
-<img src="http://images.amazon.com/images/P/B00HYAL84G.01.ZTZZZZZZ.jpg" alt="Fuji XT-1" />
-{% endpullside %}</p>
+<p><div class='pull-left '><p><img src="http://images.amazon.com/images/P/B00HYAL84G.01.ZTZZZZZZ.jpg" alt="Fuji XT-1" /></p>
+</div></p>
 
 <p>In a year with a lot of new things at work, travel and fitness, there was a lot more focus on those specific areas, leaving this general &ldquo;personal&rdquo; category relatively bare. Of all the categories, this one had the last personal growth over the past year.</p>
 
@@ -230,9 +224,8 @@ Work mantra: &ldquo;Will this make people happy?&rdquo;
 
 <p>The most random event this year was Distant Worlds. Marilyn and I were discussing &ldquo;What musical acts would you absolutely love to see that you haven&rsquo;t?&rdquo; and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he&rsquo;s only performed in the US 10 times in 10+ years, we really lucked out!</p>
 
-<p>{% pullside right %}
-If you like movies, I&rsquo;d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!
-{% endpullside %}</p>
+<p><div class='pull-right '><p>If you like movies, I’d encourage you to create a <a href="http://letterboxd.com/">Letterboxd</a> account and friend me!</p>
+</div></p>
 
 <ul>
 <li>Saw a <a href="http://letterboxd.com/adamfortuna/year/2013/">load of movies</a>, my favorites for the year being: Somm, Gravity and Stoker</li>
@@ -264,9 +257,8 @@ If you like movies, I&rsquo;d encourage you to create a <a href="http://letterbo
 </ul>
 
 
-<p>{% pullside right %}
-The FitBit is awesome, but it doesn&rsquo;t understand how much I hate wall balls.
-{% endpullside %}</p>
+<p><div class='pull-right '><p>The FitBit is awesome, but it doesn’t understand how much I hate wall balls.</p>
+</div></p>
 
 <ul>
 <li>Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.</li>
@@ -277,9 +269,8 @@ The FitBit is awesome, but it doesn&rsquo;t understand how much I hate wall ball
 
 <p>Worked at <a href="http://envylabs.com">Envy Labs</a> entirely on <a href="http://codeschool.com">Code School</a> all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.</p>
 
-<p>{% pullside right %}
-Work mantra: always ask &ldquo;What Would Bret Victor Do?&rdquo;
-{% endpullside %}</p>
+<p><div class='pull-right '><p>Work mantra: always ask “What Would Bret Victor Do?”</p>
+</div></p>
 
 <ul>
 <li>Changed job titles to &ldquo;Technical Director at Code School&rdquo;, whatever that means.</li>
@@ -294,9 +285,8 @@ Work mantra: always ask &ldquo;What Would Bret Victor Do?&rdquo;
 
 <p>I tend to remember amazing meals far longer than I probably should. Here&rsquo;s a few that stand out.</p>
 
-<p>{% pullside right %}
-Having coffee at Victoria &amp; Alberts is a magical experience.
-{% endpullside %}</p>
+<p><div class='pull-right '><p>Having coffee at Victoria &amp; Alberts is a magical experience.</p>
+</div></p>
 
 <ul>
 <li>Went to <a href="http://victoria-alberts.com/">Victoria &amp; Alberts</a> restaurant with Marilyn for our Anniversary</li>
@@ -312,9 +302,8 @@ Having coffee at Victoria &amp; Alberts is a magical experience.
 
 <h2>Personal</h2>
 
-<p>{% pullside right %}
-Seriously, the little girl in the Piano lesson after mine is soo much better than me.
-{% endpullside %}</p>
+<p><div class='pull-right '><p>Seriously, the little girl in the Piano lesson after mine is soo much better than me.</p>
+</div></p>
 
 <ul>
 <li>Bought an electric piano and started taking lessons every week. Still not very good, but making progress</li>
