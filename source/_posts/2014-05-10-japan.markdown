@@ -37,18 +37,21 @@ runAfter: >
         var medium = image.data('medium').split('x');
         var original = image.data('original').split('x');
 
-        var item = {
-          src: image.data('large-src'),
-          title: $(a).attr('title'),
-          w: large[0],
-          h: large[1],
-          el: image
-        }
+        // var item = {
+        //   src: image.data('large-src'),
+        //   title: $(a).attr('title'),
+        //   w: large[0],
+        //   h: large[1],
+        //   el: image
+        // };
 
-        item.m = {
+        // Using medium image as the default
+        var item = {
           src: image.data('medium-src'),
+          title: $(a).attr('title'),
           w: medium[0],
-          h: medium[1]
+          h: medium[1],
+          el: image
         };
 
         item.o = {
