@@ -12,9 +12,9 @@ tags:
 runAfter: >
   <script>
   (function($) {
-    //$('nav.toc').affix({
-    //  offset: { top: $('nav.toc').offset().top }
-    //});
+    $('nav.toc').affix({
+     offset: { top: $('nav.toc').offset().top }
+    });
 
     var gallery;
 
@@ -87,8 +87,8 @@ runAfter: >
 
     $('.lazy img').unveil(2000, function() {
       $(this).load(function() {
-        $(this).closest('.lazy').removeClass('.lazy');
-      });
+        $(this).closest('.lazy').removeClass('lazy');
+     });
     });
   })($);
   </script>

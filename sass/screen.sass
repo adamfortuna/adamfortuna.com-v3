@@ -36,5 +36,13 @@
 // -------------------------------------
 
 
-img
-  height: auto
+
++respond-to(768px, max-width)
+  img
+    height: auto
+
+.lazy
+  img
+    border: 1px solid #eee
+    background: url(/images/placeholder.gif) no-repeat center
+    background-size: 256px 256px

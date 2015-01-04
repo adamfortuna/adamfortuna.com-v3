@@ -27,7 +27,7 @@ module Jekyll
         if /(?<filename>[^\[\]:]+)(?:\[(?<className>\S*)\])?(?:\((?<version>\S*)\))?(?::(?<title>.*))?/ =~ line
           version ||= 'resized'
 
-          "<li class='#{className} #{dimensions[version][:small]} lazy'><a href='#{root_url}/images/galleries/#{@gallery}/#{filename}' data-gallery='#{@gallery}' title='#{title.strip}'><img src='/images/placeholder.gif' data-src='#{root_url}/images/galleries/#{@gallery}/#{version}/#{filename}' /></a></li>"
+          "<li class='#{className} #{dimensions[version][:small]} lazy'><a href='#{root_url}/images/galleries/#{@gallery}/#{filename}' data-gallery='#{@gallery}' title='#{title.strip}'><img data-src='#{root_url}/images/galleries/#{@gallery}/#{version}/#{filename}' /></a></li>"
         end
       end
 

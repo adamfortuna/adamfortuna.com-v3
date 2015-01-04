@@ -51,7 +51,7 @@ module Jekyll
         images << <<-IMAGE
           <li class='#{col_classes} #{clearfix} lazy'>
             <a href='#{root_url}/images/galleries/#{@gallery}/#{image}' data-gallery='#{@gallery}' title='#{options['title'].strip}'>
-              <img src='/images/placeholder.gif' height='#{height}' width='#{width}'
+              <img height='#{height}' width='#{width}'
                 data-src='#{root_url}/images/galleries/#{@gallery}/#{version}/#{image}'
                 data-large='#{options['compressed']}'
                 data-large-src='#{root_url}/images/galleries/#{@gallery}/compressed/#{image}'
