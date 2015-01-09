@@ -55,7 +55,7 @@ The code for my books page (Angular + Rails) is on [GitHub](https://github.com/a
 
 ## Fitness
 
-Continued doing CrossFit this year. Went often during the first few months, then less after traveling upset my schedule. For a while I was going 4x a week, but lately it's been closer to 2. In the new year I plan to get back on a consistant 3x schedule.
+Continued doing CrossFit this year. Went often during the first few months, then less after traveling upset my schedule. For a while I was going 4x a week, but lately it's been closer to 2. In the new year I plan to get back on a consistent 3x schedule.
 
 {%pullside left %}
 ![CrossFit Kings Point](/images/2-years-of-crossfit/kingspoint.png){: .icon}
