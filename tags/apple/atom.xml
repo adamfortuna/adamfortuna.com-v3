@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: apple | Blog for Adam Fortuna]]></title>
+  <title><![CDATA[Tag: apple | Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/tags/apple/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2015-06-28T11:22:43-04:00</updated>
+  <updated>2015-08-02T18:06:12-04:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -139,15 +139,14 @@ Lucky for us, Apple gave us all a call individually 6 hours later, letting us kn
 
 <p>Finally, the first step that the Media Center can help with. Whether you go with RAID, a &ldquo;Drobo&rdquo;:<a href="http://www.drobo.com/">http://www.drobo.com/</a> or something else, the backup procedure to it will be about the same. The easiest way I&rsquo;ve found to do backups to this is with rsync and crontab. Here&rsquo;s how it works: Your media server will have a series of scripts setup to run daily, weekly and monthly. These scripts will do all the heavy lifting of the backup &ndash; grabbing files from every computer on your network you want to backup and moving them to the redundant array. So firstoff the media server should be setup to backup everything from the computers on the network. That&rsquo;s easy actually. On each computer you want to back files up from, go into System Preferences > Sharing and enable &ldquo;Remote Login&rdquo;. This will allow the media center to ssh into each laptop. Backing up using rsync can be done by mapping drives in Finder and using those paths (/Volumes/adam), or by using SSH. With SSH you don&rsquo;t have to map the drive beforehand, so it is the preferred method. On the media center, open up a text file. This will contain everything you want to copy from your client computers, and the path (on your media center) that you want to store them in.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current
+{% endhighlight %}</p>
 
 <p>Note that the destination (the 2nd path) is the same. That&rsquo;s just because it&rsquo;ll actually store the documents folder in &ldquo;/Volumes/Drobo/Users/adam/current/Documents&rdquo;. The- a option specifies &ldquo;Archive&rdquo;, which is actually shorthand for a few other options. It will recusively copy all directories, copy symlinks, preserve file permissions, preserve owner and groups, preserve file times preserve special files. The -E flag preserves executability, while --delete deletes extraneous files - like those that were deleted. Save this file somewhere on the media center as a .command file. I kept it simple &ndash; backup.command. You should be able to run this script by just double clicking on it now. But there is a one major problem &mdash; authentication.</p>
 
@@ -155,10 +154,9 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>By setting up SSH Keys you can automate the authentication from the Media Server to any clients you want to backup. The way you do this is very easy. On the Media server, run the command @ ssh-keygen- t dsa@ . Go with the defaults, but choose a passphrase you can remember. Copy this file from the Media server to the computer you want to backup FROM. Since you should already have SSH setup, something like this should do the job.</p>
 
-<p><div>
-  <pre><code class='bash'>link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@
+{% endhighlight %}</p>
 
 <p>If you already have an @authorized_keys2@ file, you&rsquo;ll want to add the contents of @id_dsa.pub@ to it instead of replacing it. After that&rsquo;s updated, try SSHing to that client from the Media Server. You should get prompted for the passphrase (a mac prompt, not a terminal prompt). After you enter it and save it for later you should be able to SSH without any password going forward.</p>
 
@@ -166,10 +164,9 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>Not worrying about backups is the whole point of this entire system, so running it automatically is essential. Luckily Unix systems have an easy way of doing this using cron jobs. To open up the list of cron jobs, just enter @crontab -e@ in a terminal window. This will open up the cron file using VI. Editing in VI can be a bit annoying without knowing the comamnds. To edit it you don&rsquo;t need to know much VI though. Just hit &ldquo;i&rdquo; to go into insert mode, where you can start typing. Each line you enter is a single scheduled cron job with a very specific format. For example, here&rsquo;s a line to run a script every day at 3:30am:</p>
 
-<p><div>
-  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+30 3 * sh ~/Dropbox/scripts/backup.command
+{% endhighlight %}</p>
 
 <p>The &ldquo;30 3 *&rdquo; part deals with when it should be run, while the part after that is what to run. Here&rsquo;s what those first 5 options translate to:</p>
 
@@ -202,30 +199,27 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>It&rsquo;s a bit tricky to remember at first, but it&rsquo;s a very simple scheduling system. For example, if you want to run something on sunday (the 0th day of the week) at 5:30 am, the parameters would be &ldquo;30 5 0 &hellip;&rdquo;. Here&rsquo;s my full crontab that I&rsquo;m using (some of these scripts I haven&rsquo;t discussed yet, but we&rsquo;ll get to later).</p>
 
-<p><div>
-  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command
+<p>{% highlight bash %}
+30 3 * sh ~/Dropbox/scripts/backup.command
 00 5 1 sh ~/Dropbox/scripts/weekly.command
 00 6 1 sh ~/Dropbox/scripts/monthly.command
-30 6 1 sh ~/Dropbox/scripts/external.backup.command</code></pre>
-</div>
-</p>
+30 6 1 sh ~/Dropbox/scripts/external.backup.command
+{% endhighlight %}</p>
 
 <p>The weekly and monthly scripts will just take a snapshot every month rather than every day. Nothing much to those scripts &mdash; just removing the last update and copying a snapshot. The monthly script is exactly the same but with &ldquo;weekly&rdquo; changed to &ldquo;monthly&rdquo;. The point of this is that if anything big goes wrong, you&rsquo;ll have a backup locally of the original.</p>
 
-<p><div>
-  <pre><code class='bash'>rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/
+{% endhighlight %}</p>
 
 <p>h3. Versioned changes with Dropbox</p>
 
 <p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It&rsquo;ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What&rsquo;s extra-useful about this is that all files will be versioned. I&rsquo;m storing my Documents and Sites folders in here and backing up daily. Even if I haven&rsquo;t committed site changes for something I&rsquo;m working on, it&rsquo;ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
-rsync- aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
+rsync- aE &mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox
+{% endhighlight %}</p>
 
 <p>One really nice part about Dropbox&rsquo;s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it&rsquo;s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.</p>
 
@@ -237,16 +231,15 @@ rsync- aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</c
 
 <p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe&rsquo;s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I&rsquo;ll keep it going for that. For now I&rsquo;ll stick with MobileMe for my larger media backup as well, although I can tell you now I&rsquo;m not exactly happy about it. One of the downsides of MobileMe is that it doesn&rsquo;t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it&rsquo;ll show in &ldquo;/Volumes&rdquo;. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application &ldquo;Finder&rdquo; mount volume &ldquo;<a href="http://idisk.mac.com/myusername/">http://idisk.mac.com/myusername/</a>&rdquo; as user name &ldquo;myusername&rdquo; with password &ldquo;mypassword&rdquo; end tell @ Save it as file format &ldquo;Application&rdquo; with &ldquo;Run Only&rdquo; checked, but don&rsquo;t check &ldquo;Stay Open&rdquo; or &ldquo;Startup Screen&rdquo;. Save this application somewhere then add it to your startup items. The last part is setting up the &ldquo;remote.command&rdquo; script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents
+{% endhighlight %}</p>
 
 <p>This just runs weekly everything here doesn&rsquo;t change that much. The Pictures directly is the main one that&rsquo;ll be updated, as it&rsquo;s a single iPhoto file that changes often.</p>
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: review | Blog for Adam Fortuna]]></title>
+  <title><![CDATA[Tag: review | Adam Fortuna]]></title>
   <link href="http://adamfortuna.com/tags/review/atom.xml" rel="self"/>
   <link href="http://adamfortuna.com/"/>
-  <updated>2015-06-28T11:22:43-04:00</updated>
+  <updated>2015-08-02T18:06:12-04:00</updated>
   <id>http://adamfortuna.com/</id>
   <author>
     <name><![CDATA[Adam Fortuna]]></name>
@@ -24,10 +24,9 @@
 
 <p>Right now Dropbox installs itself into a pre-selected location, then everything in that folder is archived in Dropbox. Syncing outside of the Dropbox folder is on the todo list, but for now there&rsquo;s a workaround to do this. Create a symbolic link within the Dropbox folder pointing to the folder you want to archive. For instance, lets say within Dropbox you want your Documents folder. To do this you&rsquo;d create a sym link for this.</p>
 
-<p><div>
-  <pre><code class='bash'>ln- s ~/Documents/ ~/Dropbox/Documents</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+ln- s ~/Documents/ ~/Dropbox/Documents
+{% endhighlight %}</p>
 
 <p>Dropbox should start syncing right away, and will sync from here on out whenever. Anything that goes into your @~/Documents@ folder will be backed up. One very important thing to note is that if you delete something from the @~/Dropbox/Documents@ folder on another computer, it will be removed from your @~/Documents@ folder on the computer with the symlink, so keep that in mind.</p>
 
@@ -35,10 +34,9 @@
 
 <p>So you&rsquo;re looking through chat logs for a conversation you know you had, but you can&rsquo;t seem to find it. Turns out it was on a a different computer. Has this ever happened to you? There&rsquo;s a convenient way of syncing Adium log files (or any other log files) with Dropbox. Adium doesn&rsquo;t allow you to change your Log directory, but there&rsquo;s no reason why you can&rsquo;t make the default location a smylink to somewhere else. I have a @~/Dropbox/Sync@ directory where I store any settings/items that I want to keep in Sync between computers, so this is the perfect place for it. I created a @~/Dropbox/Sync/chat@ folder, quit Adium and dragged my existing Adium logs folder into Dropbox (from /Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs). All you have to do is point a folder at your Dropbox and you&rsquo;re good to go! In my case, the command was:</p>
 
-<p><div>
-  <pre><code class='bash'>ln -s ~/Dropbox/Sync/chat/logs/ &amp;ldquo;/Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs&amp;rdquo;</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+ln -s ~/Dropbox/Sync/chat/logs/ &ldquo;/Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs&rdquo;
+{% endhighlight %}</p>
 
 <p>Just setup multiple computers with this same path and you should have a single repository for all your chat logs. I&rsquo;m not too sure how this works with conflict resolution, but unless you&rsquo;re chatting to the same person on multiple computers at the same time you should be good. If you&rsquo;ve tried that though, I&rsquo;d be interested to see how it works.</p>
 
@@ -46,10 +44,9 @@
 
 <p>This was mentioned earlier, but having a shared space for your backup scripts makes life easier. Dropbox is amazing, but the Dropbox application does have the ability to delete files from your computer. Lets say the worst happens and they delete your account, causing your Dropbox to be deleted on all your computers- &ndash; would you mind? If you have your ~/Documents and other folders linked, this might be a huge blow to lose unless you&rsquo;re backing it up somewhere. This same doomsday scenerio could happen if someone hacks into your Dropbox account and removes your files from the web interface. You&rsquo;ll probably be able to restore them in that case, but then you&rsquo;re relying on Dropbox to fix the Dropbox problem. A more secure way of handling this might be to have a full copy of your Dropbox somewhere locally. With Dropbox maxing out around 55GB, making a full copy of this on some HD you have laying around isn&rsquo;t a bad idea. Automating the process and backing up your Dropbox nightly is even better though! So what would something like this look like.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -rpLtgoDE- -delete ~/Dropbox /Volumes/Drobo/Users/adam/current</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -rpLtgoDE- -delete ~/Dropbox /Volumes/Drobo/Users/adam/current
+{% endhighlight %}</p>
 
 <p>This rsync command will copy everything from my Dropbox to a local directory, in this case on a &ldquo;Drobo&rdquo;:<a href="http://www.drobo.com/">http://www.drobo.com/</a> . This follow all symlinks and copy the contents of them, rather than copying the symlinks themselves. Try saving this one line in a file, @backup.command@ . You should be able to run it by double clicking or from terminal. I store this file in @~/Dropbox/Sync/scripts/backup.command@ so it can be edited from anywhere.</p>
 
@@ -57,10 +54,9 @@
 
 <p>You don&rsquo;t want to run that backup script manually everyday do you? To save time (and guarantee a good backup strategy), you&rsquo;ll want to have this automatically run. I&rsquo;ll recap real quick how to set this up. Just open up terminal on the computer you&rsquo;ll be automating the backup. You can call things on a scheduling using &ldquo;cron&rdquo;:<a href="http://en.wikipedia.org/wiki/Cron">http://en.wikipedia.org/wiki/Cron</a> , which can be opened by entering @crontab- e@ . I&rsquo;ve decided to run the above script every day, and backup my list of cron jobs every day.</p>
 
-<p><div>
-  <pre><code class='bash'>@daily crontab -l &gt; ~/Dropbox/Sync/scripts/crontab.txt 30 3 * sh ~/Dropbox/Sync/scripts/backup.command</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+@daily crontab -l > ~/Dropbox/Sync/scripts/crontab.txt 30 3 * sh ~/Dropbox/Sync/scripts/backup.command
+{% endhighlight %}</p>
 
 <p>The first line will save the crontab contents in the @ ~/Dropbox/Sync/scripts/crontab.txt@ file. The @daily parts means this&rsquo;ll happen every night at midnight. The second line is scheduled to run every night at 3:30am as well, but usually takes a little longer. Rsync isn&rsquo;t the fastest in the world, but it&rsquo;ll get the job done- &ndash; usually in under a minute for me.</p>
 
@@ -119,15 +115,14 @@
 
 <p>Finally, the first step that the Media Center can help with. Whether you go with RAID, a &ldquo;Drobo&rdquo;:<a href="http://www.drobo.com/">http://www.drobo.com/</a> or something else, the backup procedure to it will be about the same. The easiest way I&rsquo;ve found to do backups to this is with rsync and crontab. Here&rsquo;s how it works: Your media server will have a series of scripts setup to run daily, weekly and monthly. These scripts will do all the heavy lifting of the backup &ndash; grabbing files from every computer on your network you want to backup and moving them to the redundant array. So firstoff the media server should be setup to backup everything from the computers on the network. That&rsquo;s easy actually. On each computer you want to back files up from, go into System Preferences > Sharing and enable &ldquo;Remote Login&rdquo;. This will allow the media center to ssh into each laptop. Backing up using rsync can be done by mapping drives in Finder and using those paths (/Volumes/adam), or by using SSH. With SSH you don&rsquo;t have to map the drive beforehand, so it is the preferred method. On the media center, open up a text file. This will contain everything you want to copy from your client computers, and the path (on your media center) that you want to store them in.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current
-rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete adam@link.local:Desktop /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Documents /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Movies /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Pictures /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Processing /Volumes/Drobo/Users/adam/current
+rsync -aE &mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/current
+{% endhighlight %}</p>
 
 <p>Note that the destination (the 2nd path) is the same. That&rsquo;s just because it&rsquo;ll actually store the documents folder in &ldquo;/Volumes/Drobo/Users/adam/current/Documents&rdquo;. The- a option specifies &ldquo;Archive&rdquo;, which is actually shorthand for a few other options. It will recusively copy all directories, copy symlinks, preserve file permissions, preserve owner and groups, preserve file times preserve special files. The -E flag preserves executability, while --delete deletes extraneous files - like those that were deleted. Save this file somewhere on the media center as a .command file. I kept it simple &ndash; backup.command. You should be able to run this script by just double clicking on it now. But there is a one major problem &mdash; authentication.</p>
 
@@ -135,10 +130,9 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>By setting up SSH Keys you can automate the authentication from the Media Server to any clients you want to backup. The way you do this is very easy. On the Media server, run the command @ ssh-keygen- t dsa@ . Go with the defaults, but choose a passphrase you can remember. Copy this file from the Media server to the computer you want to backup FROM. Since you should already have SSH setup, something like this should do the job.</p>
 
-<p><div>
-  <pre><code class='bash'>link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+link:~ adam$ scp ~/.ssh/id_dsa.pub adam@link.local:~/.ssh/authorized_keys2@
+{% endhighlight %}</p>
 
 <p>If you already have an @authorized_keys2@ file, you&rsquo;ll want to add the contents of @id_dsa.pub@ to it instead of replacing it. After that&rsquo;s updated, try SSHing to that client from the Media Server. You should get prompted for the passphrase (a mac prompt, not a terminal prompt). After you enter it and save it for later you should be able to SSH without any password going forward.</p>
 
@@ -146,10 +140,9 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>Not worrying about backups is the whole point of this entire system, so running it automatically is essential. Luckily Unix systems have an easy way of doing this using cron jobs. To open up the list of cron jobs, just enter @crontab -e@ in a terminal window. This will open up the cron file using VI. Editing in VI can be a bit annoying without knowing the comamnds. To edit it you don&rsquo;t need to know much VI though. Just hit &ldquo;i&rdquo; to go into insert mode, where you can start typing. Each line you enter is a single scheduled cron job with a very specific format. For example, here&rsquo;s a line to run a script every day at 3:30am:</p>
 
-<p><div>
-  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+30 3 * sh ~/Dropbox/scripts/backup.command
+{% endhighlight %}</p>
 
 <p>The &ldquo;30 3 *&rdquo; part deals with when it should be run, while the part after that is what to run. Here&rsquo;s what those first 5 options translate to:</p>
 
@@ -182,30 +175,27 @@ rsync -aE &amp;mdash;delete adam@link.local:Sites /Volumes/Drobo/Users/adam/curr
 
 <p>It&rsquo;s a bit tricky to remember at first, but it&rsquo;s a very simple scheduling system. For example, if you want to run something on sunday (the 0th day of the week) at 5:30 am, the parameters would be &ldquo;30 5 0 &hellip;&rdquo;. Here&rsquo;s my full crontab that I&rsquo;m using (some of these scripts I haven&rsquo;t discussed yet, but we&rsquo;ll get to later).</p>
 
-<p><div>
-  <pre><code class='bash'>30 3 * sh ~/Dropbox/scripts/backup.command
+<p>{% highlight bash %}
+30 3 * sh ~/Dropbox/scripts/backup.command
 00 5 1 sh ~/Dropbox/scripts/weekly.command
 00 6 1 sh ~/Dropbox/scripts/monthly.command
-30 6 1 sh ~/Dropbox/scripts/external.backup.command</code></pre>
-</div>
-</p>
+30 6 1 sh ~/Dropbox/scripts/external.backup.command
+{% endhighlight %}</p>
 
 <p>The weekly and monthly scripts will just take a snapshot every month rather than every day. Nothing much to those scripts &mdash; just removing the last update and copying a snapshot. The monthly script is exactly the same but with &ldquo;weekly&rdquo; changed to &ldquo;monthly&rdquo;. The point of this is that if anything big goes wrong, you&rsquo;ll have a backup locally of the original.</p>
 
-<p><div>
-  <pre><code class='bash'>rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/current/ /Volumes/Drobo/Users/adam/weekly/
+{% endhighlight %}</p>
 
 <p>h3. Versioned changes with Dropbox</p>
 
 <p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It&rsquo;ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What&rsquo;s extra-useful about this is that all files will be versioned. I&rsquo;m storing my Documents and Sites folders in here and backing up daily. Even if I haven&rsquo;t committed site changes for something I&rsquo;m working on, it&rsquo;ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
-rsync- aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
+rsync- aE &mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox
+{% endhighlight %}</p>
 
 <p>One really nice part about Dropbox&rsquo;s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it&rsquo;s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.</p>
 
@@ -217,16 +207,15 @@ rsync- aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox</c
 
 <p>&ldquo;DropBox&rdquo;:<a href="https://www.getdropbox.com/referrals/NTY0ODEwOQ">https://www.getdropbox.com/referrals/NTY0ODEwOQ</a> is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe&rsquo;s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I&rsquo;ll keep it going for that. For now I&rsquo;ll stick with MobileMe for my larger media backup as well, although I can tell you now I&rsquo;m not exactly happy about it. One of the downsides of MobileMe is that it doesn&rsquo;t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it&rsquo;ll show in &ldquo;/Volumes&rdquo;. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application &ldquo;Finder&rdquo; mount volume &ldquo;<a href="http://idisk.mac.com/myusername/">http://idisk.mac.com/myusername/</a>&rdquo; as user name &ldquo;myusername&rdquo; with password &ldquo;mypassword&rdquo; end tell @ Save it as file format &ldquo;Application&rdquo; with &ldquo;Run Only&rdquo; checked, but don&rsquo;t check &ldquo;Stay Open&rdquo; or &ldquo;Startup Screen&rdquo;. Save this application somewhere then add it to your startup items. The last part is setting up the &ldquo;remote.command&rdquo; script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.</p>
 
-<p><div>
-  <pre><code class='bash'>rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
-rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</code></pre>
-</div>
-</p>
+<p>{% highlight bash %}
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
+rsync -aE &mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents
+{% endhighlight %}</p>
 
 <p>This just runs weekly everything here doesn&rsquo;t change that much. The Pictures directly is the main one that&rsquo;ll be updated, as it&rsquo;s a single iPhoto file that changes often.</p>
 
@@ -249,25 +238,25 @@ rsync -aE &amp;mdash;delete /Volumes/Drobo/Books /Volumes/myusername/Documents</
 
 <p>h3. Head First Design Patterns</p>
 
-<p>!(left)http://adamfortuna.com/media/books/design_patterns.jpg! This is one of the best written programming books I have ever read, and has made me a true believer in O'Reily&rsquo;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &ndash; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&rsquo;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
+<p>!(left){{site.url}}/media/books/design_patterns.jpg! This is one of the best written programming books I have ever read, and has made me a true believer in O'Reily&rsquo;s Head First series. The main feature of this series of books is that they put emphasis not on having a reference book, but on you learning the topics down cold. In the introduction there is a description of studies done on how people learn- &ndash; through multiple ways. This series uses this combination of ways to both drive topics into peoples minds and keep readers interested. I can&rsquo;t remember a time when I was looking forward to reading a technical book (well yeah, maybe Pragmatic Programmer).</p>
 
 <p>h3. UML Distilled: A Brief Guide to the Standard Object Modeling Language</p>
 
-<p>!(right)http://adamfortuna.com/media/books/uml.jpg!:<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Getting into OOP, UML seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or UML.</p>
+<p>!(right){{site.url}}/media/books/uml.jpg!:<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687/sr=1-2/qid=1165736128/ref=pd_bbs_sr_2/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Getting into OOP, UML seemed the logical choice to study up on next. Some of the diagrams in Head First Design Patterns would have been more clear to me with the _ shared language_ or UML.</p>
 
 <p>h3. Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to Ooa&amp;d</p>
 
-<p>!(left)http://adamfortuna.com/media/books/oo_design.jpg!:<a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Along the same lines as above, but another take on it. I probably would have read this first, but I&rsquo;d already started UML Distilled before I knew of this one.</p>
+<p>!(left){{site.url}}/media/books/oo_design.jpg!:<a href="http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678/sr=1-1/qid=1165736369/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Along the same lines as above, but another take on it. I probably would have read this first, but I&rsquo;d already started UML Distilled before I knew of this one.</p>
 
 <p>h3. Code Complete</p>
 
-<p>!(right)http://adamfortuna.com/media/books/code_complete.jpg!:<a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a></p>
+<p>!(right){{site.url}}/media/books/code_complete.jpg!:<a href="http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Code-Complete-Second-Steve-McConnell/dp/0735619670/sr=1-1/qid=1165736860/ref=pd_bbs_sr_1/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a></p>
 
 <p>Along with Pragmatic Programmer and Joel on Software, this is one that I hear being recommended for programmers by a variety of people. Really looking forward to this one.</p>
 
 <p>h3. Patterns of Enterprise Application Architecture</p>
 
-<p>!(left)http://adamfortuna.com/media/books/patterns_architecture.jpg!:<a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Sadly I started this book before getting distracted with Head First Patterns. I&rsquo;ve enjoyed Martin Fowlers style of writing though, so this and UML design are both fun reads. If I&rsquo;m still impressed when I finish them I might dive into MF&rsquo;s Refactoring as well.</p>
+<p>!(left){{site.url}}/media/books/patterns_architecture.jpg!:<a href="http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/sr=1-12/qid=1165737052/ref=sr_1_12/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> Sadly I started this book before getting distracted with Head First Patterns. I&rsquo;ve enjoyed Martin Fowlers style of writing though, so this and UML design are both fun reads. If I&rsquo;m still impressed when I finish them I might dive into MF&rsquo;s Refactoring as well.</p>
 
 <p>Some of these books directly apply to things I&rsquo;m working on, but for the most part they are just general knowledge that&rsquo;s beneficial. There are some more direct things to read though, like &ldquo;Fusion Authority&rdquo;:<a href="http://www.fusionauthority.com/">http://www.fusionauthority.com/</a> and the &ldquo;Coldfusion MX 7 Study Guide&rdquo;:<a href="http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books">http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=1-4/qid=1165737455/ref=sr_1_4/102-9962947-6835328?ie=UTF8&amp;amp;s=books</a> ( I want to get CF certified after all :). I&rsquo;d love to read up more on Spring and Aspect Oriented programming too somewhere along the lines. In the end though, books are all just support, it&rsquo;s what we do with the knowledge from them that&rsquo;s important, so I&rsquo;m sure I&rsquo;ll work in some programming time along the way as well.</p>
 ]]></content>
